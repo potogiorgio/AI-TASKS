@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Estimates of eigenvalues of elliptical differential problems in divergence form</title>
+				<funder ref="#_fSxWTQZ">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">Fundação de Amparo à Pesquisa do Estado do Amazonas (FAPEAM)</orgName>
+				</funder>
+				<funder ref="#_h7mnSUU">
+					<orgName type="full">Universidade Federal de Roraima, Av</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-05">5 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Marcio</forename><forename type="middle">C Araújo</forename><surname>Filho</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Juliana</forename><forename type="middle">F R</forename><surname>Miranda</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Cristiano</forename><forename type="middle">S</forename><surname>Silva</surname></persName>
+						</author>
+						<title level="a" type="main">Estimates of eigenvalues of elliptical differential problems in divergence form</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-05">5 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">65A7E10F6E8146AB30D0C030BCE273FB</idno>
+					<idno type="arXiv">arXiv:2603.05245v1[math.DG]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>2010 Mathematics Subject Classification. Primary 47A75; Secondary 47F05</term>
+					<term>35P15</term>
+					<term>53C24</term>
+					<term>53C25 Eigenvalue problems</term>
+					<term>Estimate of eigenvalues</term>
+					<term>Elliptic differential system</term>
+					<term>Gaussian soliton</term>
+					<term>Rigidity results</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>In this paper, we compute universal estimates of eigenvalues for a class of coupled systems of elliptic differential equations in divergence form on a bounded domain in Euclidean space, which includes the well-known Lamé and the Laplacian operator. Furthermore, we also give universal estimates of eigenvalues for a class of fourth-order elliptic differential problems in divergence form, which encloses the well-known bi-Laplacian operator. In both cases, as applications, we obtain the gap between consecutive eigenvalues as well as an upper bound for each eigenvalue.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Let (M n , ⟨, ⟩) be an n-dimensional complete Riemannian manifold and Ω ⊂ M be a bounded and connected domain with smooth boundary ∂Ω. Let us consider a symmetric positive definite (1, 1)-tensor T on M and a real-valued function η ∈ C 2 (M ), so that we define a second-order elliptic differential operator L in the (η, T )-divergence form as follows:</p><p>L f := div η (T (∇f )) = div(T (∇f )) -⟨∇η, T (∇f )⟩,</p><p>where div stands for the divergence operator and ∇ is the gradient operator. In these conditions, there are positive real numbers ε and δ such that εI ≤ T ≤ δI where I is the identity (1, 1)-tensor. Elliptic differential operators in divergence form play a crucial role in various physical theories and applications. The eigenvalues of differential operators can provide significant insights into the physical and geometric properties of a domain. One of the reasons they are so interesting is that they involve many fields of mathematics such as spectral theory, Riemannian geometry, and partial differential equations. Over the years, many mathematicians have investigated properties of the spectrum of differential operators, some of which will be mentioned at the appropriate time.</p><p>It is worth noting that geometric motivations for studying the operator L in the (η, T )-divergence form on bounded domains of Riemannian manifolds were provided in the work of Gomes and Miranda <ref type="bibr" target="#b11">[12,</ref><ref type="bibr">Section 2]</ref>. They demonstrated that this operator arises as the trace of a (1, 1)-tensor on a Riemannian manifold M , and established a Bochner-type formula for it. A remarkable point is that Eq. (2.3) in <ref type="bibr" target="#b11">[12]</ref> connects L with the operator □ introduced by Cheng and Yau in <ref type="bibr" target="#b5">[6]</ref>. In particular, when T is chosen as the Einstein tensor, this relation can open the door to potential applications in physics.</p><p>In Section 1.1 we compute eigenvalue estimates for a coupled system of secondorder elliptic differential equations in divergence form and in Section 1.2 a fourthorder elliptic differential problem in divergence form.</p><p>1.1. A coupled system of second-order elliptic differential equations. In this section, let us consider (R n , •) the n-dimensional Euclidean space with its canonical metric, we address the eigenvalue problem for an operator which is a second-order perturbation of L . More precisely, we compute universal estimates of the eigenvalues of the coupled system of second-order elliptic differential equations, namely:</p><formula xml:id="formula_1">L u + α∇(div η u) = -σu in Ω, u = 0 on ∂Ω,<label>(1.2)</label></formula><p>where u = (u 1 , u 2 , . . . , u n ) is a vector-valued function from Ω to R n , the constant α is non-negative and L u = (L u 1 , L u 2 , . . . , L u n ).</p><p>According to presented in Araújo Filho and Gomes <ref type="bibr" target="#b1">[2]</ref>, we can see that L + α∇div η is a formally self-adjoint operator in the Hilbert space L 2 (Ω, dm) of all vector-valued functions that vanish on ∂Ω in the sense of the trace, where dm = e -η dΩ. Moreover, the eigenvalue problem (1.2) has a real and discrete spectrum</p><formula xml:id="formula_2">0 &lt; σ 1 ≤ σ 2 ≤ • • • ≤ σ k ≤ • • • → ∞,<label>(1.3)</label></formula><p>where each σ i is repeated according to its multiplicity. Some cases can be obtained from Problem 1.2 when T is a special type of tensor. For example, when T is divergence-free, we obtain Problem 1.5 and when T is the identity tensor, we get 1.6. In addition, if η is a constant function, we obtain the problem for Cheng-Yau and Laplacian operators, respectively. In the next three paragraphs, we make brief discussions about them.</p><p>When T is divergence-free the operator L can be decomposed as follows</p><formula xml:id="formula_3">L f = □f -∇η • T (∇f ),<label>(1.4)</label></formula><p>where □f = tr(∇ 2 f • T ) = ⟨∇ 2 f, T ⟩ is the operator introduced by Cheng and Yau <ref type="bibr" target="#b5">[6]</ref>, known as the Cheng-Yau operator, that arises from the study of complete hypersurfaces of constant scalar curvature in space forms (divergence-free tensors also often arise from physical facts, see e.g. Serre <ref type="bibr" target="#b22">[23]</ref>). Eq. (1.4) is a first-order perturbation of the Cheng-Yau operator, and it defines the drifted Cheng-Yau operator which we denote by □ η with a drifting function η. In this case, the coupled system of second-order elliptic differential equations (1.2) is rewritten as</p><formula xml:id="formula_4">□ η u + α∇(div η u) = -σu in Ω, u = 0 on ∂Ω,<label>(1.5)</label></formula><p>where u = (u 1 , u 2 , . . . , u n ) is a vector-valued function from Ω to R n , the constant α is non-negative and □ η u := (□ η u 1 , □ η u 2 , . . . , □ η u n ). Problem (1.5) was studied by first author and Gomes <ref type="bibr" target="#b1">[2]</ref> which obtained some bounds of eigenvalues for it.</p><p>Also, if T = I and η is not necessarily constant, then Problem (1.2) becomes</p><formula xml:id="formula_5">∆ η u + α∇(div η u) = -σu in Ω, u = 0 on ∂Ω,<label>(1.6)</label></formula><p>where ∆ η u = (∆ η u 1 , . . . , ∆ η u n ) and ∆ η = div η ∇ is the drifted Laplacian operator on C ∞ (Ω). Du and Bezerra <ref type="bibr" target="#b9">[10]</ref> established some bounds of the eigenvalues for it, and the first author and Gomes <ref type="bibr" target="#b1">[2]</ref> obtained better bounds than their results. Additionally when η is a constant function in Problem (1.6) the operator becomes ∆ + α∇div known as Lamé's operator. In the 3-dimensional case it shows up in the elasticity theory and α is determined by the positive constants of Lamé, so the assumption α ≥ 0 is justified, the interested reader can consult Pleijel <ref type="bibr" target="#b19">[20]</ref> or Kawohl and Sweers <ref type="bibr" target="#b16">[17]</ref>. It is important to emphasize here the works of Levine and Protter <ref type="bibr" target="#b17">[18]</ref>, Livitin and Parnovski <ref type="bibr" target="#b18">[19]</ref>, Hook <ref type="bibr" target="#b14">[15]</ref>, Cheng and Yang <ref type="bibr" target="#b4">[5]</ref> and Chen et al. <ref type="bibr" target="#b2">[3]</ref> in which we can find some estimates of the eigenvalues of this case.</p><p>Our first result is a universal quadratic estimate for the eigenvalues of Problem (1.2), which will play a key role to obtain some of our estimates.</p><p>Theorem 1.1. Let Ω ⊂ R n be a bounded domain and u i be a normalized eigenfunction corresponding to i-th eigenvalue σ i of Problem (1.2). Then, for any positive integer k, we get</p><formula xml:id="formula_6">k i=1 (σ k+1 -σ i ) 2 ≤ 4δ(nδ + α) n 2 ε 2 k i=1 (σ k+1 -σ i ) σ i -α∥div η u i ∥ 2 + T 2 0 + 4C 0 4δ ,</formula><p>where</p><formula xml:id="formula_7">C 0 = sup Ω 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 , T 0 = sup Ω |tr(∇T )| and η 0 = sup Ω |∇η|.</formula><p>The Theorem 1.1 can be seen as an extension of the Yang's estimate of the eigenvalues of the Laplacian on real-valued functions. Its proof is a convenient algebraic manipulation of [2, Theorem 1.1] obtained by the first author and Gomes.</p><p>Considering the sum of lower order eigenvalues in terms of the first eigenvalue and its corresponding eigenfunction, we prove the following estimate. Theorem 1.2. Let Ω ⊂ R n be a bounded domain, σ i be the i-th eigenvalue of Problem (1.2), for i = 1, . . . , n, and u 1 be a normalized eigenfunction corresponding to the first eigenvalue. Then, we get</p><formula xml:id="formula_8">n i=1 (σ i+1 -σ 1 ) ≤ 4δ(δ + α) ε 2 (σ 1 + D 1 ),</formula><p>where</p><formula xml:id="formula_9">D 1 = -α∥div η u 1 ∥ 2 + T0+4C0 4δ .</formula><p>The Theorems 1.1 and 1.2 were obtained analogously to Theorems 1.1 and 1.2 in Araújo Filho and Gomes <ref type="bibr" target="#b1">[2]</ref>, however, with a more suitable configuration to obtain the eigenvalue estimates of Problem 1.2 for the more general case, fact that the mentioned authors achieved only for the case in which T is divergence-free, see [2, Corollaries 6.1 and 6.2].</p><p>From Theorem 1.1 and following the steps of the proof of <ref type="bibr" target="#b11">[12,</ref><ref type="bibr">Theorem 3]</ref>, we obtain the next result. </p><formula xml:id="formula_10">(σ k+1 -σ i ) 2 ≤ 4δ(nδ + α) n 2 ε 2 k i=1 (σ k+1 -σ i )(σ i + D 0 ),</formula><p>and consequently, we get</p><formula xml:id="formula_11">σ k+1 + D 0 ≤ 1 + 2δ(nδ + α) ε 2 n 2 1 k k i=1 (σ i + D 0 ) + 2δ(nδ + α) ε 2 n 2 1 k k i=1 (σ i + D 0 ) 2 -1 + 4δ(nδ + α) ε 2 n 2 1 k k j=1 σ j - 1 k k i=1 σ i 2 1 2 and σ k+1 -σ k ≤ 2 2δ(nδ + α) ε 2 n 2 1 k k i=1 (σ i + D 0 ) 2 -1 + 4δ(nδ + α) ε 2 n 2 1 k k j=1 σ j - 1 k k i=1 σ i 2 1 2 .</formula><p>From Corollary 1.1 and by applying the recursion formula of Cheng and Yang <ref type="bibr" target="#b3">[4]</ref>, we obtain the next corollary.</p><p>Corollary 1.2. Under the same setup as in Corollary 1.1, we have</p><formula xml:id="formula_12">σ k+1 + D 0 ≤ 1 + 4δ(δn + α) ε 2 n 2 k 2δ(nδ+α) ε 2 n 2 (σ 1 + D 0 ).</formula><p>Remark 1.1. We observe that Corollaries 1.1 and 1.2 are extensions of the Corollaries 6.1 and 6.2 by the first author and Gomes <ref type="bibr" target="#b1">[2]</ref>. Since T is divergencefree, we have T 0 = 0, and then we obtain their mentioned results.</p><p>1.2. Eigenvalues of fourth-order elliptic operators in divergence form. In this section, we get some inequalities for eigenvalues of a larger class of fourthorder elliptic operators in divergence form on Riemannian manifolds, which extend many operators of the literature, as the Dirichlet biharmonic operator. Namely, we will consider the following eigenvalue problem:</p><formula xml:id="formula_13">L 2 u = Γu in Ω, u = ∂u ∂ν T = 0 on ∂Ω,<label>(1.7)</label></formula><p>where ∂u ∂ν T = ⟨T (∇u), ν⟩ with ν the outward unit normal vector field of ∂Ω. It is not difficult to verify that L 2 is a formally self-adjoint operator in the space of all smooth real-valued functions u such that u| ∂Ω = ∂u ∂ν T | ∂Ω = 0, with respect to the inner product</p><formula xml:id="formula_14">⟨⟨u, v⟩⟩ = Ω uvdm,</formula><p>where dm = e -η dΩ is the weighted volume form on Ω (see <ref type="bibr">[1,</ref><ref type="bibr">Section 2]</ref>). Therefore the spectrum of Problem (1.7) is real and discrete, that is,</p><formula xml:id="formula_15">0 &lt; Γ 1 ≤ Γ 2 ≤ • • • ≤ Γ k ≤ • • • → ∞,</formula><p>where each Γ i is repeated according to its multiplicity.</p><p>Araújo Filho <ref type="bibr">[1]</ref> give a generalized universal estimate to Problem 1.7, namely</p><formula xml:id="formula_16">k i=1 (Γ k+1 -Γ i ) 2 ≤ 4 nε k i=1 (Γ k+1 -Γ i ) 2 δΓ 1 2 i + T 0 2 2 + nδΓ 1 2 i 2 + n 2 H 2 0 + 4δ 2 C 0 + 2T 0 T * η 0 4 1 2 × k i=1 (Γ k+1 -Γ i ) δΓ 1 2 i + T 0 2 2 + n 2 H 2 0 + 4δ 2 C 0 + 2T 0 T * η 0 4 1 2</formula><p>, where</p><formula xml:id="formula_17">C 0 = sup Ω 1 2 ∆η - 1 4 |∇η| 2 , T 0 = sup Ω |tr(∇T )|, η 0 = sup Ω |∇η|, T * = sup Ω |T |, H 0 = sup Ω |H T</formula><p>| and H T is the generalized mean curvature vector of the immersion, see Eq. ( <ref type="formula" target="#formula_32">2</ref>.2) for more details. The definition of the generalized mean curvature vector was considered by Grosjean <ref type="bibr" target="#b12">[13]</ref> and Roth <ref type="bibr" target="#b21">[22]</ref>. In this general setup it is impossible to obtain the gap between consecutive eigenvalues. But, when T is divergence-free, that is, in the bi-drifted Cheng-Yau operator case, the author got it, see [1, Corollaries 1.1, 1.2 and 1.3].</p><p>When T is the identity operator, from (1.7), we have the problem</p><formula xml:id="formula_18">∆ 2 η u = Γu in Ω, u = ∂u ∂ν = 0 on ∂Ω,<label>(1.8)</label></formula><p>where ∆ 2 η is the bi-drifted Laplacian operator on C ∞ (Ω). In this case, if M is an n-dimensional submanifold isometrically immersed in a Euclidean space with mean curvature vector H, Du et al. <ref type="bibr" target="#b10">[11]</ref> proved the following eigenvalues inequality</p><formula xml:id="formula_19">k i=1 (Γ k+1 -Γ i ) 2 ≤ 1 n k i=1 (Γ k+1 -Γ i ) 2 (2n + 4)Γ 1 2 i + 4η 0 Γ 1 4 i + n 2 H 2 0 + η 2 0 1 2 × k i=1 (Γ k+1 -Γ i ) 4Γ 1 2 i + 4η 0 Γ 1 4 i + n 2 H 2 0 + η 2 0 1 2</formula><p>, where H 0 = sup Ω |H| and η 0 = maxΩ |∇η|. We observe that their result is not suitable to obtain the gap between consecutive eigenvalues. When η is a constant function and T is the identity operator the Problem 1.2 becomes</p><formula xml:id="formula_20">∆ 2 u = Γu in Ω, u = ∂u ∂ν = 0 on ∂Ω,<label>(1.9)</label></formula><p>where ∆ 2 is the biharmonic operator on C ∞ (Ω). The Problem (1.9) describes the characteristic vibrations of a clamped plate in elastic mechanics and is known as the clamped plate problem in the literature. To illustrate some inequalities of eigenvalues of the clamped plate problem, the interested reader is referred to <ref type="bibr" target="#b6">[7]</ref>- <ref type="bibr" target="#b8">[9]</ref>, <ref type="bibr" target="#b13">[14]</ref>, <ref type="bibr" target="#b14">[15]</ref>, <ref type="bibr" target="#b20">[21]</ref>, and <ref type="bibr" target="#b23">[24]</ref>. We present two of these inequalities below.</p><p>In the case where M is an n-dimensional submanifold isometrically immersed in a Euclidean space, Problem (1.9) was studied by Cheng et al. <ref type="bibr" target="#b7">[8]</ref>, and if H is the mean curvature vector of this immersion, they proved that</p><formula xml:id="formula_21">k i=1 (Γ k+1 -Γ i ) 2 ≤ 1 n 2 k i=1 (Γ k+1 -Γ i ) (2n + 4)Γ 1 2 i + n 2 H 2 0 (4Γ 1 2 i + n 2 H 2 0 ),<label>(1.10)</label></formula><p>where H 0 = sup Ω |H|. In the recent past, on the same conditions, Wang and Xia <ref type="bibr" target="#b23">[24]</ref> established the following inequality</p><formula xml:id="formula_22">k i=1 (Γ k+1 -Γ i ) 2 ≤ 1 n k i=1 (Γ k+1 -Γ i ) 2 (4 + 2n)Γ 1 2 i + n 2 H 2 0 1 2 × k i=1 (Γ k+1 -Γ i ) 4Γ 1 2 i + n 2 H 2 0 1 2 , (<label>1</label></formula><p>.11) and, applying the algebraic lemma obtained by Jost et al. [16] (see Lemma 4.2), they verified that the Inequality (1.11) implies Inequality (1.10), cf. [24, Remark 2.1].</p><p>Also, it is important to study estimates for lower order eigenvalues for Problem (1.7). In recent times, some estimates in this sense have been obtained, for Problems (1.9), (1.8) and (1.7). For more details, we can consult Cheng et al. <ref type="bibr" target="#b6">[7]</ref>, Du et al. <ref type="bibr" target="#b10">[11]</ref> and Araújo Filho <ref type="bibr">[1]</ref> respectively, and their references.</p><formula xml:id="formula_23">Theorem 1.3. Let Ω be a bounded domain in an n-dimensional complete Rie- mannian manifold M n isometrically immersed in R m . Denote by Γ i the i-th eigen- value of Problem (1.7), then we have k i=1 (Γ k+1 -Γ i ) 2 ≤ 1 nε k i=1 (Γ k+1 -Γ i ) 2 (2n + 4)δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 1 2 × k i=1 (Γ k+1 -Γ i ) 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 1 2</formula><p>, (1.12)</p><formula xml:id="formula_24">and k i=1 (Γ k+1 -Γ 1 ) 1 2 ≤ 1 ε 4δΓ 1 2 1 + n 2 H 2 0 + T 2 0 + 4C 0 1 2 × (2n + 4)δΓ 1 2 1 + n 2 H 2 0 + T 2 0 + 4C 0 1 2</formula><p>, where</p><formula xml:id="formula_25">C 0 = sup Ω 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 , T 0 = sup Ω |tr(∇T )|, H 0 = sup Ω |H T |</formula><p>and H T is the generalized mean curvature vector of the immersion. Remark 1.2. Theorem 1.3 is an improvement of a result by Araújo Filho [1, Theorem 1.1]. Indeed, since through it one can determine a quadratic inequality in Γ k+1 (see Corollary 1.3) from which one can find an estimate for Γ k+1 and the gap between consecutive eigenvalues(see Corollary 1.4). Moreover, Theorem 1.3 generalizes Inequality (1.14) in Wang and Xia <ref type="bibr" target="#b23">[24]</ref>. In fact, if T = I and η is constant we have ε = δ = 1, T 0 = C 0 = 0 and H T = H which is the mean curvature vector of the immersion. Consequently the first inequality of Theorem 1.3 becomes the mentioned inequality obtained by Wang and Xia for Problem 1.9.</p><p>From Inequality (1.12) and Lemma 4.2, we get the next result. </p><formula xml:id="formula_26">(Γ k+1 -Γ i ) 2 ≤ 1 n 2 ε 2 k i=1 (Γ k+1 -Γ i ) (2n + 4)δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 × 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 . (1.13)</formula><p>Finally, we obtain an upper bound of Γ k+1 solving the quadratic inequality (1.13) for Γ k+1 .</p><p>Corollary 1.4. Under the same setup as in Theorem 1.3, we have</p><formula xml:id="formula_27">Γ k+1 ≤ A k + A 2 k -B k ,<label>(1.14)</label></formula><p>in particular,</p><formula xml:id="formula_28">Γ k+1 -Γ k ≤ 2 A 2 k -B k ,<label>(1.15)</label></formula><p>where</p><formula xml:id="formula_29">A k = 1 2n 2 ε 2 k k i=1 (2n + 4)δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 + 1 k k i=1 Γ i ,</formula><p>and</p><formula xml:id="formula_30">B k = 1 n 2 ε 2 k k i=1 Γ i (2n + 4)δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 + 1 k k i=1 Γ 2 i .</formula><p>Remark 1.3. It is important to highlight that Inequality(1.13) generalizes [8, Inequality (1.14)] and Corollary 1.4 generalizes [8, Corolaries 1 and 2] both obtained by Cheng et al. in <ref type="bibr" target="#b7">[8]</ref>. Just take T = I and η = constant in our result.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Preliminaries</head><p>We begin by recalling some fundamental facts and the basic notation from the theory that will be used.</p><p>Here Ω ⊂ M is a bounded domain with smooth boundary ∂Ω, η is a real-valued function C 2 (M ) and T is a symmetric positive definite (1, 1)-tensor on M . Let us consider dm = e -η dΩ and dµ = e -η d∂Ω the weight volume form on Ω and the volume form on the boundary ∂Ω induced by the outward unit normal vector ν on ∂Ω, respectively.</p><p>We will identify a (0, 2)-tensor T : X(Ω) × X(Ω) → C ∞ (Ω) with its associated (1, 1)-tensor T : X(Ω) → X(Ω) by the equality</p><formula xml:id="formula_31">⟨T (X), Y ⟩ = T (X, Y ),</formula><p>where X(Ω) is the space of smooth vector fields on Ω. In particular, the tensor ⟨, ⟩ will be identified with the identity I in X(Ω). Note that εI ≤ T ≤ δI on Ω implies</p><formula xml:id="formula_32">|T (X)| 2 ≤ δ⟨T (X), X⟩ for all X ∈ X(Ω),<label>(2.1)</label></formula><p>in particular</p><formula xml:id="formula_33">|T (∇η)| 2 ≤ δ 2 |∇η| 2 .</formula><p>Now, let α be the second fundamental form on an n-dimensional complete Riemannian manifold (M n , ⟨, ⟩) isometrically immersed in R m . We know that H = 1 n tr(α) is the mean curvature vector, then the generalized mean curvature vector, associated with a symmetric (1, 1)-tensor T , is the normal vector field defined by</p><formula xml:id="formula_34">H T = 1 n n i,j=1</formula><p>T (e i , e j )α(e i , e j ) = 1</p><formula xml:id="formula_35">n n i=1 α(T (e i ), e i ) := 1 n tr(α • T ),<label>(2.2)</label></formula><p>where {e 1 , e 2 , . . . , e n } is a local orthonormal frame of T M . Observe that, when</p><formula xml:id="formula_36">T = I then H T = H.</formula><p>We will present some properties below, focusing on the real-valued functions and those of vector-valued functions.</p><p>From the definition of η-divergence (see Eq. (1.1)) and the usual properties of divergence of vector fields, one has</p><formula xml:id="formula_37">div η (f X) = f div η X + ⟨∇f, X⟩<label>(2.3)</label></formula><p>and</p><formula xml:id="formula_38">L (f ℓ) = f L ℓ + 2T (∇f, ∇ℓ) + ℓL f, for all real-valued functions f, ℓ ∈ C ∞ (Ω).</formula><p>Notice that the (η, T )-divergence form of L on Ω allows us to obtain the divergence theorem</p><formula xml:id="formula_39">Ω div η Xdm = ∂Ω ⟨X, ν⟩dµ,<label>(2.4)</label></formula><p>in particular, for X = T (∇f ),</p><formula xml:id="formula_40">Ω L f dm = ∂Ω T (∇f, ν)dµ,</formula><p>and, the integration by parts formula</p><formula xml:id="formula_41">Ω ℓL f dm = - Ω T (∇ℓ, ∇f )dm + ∂Ω ℓT (∇f, ν)dµ,<label>(2.5)</label></formula><p>for all ℓ, f ∈ C ∞ (Ω).</p><p>In addition, for the eigenfunction u i corresponding to the eigenvalue Γ i , from Problem (1.7) and integration by parts, we have</p><formula xml:id="formula_42">Γ i Ω u 2 i dm = Ω u i L 2 u i dm = Ω (L u i ) 2 dm.<label>(2.6)</label></formula><p>Considering u = (u 1 , u 2 , . . . , u n ) a vector-valued function from Ω to R n , we define ∇u = (∇u 1 , . . . , ∇u n ) and T (∇u) = (T (∇u 1 ), . . . , T (∇u n )), so that</p><formula xml:id="formula_43">∥T (∇u)∥ 2 = Ω n j=1 |T (∇u j )| 2 dm = Ω |T (∇u)| 2 dm.</formula><p>(2.7)</p><p>For simplicity, we use the same notation ∥ • ∥ for the norm in Eq. (2.7) and for the canonical norm of a real-valued function in L 2 (Ω, dm), that is,</p><formula xml:id="formula_44">∥u∥ 2 = Ω |u| 2 dm.</formula><p>Besides, we are using the classical norm |u| 2 = n j=1 (u j ) 2 . Moreover, we also see that</p><formula xml:id="formula_45">T (X, ∇u) = (T (X) • ∇u 1 , . . . , T (X) • ∇u n ) = (X • T (∇u 1 ), . . . , X • T (∇u n ))</formula><p>= (T (X, ∇u 1 ), . . . , T (X, ∇u n )).</p><p>(2.8)</p><p>So, the following equality is well understood for a vector-valued function u and a real-valued function f ∈ C ∞ (Ω)</p><formula xml:id="formula_46">L (f u) = (L (f u 1 ), . . . , L (f u n )) = (f L u 1 + 2T (∇f ) • ∇u 1 + L (f )u 1 , . . . , f L u n + 2T (∇f ) • ∇u n + L (f )u n ) = f (L u 1 , . . . , L u n ) + 2(T (∇f ) • ∇u 1 , . . . , T (∇f ) • ∇u n e) + L (f )(u 1 , . . . , u n ) = f L u + 2T (∇f, ∇u) + L f u.</formula><p>(2.9)</p><p>From Eqs. (2.3) and (2.4), for all vector-valued function u and v both from Ω to R n , with v vanishing on ∂Ω, we obtain</p><formula xml:id="formula_47">Ω v • ∇(div η u)dm = - Ω div η udiv η vdm.</formula><p>(2.10)</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Proof of the results about the coupled system of second-order elliptic differential equations</head><p>In order to prove our first theorem, we will need a technical result. For this, let us first recall the following lemma. Lemma 3.1. [2, Lemma 4.2] Let Ω ⊂ R n be a bounded domain, σ i be the i-th eigenvalue of Problem (1.2) and u i be a normalized vector-valued eigenfunction corresponding to σ i . Then, for any positive integer k, we get</p><formula xml:id="formula_48">k i=1 (σ k+1 -σ i ) 2 ≤ 4(nδ + α) n 2 ε 2 k i=1 (σ k+1 -σ i ) 1 4 Ω |u i | 2 |tr(∇T ) -T (∇η)| 2 dm + Ω u i • T (tr(∇T ), ∇u i ) -T (T (∇η), ∇u i ) dm + ∥T (∇u i )∥ 2 .</formula><p>Now, let us rewrite the right side of inequality of the previous lemma in a more convenient way for us. Lemma 3.2. Under the same setup as in Lemma 3.1, we get</p><formula xml:id="formula_49">k i=1 (σ k+1 -σ i ) 2 ≤ 4(nδ + α) n 2 ε 2 k i=1 (σ k+1 -σ i ) ∥T (∇u i )∥ 2 + 1 4 Ω |u i | 2 |tr(∇T )| 2 dm + Ω |u i | 2 1 2 div T 2 (∇η) -T (tr(∇T )) - 1 4 |T (∇η)| 2 dm .</formula><p>. Proof. We make use of Lemma 3.1. For this, we must notice that |tr(∇T</p><formula xml:id="formula_50">) -T (∇η)| 2 = |tr(∇T )| 2 -2⟨tr(∇T ), T (∇η)⟩ + |T (∇η)| 2 , hence 1 4 Ω |u i | 2 |tr(∇T ) -T (∇η)| 2 dm + Ω u i • (T (tr(∇T ), ∇u i ) -T (T (∇η), ∇u i )))dm = 1 4 Ω |u i | 2 |T (∇η)| 2 dm - Ω u i • T (T (∇η), ∇u i )dm + 1 4 Ω |u i | 2 |tr(∇T )| 2 dm - 1 2 Ω |u i | 2 ⟨tr(∇T ), T (∇η)⟩dm + Ω u i • T (tr(∇T ), ∇u i )dm. (3.1)</formula><p>Since u i | ∂Ω = 0, by Eq. (2.8) and the divergence theorem, we have</p><formula xml:id="formula_51">- Ω u i • T (T (∇η), ∇u i )dm = - Ω u 1 i ⟨T 2 (∇η), ∇u 1 i ⟩dm -• • • - Ω u n i ⟨T 2 (∇η), ∇u n i ⟩dm = - 1 2 Ω ⟨T 2 (∇η), ∇(u 1 i ) 2 ⟩dm -• • • - 1 2 Ω ⟨T 2 (∇η), ∇(u n i ) 2 ⟩dm = 1 2 Ω (u 1 i ) 2 div η (T 2 (∇η))dm + • • • + 1 2 Ω (u n i ) 2 div η (T 2 (∇η))dm = 1 2 Ω |u i | 2 div η (T 2 (∇η))dm,<label>(3.2)</label></formula><p>ad analogously, we also have</p><formula xml:id="formula_52">Ω u i •T (tr(∇T ), ∇u i )dm = - 1 2 Ω |u i | 2 div η (T (tr(∇T )))dm = - 1 2 Ω |u i | 2 div(T (tr(∇T )))dm + 1 2 Ω |u i | 2 ⟨tr(∇T ), T (∇η)⟩dm.</formula><p>Substituting Eq. (3.2) and the previous equality in Eq. (3.1), we get</p><formula xml:id="formula_53">1 4 Ω |u i | 2 |tr(∇T ) -T (∇η)| 2 dm + Ω u i • (T (tr(∇T ), ∇u i ) -T (T (∇η), ∇u i ))dm = Ω |u i | 2 1 4 |T (∇η)| 2 + 1 2 div η (T 2 (∇η)) dm + 1 4 Ω |u i | 2 |tr(∇T )| 2 dm - 1 2 Ω |u i | 2 div(T (tr(∇T )))dm. Since div η (T 2 (∇η)) = div(T 2 (∇η)) -|T (∇η)| 2</formula><p>, by the previous equality, we have </p><formula xml:id="formula_54">1 4 Ω |u i | 2 |tr(∇T ) -T (∇η)| 2 dm + Ω u i • (T (tr(∇T ), ∇u i ) -T (T (∇η), ∇u i )))dm = 1 4 Ω |u i | 2 |tr(∇T )| 2 dm + Ω |u i | 2 1 2 div T 2 (∇η) -T (tr(∇T )) - 1 4 |T (∇η)| 2 dm.</formula><formula xml:id="formula_55">C 0 = sup Ω 1 2 div T 2 (∇η) -T (tr(∇T )) - 1 4 |T (∇η)| 2 ,</formula><p>we have</p><formula xml:id="formula_56">1 4 Ω |u i | 2 |tr(∇T )| 2 dm ≤ 1 4 T 2 0 Ω |u i | 2 dm = 1 4 T 2 0 ,<label>(3.4</label></formula><p>)</p><formula xml:id="formula_57">Ω |u i | 2 1 2 div T 2 (∇η) -T (tr(∇T )) - 1 4 |T (∇η)| 2 dm ≤ C 0 .</formula><p>From Problem (1.2) and Eqs. (2.5) and (2.10) we obtain</p><formula xml:id="formula_58">σ i = Ω T (∇u i ) • ∇u i dm + α∥div η u i ∥ 2 .</formula><p>Since there exist positive real numbers ε and δ such that εI ≤ T ≤ δI, from the previous equality and inequality (2.1), we get </p><formula xml:id="formula_59">∥T (∇u i )∥ 2 ≤ δ Ω T (∇u i ) • ∇u i dm = δ(σ i -α∥div η u i ∥ 2 ). (<label>3</label></formula><formula xml:id="formula_60">(σ k+1 -σ i ) 2 ≤ 4(nδ + α) n 2 ε 2 k i=1 (σ k+1 -σ i ) δ(σ i -α∥div η u i ∥ 2 ) + T 2 0 4 + C 0 ,</formula><p>which is enough to complete the proof. □</p><p>Proof of Theorem 1.2. Let {x β } n β=1 be the standard coordinate functions of R n . Let us consider the matrix D = (d ij ) n×n where</p><formula xml:id="formula_61">d ij := Ω x i u 1 • u j+1 dm.</formula><p>Using the orthogonalization of Gram-Schmidt, we know that there exists an upper triangle matrix R = (r ij ) n×n and an orthogonal matrix S = (s ij ) n×n such that R = SD, namely</p><formula xml:id="formula_62">r ij = n k=1 s ik d kj = n k=1 s ik Ω x k u 1 • u j+1 dm = Ω n k=1 s ik x k u 1 • u j+1 dm = 0, for 1 ≤ j &lt; i ≤ n. Putting y i = n k=1 s ik x k , we have Ω y i u 1 • u j+1 dm = 0, for 1 ≤ j &lt; i ≤ n.</formula><p>Let us denote by a i = Ω y i |u 1 | 2 dm to consider the vector-valued functions w i given by</p><formula xml:id="formula_63">w i = (y i -a i )u 1 ,<label>(3.6)</label></formula><p>so that</p><formula xml:id="formula_64">w i | ∂Ω = 0 and Ω w i • u j+1 dm = 0, for any j = 1, . . . , i -1.</formula><p>Then, using the Rayleigh quotient and formula (2.10) we obtain</p><formula xml:id="formula_65">σ i+1 ∥w i ∥ 2 ≤ Ω (-w i • L w i + α(div η w i ) 2 )dm.<label>(3.7)</label></formula><p>By (2.9) we get</p><formula xml:id="formula_66">- Ω w i • L w i dm = - Ω w i • (y i -a i )L u 1 + u 1 L y i + 2T (∇y i , ∇u 1 ) dm = - Ω w i • (y i -a i )(-σ 1 u 1 -α∇div η u 1 ) + u 1 L y i + 2T (∇y i , ∇u 1 ) dm = σ 1 ∥w i ∥ 2 + α Ω (y i -a i )w i • ∇div η u 1 dm - Ω w i • (u 1 L y i + 2T (∇y i , ∇u 1 ))dm.<label>(3.8)</label></formula><p>Using (2.3) and (2.4), with direct computation, we obtain</p><formula xml:id="formula_67">α Ω (y i -a i )w i • ∇div η u 1 dm = -α Ω (div η w i ) 2 dm -α Ω (∇(∇y i • u 1 ) + div η u 1 ∇y i ) • w i dm.</formula><p>Substituting the previous equality into (3.8), we get</p><formula xml:id="formula_68">Ω (-w i • L w i +α(div η w i ) 2 )dm =σ 1 ∥w i ∥ 2 -α Ω (∇(∇y i • u 1 ) + div η u 1 ∇y i ) • w i dm - Ω w i • (u 1 L y i + 2T (∇y i , ∇u 1 ))dm.<label>(3.9)</label></formula><p>Replacing (3.9) into (3.7), we have</p><formula xml:id="formula_69">(σ i+1 -σ 1 )∥w i ∥ 2 ≤ - Ω w i • (u 1 L y i + 2T (∇y i , ∇u 1 ))dm -α Ω w i • (∇(∇y i • u 1 ) + div η u 1 ∇y i )dm.<label>(3.10)</label></formula><p>By a straightforward computation, we have, from (2.3), (2.4), (2.5) and (3.6),</p><p>-</p><formula xml:id="formula_70">Ω w i • (u 1 L y i + 2T (∇y i , ∇u 1 ))dm = Ω |u 1 | 2 T (∇y i , ∇y i )dm,<label>(3.11) and -α</label></formula><formula xml:id="formula_71">Ω w i • (∇(∇y i • u 1 ) + div η u 1 ∇y i )dm = α Ω |∇y i • u 1 | 2 dm.<label>(3.12)</label></formula><p>Therefore, substituting (3.11) and (3.12) into (3.10) we obtain</p><formula xml:id="formula_72">(σ i+1 -σ 1 )∥w i ∥ 2 ≤ Ω |u 1 | 2 T (∇y i , ∇y i )dm + α Ω |∇y i • u 1 | 2 dm.<label>(3.13)</label></formula><p>From <ref type="bibr">(3.11)</ref>, for any constant B &gt; 0, we infer</p><formula xml:id="formula_73">(σ i+1 -σ 1 ) Ω |u 1 | 2 T (∇y i , ∇y i )dm =(σ i+1 -σ 1 ) -2 Ω w i • 1 2 u 1 L y i + T (∇y i , ∇u 1 ) dm ≤2(σ i+1 -σ 1 )∥w i ∥ 1 2 u 1 L y i + T (∇y i , ∇u 1 ) ≤B(σ i+1 -σ 1 ) 2 ∥w i ∥ 2 + 1 B 1 2 u 1 L y i + T (∇y i , ∇u 1 ) 2 ,</formula><p>hence using (3.13) and the previous inequality we get</p><formula xml:id="formula_74">(σ i+1 -σ 1 ) Ω |u 1 | 2 T (∇y i , ∇y i )dm ≤B(σ i+1 -σ 1 ) Ω |u 1 | 2 T (∇y i , ∇y i )dm + α Ω |∇y i • u 1 | 2 dm + 1 B 1 2 u 1 L y i + T (∇y i ,<label>∇u 1 ) 2 . (3.14)</label></formula><p>Summing over i from 1 to n in (3.14), we conclude that</p><formula xml:id="formula_75">n i=1 (σ i+1 -σ 1 )(1 -B) Ω |u 1 | 2 T (∇y i , ∇y i )dm ≤ Bα n i=1 (σ i+1 -σ 1 ) Ω |∇y i • u 1 | 2 dm + 1 B n i=1 1 2 u 1 L y i + T (∇y i ,<label>∇u 1 ) 2 .</label></formula><p>(3.15)</p><p>From the definition of y i and the fact that S is an orthogonal matrix, we know that {y i } n i=1 are also the coordinate functions in R n . Then, as in the proof of [2, Theorem 1.1] (see inequality 4.18) we can also get</p><formula xml:id="formula_76">0 &lt; n i=1 1 2 u 1 L y i + T (∇y i , ∇u 1 ) 2 ≤ 1 4 Ω |u 1 | 2 |tr(∇T ) -T (∇η)| 2 dm + Ω u 1 • T (tr(∇T ),∇u 1 ) -T (T (∇η),∇u 1 ) dm + ∥T (∇u 1 )∥ 2 .</formula><p>Analogous to the proofs of Lemma 3.2 and Theorem 1.1, we have</p><formula xml:id="formula_77">1 4 Ω |u 1 | 2 |tr(∇T ) -T (∇η)| 2 dm + ∥T (∇u 1 )∥ 2 + Ω u 1 • T (tr(∇T ), ∇u 1 ) -T (T (∇η), ∇u 1 ) dm ≤ δ(σ 1 -α∥div η u 1 ∥ 2 ) + T 0 4 + C 0 . (3.16)</formula><p>Substituting 3.16 into 3.15 and using εI ≤ T ≤ δI, we obtain</p><formula xml:id="formula_78">n i=1 (σ i+1 -σ 1 )(ε -B(δ + α)) ≤ 1 B δ(σ 1 -α∥div η u 1 ∥ 2 ) + T 0 4 + C 0 . (3.17)</formula><p>Since B is an arbitrary positive constant, we can take</p><formula xml:id="formula_79">B = δ(σ 1 -α∥div η u 1 ∥ 2 ) + T0 4 + C 0 (δ + α) n i=1 (σ i+1 -σ 1 ) 1 2</formula><p>into (3.17) and therefore we get</p><formula xml:id="formula_80">n i=1 (σ i+1 -σ 1 ) ≤ 4(δ + α) ε 2 δ(σ 1 -α∥div η u 1 ∥ 2 ) + T 0 4 + C 0 .<label>(3.18)</label></formula><p>We can take i = 1 in inequality (3.5) and replace in <ref type="bibr">(3.18)</ref> to obtain Theorem 1.2. □ Proof of Corollary 1.1. By setting v i := σ i + D 0 into Theorem 1.1 we get k i=1</p><formula xml:id="formula_81">(v k+1 -v i ) 2 ≤ 4δ(nδ + α) n 2 ε 2 k i=1 (v k+1 -v i )v i .<label>(3.19)</label></formula><p>We know that each v i &gt; 0, and from</p><formula xml:id="formula_82">(1.3), v 1 ≤ v 2 ≤ • • • ≤ v k+1 . Notice that (3.19</formula><p>) is a quadratic inequality of v k+1 . Then, we can follow the steps of the proof of Inequalities (1.3) and (1.4) in Gomes and Miranda <ref type="bibr" target="#b11">[12]</ref> to obtain the inequalities of the corollary. □</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Proof of the results about the fourth-order elliptic operators</head><p>In this section, the keystone to our proofs relies on a slight modification from [1, Lemma 3.2] by Araújo Filho, namely: Lemma 4.1. Let Ω be a bounded domain in an n-dimensional complete Riemannian manifold M isometrically immersed in R m , Γ i be the i-th eigenvalue of Problem (1.7) and u i be a normalized real-valued eigenfunction corresponding to Γ i . Then we have</p><formula xml:id="formula_83">k i=1 (Γ k+1 -Γ i ) 2 Ω u 2 i tr(T )dm ≤4B k i=1 (Γ k+1 -Γ i ) 2 q i - 1 2 Ω u i L u i tr(T )dm + 1 B k i=1 (Γ k+1 -Γ i )q i ,<label>(4.1)</label></formula><p>for any positive constant B, where</p><formula xml:id="formula_84">q i =∥T (∇u i )∥ 2 L 2 + n 2 4 Ω u 2 i |H T | 2 dm + 1 4 Ω u 2 i |tr(∇T )| 2 dm + Ω u 2 i 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 dm,</formula><p>and H T is the generalized mean curvature vector of the immersion.</p><p>Proof. From Lemma 3.2 in <ref type="bibr">[1]</ref> we have</p><formula xml:id="formula_85">k i=1 (Γ k+1 -Γ i ) 2 Ω u 2 i tr(T )dm ≤4B k i=1 (Γ k+1 -Γ i ) 2 q i - 1 2 Ω u i L u i tr(T )dm + 1 B k i=1 (Γ k+1 -Γ i )q i ,</formula><p>where</p><formula xml:id="formula_86">q i =∥T (∇u i )∥ 2 L 2 + n 2 4 Ω u 2 i |H T | 2 dm + Ω u 2 i 1 4 |T (∇η)| 2 + 1 2 div η (T 2 (∇η)) dm + Ω u i T (tr(∇T ), ∇u i )dm + 1 4 Ω u 2 i ⟨tr(∇T ), tr(∇T ) -2T (∇η)⟩dm. (4.2) Since u i | ∂Ω = ∂ui ∂ν T | ∂Ω = 0 from divergence theorem, we have Ω u i T (tr(∇T ), ∇u i )dm = Ω u i ⟨T (tr(∇T )), ∇u i ⟩dm = 1 2 Ω ⟨T (tr(∇T )), ∇u 2 i ⟩dm = - 1 2 Ω u 2 i div η (T (tr(∇T )))dm = - 1 2 Ω u 2 i div(T (tr(∇T )))dm + 1 2 Ω u 2 i ⟨tr(∇T ), T (∇η)⟩dm,<label>(4.3)</label></formula><p>and</p><formula xml:id="formula_87">Ω u 2 i 1 4 |T (∇η)| 2 + 1 2 div η (T 2 (∇η)) dm = Ω u 2 i 1 4 |T (∇η)| 2 + 1 2 div(T 2 (∇η)) - 1 2 |T (∇η)| 2 dm = Ω u 2 i 1 2 div(T 2 (∇η)) - 1 4 |T (∇η)| 2 dm.<label>(4.4)</label></formula><p>Substituting (4.3) and (4.4) into (4.2) we have</p><formula xml:id="formula_88">q i =∥T (∇u i )∥ 2 L 2 + n 2 4 Ω u 2 i |H T | 2 dm + Ω u 2 i 1 2 div(T 2 (∇η)) - 1 4 |T (∇η)| 2 dm - 1 2 Ω u 2 i div(T (tr(∇T ))dm + 1 2 Ω u 2 i ⟨tr(∇T ), T (∇η)⟩dm + 1 4 Ω u 2 i |tr(∇T )| 2 dm - 1 2 Ω u 2 i ⟨tr(∇T ), T (∇η)⟩dm,</formula><p>that is,</p><formula xml:id="formula_89">q i =∥T (∇u i )∥ 2 L 2 + n 2 4 Ω u 2 i |H T | 2 dm + Ω u 2 i 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 dm + 1 4 Ω u 2 i |tr(∇T )| 2 dm,</formula><p>which is sufficient to complete the proof of Lemma 4.1. □ Proof of Theorem1.3. The proof of the first inequality is a consequence of Lemma 4.1. Let us denote</p><formula xml:id="formula_90">C 0 = sup Ω 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 , T 0 = sup Ω |tr(∇T )| and H 0 = sup Ω |H T | so that n 2 4 Ω u 2 i |H T | 2 dm ≤ n 2 H 2 0 4 Ω u 2 i dm = n 2 H 2 0 4 ,<label>(4.5</label></formula><p>)</p><formula xml:id="formula_91">Ω u 2 i 1 2 div T T (∇η) -tr(∇T ) - 1 4 |T (∇η)| 2 dm ≤ C 0 (4.6)</formula><p>and</p><formula xml:id="formula_92">1 4 Ω u 2 i |tr(∇T )| 2 dm ≤ T 2 0 4 .<label>(4.7)</label></formula><p>From (4.5)-(4.7), we get</p><formula xml:id="formula_93">q i ≤ ∥T (∇u i )∥ 2 L 2 + n 2 H 2 0 + 4C 0 + T 2 0 4 .<label>(4.8)</label></formula><p>Since there exist positive real numbers ε and δ such that εI ≤ T ≤ δI, consequently nε ≤ tr(T ) ≤ nδ, hence</p><formula xml:id="formula_94">nε = nε Ω u 2 i dm ≤ Ω tr(T )u 2 i dm,<label>(4.9)</label></formula><p>and using (2.6), we have</p><formula xml:id="formula_95">- 1 2 Ω u i L u i tr(T )dm ≤ 1 2 Ω u 2 i dm 1 2 Ω (tr(T )) 2 (L u i ) 2 dm 1 2 ≤ nδ 2 Ω (L u i ) 2 dm 1 2 = nδ 2 Γ 1 2 i .<label>(4.10)</label></formula><p>Moreover, using (2.6) once again, notice that</p><formula xml:id="formula_96">∥T (∇u i )∥ 2 L 2 = Ω ⟨T (∇u i ), T (∇u i )⟩dm ≤ δ Ω T (∇u i , ∇u i ) = -δ Ω u i L u i dm, therefore, we have ∥T (∇u i )∥ 2 L 2 ≤ -δ Ω u i L u i dm ≤ δ Ω u 2 i dm 1 2 Ω (L u i ) 2 dm 1 2 = δΓ 1 2 i .<label>(4.11)</label></formula><p>Thus, from (4.8) and (4.11) we obtain</p><formula xml:id="formula_97">q i ≤ δΓ 1 2 i + n 2 H 2 0 + 4C 0 + T 2 0 4 .<label>(4.12)</label></formula><p>Substituting (4.9), (4.10) and (4.12) into (4.1), we have</p><formula xml:id="formula_98">nε k i=1 (Γ k+1 -Γ i ) 2 ≤4B k i=1 (Γ k+1 -Γ i ) 2 n + 2 2 δΓ 1 2 i + n 2 H 2 0 + 4C 0 + T 2 0 4 + 1 B k i=1 (Γ k+1 -Γ i ) δΓ 1 2 i + n 2 H 2 0 + 4C 0 + T 2 0 4 .</formula><p>Finally, taking</p><formula xml:id="formula_99">B = k i=1 (Γ k+1 -Γ i ) δΓ 1 2 i + n 2 H 2 0 +4C0+T 2 0 4 1 2 k i=1 (Γ k+1 -Γ i ) 2 n+2 2 δΓ 1 2 i + n 2 H 2 0 +4C0+T 2 0 4<label>1 2</label></formula><p>, into previous inequality, we complete the proof of Inequality (1.12). The proof of the second part of the theorem is a slight modification of the proof of i + n 2 H 2 0 + T 2 0 + 4C 0 } k i=1 are increasing, we obtain from the previous lemma that k i=1 Λ 2 i (2n + 4)δΓ</p><formula xml:id="formula_100">1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 k i=1 Λ i 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 ≤ k i=1 Λ i (2n + 4)δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 4δΓ 1 2 i + n 2 H 2 0 + T 2 0 + 4C 0 × k i=1 Λ 2 i .<label>(4.13)</label></formula><p>Substituting (4.13) into (1.12), we complete the proof of the corollary. □ Proof of Corollary 1.4. Since our Inequality (1.13) is a quadratic inequality of Γ k+1 , it is not difficult to obtain <ref type="bibr">(1.14)</ref>, that is,</p><formula xml:id="formula_101">Γ k+1 ≥ A k + A 2 k -B k .<label>(4.14)</label></formula><p>Now, notice that Inequality (1.13) also holds if we replace the integer k with k -1, that is, we have</p><formula xml:id="formula_102">k-1 i=1 (Γ k -Γ i ) 2 ≤ 1 n 2 ε 2 k-1 i=1 (Γ k -Γ i ) (4δ 2 + 2nδ)Γ 1 2 i + n 2 H 2 0 + 4δ 2 C 0 4δ 2 Γ 1 2 i + n 2 H 2 0 + 4δ 2 C 0 , hence, we infer k i=1 (Γ k -Γ i ) 2 ≤ 1 n 2 ε 2 k i=1 (Γ k -Γ i ) (4δ 2 + 2nδ)Γ 1 2 i + n 2 H 2 0 + 4δ 2 C 0 4δ 2 Γ 1 2 i + n 2 H 2 0 + 4δ 2 C 0 .</formula><p>Therefore, Γ k also satisfies the same quadratic inequality and we obtain</p><formula xml:id="formula_103">Γ k ≥ A k -A 2 k -B k .</formula><p>Thus, from the previous inequality and (4.14) we get (1.15) and complete the proof of Corollary 1.4. □</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Statements and Declarations</head></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Corollary 1 . 1 .</head><label>11</label><figDesc>Under the same setup as in Theorem 1.1, and by defining D 0 = -α min j=1,...,k ∥div η u j ∥ 2 + T0+4C0 4δ , we have k i=1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Corollary 1 . 3 .</head><label>13</label><figDesc>Under the same setup as in Theorem 1.3, we have k i=1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>(3. 3 )</head><label>3</label><figDesc>Replacing Eq. (3.3) into Lemma 3.1, we complete the proof of Lemma 3.2. □ Now, we are in a position to give the proofs of the results of the Section 1.1. Proof of Theorem 1.1. The proof is a consequence of Lemma 3.2. Since T 0 = sup Ω |tr(∇T )|, η 0 = sup Ω |∇η| and</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>. 5 )</head><label>5</label><figDesc>Therefore, substituting (3.4)-(3.5) in Lemma 3.2 we obtain k i=1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>2 L 2 a i b i c i . Proof of Corollary 1 . 3 .</head><label>2213</label><figDesc>[1, Inequality (1.10)]. In fact, analogously to what we did in the Lemma 4.1, we just need to make the following modification in[1, Inequality (4.12)]Ω u 2 1 n 2 |H T | 2 + |tr(∇T )| 2 -2⟨tr(∇T ), T (∇η)⟩ + |T (∇η)| 2 ) + 4u 1 T (tr(∇T ), ∇u 1 ) -T (T (∇η), ∇u 1 ) + 4|T (∇u 1 )| 2 dm ≤4∥T (∇u 1 )∥ (∇η) -tr(∇T ) -1 4 |T (∇η)| 2 dm ≤4∥T (∇u 1 )∥ 2 L 2 + n 2 H 2 0 + 4C 0 + T 2 0 ,To complete the proof, simply follow the rest of the proof by replacing the [1, Inequality (4.12)] by the previous Inequality. □ To prove Corollary 1.3, we needed an algebraic lemma obtained by Jost et al. Lemma 4.2. [16, Lemma 2.3] Let {a i } m i=1 , {b i } m i=1 and {c i } m i=1 be three sequences of non-negative real with {a i } m i=1 decreasing and {b i } m i=1 and {c i } m i=1 increasing. Then we have Since {Λ i = (Γ k+1 -Γ i )} k i=1 is decreasing and {(2n+ 4</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>Acknowledgements</head><p>The authors have been partially supported by <rs type="funder">Fundação de Amparo à Pesquisa do Estado do Amazonas (FAPEAM)</rs> and <rs type="funder">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</rs>.</p><p>3 <rs type="person">Departamento de Matemática</rs>, <rs type="funder">Universidade Federal de Roraima, Av</rs>. <rs type="person">Ene Garcez</rs>, <rs type="grantNumber">2413</rs>, <rs type="grantNumber">69310-000</rs> <rs type="affiliation">Boa Vista, Roraima, Brazil</rs>.</p><p>Email address: 1 marcio.araujo@unir.br Email address: 2 jfrmiranda@ufam.edu.br Email address: 3 cristiano.silva@ufrr.br URL: 1 <ref type="url" target="https://dmejp.unir.br">https://dmejp.unir.br</ref> URL: 2 <ref type="url" target="http://dmice.ufam.edu.br">http://dmice.ufam.edu.br</ref> URL: 3 <ref type="url" target="http://ufrr.br/matematicalicenciatura/">http://ufrr.br/matematicalicenciatura/</ref> </p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_h7mnSUU">
+					<idno type="grant-number">2413</idno>
+				</org>
+				<org type="funding" xml:id="_fSxWTQZ">
+					<idno type="grant-number">69310-000</idno>
+				</org>
+			</listOrg>
+
+			<div type="availability">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability statement: the manuscript has no associated data. Funding statement: not applicable. Ethics and Consent to Participate declarations: not applicable.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Conflict of interest statement: the authors state that there is no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Inequalities for eigenvalues of fourth-order elliptic operators in divergence form on complete Riemannian manifolds</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Araújo Filho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Angew. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Estimates of eigenvalues of an elliptic differential system in divergence form</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Araújo Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N V</forename><surname>Gomes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Angew. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">210</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">On eigenvalues of a system of elliptic equations and of the biharmonic operator</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Anal. Appl</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="1146" to="1159"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Estimates for eigenvalues on Riemannian manifolds</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Differential Equations</title>
+		<imprint>
+			<biblScope unit="volume">247</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2270" to="2281"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Universal inequalities for eigenvalues of a system of elliptic equations</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Roy. Soc. Edinburgh Sect. A</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="273" to="285"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Hypersurfaces with constant scalar curvature</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Yau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math. Ann</title>
+		<imprint>
+			<biblScope unit="volume">225</biblScope>
+			<biblScope unit="page" from="195" to="204"/>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Estimates for lower order eigenvalues of a clamped plate problem</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calc. Var. PDE</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="409" to="416"/>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Estimates for eigenvalues of a clamped plate problem on Riemannian manifolds</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ichikawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mametsuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Soc. Jpn</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="673" to="686"/>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Inequalities for eigenvalues of a clamped plate problem</title>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Am. Math. Soc</title>
+		<imprint>
+			<biblScope unit="volume">358</biblScope>
+			<biblScope unit="page" from="2625" to="2635"/>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Estimates for eigenvalues of a system of elliptic equations with drift and of bi-drifting laplacian</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Bezerra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Pure Appl. Anal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="475" to="491"/>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Estimates for eigenvalues of the bi-drifting Laplacian operator</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Angew. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="703" to="726"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Eigenvalue estimates for a class of elliptic differential operators in divergence form</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N V</forename><surname>Gomes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F R</forename><surname>Miranda</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nonlinear Anal</title>
+		<imprint>
+			<biblScope unit="volume">176</biblScope>
+			<biblScope unit="page" from="1" to="19"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Extrinsic upper bounds for the first eigenvalue of elliptic operators</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Grosjean</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Hokkaido Math. J</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="319" to="339"/>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Inequalities for eigenvalues of the biharmonic operator</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">N</forename><surname>Hile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Z</forename><surname>Yeh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific J Math</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page" from="115" to="133"/>
+			<date type="published" when="1984">1984</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Domain independent upper bounds for eigenvalues of elliptic operator</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Hook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Amer. Math. Soc</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="615" to="642"/>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Universal bounds for eigenvalues of the polyharmonic operators</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">L</forename><surname>Jost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Amer. Math. Soc</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1821" to="1854"/>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Remarks on eigenvalues and eigenfunctions of a special elliptic system</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kawohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sweers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Z. Angew. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="730" to="740"/>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Unrestricted lower bounds for eigenvalues of elliptic equations and systems of equations with applications to problems in elasticity</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Levine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Protter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math. Methods Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="210" to="222"/>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Commutators, spectral trance identities, and universal estimates for eigenvalues</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Levitin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Parnovski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Anal</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="425" to="445"/>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Proprietés asymptotique des fonctions fondamentales du problems des vibrations dans un corps élastique</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pleijel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ark. Mat. Astron. Fys</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1" to="9"/>
+			<date type="published" when="1939">1939</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">On the ratio of consecutive eigenvalues</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Payne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pólya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">F</forename><surname>Weinberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="289" to="298"/>
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reilly-type inequalities for Paneitz and Steklov eigenvalues</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Potential Anal</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="773" to="798"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Divergence-free positive symmetric tensors and fluid dynamics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Serre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. I.H.Poincaré -AN</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="1209" to="1234"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Inequalities for eigenvalues of a clamped plate problem</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Calc. Var</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="273" to="289"/>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Jardim dos Migrantes</title>
+		<author>
+			<persName><forename type="first">Departamento</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matemática</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Av. General Rodrigo Octávio</title>
+		<imprint>
+			<biblScope unit="volume">351</biblScope>
+			<biblScope unit="page" from="69080" to="69900"/>
+			<pubPlace>Campus Ji-Paraná, R. Rio Amazonas; Ji-Paraná, Rondônia, Brazil 2 Departamento de Matemática; Manaus, Amazonas, Brazil</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Universidade Federal de Rondônia ; Universidade Federal do Amazonas</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,2129 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Springer Nature 2021 L A T E X template</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-04">4 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Dellmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Harrington</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Air Force Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">WPAFB</orgName>
+								<address>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Cantrell</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Couture</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Gorelov</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><surname>Knapová</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+							<email>rreifarth@lanl.gov</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>NM</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="institution">Goethe University</orgName>
+								<address>
+									<settlement>Frankfurt Frankfurt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Alvarez</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Physics Department</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Aprahamian</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Butz</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Goethe University</orgName>
+								<address>
+									<settlement>Frankfurt Frankfurt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Bos</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff6">
+								<orgName type="institution">Calvin University</orgName>
+								<address>
+									<settlement>Grand Rapids</settlement>
+									<region>MI</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Febbraro</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Air Force Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">WPAFB</orgName>
+								<address>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Hankins</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Chemistry Department</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Harvey</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff4">
+								<orgName type="department">Physics Department</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Heftrich</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Goethe University</orgName>
+								<address>
+									<settlement>Frankfurt Frankfurt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Le</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Chemistry Department</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Manfredi</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Air Force Institute of Technology</orgName>
+								<orgName type="institution" key="instit2">WPAFB</orgName>
+								<address>
+									<region>OH</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Mcintosh</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Manukyan</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Matney</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Regener</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Robertson</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Simon</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Sokolovic</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Goethe University</orgName>
+								<address>
+									<settlement>Frankfurt Frankfurt</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><surname>Stech</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><surname>Tabacaru</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">W</forename><surname>Tan</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Wiescher</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Notre</orgName>
+								<address>
+									<addrLine>Notre Dame</addrLine>
+									<settlement>Dame</settlement>
+									<region>IN</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Yennello</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution" key="instit1">Cyclotron Institute</orgName>
+								<orgName type="institution" key="instit2">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Chemistry Department</orgName>
+								<orgName type="institution">Texas A&amp;M University</orgName>
+								<address>
+									<settlement>College Station</settlement>
+									<region>TX</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Springer Nature 2021 L A T E X template</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-04">4 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F4D7BB373FB74BC3D3D8C3537F5E8BF3</idno>
+					<idno type="arXiv">arXiv:2603.04471v1[physics.ins-det]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Neutron-induced reactions play an important role in fundamental nuclear physics, nuclear astrophysics, and applications. In the case of reactions on rare isotopes, there are limited options for direct experimental measurements. The Neutron Target Demonstrator project at Los Alamos National Laboratory seeks to test the feasibility of moderating spallation neutrons within a 1 m 3 graphite cube to create a standing neutron target for neutron-induced reaction measurements in inverse kinematics. This paper presents the results of experimental neutron flux distribution tests using neutron sources (ranging from 1 keV to 50 MeV) created by accelerators at the University of Notre Dame and Texas A&amp;M University. Measurements were made with both the full graphite cube as</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Roberto Gallino pioneered the idea of analyzing the reaction flow around branch points in the s process to significantly constrain the corresponding models <ref type="bibr" target="#b0">[1]</ref>. His inspiring collaboration with experimental nuclear physicists resulted in many experimental campaigns to determine nuclear reaction rates with high impact <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>. One of his repeated demands was experimentally constrained neutron-induced reaction cross sections for radioactive isotopes acting as branch points in the s process <ref type="bibr" target="#b3">[4,</ref><ref type="bibr" target="#b4">5]</ref>. The ideas presented in this paper address this need for more and accurate nuclear data. If successful, all branch points in the s process <ref type="bibr" target="#b5">[6,</ref><ref type="bibr" target="#b6">7]</ref>, all waiting points in the i process <ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref> and even some of the important isotopes during the freeze-out phase of the r process <ref type="bibr" target="#b9">[10]</ref> can be directly investigated in the future.</p><p>Traditional methods to directly determine neutron-induced reaction rates rely exclusively on the idea of a neutron beam interacting with a sample. Depending on the detection mechanism, different techniques are established. The most important ones for neutron energies above 1 keV are time of flight, where promptly emitted particles are detected, and activation, which relies on the detection of the radioactive product nuclei or delayed emitted particles <ref type="bibr" target="#b10">[11]</ref>.</p><p>Both methods reach their limits at modern facilities once the half-life time of the isotope under investigation is less than about 1 year <ref type="bibr" target="#b11">[12]</ref>. The most important reason is the emission of the decaying sample atoms interacting with the detectors, which limits the maximum activity of the sample and henceforth the number of sample atoms.</p><p>An idea to push this limit down by orders of magnitude is to invert the kinematics. In other words, a sample of the light reaction partner will be irradiated with a beam of the radioactive ions. This approach has been successfully applied in many cases where the light reaction partner is stable, either in single-pass mode <ref type="bibr" target="#b12">[13]</ref> or in combination with an ion storage ring <ref type="bibr" target="#b13">[14]</ref>.</p><p>Inverse kinematics for neutron-induced reactions poses the particular challenge of a free-neutron target. Simulations have shown that a combination of a reactor or a spallation neutron source with an ion storage ring provides sufficient luminosity to measure neutron induced reactions above 100 keV in the center of mass <ref type="bibr" target="#b14">[15,</ref><ref type="bibr" target="#b15">16]</ref>. In particular the usage of a spallation neutron source is very promising, since they can be rather easily operated at high-energy beam facilities. In contrast to nuclear reactors, spallation driven neutron sources can be shut down quickly and safely.</p><p>So far, all estimates rely solely on Monte Carlo simulations. In this paper, we report about the first experimental campaign to confirm the simulation suite used so far.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">A spallation-driven neutron target</head><p>In order to serve as a neutron target, a spallation source must be surrounded by an extended moderator. This moderator serves two key purposes: first, it traps neutrons allowing them significant time scattering within the moderator, which increases the neutron density and secondly, it slows them down producing an almost pure thermal spectrum, Figures <ref type="figure">1</ref> and <ref type="figure">2</ref>. This thermalization enables the determination of the reaction energy in the center-of-mass directly from the ion beam energy. The optimal moderator geometry and material depends strongly on both the neutron spectrum of the spallation source and the specific experimental constraints <ref type="bibr" target="#b16">[17]</ref>. Both aspects, thermalization and trapping, are extremely important for the success of this experimental approach.</p><p>1 10 2 10 3 10 4 10 8 -1 -10 TIME (s) 3 -10 2 -10 1 -10 1 10 2 10 3 10 4 10 5 10 6 10 7 10 8 10 9 10</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ENERGY (eV)</head><p>Fig. <ref type="figure">1</ref> Energy evolution of neutrons crossing the region of the ion beam pipe. The neutron source was a 800-MeV spallation source in the middle of the proton beam pipe surrounded by a graphite cube of 300 cm length. High energy neutrons reach the ion pipe only at very early times. The later, the lower the neutron energy when crossing the ion pipe. Between 0.1 ms and 0.1 s, only thermal neutrons are present in the ion beam pipe. Both axes have a logarithmic binning with 10 bins/decade.</p><p>3 -10 2 -10 1 -10 1 10 2 10 3 10 4 10 5 10 6 10 7 10 8 10 9 10 10 10 ENERGY (eV) 5 -10 4 -10 3 -10 2 -10 1 -10 1 COUNTS PER BIN neutrons passing neutrons present</p><p>Fig. <ref type="figure">2</ref> Black: A projection of Figure <ref type="figure">1</ref> onto the energy axis. This spectrum corresponds to netrons passing the ion pipe. Red: As black, but time-weighted. The time which in the neutrons spend in the ion pipe is used for this time-weighted neutron spectrum. Since slower neutron need much more time crossing the ion pipe, much more of them are present at any given time. This spectrum corresponds therefore to the neutrons actually present in the ion pipe. The x-axis has a logarithmic binning with 20 bins/decade.</p><p>The initial phase of this effort focuses on developing a proof-of-concept facility known as the Neutron Target Demonstrator (NTD), located at the Los Alamos Neutron Science Center (LANSCE) <ref type="bibr" target="#b17">[18]</ref>. The goal of the NTD is to experimentally demonstrate the principle of neutron-induced reactions in inverse kinematics as simply as possible. Instead of a multi-pass ion storage ring, the NTD will employ a stable ion beam that passes through a graphite moderator containing a centrally located spallation target for the proton beam from LANSCE, oriented perpendicular to the ion beam. In addition, rather than use real-time reaction diagnostics the NTD will measure reaction products using off-line gamma-ray counting in a low background environment. This configuration enables an experimental test of the neutron target concept while minimizing all other technical challenges and requiring only minor adjustments to the experimental facilities at LANSCE <ref type="bibr" target="#b18">[19]</ref>.</p><p>To this end, a graphite moderator of approximately one cubic meter was assembled in order to serve as the moderator for the NTD. The purpose of the present work is to simulate and experimentally benchmark Monte Carlo simulations of the moderator performance and resulting neutron target properties in advance of the upcoming experimental campaign at LANSCE. Experiments were conducted at the Nuclear Science Laboratory (NSL) at the University of Notre Dame [20] and the Cyclotron Institute at Texas A&amp;M University [21] in order to assess moderator performance at a range of neutron energies relevant for the LANSCE spallation neutron source driven by an 800-MeV proton LINAC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Monte Carlo Simulations</head><p>All simulations shown here were based on Geant-3.21 <ref type="bibr" target="#b19">[22]</ref> including the gcalor package.</p><p>About 1 m 3 of graphite is available at LANSCE. This graphite consists of small blocks, which can be stacked into different shapes. It has been used in the past for neutron moderation. Table <ref type="table" target="#tab_0">1</ref> gives a summary of the graphite pieces used during the first experiments and the accompanying simulations. We determined the density of the graphite moderator material to be 1.62 g/cm 3 <ref type="bibr" target="#b20">[23]</ref>. This value corresponds to reactor-grade graphite densities from the beginning of the nuclear industry <ref type="bibr" target="#b21">[24]</ref>. Eight layers of graphite blocks were stacked on top of each other for the full cube. Six of those layers consisted of 7 blocks of type A. The two layers in the center of the cube had only 6 blocks. The central block in each of those layer was left out for proton and ion beam pipe, Fig. <ref type="figure" target="#fig_2">3</ref> (left). The downstream side of the proton beam line was plugged with 2 pieces of type B to prevent the neutrons from escaping at 0 • . While the full cube resembles a moderator that could actually be used as a real neutron target, the simulations can be stringently tested with only half of the assembly. If the top half is removed, the number of moderated neutrons passing the ion pipe will be drastically reduced while the number of highenergy neutrons will remain mostly unchanged, because they reach the wires largely without interacting with the graphite. For this purpose only, we made simulations and experiments also with a half cube. Only the bottom 4 layers of the full cube were used for the half cube. In addition, the plugs were removed, Fig. <ref type="figure" target="#fig_2">3</ref> (right). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Activation method</head><p>We applied the activation method to compare the simulated time-integrated neutron flux inside the moderator with experimental data. For that purpose, thin pieces of gold wire were placed along entire length of the future beam pipe on sturdy, low-density package foam, (Fig. <ref type="figure" target="#fig_2">3</ref>). That foam was not included in the simulations. The gold wire was cut into pieces of approximately 2 cm (about 20 mg) in order to determine the activation of the gold as a function of position inside the beam pipe.</p><p>Gold has one stable isotope, 197 Au. After neutron capture, 198 Au is formed, which conveniently decays with 2.7 d of half-live emitting an easily detectable γray with 412 keV. High-energy neutrons produce also neutron-deficient gold isotopes via neutron-removal reactions such as (n,2n), (n,3n), (n,4n), see Table <ref type="table" target="#tab_1">2</ref>, but those reaction channels were only open for the last two runs at the highest energy reported here. Post irradiation, the gold wires were separately placed in front of calibrated High-Purity Germanium (HPGe) detectors. The most important line used to analyze the gold activity is the 412-keV line emitted during the decay of 198 Au. The parameters including uncertainties of all lines used for the analysis reported here are summarized in Table <ref type="table">3</ref>.</p><p>Table <ref type="table">3</ref> List of decay parameters used during the analysis. The decay of 7 Be was used to determine the number of neutrons produced via the 7 Li(p,n)</p><p>7 Be reaction. Isotope t 1/2 γ-rays (keV) Iγ Ref. 194 Au 38.06 h 328.470(6) 0.628 [25] 196 Au 6.1669(6) d 355.73(5) 0.87 [26] 198 Au 2.6941(2) d 411.80205(17) 0.9562 [27] 7 Be 53.22(6) d 477.6035(20) 0.1044 [28]</p><p>We used the following equations to determine the number of produced unstable atoms <ref type="bibr" target="#b26">[29]</ref>:</p><formula xml:id="formula_0">N product = C γ ϵ γ I γ 1 f m f b f w<label>(1) with</label></formula><p>• N product the number of produced atoms (e.g. 198 Au).</p><p>• C γ the number of counts in the spectrum for the corresponding line (e.g. 412 keV).</p><p>• ϵ γ the photo peak detection efficiency for the corresponding line, depends on the setup. • I γ the emission intensity of the corresponding photon.</p><p>• f m correction for finite γ-counting measurement time:</p><formula xml:id="formula_1">f m = 1 -e -λtm<label>(2)</label></formula><p>with the measuring time t m and the decay constant λ = ln(2)/t 1/2 . • f w correction for number of decays during the time t w between end of activation and beginning of γ-counting:</p><formula xml:id="formula_2">f w = e -λtw<label>(3)</label></formula><p>• f b correction for number of decays during the activation time t a . If the neutron flux is constant, this correction is simply:</p><formula xml:id="formula_3">f b = λt a 1 -e -λta<label>(4)</label></formula><p>If the neutron flux varies and is monitored with constant intervals, it can be expressed as:</p><formula xml:id="formula_4">f b = i Φ i e -λ(ta-ti) i Φ i<label>(5)</label></formula><p>with Φ i the measured neutron flux at time t i after beginning of the irradiation.</p><p>For the comparison of experimental data with simulations, it is useful to define the yield as the ratio of produced radioactive atoms to the number of sample atoms and neutrons emitted by the source:</p><formula xml:id="formula_5">Y = N product N sample N neutron<label>(6)</label></formula><p>All results discussed in section 5 will refer to Y .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Measurements</head><p>We  <ref type="table" target="#tab_3">4</ref>. The idea was to verify the simulations first with rather low-energy neutrons and tailored spectra before performing the final experiment at LANSCE with a 800-MeV spallation source.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1">γ-detection</head><p>Following the activations, the gold foils were analyzed via γ-spectroscopy using various high-purity germanium (HPGe) detectors. For this reason, we made sure that the cross-calibration was done using at least one gold wire at both setups. To determine the yield, it is essential to evaluate the ratio between the number of produced particles and the number of sample atoms. The number of sample atoms is calculated based on the weight of the gold wire. Determining the number of produced particles requires an analysis of the γ-spectra.  In addition to the statistical uncertainties resulting from the γ-counting, we assumed an additional 2% individual systematic uncertainty for each wire. This accounts for the uncertainty in the mass determination as well as small deviation in the efficiency resulting from slightly different shapes and position of each wire.</p><p>The overall correlated systematic uncertainties resulting from γ-detection efficiencies, intensities and half-lives are only important for the runs at the NSL, where we were able to determine a absolute normalization (section 5.2).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2">Neutron source: 7 Li(p,n)</head><p>The first four runs (Ia, Ib, IIa, IIb) were performed at the NSL at the University of Notre Dame, IN, USA <ref type="bibr">[20]</ref>. The current on target was 10 µA for runs Ia, IIa and IIb and 20 µA for Ib. We used one single metallic lithium target with 100 µ thickness evaporated onto a copper backing for all runs. This target was thick enough to slow down protons with 1.95 MeV as well as 2.5 MeV below the neutron production threshold <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref>. We checked the neutron spectrum before and after each irradiation using a 3 He detector while the moderator was removed. These measurements showed no changes in particular at the lower end, hence the lithium target was always thick enough to slow down the protons below the neutron production threshold. We used the simulation tool PINO <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref> as a double-differential neutron generator. Figure <ref type="figure">5</ref> shows the resulting source energy distribution. Li(p,n), E proton =2.5 MeV Fig. <ref type="figure">5</ref> Source energy distribution of neutrons produced inside the moderator. The effect of the moderator on the neutron distribution is not included here. All spectra are normalized to maximum 1. The binning of the x-axis is logarithmic. The neutron source reaction was 7 Li(p,n) using a 0.1 mm Li layer. The spectra are based on the PINO code <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref>.</p><p>The 7 Be activity was measured after each run with a CeBr 3 detector without removing the lithium target. The efficiency of this detector was not absolutely calibrated, but we made sure that the position relative to the lithium target was reproduced for each measurement. These measurements were only intended to determine the relative neutron flux after each of the four runs with high precision.</p><p>Four examples of the simulated neutron spectra at the position of the gold wires are shown in Figure <ref type="figure" target="#fig_7">6</ref>. For each of the two proton energies, the spectrum in the center as well as close to the edge of the moderator is shown. The most striking difference is the presence of completely moderated, thermal neutrons around 25 meV. The central spectra predict much less moderation than the ones at the edge. The obvious reason is that much less moderator material is between this position and the neutron production target. The same figure also contains the 197 Au(n,γ) cross section (ENDF/B-VIII.0, <ref type="bibr" target="#b29">[32]</ref>) we used to estimate the capture yield by folding the spectrum with the cross section.</p><p>0.0 0.2 0.4 0.6 0.8 1.0 1.2 COUNTS PER BIN 10 -1 1 10 10 2 10 3 10 4 10 5 10 6 10 7 10 8 Cross section (b) Each spectrum is separately normalized to have its maximum value at 1. In addition, the 197 Au(n,γ) cross section used to determine the capture yield is shown <ref type="bibr" target="#b29">[32]</ref>.</p><p>Figure <ref type="figure">7</ref> shows a comparison between simulated and experimental yields for all four runs. It is important to emphasize that only one single normalization parameter was used in this plot for the experimental data -the total number of neutrons. The uncertainties of the experimental data contain the statistical as well as the 2% individual systematic uncertainties. The agreement between experiment and simulation over the entire range of the moderator and one order of magnitude is remarkable.</p><p>10 -26 2 5 10 -25 2 Yield (/neutron/sample atom) -40 -30 -20 -10 0 10 20 30 40 Position (cm) 197 Au(n, ), full, 1.95 MeV simulation experiment 10 -26 2 5 10 -25 2 Yield (/neutron/sample atom) -40 -30 -20 -10 0 10 20 30 40 Position (cm) 197 Au(n, ), full, 2.5 MeV simulation experiment 5 10 -27 2 5 10 -26 Yield (/neutron/sample atom) -40 -30 -20 -10 0 10 20 30 40 Position (cm) 197 Au(n, ), half, 1.95 MeV simulation experiment 5 10 -27 2 5 10 -26 Yield (/neutron/sample atom) -40 -30 -20 -10 0 10 20 30 40 Position (cm) 197 Au(n, ), half, 2.5 MeV simulation experiment</p><p>Fig. <ref type="figure">7</ref> Results for all four runs performed at the NSL. Each plot shows the position inside the moderator, where 0 is the center, just above the lithium target. All four plots have one common normalization factorthe total number of neutrons.</p><p>After 6 months, we determined the total 7 Be activity with a calibrated HPGe detector. The agreement between the number of neutrons derived from the 7 Be activity and the gold activities (Figure <ref type="figure">7</ref>) was within estimated 5% uncertainty of the determination of the total neutron flux.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3">Neutron source: 9 Be(p,n)</head><p>The experiment at the Texas A&amp;M Cyclotron Institute [21] was carried out using two proton beam energies: 9 MeV and 45 MeV. A 0.5 mm self-supporting beryllium (Be) foil served as the neutron source, facilitating the 9 Be(p,n) reaction, see Fig. <ref type="figure">8</ref>. This target is not thick enough to slow down the protons below the (p,n) threshold, but target degradation and hence changes of the neutron spectrum is not an issue for this target, since beryllium can stand much higher temperatures than metallic lithium. The current on target was 1 µA for the 9 MeV runs (IIIa, IVb) and 200 nA for the 45 MeV runs (IVa, IVb).</p><p>Fig. <ref type="figure">8</ref> Beryllium target used at the Texas A&amp;M cyclotron. The 0.5 mm Be-foil was glued to an aluminum frame, which was mounted inside a target holder (black can). The Al-frame contains holes, which allows evacuating and venting of the beam pipe from one side. The target holder was then slid into the beam and held in place with 2 snap rings.</p><p>Similarly to the runs at NSL, we used the simulation tool PINO <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref> to generate double-differential neutron spectra. The expected neutron source spectra are shown in Figure <ref type="figure" target="#fig_20">9</ref>. For each proton energy, measurements were taken using both a full (IIIa, IVa) and a half moderator (IIIb, IVb) cube configuration, resulting in a total of four activation measurements.</p><p>0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 COUNTS PER BIN 10 4 2 5 10 5 2 5 10 6 2 5 10 7 2 5 10 8</p><p>E neutron (eV) 9 Be(p,n), E proton =9 MeV 9 Be(p,n), E proton =45 MeV Fig. <ref type="figure" target="#fig_20">9</ref> Source energy distribution of neutrons produced inside the moderator. The effect of the moderator on the neutron distribution is not included here. All spectra are normalized to maximum 1. The binning of the x-axis is logarithmic. The neutron source reaction was 9 Be(p,n) using a self-supporting 0.5 mm Be foil. The spectra are based on the PINO code <ref type="bibr" target="#b27">[30,</ref><ref type="bibr" target="#b28">31]</ref>.</p><p>In each setup, gold foils were placed within the moderator at the intended ion beam pipe location, see Fig. <ref type="figure" target="#fig_10">10</ref>. Four examples of the simulated neutron spectra at the position of the gold wires are shown in Figure <ref type="figure" target="#fig_12">11</ref>. For each of the two proton energies, the spectrum in the center as well as close to the edge of the moderator is shown. Again, the central spectra predict much less moderation than the ones at the edge and in general the fraction of thermal neutron is less for the runs with lower proton energies. The same figure also contains the 197 Au(n,γ) cross section (ENDF/B-VIII.0, <ref type="bibr" target="#b29">[32]</ref>) we used to estimate the capture yield by folding the spectrum with the cross section. We used the ENDF/B-VIII.0 library also for the (n,2n) channel. 10 -3 10 -2 10 -1 1 10 10 2 10 3 10 4 10 5 10 6 10 7 10 8 E neutron (eV) E p =9 MeV, center E p =9 MeV, edge E p =45 MeV, center E p =45 MeV, edge 197 Au(n, ), ENDF Each spectrum is separately normalized to have its maximum value at 1. In addition, the 197 Au(n,γ) cross section used to determine the capture yield is shown <ref type="bibr" target="#b29">[32]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.1">E proton = 9 MeV</head><p>Figure <ref type="figure" target="#fig_13">12</ref> shows a comparison between simulated and experimental yields for the runs with 9 MeV proton energy (IIIa, IIIb). Since we could not measure the relative production of neutrons in each run, each experimental data set is separately normalized to the simulated data. The uncertainties of the experimental data contain again the statistical as well as the 2% individual systematic uncertainties. The agreement between experiment and simulation for the full cube is again excellent. The half cube shows slight deviations at the wings, which we attribute to room background. This feature is also visible in the 45 MeV run. The room background has very likely two causes -neutrons produced at the beryllium target and scattered back from the walls and neutrons produced by protons hitting other beam line components.</p><p>Experiments towards a neutron target for measurements in inverse kinematics </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.2">E proton = 45 MeV</head><p>The main result of this run is shown in Figure <ref type="figure" target="#fig_14">13</ref>, which illustrates a comparison between simulated and experimental neutron capture yields for the runs with 45 MeV proton energy (IVa, IVb). Since we could not measure the relative production of neutrons in each run, each experimental data set is separately normalized to the simulated data. The uncertainties of the experimental data contain again the statistical as well as the 2% individual systematic uncertainties. The agreement between experiment and simulation for the full cube is again excellent. The half cube shows significant deviations at the wings, which we again attribute to the significant room background. The graphite moderator acts as a shield against those neutrons in case of the full cube. Figure <ref type="figure" target="#fig_15">14</ref> shows a side effect, the comparison between simulated and experimental (n,2n) yields for the same runs. Again, each experimental data set is separately normalized to the simulated data and the uncertainties of the experimental data contain again the statistical as well as the 2% individual systematic uncertainties. The agreement between experiment and simulation is in both cases is again excellent. This is important because one would not expect much of an impact of the moderator on the corresponding high-energy neutrons. Full and half cube show virtually the same spacial distribution in the simulations as well for the wires where a measurement was possible. We attempted to detect the activity from the (n,3n) channel, but even 8 months after the irradiation it was not visible above the room background of the setups available. We could see the rather short-lived (n,4n) activity, but not with enough statistics for a useful analysis. We expect to see these channels more pronounced during high-energy runs with 800 MeV protons.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Conclusions</head><p>The experiments presented in here covered the central part of the spallation neutron energy distribution, Figure <ref type="figure" target="#fig_17">15</ref>. We found excellent agreement between simulations and experiment for the spatial distribution of neutrons inside the full graphite cube. At lower proton energies (2.5 MeV and 5 MeV) we could also confirm the simulations. At higher proton energies (9 MeV and 45 MeV), our measurements of the (n,γ) channel were disturbed by room background affecting the low-activity wings of the distribution. The high-energy (n,2n) channel was not affected by this disturbance and we found again very good agreement.</p><p>Experiments towards a neutron target for measurements in inverse kinematics</p><p>0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 COUNTS PER BIN 10 3 10 4 10 5 10 6 10 7 10 8 10 9 E neutron (eV) 7 Li(p,n), Eproton=1.95 MeV 7 Li(p,n), Eproton=2.5 MeV 9 Be(p,n), Eproton=9 MeV 9 Be(p,n), Eproton=45 MeV W, Eproton=800 MeV The different neutron production mechanisms used in this study can be directly compared with spallation as the neutron source. The results of this comparison for a nominal beam current of 10 µA are summarized in Table <ref type="table">5</ref>. Each of the 3 targets (Li, Be, W) are thick enough that incident protons will be slowed down below the neutron production threshold and as such the neutron yield is at its maximum. As outlined in <ref type="bibr" target="#b15">[16]</ref>, the conversion from the sum of all times neutrons spend in the ion beam pipe into an areal neutron density of the neutron target as seen by the passing ion is linear. Each proton produces a certain amount of neutrons. These neutrons travel through the setup, are moderated and eventually pass the ion beam pipe. The proton-averaged total time period t neutron sums up the time periods that all neutrons spend inside the beam pipe per incident proton (see Table <ref type="table">5</ref>). To estimate the average number of neutrons inside the beam tube, nneutron , we multiply t neutron by the number of protons hitting the neutron production target per time (proton current/elementary charge):</p><formula xml:id="formula_6">nneutron = I proton e t neutron<label>(7)</label></formula><p>The corresponding areal neutron density η A is calculated by dividing nneutron by the cross sectional area of the ion beam pipe A ion pipe :</p><formula xml:id="formula_7">η neutron = nneutron A ion pipe = I proton e t neutron A ion pipe<label>(8)</label></formula><p>The expected neutron target density for spallation neutrons driven by a 10 µA proton beam at 800 MeV is 3.8 10 7 n/cm 2 , which will be sufficient to demonstrate the neutron target concept.</p><p>Table <ref type="table">5</ref> Comparison of neutron densities for different production mechanisms and a nominal proton current of 10 µA. At LANSCE, 800 MeV proton beam is used for most experiments. However, also a less favorable 100 MeV line is available and we discussed this possibility in <ref type="bibr" target="#b30">[33]</ref>. The LANSCE accelerator in combination with the Proton Storage Ring (PSR) is capable of delivering beams over a wide range of parameters, details can be found in <ref type="bibr" target="#b17">[18,</ref><ref type="bibr" target="#b31">34]</ref>. production Eproton tneutron η A at 10 µA principle (MeV) (µs/proton) (10 3 /cm 2 ) 7 Li(p,n) 2.5 0.0041 13 7 Li(p,n) 5 0.018 57 9 Be(p,n) 10 0.0089 28 9 Be(p,n) 50 0.033 100 W(spallation) 100 0.26 830 W(spallation) 800 12 38000</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Outlook</head><p>The next step in this project is a similar gold activation experiment at LANSCE to extend the current validation effort to the full energy regime produced by a spallation neutron source <ref type="bibr" target="#b32">[35]</ref>. Figure <ref type="figure" target="#fig_19">16</ref> shows the simulated spatial flux distributions for the various neutron-induced reactions on gold in the planned spallation experiment. The simulation assumes the full moderator cube without plugs and models the neutron source as a tungsten cylinder 7.5 cm in diameter and 25 cm in length. This spallation target already exists at LANSCE and has previously been used in a similar experimental setup <ref type="bibr" target="#b33">[36]</ref>. This measurement will be followed by an inversekinematics experiment using a krypton beam from an ion source passing through the spallation neutron target in the moderator <ref type="bibr" target="#b18">[19]</ref>.</p><p>5 10 -26 2 5 10 -25 2 5 10 -24 Yield (/neutron/sample atom) -40 -30 -20 -10 0 10 20 30 40 Position (cm) 197 Au(n,x), 800 MeV 197 Au(n, ) 197 Au(n,2n)*1000 197 Au(n,3n)*1000 197 Au(n,4n)*1000 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">Summary</head><p>Within the framework of the Neutron Target Demonstrator project at LANL, we measured the neutron flux distribution inside a graphite moderator for four different source neutron-energy distributions ranging from 1 keV to about 50 MeV. The volume of the full moderator was about 1 m 3 . We found excellent agreement between simulation and experiment over the entire energy range for the full cube. We found very good agreement also for experiments using only half of the cube except for the neutron capture channel at high source energies. These initial neutron flux characterizations and neutron target tests provide a validated foundation for the development of a Neutron Target Facility (NTF) based on the principles outlined in <ref type="bibr" target="#b15">[16]</ref>. If realized, the NTF would enable direct investigation of isotopes with half-lives as short as fractions of a minute, which would significantly expand the range of nuclei accessible for experimental study, as illustrated in Figure <ref type="figure">17</ref>.</p><p>Fig. <ref type="figure">17</ref> Chart of nuclides with stable isotopes (black), radioactive isotopes that can be investigated with current state-of-the-art instruments (red) and the additional isotopes that can be investigated at the future Neutron Target Facility (blue). </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Fig. 3</head><label>3</label><figDesc>Fig. 3 Simulated setup: Full cube on the left and half cube on the right. The red pipe indicates the position of the ion beam pipe, which corresponds to the position of the gold wires. The full cube consists of 54 large graphite blocks of type A (blue) and 2 smaller blocks of type B to cover the end of the proton beam line (pink). The half cube consists of only 27 pieces of type A.</figDesc><graphic coords="5,51.02,382.11,151.80,164.69" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>performed a series of activation experiments with different neutron energy distributions and moderator setups. The experiments were carried out at the Nuclear Science Laboratory (NSL) at the University of Notre Dame, IN, USA [20] and the Cyclotron Institute (CI) at Texas A&amp;M University [21]. The parameters of the different experiments are summarized in Table</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>Figure 4 illustrates a representative fit of the 412 keV γ-line following the β-decay of 198 Au. The fitting function used to model the peak and background is a Gaussian combined with a linear background. The γ-line was integrated to determine the total number of counts. The background contribution was subtracted using the parameters obtained from the best fit of the peak. Additionally the γ-line at 356 keV from 196 Au is visible for the runs with 45 MeV proton energy (IV-a and IV-b).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Fig. 4</head><label>4</label><figDesc>Fig. 4 Gamma spectrum of 4 activated gold foils, positioned in the middle of the half-moderator at 45 MeV, at Texas A&amp;M (run IVb)).</figDesc><graphic coords="8,51.02,340.93,337.33,168.67" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><figDesc>,n), E proton =1.95 MeV 7</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Fig. 6</head><label>6</label><figDesc>Fig.6Simulated energy distribution of neutrons inside the in the region of the gold wires resulting from the source distribution shown in Figure5in the central region as well as close to the edge of the moderator. Each spectrum is separately normalized to have its maximum value at 1. In addition, the 197 Au(n,γ) cross section used to determine the capture yield is shown<ref type="bibr" target="#b29">[32]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Fig. 10</head><label>10</label><figDesc>Fig. 10 Top: View of the full cube stacked with of 54 graphite blocks. Bottom: View of the half-cube assembly including the gold wires used to measure the neutron flux via activation. Each gold foil was counted separately after the irradiation.</figDesc><graphic coords="14,51.02,341.91,303.56,148.97" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Fig. 11</head><label>11</label><figDesc>Fig.11Simulated energy distribution of neutrons inside the in the region of the gold wires resulting from the source distribution shown in Figure9in the central region as well as close to the edge of the moderator. Each spectrum is separately normalized to have its maximum value at 1. In addition, the 197 Au(n,γ) cross section used to determine the capture yield is shown<ref type="bibr" target="#b29">[32]</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Fig. 12</head><label>12</label><figDesc>Fig.12Results for the 9 MeV runs performed at Texas A&amp;M. Each plot shows the position inside the moderator, where 0 is the center, just above the beryllium target. Each experimental data set (half and full cube) is separately normalized to the simulations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Fig. 13</head><label>13</label><figDesc>Fig.<ref type="bibr" target="#b12">13</ref> Results for the 198 Au activity after the 45 MeV runs performed at Texas A&amp;M. Each plot shows the position inside the moderator, where 0 is the center, just above the beryllium target. Each experimental data set (half and full cube) is separately normalized to the simulations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Fig. 14</head><label>14</label><figDesc>Fig.14Results for the196 Au activity after the 45 MeV runs performed at Texas A&amp;M. Each plot shows the position inside the moderator, where 0 is the center, just above the beryllium target. Each experimental data set (half and full cube) is separately normalized to the simulations.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Fig. 15</head><label>15</label><figDesc>Fig.15Neutron source spectra during activations described in this report ( 7 Li(p,n) and 9 Be(p,n)) and the planned experiment at the LANSCE facility using spallation on tungsten triggered by 800 MeV protons. The x-axis has logarithmic binning.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Fig. 16</head><label>16</label><figDesc>Fig.16Expected (n,x) yields following the irradiation of a tungsten target surrounded by the full cube used in the experiments so far.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_20"><head>9 Acknowledgments</head><label>9</label><figDesc>The research presented was supported by the Laboratory Directed Research and Development program of Los Alamos National Laboratory under project number 20240004DR. This research was funded in part by the NNSA (DE-NA0003841, DE-NA0003996, DE-NA0004076, DE-NA0004150, DE-FG02-93ER40773, CEN-TAUR), DOE (NE00009127), NSF (PHY-2310059) and the European Union (ChETEC-INFRA, 101008324). This research was supported by the Department of Energy National Nuclear Security Administration Office of Research, Development, Test, and Evaluation. We are grateful to the staff at the TAMU Cyclotron Institute for providing the high quality beams that made this work possible and the University of Notre Dame for supporting the NSL.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><graphic coords="12,51.02,55.28,303.58,315.99" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>List of graphite moderator pieces used in simulations and during the first experiments, see Fig.3.</figDesc><table><row><cell>ID</cell><cell>Geometry (cm)</cell></row><row><cell>A</cell><cell>76.3x10.8x10.8</cell></row><row><cell>B</cell><cell>16.8x10.8x10.8</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2</head><label>2</label><figDesc>List of neutron-induced reactions on 197 Au. The neutron capture cross section is a standard over a wide energy range.</figDesc><table><row><cell cols="2">Reaction E min</cell><cell>Product</cell><cell>t 1/2</cell><cell>γ-rays (keV)</cell></row><row><cell/><cell>(MeV)</cell><cell/><cell/><cell/></row><row><cell>(n,γ)</cell><cell>0.0</cell><cell>198 Au</cell><cell>2.7 d</cell><cell>412</cell></row><row><cell>(n,2n)</cell><cell>8.072</cell><cell>196 Au</cell><cell>6.2 d</cell><cell>333, 356, 426</cell></row><row><cell>(n,3n)</cell><cell>14.72</cell><cell>195 Au</cell><cell>186 d</cell><cell>99</cell></row><row><cell>(n,4n)</cell><cell>23.14</cell><cell>194 Au</cell><cell>38 h</cell><cell>294, 328, 1469</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc>List of irradiations. The configuration includes the number of pieces of type A and B as defined in Table1t A is the activation time.</figDesc><table><row><cell>ID</cell><cell>Eproton</cell><cell cols="2">Reaction configuration</cell><cell>t A</cell><cell>facility</cell></row><row><cell/><cell>(MeV)</cell><cell/><cell>(A/B)</cell><cell>(h)</cell><cell>facility</cell></row><row><cell>I-a</cell><cell>1.95</cell><cell>7 Li(p,n)</cell><cell>full (54/2)</cell><cell>2</cell><cell>NSL, Notre Dame</cell></row><row><cell>I-b</cell><cell>1.95</cell><cell>7 Li(p,n)</cell><cell>half (27/0)</cell><cell>6</cell><cell>NSL, Notre Dame</cell></row><row><cell>II-a</cell><cell>2.5</cell><cell>7 Li(p,n)</cell><cell>full (54/2)</cell><cell>2</cell><cell>NSL, Notre Dame</cell></row><row><cell>II-b</cell><cell>2.5</cell><cell>7 Li(p,n)</cell><cell>half (27/0)</cell><cell>5</cell><cell>NSL, Notre Dame</cell></row><row><cell>III-a</cell><cell>9.0</cell><cell>9 Be(p,n)</cell><cell>full (54/0)</cell><cell>22</cell><cell>CI, Texas A&amp;M</cell></row><row><cell>III-b</cell><cell>9.0</cell><cell>9 Be(p,n)</cell><cell>half (27/0)</cell><cell>21</cell><cell>CI, Texas A&amp;M</cell></row><row><cell>IV-a</cell><cell>45.0</cell><cell>9 Be(p,n)</cell><cell>full (54/0)</cell><cell>18</cell><cell>CI, Texas A&amp;M</cell></row><row><cell>IV-b</cell><cell>45.0</cell><cell>9 Be(p,n)</cell><cell>half (27/0)</cell><cell>18</cell><cell>CI, Texas A&amp;M</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="10" xml:id="foot_0"><p>7 -10 6 -10 5 -10 4 -10 3 -10 2 -</p></note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Neutron capture in low mass asymptotic giant branch stars: cross sections and abundance signatures</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arlandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wisshak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lugaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Busso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Straniero</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ap. J</title>
+		<imprint>
+			<biblScope unit="volume">525</biblScope>
+			<biblScope unit="page" from="886" to="900"/>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Neutron capture on 180 ta m : Clue for an s-process origin of nature's rarest isotope</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wisshak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arlandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bečvář</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Straniero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Krtička</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Travaglio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">251102</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">128 Xe and 130 Xe: Testing He-Shell Burning in Asymptotic Giant Branch Stars</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wisshak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pignatari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Straniero</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/422206</idno>
+		<ptr target="https://doi.org/10.1086/422206"/>
+	</analytic>
+	<monogr>
+		<title level="j">Ap. J</title>
+		<imprint>
+			<biblScope unit="volume">614</biblScope>
+			<biblScope unit="page">363</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The s process: Nuclear physics, stellar models, and observations</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bisterzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Aoki</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.83.157</idno>
+		<ptr target="https://doi.org/10.1103/RevModPhys.83.157"/>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="157" to="193"/>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Stellar neutron capture on promethium -implications for the s-process neutron density</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arlandini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Sedychev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mengoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Rauscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gallino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Travaglio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophysical Journal</title>
+		<imprint>
+			<biblScope unit="volume">582</biblScope>
+			<biblScope unit="page">1251</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Sensitivity study for s process nucleosynthesis in agb stars. Atomic Data and Nuclear Data Tables</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koloczek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Plag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pignatari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ritter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sonnabend</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.adt.2015.12.001</idno>
+		<ptr target="https://doi.org/10.1016/j.adt.2015.12.001"/>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="1" to="14"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koloczek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Plag</surname></persName>
+		</author>
+		<ptr target="https://exp-astro.de/sensitivities/"/>
+		<title level="m">Sensitivities</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Convective-reactive Proton-12 C Combustion in Sakurai's Object (V4334 Sagittarii) and Implications for the Evolution and Yields from the First Generations of Stars</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Herwig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pignatari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rockefeller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Fryer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hirschi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ap. J</title>
+		<imprint>
+			<biblScope unit="volume">727</biblScope>
+			<biblScope unit="page">89</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Hot bottom burning and s-process nucleosynthesis in massive AGB stars at the beginning of the thermally-pulsing phase</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>García-Hernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zamora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Yagüe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uttenthaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Karakas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lugaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ventura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">555</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Changes in r-process abundances at late times</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Surman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Engel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="page">35801</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Neutron reactions in astrophysics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lederer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics G Nuclear Physics</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">53101</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Direct measurements of neutron capture on radioactive isotopes. Atomic Data and Nuclear Data Tables</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">807</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Progress on nuclear reaction rates affecting the stellar production of 26 Al</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lugaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kankainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Adsley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bardayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Brinkman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Côté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Deibel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Diehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hammache</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Den Hartogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>José</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kurtulgil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lederer-Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lotay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Meynet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Palmerini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pignatari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Séréville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sieverding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Stancliffe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C L</forename><surname>Trueman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lawson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Vink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Massimi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mengoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6471/ac9cf8</idno>
+		<ptr target="https://doi.org/10.1088/1361-6471/ac9cf8"/>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics G Nuclear Physics</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">33002</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Dellmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Glorius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Litvinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Varga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Aliotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Amjad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brandau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Brückner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Bruno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Davinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dickel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dillmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dmytriev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Erbacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Forstner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Freire-Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Geissel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Griffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Grisenti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gumberidze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Haettner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hagmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heftrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Heß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P.-M</forename><surname>Hillenbrand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hornung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jurado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kazanseva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khasawneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Knöbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kostyleva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kozhuharov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kulikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kuzminchuk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kurtulgil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leckenby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lederer-Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lestinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Litvinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Löher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lorentz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lorenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Menz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Morgenroth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mukha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Petridis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Popp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Psaltis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purushothaman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rocco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Roy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Sanjari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scheidenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sguazzin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Sidhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Spillmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Stöhlker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Surzhykov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Swartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Törnqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vescovi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Volknandt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Weick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weigand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Woods</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamaguchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.134.142701</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.134.142701"/>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">14</biblScope>
+			<biblScope unit="page">142701</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>First Proton-Induced Cross Sections on a Stored Rare Ion Beam: Measurement of 118 Te(p,γ) for Explosive Nucleosynthesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Measurements of neutron-induced reactions in inverse kinematics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Litvinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. ST Accel. Beams</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">14701</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Spallation-based neutron target for direct studies of neutroninduced reactions in inverse kinematics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Heftrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weigand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jurado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Litvinov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Accel. Beams</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">44701</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Neutroninduced reactions in nuclear astrophysics</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dababneh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">A</forename><surname>Litvinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Jordan Journal of Physics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The los alamos national laboratory spallation neutron sources</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Lisowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Bowman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Wender</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Engineering</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">208</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A high-intensity, low-energy heavy ion source for a neutron target proof-of-principle experiment at LANSCE</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mosby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gorelov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Keith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lovell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Misch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mumpower</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1742-6596/2743/1/012091</idno>
+		<ptr target="https://doi.org/10.1088/1742-6596/2743/1/012091"/>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics Conference Series</title>
+		<imprint>
+			<biblScope unit="volume">2743</biblScope>
+			<biblScope unit="page">12091</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Cern program library long writeup, w5013</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Apostolakis</surname></persName>
+		</author>
+		<ptr target="http://wwwinfo.cern.ch/asd/geant/"/>
+	</analytic>
+	<monogr>
+		<title level="j">GEANT library</title>
+		<imprint>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+		<respStmt>
+			<orgName>CERN</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Carbon block density</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename><surname>Cantrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/2406679</idno>
+		<ptr target="https://www.osti.gov/biblio/2406679"/>
+		<imprint>
+			<date type="published" when="2024-07">July 2024</date>
+			<pubPlace>Los Alamos National Laboratory (LANL), Los Alamos, NM (United States</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note>LA-UR-24-27599</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Multiscale characterization and comparison of historical and modern nuclear graphite grades</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Arregui-Mena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Worth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Bodel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>März</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Campbell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cakmak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gallego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Contescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Edmondson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.matchar.2022.112047</idno>
+		<ptr target="https://doi.org/10.1016/j.matchar.2022.112047"/>
+	</analytic>
+	<monogr>
+		<title level="j">Materials Characterization</title>
+		<imprint>
+			<biblScope unit="volume">190</biblScope>
+			<biblScope unit="page">112047</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Nuclear data sheets for a=194</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nds.2021.09.001</idno>
+		<ptr target="https://doi.org/10.1016/j.nds.2021.09.001"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Data Sheets</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Nuclear data sheets for a = 196</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiaolong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nds.2007.05.001</idno>
+		<ptr target="https://doi.org/10.1016/j.nds.2007.05.001"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Data Sheets</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Nuclear data sheets for a = 198</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xiaolong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mengxiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nds.2016.02.002</idno>
+		<ptr target="https://doi.org/10.1016/j.nds.2016.02.002"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Data Sheets</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="page" from="221" to="416"/>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Energy levels of light nuclei /A=5, 6, 7</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Tilley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Cheves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Godwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Hofmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Sheu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Weller</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0375-9474(02)00597-3</idno>
+		<ptr target="https://doi.org/10.1016/S0375-9474(02)00597-3"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Phys. A</title>
+		<imprint>
+			<biblScope unit="volume">708</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="163"/>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Neutroninduced cross sections -from raw data to astrophysical rates</title>
+		<author>
+			<persName><forename type="first">René</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Erbacher</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Philipp</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fiebiger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Stefan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Göbel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kathrin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Heftrich</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tanja</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Heil</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Franz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nadine</forename><surname>Klapper</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kurtulgil</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deniz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Langer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Claudia</forename><surname>Lederer-Woods</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mengoni</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Alberto</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Benedikt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Weigand</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mario</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wiescher</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Michael</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjp/i2018-12295-3</idno>
+		<ptr target="https://doi.org/10.1140/epjp/i2018-12295-3"/>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. Plus</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">424</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">PINO-a tool for simulating neutron spectra resulting from the 7 Li(p,n) reaction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Käppeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Plag</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Inst. Meth. A</title>
+		<imprint>
+			<biblScope unit="volume">608</biblScope>
+			<biblScope unit="page">139</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Plag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Erbacher</surname></persName>
+		</author>
+		<ptr target="https://exp-astro.de/pino/"/>
+		<title level="m">PINO -neutron spectra from 7 Li(p,n) and 9 Be</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">B</forename><surname>Chadwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Capote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Kahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Herman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Sonzogni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Danon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Hale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arbanas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arcilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Casperson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Conlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-A</forename><surname>Descalle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Firestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Gaines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Guber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Hawari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kawano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Kiedrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Koning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kopecky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Leal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lubitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Márquez Damián</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mattoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Mccutchan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mughabghab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Navratil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neudecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P A</forename><surname>Nobre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Noguere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pigni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Plompen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pritychenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">G</forename><surname>Pronyaev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roubtsov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rochman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Romano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schillebeeckx</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Simakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sirakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sleaford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sobes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Soukhovitskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stetcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Talou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Van Der Marck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Welser-Sherrill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wiarda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Wormald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Q</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zerkle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Žerovnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<publisher>ENDF/B-VIII</publisher>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="1" to="142"/>
+		</imprint>
+	</monogr>
+	<note>0: The 8 th Major Release of the Nuclear Reaction Data Library with CIELO-project Cross Sections, New Standards and Thermal Scattering Data. Nuclear Data Sheets</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Neutron moderation at ipf</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Dellmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Knapova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/2561261</idno>
+		<ptr target="https://www.osti.gov/biblio/2561261"/>
+	</analytic>
+	<monogr>
+		<title level="m">LA-UR-25-23900</title>
+		<meeting><address><addrLine>Los Alamos, NM (United States</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2025-04">April 2025</date>
+		</imprint>
+		<respStmt>
+			<orgName>Los Alamos National Laboratory (LANL)</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Physics design of the next-generation spallation neutron target-moderator-reflector-shield assembly at LANSCE</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zavorka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Mocko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Koehler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2018.06.018</idno>
+		<ptr target="https://doi.org/10.1016/j.nima.2018.06.018"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research A</title>
+		<imprint>
+			<biblScope unit="volume">901</biblScope>
+			<biblScope unit="page" from="189" to="197"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Cubical moderators for the neutron target demonstrator (ntd)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Reifarth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Couture</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Mosby</surname></persName>
+		</author>
+		<idno type="DOI">10.2172/2229692</idno>
+		<idno>LA-UR- 23-33899</idno>
+		<ptr target="https://www.osti.gov/biblio/2229692"/>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+		<respStmt>
+			<orgName>Los Alamos National Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Characteristics of a lead slowing-down spectrometer coupled to the LANSCE accelerator</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rochman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Haight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>O' Donnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michaudon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Wender</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Vieira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Bredeweg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kronenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Wilhelmy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ethvignot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Granier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Danon</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2005.04.075</idno>
+		<ptr target="https://doi.org/10.1016/j.nima.2005.04.075"/>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Instruments and Methods in Physics Research A</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="397" to="413"/>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

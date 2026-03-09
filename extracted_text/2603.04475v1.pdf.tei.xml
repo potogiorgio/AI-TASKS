@@ -1,0 +1,2162 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Commissioning and Full Realization of the PLASEN System at BRIF</title>
+				<funder>
+					<orgName type="full">New Cornerstone Science Foundation</orgName>
+				</funder>
+				<funder ref="#_RGrtaTa #_6v55cfA #_vNWGZMe">
+					<orgName type="full">National Natural Science Foundation of China</orgName>
+				</funder>
+				<funder ref="#_99EKZjK #_mM3mCGW #_qJuWZjx #_FzWN3HN">
+					<orgName type="full">National Key R&amp;D Program of China</orgName>
+				</funder>
+				<funder>
+					<orgName type="full">XPLORER PRIZE</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-04">4 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Mei</surname></persName>
+							<idno type="ORCID">0009-0009-7635-6998</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Hu</surname></persName>
+							<idno type="ORCID">0009-0006-7760-3338</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Guo</surname></persName>
+							<idno type="ORCID">0009-0009-1817-7959</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><surname>Yan</surname></persName>
+							<idno type="ORCID">0009-0007-8129-4600</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+							<idno type="ORCID">0000-0002-1633-4000</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0009-0005-1235-2411</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">Y</forename><surname>Chen</surname></persName>
+							<idno type="ORCID">0000-0001-6264-060X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">S</forename><surname>Liu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Jing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">X</forename><surname>Gao</surname></persName>
+							<idno type="ORCID">0009-0008-1025-6495</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><surname>Shen</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Jia</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">T</forename><surname>Lin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bai</surname></persName>
+							<idno type="ORCID">0000-0002-6087-9788</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Institute of Quantum Matter</orgName>
+								<orgName type="laboratory">State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">South China Normal University</orgName>
+								<address>
+									<postCode>510006</postCode>
+									<settlement>Guangzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Tang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">‡</forename><forename type="middle">X</forename><surname>Ma</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Song</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Ye</surname></persName>
+							<idno type="ORCID">0009-0001-0101-2631</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Dong</surname></persName>
+							<idno type="ORCID">0009-0007-6483-7335</idno>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">K</forename><surname>Dong</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lv</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Modern Physics</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>730000</postCode>
+									<settlement>Lanzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Dong</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">School of Nuclear Science and Technology and Frontiers Science Center for Rare Isotopes</orgName>
+								<orgName type="institution">Lanzhou University</orgName>
+								<address>
+									<postCode>730000</postCode>
+									<settlement>Lanzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><surname>Hu</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Zhu</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Yi</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>He</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Takamine</surname></persName>
+							<idno type="ORCID">0000-0001-5528-7940</idno>
+							<affiliation key="aff6">
+								<orgName type="department">RIKEN Nishina Center for Accelerator-Based Science</orgName>
+								<address>
+									<postCode>351-0198</postCode>
+									<settlement>Wako</settlement>
+									<region>Saitama</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff7">
+								<orgName type="department">Department of Physics</orgName>
+								<orgName type="institution">Kyushu University</orgName>
+								<address>
+									<addrLine>Nishi-Ku</addrLine>
+									<postCode>819-0395</postCode>
+									<settlement>Motooka Fukuoka</settlement>
+									<region>Fukuoka</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">Q</forename><surname>Cui</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Modern Physics</orgName>
+								<orgName type="institution">Chinese Academy of Sciences</orgName>
+								<address>
+									<postCode>730000</postCode>
+									<settlement>Lanzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">School of Nuclear Science and Technology and Frontiers Science Center for Rare Isotopes</orgName>
+								<orgName type="institution">Lanzhou University</orgName>
+								<address>
+									<postCode>730000</postCode>
+									<settlement>Lanzhou</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Su</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">N</forename><surname>Liu</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">School of Physics and Astronomy</orgName>
+								<orgName type="laboratory">Key Laboratory of Beam Technology of Ministry of Education</orgName>
+								<orgName type="institution">Beijing Normal University</orgName>
+								<address>
+									<postCode>100875</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Ye</surname></persName>
+							<idno type="ORCID">0000-0001-8938-9152</idno>
+							<affiliation key="aff0">
+								<orgName type="department">School of Physics and State Key Laboratory of Nuclear Physics and Technology</orgName>
+								<orgName type="institution">Peking University</orgName>
+								<address>
+									<postCode>100871</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Guo</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Institute of Atomic Energy</orgName>
+								<address>
+									<postBox>P.O. Box 275 (10)</postBox>
+									<postCode>102413</postCode>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Commissioning and Full Realization of the PLASEN System at BRIF</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-04">4 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F3A8E1B78801BF6CFC0BD30ED459CCE9</idno>
+					<idno type="arXiv">arXiv:2603.04475v1[physics.ins-det]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:29+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>A PLASEN (Precision LAser Spectroscopy for Exotic Nuclei) system, consisting of a compact radio-frequency quadrupole cooler-buncher (RFQ-cb) and a collinear resonance ionization spectroscopy setup, has now been fully commissioned with radioactive ion beams at the Beijing Radioactive Ion-beam Facility (BRIF). Using both stable and radioactive Rb ion beams from BRIF, we demonstrated that the large beam energy spread observed at BRIF has been successfully handled by employing the RFQ-cb, enabling the delivery of high-quality bunched radioactive ion beams for collinear resonance ionization spectroscopy experiments. Under these conditions, we performed laser spectroscopy of exotic nuclei, achieving high resolution(∼100 MHz spectral linewidth) and high sensitivity (∼1:200 efficiency). This fully operational PLASEN system will serve as a state-of-the-art experimental platform at BRIF for research in multiple fields such as nuclear, atomic and molecular physics.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>As a quantum many-body system governed by multiple interactions, the atomic nucleus exhibits a diversity of intricate structures, providing a wide variety of physical pictures that are complementary and mutually exclusive <ref type="bibr" target="#b0">[1]</ref>. Over the past few decades, numerous radioactive ion-beam (RIB) facilities have flourished worldwide, enabling artificial production and study of short-lived unstable nuclides. These advances have greatly extended the boundaries of the nuclear chart and deepened our understanding of nuclear structure and interactions. For unstable nuclei far from the valley of β-stability, remarkable exotic structural phenomena have been observed <ref type="bibr" target="#b0">[1]</ref>, including the modification of tranditional nuclear magic numbers due to shell evolution <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref>, the emergence of the island of inversion <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref><ref type="bibr" target="#b7">[8]</ref>, shape coexistence <ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref>, as well as the formation of nuclear halos <ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref><ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref> and clusters <ref type="bibr" target="#b15">[16]</ref><ref type="bibr" target="#b16">[17]</ref><ref type="bibr" target="#b17">[18]</ref> in weakly-bound nuclei near the dripline. These discoveries have drawn widespread attention and have become a major frontier in contemporary low-energy nuclear physics research.</p><p>In particular, measurements of nuclear properties, such as mass, spin, electromagnetic moments and charge radius, have long provided essential insights into the exotic structure of unstable nuclei <ref type="bibr" target="#b18">[19]</ref>. Moreover, such measurements can not only deepen our understanding of nuclear forces and the many-body correlations among nucleons, but also stimulate the development of ab initio theoretical calculations in nuclear physics <ref type="bibr" target="#b19">[20,</ref><ref type="bibr" target="#b20">21]</ref>. At the interface between nuclei and atomic systems, nuclear electromagnetic properties induce perturbations on the motion of extranuclear electrons, giving rise to subtle yet measurable frequency shifts and hyperfine splittings, as small as one in a million of the total transition frequency, in atomic and molecular spectra. High-resolution laser spectroscopy of these hyperfine structures and isotope shifts in atoms or molecules enables the extraction of fundamental nuclear properties, including spins, electromagnetic moments, and root-mean-square charge radii in a nuclear-model-independent manner <ref type="bibr" target="#b18">[19]</ref>, providing a unique tool for exploring exotic structures and underlying effective interactions that emerge or are enhanced in unstable nuclei.</p><p>To study unstable species at RIB facilities, a variety of advanced laser spectroscopy techniques have been developed and applied across the nuclear chart <ref type="bibr" target="#b18">[19]</ref>. These include in-source resonance ionization spectroscopy <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b22">23]</ref>, collinear laser spectroscopy (CLS) with laser-induced fluorescence (LIF) detection <ref type="bibr" target="#b23">[24]</ref><ref type="bibr" target="#b24">[25]</ref><ref type="bibr" target="#b25">[26]</ref>, collinear resonance ionization spectroscopy (CRIS) <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b27">28]</ref>, and several trapbased approaches employing atoms or ions <ref type="bibr" target="#b25">[26,</ref><ref type="bibr" target="#b28">[29]</ref><ref type="bibr" target="#b29">[30]</ref><ref type="bibr" target="#b30">[31]</ref>. Each technique offers distinct advantages in precision, resolution or detection sensitivity, making them suitable for different scientific goals. Among them, the collinear resonance ionization spectroscopy, which combines the high-resolution of collinear laser-beam interactions with the high-sensitivity of resonance-ionization detection, has proven to be a state-of-the-art technique for studying nuclear properties across various regions of the nuclear chart <ref type="bibr" target="#b18">[19,</ref><ref type="bibr" target="#b26">27,</ref><ref type="bibr" target="#b27">28]</ref>.</p><p>Aiming to perform laser spectroscopy of exotic nuclei at currently operational and newly-constructed RIB facilities <ref type="bibr" target="#b31">[32,</ref><ref type="bibr" target="#b32">33]</ref> in China, we have been developing highresolution and high-sensitivity CLS techniques based on LIF and RIS detection. First-stage CLS setups employing LIF detection were constructed at Peking University (PKU) <ref type="bibr" target="#b33">[34]</ref> and at the Beijing Radioactive Ion-beam Facility (BRIF) of the China Institute of Atomic Energy (CIAE) <ref type="bibr" target="#b34">[35]</ref>, where offline and online commissioning were carried out respectively. In the online experiment at BRIF, the hyperfine structure (HFS) spectrum of radioactive 38 K (T 1/2 = 7.651(19) min) was successfully measured, although with limited efficiency and spectral resolution due to the continuous ion beam from BRIF and its relatively large energy spread <ref type="bibr" target="#b34">[35]</ref>. To overcome these limitations, we subsequently upgraded the CLS setup to incorporate RIS measurement <ref type="bibr" target="#b35">[36]</ref> and developed a radio-frequency quadrupole cooler-buncher (RFQ-cb) which enables the production of bunched beams with excellent ion-beam quality <ref type="bibr" target="#b36">[37]</ref>. Building on this foundation, we completed a fully functional offline PLASEN (Precision LAser Spectroscopy for Exotic Nuclei) system, whose capabilities were validated through the successful measurement of the HFS spectra of stable 85,87 Rb isotopes, achieving a high efficiency of 1:200 and a spectral resolution of about 100 MHz <ref type="bibr" target="#b37">[38]</ref>.</p><p>Nevertheless, whether the RFQ-cb can effectively reduce the large energy spread of radioactive beam at BRIF, and whether the PLASEN system can fulfill its goal of performing high-resolution and high-sensitivity laser spectroscopy of unstable nuclei, remain to be confirmed at a RIB facility. Recently, we installed the entire PLASEN system, comprising the RFQ-cb and the upgraded CLS setup, and carried out the first successful collinear resonance ionization spectroscopy experiment on unstable nuclei at BRIF, thereby demonstrating the full functionality of the system.</p><p>In this work, we will introduce the online PLASEN system at BRIF and report the first fully-commissioning experiment performed with neutron-rich Rb isotopes. A detailed description of the experimental system's setup and performance is provided in the following sections.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. ONLINE PLASEN SYSTEM AT BRIF</head><p>Figure <ref type="figure">1</ref> presents the overall layout of the online PLASEN system at BRIF, including the RFQ-cb, the CLS setup, and the associated laser system. A large number of radioactive isotopes can be produced when a 100-MeV proton beam impinges on a solid target at BRIF. The nuclear reaction products are then ionized in an ion source, extracted and accelerated to energies of about 30 keV. The isotope of interest can be selected by the isotope separator and delivered to experimental terminals. Prior to delivery to the CLS setup, the continuous ion beam from BRIF is cooled and bunched by the RFQ-cb. Upon reaching the collinear beamline, the bunched ion beam will be guided to the charge-exchange cell (CEC), where it is neutralized by passing through dense alkali-metal (Na or K) vapor. Within the interaction region, the resulting neutral atom bunches are time-synchronized and spatially overlapped with multiple laser beams. After photoionization, the re-ionized ion bunches are directed toward the ion detector. The count rates of the ions are recorded by the data-acquisition (DAQ) system as a function of the laser frequency, yielding the HFS spectrum of the studied isotope.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. BRIF</head><p>BRIF is an ISOL (Isotope Separator On-Line)type facility capable of providing a wide variety of lowenergy radioactive ion beams <ref type="bibr" target="#b31">[32]</ref>. To produce radioactive nuclides, a 100-MeV high-intensity proton cyclotron (CYCIAE-100) is used to irradiate thick solid targets composed of heavy actinide compounds, thereby inducing nuclear reactions within the target.</p><p>By heating the ISOL targets and directly-connected ion source to typically 2000 • C, radioactive nuclides with low melting points are released from the targets and subsequently ionized inside the ion source. The ion source at BRIF can operate in dual modes: as a surface ion source or as a forced electron beam induced arc discharge (FEBIAD) ion source. Surface ionization is suitable for elements with relatively low ionization potentials (IP), such as alkali and alkaline-earth metals, whereas FEBIAD ion source is more effective for elements with comparatively higher ionization potentials.</p><p>The ions continuously extracted from the ion source are initially accelerated to 10 keV by the first high-voltage (HV) stage. The ion beam is then transported into a set of high-resolution dipole magnets with a mass-resolving power of about 2000 in the pre-analysis section for isotope separation. As the pre-analysis section is floated at 20 kV on the main HV platform, the mass-selected ion beam is further accelerated to reach a total energy of 30 keV, as shown by the top-right inset of Fig. <ref type="figure">1</ref>. The ion beam then passes through a 55 • electrostatic bender to enter the PLASEN experimental setup. 1: Schematic layout of the online PLASEN system at BRIF. A 100-MeV proton beam bombards a solid target at BRIF to produce radioactive isotopes, which are ionized, accelerated and mass-separated. This continuous ion beam from BRIF is then cooled and bunched by the RFQ-cb. In the CLS beamline, ion bunches are neutralized in the charge-exchange cell, and then resonantly re-ionized by three step laser beams in the interaction region. The re-ionized ion bunches are detected to obtain the hyperfine-structure spectrum. The BRIF shown in the top-right inset is schematically scaled down and not to scale. See text for details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. RFQ cooler buncher</head><p>The first major component of the PLASEN system is an RFQ-cb, a linear Paul trap. It consists of radiofrequency quadrupole electrodes, twelve DC ring electrodes, as well as cone and cap electrodes for ion injection and extraction. The entire RFQ-cb assembly is floated on a 30-kV HV platform powered by a highprecision DC power supply (Heinzinger PNChp 40000-15pos) with the stability typically better than 0.001% over 8 hours. A high-precision voltage divider (Ohm-Labs, KV-30A), connected to the RFQ-cb chamber and read out by a 7.5-digit high-precision digital multimeter (Keysight, 34470A), continuously monitors and records the accurate beam energy in real time.</p><p>The radioactive ion beam from BRIF, with an energy of about 30 keV, is decelerated and injected into the RFQ, where it collides with helium of 99.999% purity, dissipating kinetic energy and thereby being cooled by the buffer gas. Two RF signals with a 90 • phase difference are applied to the quadrupole electrodes, with identical voltages on opposite electrodes and opposite polarities on adjacent ones. According to the stability conditions of the Mathieu equation, an appropriate combination of RF voltage and frequency provides a transverse confining potential that focuses the beam along the center axis of the quadrupole electrodes and thus reduces the emittance of the extracted ion beam. Meanwhile, the injection and extraction caps, together with the 12 DC-electrodes, generate a longitudinal confining potential that restricts the ion motion within the trap. In particular, the extraction cap electrode is connected to a HV switch (Behlke, GHTS30) that enables rapid polarity reversal of the applied voltage, controlled by a 100-Hz TTL signal generated by a pulse generator (Quantum Composer, 9520). This configuration allows control of ion accumulation and release, thus producing a bunched beam. Further details of the RFQ-cb, including the power supplies, buffer gas flow control and optoelectronic communication with the devices on the HV platform, can be found in our previous work <ref type="bibr" target="#b36">[37]</ref>.</p><p>The temporal width of the generated pulsed beam and the corresponding transmission efficiency of the RFQ-cb strongly depends on the electrode setting. In our earlier offline work, a pulsed beam with a temporal width of about 2 µs (FWHM: Full Width at Half Maximum) and a transmission efficiency of approximately 60% were achieved <ref type="bibr" target="#b36">[37]</ref>. However, in the present online experiment, although the same temporal width of 2 µs can be easily reached, the transmission efficiency of the online RFQ-cb could not be directly determined since the first Faraday cup (FC1) upstream of the RFQcb is only a simplified copper plate due to the limited installation space at BRIF. Nevertheless, a total transmission efficiency exceeding 30% was obtained from the second dipole magnet of BRIF to the FC downstream of the RFQ-cb, which includes both the transport efficiency along the BRIF beamline and the transmission through the RFQ-cb, as shown in Fig. <ref type="figure">1</ref>. It is worth noting that the ion beam spot delivered from BRIF to the 55 • bender was relatively large, as evidenced by the beam current measured at the 30-mm-diameter annular segmented plate centered on the beam axis. The large beam size consequently limited the transmission efficiency through the 5-mm aperture in front of the RFQ-cb <ref type="bibr" target="#b36">[37]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. CLS setup</head><p>After release from the RFQ-cb, the bunched ion beam is reaccelerated to 30 keV and guided through a 35</p><p>• electrostatic bender into the CLS beamline, as shown in Figure <ref type="figure">1</ref>. It then passes through a series of ion optics, including x-y steerers, quadrupole triplet lenses (QT). These ion optics electrodes are powered by ±6 kV DC power supplies (iseg, EHS 80 60n/p and EHS F0 60n/p) housed in a HV crate (iseg, ECH54A), allowing high-precision voltage control. Multiple beam-diagnostic devices, such as FC, phosphor screens (PS), and iris diaphragms are installed along the collinear beamline. Most FCs are equipped with suppression electrodes biased at -50 V to reduce secondary-electron emission. The ion-beam intensity is measured and monitored using a picoammeter (Keithley, 6485), and all the ion optics and beam-diagnostic devices for beam-tuning can be remotely controlled by dedicated software <ref type="bibr" target="#b38">[39,</ref><ref type="bibr" target="#b39">40]</ref> (see Sec. II D for details).</p><p>Upon reaching the CEC, the ions undergo chargeexchange reactions with dense sodium vapor, resulting in neutralization <ref type="bibr" target="#b34">[35]</ref>. The residual non-neutralized ions are subsequently removed from the beamline by downstream deflectors. Upstream of the CEC, a voltage-scanning electrode is electrically connected to the cell. By applying tunable voltages (up to ±2000 V) to this electrode via a voltage amplifier (Trek, 623B DC), the beam energy can be continuously varied, enabling Doppler tuning as an alternative spectroscopic method to laser frequencyscanning. To obtain HFS spectra using Doppler tuning approach, the actual voltages applied to this scanning electrode must be recorded in real time with high precision and stability. This is accomplished by using a precision voltage divider (Ohm-Labs, KV-10A) and a digital multimeter (Keysight, 34470A).</p><p>The neutralized atomic bunches emerging from the CEC then enter the meter-long interaction region through a series of apertures, where they encounter the multi-step laser pulses (Sec. II E) under precise timing synchronization and spatial overlap. The interaction region is maintained under ultra-high vacuum (typically on the order of 10 -9 ∼ 10 -10 mbar), achieved using a combination of vacuum-pump sets, non-evaporable getter pump, and differential pumping system <ref type="bibr" target="#b35">[36]</ref>. This is to minimize ion background from collisional ionization of neutral atoms. After being stepwise resonantly excited and ionized by the lasers, the re-ionized ions are guided toward the ion detector (ETP Ion Detect, MagneTOF Plus 149403) by a 30 • electrostatic bender and a QT. The ion counts are recorded by the ion detector via the DAQ system (Sec. II D) as functions of arrival time and tuning voltage (or laser frequency) , yielding the time-offlight (TOF) spectra and HFS spectra of the isotope of interest, respectively.</p><p>It is worth noting that, in addition to the abovementioned RIS measurements, the PLASEN system is also designed to perform CLS experiments using LIF detection. In such experiments, the neutral atomic beam is resonantly excited by a narrow-band single continuouswave (CW) laser. The subsequent emitted fluorescence photons are detected by the photon detection system and recorded by the DAQ system as a function of the tuning voltage or laser frequency to obtain the HFS spectrum of the isotope of interest. Further details about the structure and the operation of this photon detection system are given in Refs. <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b34">35]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Control and DAQ system</head><p>The ion-beam transport throughout the entire PLASEN system is controlled via a fully remoteoperated control and DAQ system based on Experimental Physics and Industrial Control System (EPICS) framework and Python, which can also be automated using a machine-learning-assisted (ML-assisted) beamtuning program <ref type="bibr" target="#b39">[40]</ref>. The DC HV required for the ion optics is mainly supplied by HV modules installed in two iseg crates with Ethernet/CAN interfaces. An ECH 54A crate equipped with a CC 24 MMS controller serves as the main control unit. It is connected to another ECH 224 crate located inside the 30-kV HV platform for the RFQ-cb through optical-electrical communication using the CAN interface, ensuring stable and safe data transmission between the two crates. All the above-mentioned hardware devices are operated by corresponding computer programs via serial or Ethernet interfaces whenever possible, enabling fully remote operation during experiments.</p><p>Data acquisition and processing from the photomultiplier tube (PMT) photon detector or MagneTOF ion detector are handled by the DAQ system, which consists of hardware electronic modules for data preprocessing and Python-based software for data recording, storage and real-time visualization <ref type="bibr" target="#b38">[39]</ref>. For instance, to ensure sufficient signal gain, the MagneTOF ion detector is biased at -2450 V, powered by a NIM-standard HV module (CAEN, N1470). The raw signal from the detector is processed through electronics modules that include a fast amplifier (ORTEC, FTA 820), a constantfraction discriminator (CAEN, N605) and a level translator (Phillips, 726) before being fed into a time-to-digital converter (TDC) (cronologic, Timetagger4-2G-PCIe).</p><p>The experimental timing scheme is organized as follows. The TTL signal controlling the extraction-cap elec-trode of the RFQ-cb, which releases the ion bunches, serves as the master trigger. This signal synchronizes the triggers of the three pulsed lasers and the gate signal of the TDC. By coordinating the timing in this way, the ion bunches and laser pulses overlap temporally in the interaction region, while the TDC gate corresponds to the TOF of the ions from their release at the RFQcb to their arrival at the detector. The DAQ software records the bunch number and TOF of each ion event, together with the scanning voltage and the applied laser frequency, including timestamps for subsequent synchronization analysis.</p><p>The basic logic and operating principles of the control and DAQ system are described in detail in our previous work <ref type="bibr" target="#b38">[39]</ref>. In the present experiment, the software was largely updated and optimized by incorporating more hardware devices, communication via EPICS as well as a ML-assisted beam-tuning program, which will be detailed in an upcoming work <ref type="bibr" target="#b39">[40]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>E. Laser system</head><p>As described above, measurement of HFS spectrum of the isotope of interest using RIS method requires multi-step pulsed laser beams, and consequently a complex laser system with precise frequency, power and timing control. In the present commissioning work, resonance ionization of Rb isotopes was performed, as detailed in Sec. III C. Therefore, the three-step laser excitation and ionization scheme of Rb, shown in the Fig. <ref type="figure">1</ref>, is used here as an example to briefly introduce the laser system. Further technical details can be found in Ref. <ref type="bibr" target="#b37">[38]</ref>.</p><p>In brief, the first excitation step of Rb atoms, corresponding to the 5s 2 S 1/2 → 5p 2 P • 3/2 D 2 transition, is driven by an injection-locked titanium-sapphire (Ti:Sa) laser operating at 100 Hz repetition rate with a pulse width of ∼50 ns and a linewidth of about 20 MHz. This laser is seeded by a narrow-band CW Ti:Sa laser and pumped by a 527-nm pulsed Nd:YLF laser. The laser wavelength is monitored throughout the measurement by a high-precision wavemeter (HighFinesse, WS-8), which is calibrated by a narrow-band CW diode laser locked to a specific hyperfine transition of Rb in a temperature-controlled vapor cell. The second-step</p><formula xml:id="formula_0">5p 2 P • 3/2 → 6d 2 D 5/2</formula><p>transition is excited by a 100-Hz pulsed optical parametric oscillator (OPO) laser (EK-SPLA, NT230), whose output wavelength is factorycalibrated by a spectrometer. A high-power 1064-nm Nd:YAG laser (Beamtech, Gama-M250) is then used to excite the Rb atoms from 6d 2 D 5/2 to energies above the ionization potential.</p><p>During the experiment, the frequency of the firststep laser was either locked to a fixed value corresponding approximately to Doppler-shifted D 2 transition frequency of one Rb isotope for Doppler tuning (voltage scan) or scanned across the Rb's HFS for laserfrequency scan <ref type="bibr" target="#b37">[38]</ref>. The wavelength of the second-step laser was optimized to maximize the resonanceionization ion counts. The pulse timing of the threestep lasers was monitored using a set of the photodiodes and an oscilloscope. Timing synchronization of all three pulsed lasers was achieved by operating them in external-trigger mode, with the timing setting adjusted and controlled via TTL signals from a pulse generator. Further details on the timing synchronization are provided in Sec. II D. The spatial overlap of the three lasers was controlled by dichroic mirrors outside the collinear beamline and aligned along beamline's center axis verified using phosphor screens and iris diaphragms. Since precise spatial overlap between the three laser beams and the pulse ion beam is crucial for achieving high resonanceionization efficiency, fine adjustments of the optical paths were performed during the measurement to maximize the resonance-ionization ion counts. Moreover, laser power is one of the key factors that affect the measured spectral resolution, primarily due to power broadening. During the experiment, the powers of the three-step lasers were carefully controlled outside the laser cavities using either neutral-density filters or combinations of half-wave plates and polarization beam splitters (PBS).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS OF ONLINE COMMISSIONING</head><p>The present online commissioning experiment aims to address two central technical issues: whether the RFQcb can effectively suppress the large energy spread of the radioactive beam at BRIF, and whether the PLASEN system can realize high-resolution and high-sensitivity laser spectroscopy measurement of unstable nuclei. From high-resolution HFS spectra measured for both stable and unstable Rb isotopes at BRIF, we demonstrate here that the RFQ-cb markedly improves the beam quality and that the PLASEN system enables laser spectroscopy with excellent resolution and sensitivity, as detailed in the following.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Evaluation of the ion-beam energy spread at BRIF</head><p>Our earlier studies revealed that the ion beam from BRIF exhibits a relatively large energy spread <ref type="bibr" target="#b34">[35]</ref>, which significantly limits the spectral resolution of laser spectroscopy experiments and consequently affects the precision of the extracted nuclear properties. To this end, we performed a direct evaluation of the ion-beam energy spread by monitoring the voltage stability of the BRIF HV platform in this work.</p><p>During proton irradiation of the target, intense ionizing radiation strongly influences the corona current of the BRIF HV platform. The high-intensity proton beam (up to a few tens of µA) is unstable and can induce substantial fluctuations in the corresponding platform voltage U , leading to considerable variations in the extracted ion beam energy E k = qU . To semi-quantitatively evaluate the magnitude of the ion-beam energy spread at BRIF, a high-precision voltage divider (Ohm-Labs, KV-30A) was connected to the 20-kV main HV platform of BRIF (see Sec. II A). The platform voltage was continuously monitored and recorded using a digital multimeter (EHENG, EH-ME010) operated at a sampling rate of 10 Hz. To ensure stable and high-resolution measurements, the multimeter's built-in moving average filter was enabled with a filtering strength (i.e., number of averaging points) set to 14, corresponding to a -3 dB cutoff frequency of approximately 0.32 Hz <ref type="bibr" target="#b40">[41]</ref>. Using this configuration, the actual voltage of the 20-kV HV platform at BRIF was measured under conditions both with and without proton irradiation.</p><p>Figure <ref type="figure">2</ref> presents a typical result of the 20-kV platform voltage measurement recorded over a period of about three hours, where blue and red lines correspond to measurements with and without the proton irradiation, respectively. It is evident that the stability of the 20-kV HV deteriorates significantly in the presence of the proton irradiation. To provide a more intuitive and quantitative comparison of the voltage fluctuations, the recorded data were plotted as probability-distribution histograms, as shown in Fig. <ref type="figure">2 (b</ref>) corresponding to the projection of Fig. <ref type="figure">2</ref> (a) onto the vertical axis. As the measured voltage data exhibit a nearly symmetric Gaussian distribution under both conditions, the histograms were fitted with Gaussian profiles. The extracted voltage spreads (FWHM) of the 20-kV HV are 14.69(8) V (with protons) and 0.384(2) V (without protons), indicating that proton irradiation significantly enlarges the beam energy spread by approximately a factor of 40. Based on the time-domain data shown in Fig. <ref type="figure">2 (a)</ref>, the power spectral density (PSD) of the voltage noise was obtained via Fourier analysis, as presented in Fig. <ref type="figure">2 (c)</ref>. Compared with the case without proton irradiation, the noise level at all frequencies increases markedly under proton irradiation. In addition, since the digital multimeter was configured with built-in filters, the measured noise characteristics exhibit a typical frequency response of a moving-average filter <ref type="bibr" target="#b40">[41]</ref>, with the high-frequency components being largely suppressed.</p><p>Constrained by the experimental conditions, the voltage fluctuations of the first 10-kV HV platform at BRIF could not be directly monitored. We therefore assume that the voltage fluctuation scales proportionally with the applied voltage. Based on this assumption, the total energy spread of the 30-keV ion beam provided by BRIF is estimated to be at least about 22.04( <ref type="formula">12</ref>) eV (FWHM). It should be noted that, because the builtin filter of the multimeter strongly suppresses higherfrequency fluctuations above its cutoff frequency, the estimated 22.04-eV energy spread of the ion beam at 30 keV should be regarded as a lower limit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. RFQ-cb performance for energy-spread reduction of ion beam at BRIF</head><p>By comparing the measured HFS spectra of 87 Rb isotopes with or without proton irradiation of the ISOL target while monitoring the ion-beam energy stability at BRIF (see III A), the capability of the RFQ-cb to reduce the ion-beam energy spread can be semi-quantitatively assessed.</p><p>Using the formalism in Ref. <ref type="bibr" target="#b36">[37]</ref> </p><formula xml:id="formula_1">Γ D = ν 0 δE √ 2Emc 2 , (<label>1</label></formula><formula xml:id="formula_2">)</formula><p>where ν 0 corresponds to the D 2 transition frequency of Rb, the Doppler broadening arising from an energy spread of δE = 22.04 eV in a E = 30 keV ion beam is calculated to be approximately Γ D = 121 MHz. Although significant spectral broadening is expected from the ion-beam energy spread at BRIF under proton irradiation, the RFQ-cb is expected to effectively mitigate the large energy spread, ensuring that the resolution of the measured HFS spectra remains unaffected by proton irradiation. The performance of the RFQ-cb in reducing the beam energy spread was characterized by comparing the measured HFS spectra of the D 2 transition of stable 87 Rb under nearly identical experimental conditions (laser powers and timing), but with and without proton irradiation, as shown in Fig. <ref type="figure">2 (d)</ref>. By fitting the spectra, the FWHM values of the resonance peaks obtained with and without proton irradiation were extracted to be about 86(6) MHz and 100(6) MHz respectively, which are essentially comparable. To facilitate a more intuitive visual comparison, a simulated spectrum is also included in Fig. <ref type="figure">2</ref> (d) assuming a spectral resolution of Γ ∼180 MHz derived from the combined effects of the linewidth measured without proton irradiation and the additional 121 MHz Doppler broadening estimated from 22.04 eV energy spread. The slightly better resolution observed under proton irradiation is somewhat counterintuitive, but can be readily explained. Following proton irradiation of the target, a substantial increase in the 87 Rb ion beam intensity was observed. To prevent overfilling of the RFQcb, the beam intensity was largely reduced from BRIF. As a result, the potential space-charge effect inside the RFQ was alleviated, leading to a slight improvement in the spectral resolution. Besides, it is worth emphasizing that, to ensure sufficient resonance-ionization efficiency, the laser powers used in this test were set to a compromise level, and therefore a certain degree of laser power broadening in the spectral resolution remained. However, as pointed out in our previous work <ref type="bibr" target="#b37">[38]</ref>, the spectral resolution can be further improved simply by reducing the laser power, though at the cost of resonance-ionization efficiency. A simulated spectrum with an achievable resolution of about 30 MHz FWHM is also shown in Fig. <ref type="figure">2 (d)</ref> for reference. For neutron-rich isotopes with very low yields, a balance must thus be considered between pursuing high resolution and maintaining adequate sensitivity.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. High resolution HFS spectra of unstable Rb isotopes</head><p>Owing to the high-quality bunched ion beam provided by the RFQ-cb, the overall beam transmission through the CLS beamline could reach 80%, the same level as that achieved with the offline PLASEN system <ref type="bibr" target="#b37">[38]</ref>. This high-quality bunched beam also enabled us to successfully perform high-resolution and highefficiency laser spectroscopy measurement of a series of radioactive Rb isotopes using the collinear resonance ionization spectroscopy technique, including the short-lived 92 Rb (T 1/2 = 4.48(3) s) and 95 Rb (T 1/2 = 377.7(8) ms). Figure <ref type="figure">3</ref> shows the typical HFS spectra obtained for 92,95 Rb isotopes. Since 95 Rb has a nuclear spin of 5/2, the D 2 transitions give rise to six HFS components due to the coupling between nuclear spin I and electronic total angular momentum J. In contrast, the single resonance peak observed for 92 Rb reflects its zero nuclear spin.</p><p>By evaluating the ion counts released from the RFQcb and the maximum detected ion signals at the resonance peak of the radioactive 92 Rb isotope, we determined an efficiency of approximately 1:200 achieved at a spectral resolution of about 100 MHz, including contributions from ion beam transmission, CEC neutralization, laser resonance ionization and efficiency of ion detector. This performance matches that obtained with our offline PLASEN system and is comparable to the current stateof-the-art CRIS setup at CERN-ISOLDE <ref type="bibr" target="#b26">[27]</ref>. Moreover, with a transmission efficiency exceeding 30% from mass separation to FC2 (after the RFQ-cb), as discussed in Sec.II B, an overall efficiency of about 1:666 was achieved from ion counts after mass separation to the detected resonance at a spectral resolution of 100 MHz. This performance enables laser spectroscopy measurement of more neutron-rich Rb isotopes with production yields as low as ∼100 pps within reasonable measurement times.</p><p>From Fig. <ref type="figure">3</ref>, we also note that the observed resonance peaks exhibit asymmetry, which is commonly known to be attributed to two main factors. The first is the energy loss due to the population of higher-lying states during the charge-exchange process or through additional inelastic collisions <ref type="bibr" target="#b41">[42]</ref>. The second is AC Stark shifts induced by the high-power second-and third-step laser pulses, which may arrive close in time to the firststep pulse <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>. However, investigations performed with the offline PLASEN system <ref type="bibr" target="#b37">[38]</ref>, where the CEC heating temperature was significantly reduced and the timing of the second-and third-step laser pulses was delayed, ruled out both factors as the dominant source of the observed asymmetry. Instead, we found that this asymmetry is strongly correlated with the density of the helium buffer gas introduced into the RFQ-cb, which is located directly upstream of the CLS beamline. To fully clarify the underlying mechanisms linking the buffer gas density to the asymmetric resonance profile, further systematic investigations are still required.</p><p>Under the present conditions, we adopted an asymmetric pseudo-Voigt profile <ref type="bibr" target="#b44">[45]</ref> to account for the observed asymmetry, for fitting the HFS spectra of 87,92,95 Rb. The extracted atomic parameters, including the magnetic-dipole and electric-quadrupole HFS constants (A and B) for the 5s 2 S 1/2 and 5p 2 P • 3/2 states of 87,95 Rb, as well as the isotope shifts of 87,95 Rb relative to the reference isotope of 92 Rb, are summarized in Table <ref type="table">I</ref>. Despite the resonance profiles, the extracted physical parameters show excellent agreement with literature (Table <ref type="table">I</ref>), further the performance and reliability of the PLASEN system.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. SUMMARY AND OUTLOOK</head><p>this work, we have successfully installed and commissioned the complete PLASEN system at BRIF, consisting of a RFQ-cb and a collinear resonance ionization spectroscopy setup. Using both stable and radioactive Rb beams, we have demonstrated that the RFQcb effectively suppresses the large beam-energy spread of ion beams delivered by BRIF, enabling the delivery of high-quality, bunched radioactive ion beams for precision laser spectroscopy. Under these optimized conditions, high-resolution (100 MHz FWHM) and highsensitivity (1:200) laser spectroscopy of unstable nuclei has been achieved. These results validate the capability of PLASEN for nuclear-structure studies of neutron-rich isotopes with very low production yields and establish it as a powerful platform for high-resolution and highsensitivity laser spectroscopy at RIB facilities. Moreover, building upon this successful commissioning, the PLASEN system may provide broad opportunities that bridge nuclear, atomic, and precision-measurement sciences.</p><p>In the domain of RIB physics, BRIF is capable of delivering a large range of radioactive ion beams in the medium-mass region produced via nuclear fission <ref type="bibr" target="#b31">[32]</ref>. Many of these nuclei are expected to exhibit exotic structural phenomena, and some lie close to the predicted rprocess path responsible for synthesizing roughly half of the nuclei heavier than iron <ref type="bibr" target="#b0">[1]</ref>. With the demonstrated performance of PLASEN, nuclear spins, magnetic dipole moments, electric quadrupole moments, and charge radii can be measured for these isotopes. Experiments on neutron-rich 99,100 Rb and their possible long-lived isomers are underway, aiming to investigate the deformation around Z = 40 and N = 60 <ref type="bibr" target="#b46">[47]</ref>. Additionally, the online PLASEN system enables laser-assisted decay spectroscopy with purified isomeric beams. For neutron-rich nuclei in the fission-fragment region, numerous long-lived isomers exist. These isomers are of great importance for both nuclear-structure research and nuclear-data evaluation. High-resolution collinear resonance ionization laser spectroscopy can selectively resolve and separate longlived nuclear isomeric states due to the presence of isomer shifts, thereby providing high-purity isomeric beams for decay spectroscopy experiments <ref type="bibr" target="#b47">[48]</ref><ref type="bibr" target="#b48">[49]</ref><ref type="bibr" target="#b49">[50]</ref>. A dedicated decay station has recently been installed downstream of the PLASEN system at BRIF to study isomeric decays in the neutron-rich medium-mass region.</p><p>The PLASEN system also opens new opportunities at BRIF for spectroscopic studies of atoms and molecules containing unstable nuclei, contributing to research on fundamental symmetries. In atomic and molecular systems, weak interactions between nuclei and electrons can induce parity non-conservation (PNC), which provide sensitive probes of nuclear electroweak properties <ref type="bibr" target="#b50">[51]</ref>. TABLE I: HFS constants for 87,95 Rb and isotope shifts of 87,95 Rb relative to the reference isotope of 92 Rb, compared to the literature values <ref type="bibr" target="#b45">[46]</ref>. All values are given in the unit of MHz.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>This work</head><p>Literature values <ref type="bibr" target="#b45">[46]</ref> A I π A(S 1/2 ) A(P</p><p>• 3/2 ) B(P • 3/2 ) IS A(S 1/2 ) A(P • 3/2 ) B(P • 3/2 ) IS 87 3/2 - 3414.9(3) 84.97(27) 11.2(7) 317.9(8) 3415.9(20) 84.29(50) 12.2(20) 320.4(52) 95 5/2 - 994.1(9) 25.0(6) 18.4(19) -177.4(29) 993.7(25) 24.0(9) 19.8(61) -175.5(65)</p><p>While the most precise atomic PNC measurement has been achieved in 133 Cs <ref type="bibr" target="#b51">[52]</ref>, larger effects are predicted in certain unstable species (e.g., 221 Fr <ref type="bibr" target="#b52">[53]</ref>), though some key atomic spectroscopic data remain scarce. With access to short-lived isotopes at BRIF, the PLASEN system offers a promising platform for spectroscopic investigations on those candidates. Besides, searches for permanent electric dipole moments (EDMs), closely related to CP violation and the matter-antimatter asymmetry <ref type="bibr" target="#b53">[54,</ref><ref type="bibr" target="#b54">55]</ref>, represent another frontier in research on fundamental symmetries. Radioactive molecules containg heavy octupole-deformed nuclei (e.g., 225 Ra) are predicted to offer enhanced sensitivity to nuclear EDMs <ref type="bibr" target="#b55">[56]</ref>, but most of their spectroscopic structures remain largely unexplored. Collinear resonance ionization spectroscopy of RaF <ref type="bibr" target="#b56">[57]</ref><ref type="bibr" target="#b57">[58]</ref><ref type="bibr" target="#b58">[59]</ref><ref type="bibr" target="#b59">[60]</ref><ref type="bibr" target="#b60">[61]</ref><ref type="bibr" target="#b61">[62]</ref> and AcF <ref type="bibr" target="#b62">[63]</ref> has been demonstrated at CERN-ISOLDE. In the PLASEN system, the RFQ-cb enables in-trap formation of radioactive molecules, including polyatomic species. Following successful production and laser spectroscopy studies of BaF in our offline system <ref type="bibr" target="#b63">[64]</ref>, online investigations of RaF and RaOH are planned, paving the way for future precision tests of fundamental symmetries with radioactive molecules.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>FIG.</figDesc><graphic coords="3,59.25,73.97,502.76,239.15" type="bitmap"/></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>2 FIG. 2 :</head><label>22</label><figDesc>FIG. 2: (a) Energy fluctuation and (b) voltage distributions of ion-beam delivery platform at BRIF, with proton (blue) and without proton (red) on target. The vertical axis were presented in arbitrary units (a.u.) for panel (b).(c) Power spectral density (PSD) of noise in the 20-kV HV with proton (blue) and without proton (red) on target, exhibiting typical response characteristics of a moving average filter. Under proton irradiation, the HV noise with proton shows a significant increase at all frequencies. (d) High resolution spectrum of 87 Rb measured under the conditions with (blue) and without proton (red) on target. The dashed line represents the simulated spectrum after accounting for Doppler broadening from the 22.04 eV energy spread, while the solid line shows a simulated spectrum with a best resolution achievable of about 30 MHz. Γ is the total FWHM of the spectral line. See text for details.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>! = 5 / 2 5&amp; 2 SFIG. 3 :</head><label>5223</label><figDesc>FIG.3: Measured high resolution HFS spectra in the unstable 92,95 Rb fitted with a asymmetric pseudo-Voigt line profile (solid line). See text for details.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work was supported by the <rs type="funder">National Key R&amp;D Program of China</rs> (<rs type="grantNumber">2023YFE0101600</rs>, <rs type="grantNumber">2023YFA1606403</rs>, <rs type="grantNumber">2022YFA1605100</rs>, <rs type="grantNumber">2023YFA1607001</rs>), the <rs type="funder">National Natural Science Foundation of China</rs> (<rs type="grantNumber">12027809</rs>, <rs type="grantNumber">12350007</rs>, and <rs type="grantNumber">12305122</rs>), and <rs type="funder">New Cornerstone Science Foundation</rs> through the <rs type="funder">XPLORER PRIZE</rs>. The authors would like to thank the members of the <rs type="institution">CRIS</rs> and COLLAPS collaboration for their valuable discussions and support in the development of the PLASEN system.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_99EKZjK">
+					<idno type="grant-number">2023YFE0101600</idno>
+				</org>
+				<org type="funding" xml:id="_mM3mCGW">
+					<idno type="grant-number">2023YFA1606403</idno>
+				</org>
+				<org type="funding" xml:id="_qJuWZjx">
+					<idno type="grant-number">2022YFA1605100</idno>
+				</org>
+				<org type="funding" xml:id="_FzWN3HN">
+					<idno type="grant-number">2023YFA1607001</idno>
+				</org>
+				<org type="funding" xml:id="_RGrtaTa">
+					<idno type="grant-number">12027809</idno>
+				</org>
+				<org type="funding" xml:id="_6v55cfA">
+					<idno type="grant-number">12350007</idno>
+				</org>
+				<org type="funding" xml:id="_vNWGZMe">
+					<idno type="grant-number">12305122</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sakurai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42254-024-00782-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Physics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Otsuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sorlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Suzuki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Utsuno</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.92.015002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">15002</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sorlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-G</forename><surname>Porquet</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ppnp.2008.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Particle and Nuclear Physics</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page">602</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klapisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rigaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Poskanzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Prieels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lessard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Reisdorf</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.12.644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">644</biblScope>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Warburton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Becker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.41.1147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">1147</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physics</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">104</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Allmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.130.242501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">242501</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rocchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Garrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zielińska</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.130.122502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page">122502</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Heyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Wood</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.83.1467</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">1467</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wraith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xie</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.116.182502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">182502</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nowacki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Poves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Caurier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bounthong</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.117.272501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">272501</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jonson</surname></persName>
+		</author>
+		<idno type="DOI">10.1209/0295-5075/4/4/005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Europhysics Letters</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">409</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tanihata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hamagaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hashimoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.55.2676</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">2676</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Riisager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Garrido</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.76.215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">215</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Riisager</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0031-8949/2013/T152/014001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physica Scripta</title>
+		<imprint>
+			<biblScope unit="page">14001</biblScope>
+			<date type="published" when="2013">2013. 2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Von Oertzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Freer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kanada-En'yo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physrep.2006.07.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physics Reports</title>
+		<imprint>
+			<biblScope unit="volume">432</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-L</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41365-018-0522-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Science and Techniques</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">184</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Lou</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.124.192501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">192501</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Ruiz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ppnp.2022.104005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Particle and Nuclear Physics</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="page">104005</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hergert</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphy.2020.00379</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physics</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">379</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ekström</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Forssén</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hagen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Jansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Papenbrock</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphy.2023.1129094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Physics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">1129094</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seliverstov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cocolios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dexters</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2013.01.043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physics Letters B</title>
+		<imprint>
+			<biblScope unit="volume">719</biblScope>
+			<biblScope unit="page">362</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Marsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Day Goodacre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sels</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41567-018-0292-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Physics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1163</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Neugart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bissell</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6471/aa6642</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Physics G: Nuclear and Particle Physics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">64002</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Minamisono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mantica</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klose</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2013.01.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">709</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Imgram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Atanasov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/5.0287178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Review of Scientific Instruments</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">93302</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vernon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Groote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nimb.2019.04.049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. B</title>
+		<imprint>
+			<biblScope unit="volume">463</biblScope>
+			<biblScope unit="page">384</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Brinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Rickey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Allmond</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/hm9t-4pgp</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Res</title>
+		<imprint>
+			<date type="published" when="2026">2026</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A</forename><surname>Sulai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C C</forename><surname>Villari</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.99.252501</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">252501</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Furukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wakui</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.90.052516</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">52516</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lagaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heylen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Belosevic</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2021.165663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">1014</biblScope>
+			<biblScope unit="page">165663</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Nan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ppnp.2025.104188</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Particle and Nuclear Physics</title>
+		<imprint>
+			<biblScope unit="volume">145</biblScope>
+			<biblScope unit="page">104188</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">and the HIAF project team</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s43673-022-00064-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AAPPS Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S.-W</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-J</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41365-022-00992-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Science and Techniques</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2022.166622</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">1032</biblScope>
+			<biblScope unit="page">166622</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nimb.2023.04.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. B</title>
+		<imprint>
+			<biblScope unit="volume">541</biblScope>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-R</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-F</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">arXiv</title>
+		<imprint>
+			<biblScope unit="page" from="2502" to="10740"/>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-R</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-F</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scib.2025.06.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">2721</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-W</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41365-023-01197-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuclear Science and Techniques</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">38</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2026">2026</date>
+		</imprint>
+	</monogr>
+	<note>In preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="m">The Scientist and Engineer's Guide to Digital Signal Processing</title>
+		<meeting><address><addrLine>San Diego, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+	<note>California Technical Publishing</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dockery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Minamisono</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Ortiz</forename><surname>Cortes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rickey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.sab.2025.107280</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Spectrochimica Acta Part B: Atomic Spectroscopy</title>
+		<imprint>
+			<biblScope unit="volume">233</biblScope>
+			<biblScope unit="page">107280</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>De Groote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Verlinde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Sonnenschein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Flanagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Neyens</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.95.032502</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">32502</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koszorús</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.100.034304</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">34304</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Den Borne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>De Groote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Neyens</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cpc.2023.109053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Physics Communications</title>
+		<imprint>
+			<biblScope unit="volume">297</biblScope>
+			<biblScope unit="page">109053</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thibault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Touchard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Büttgenbach</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review C</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">2720</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The European</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Procter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Behr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epja/i2015-15023-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Journal A</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Bissell</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevX.4.011055</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. X</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">11055</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Farooq-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cocolios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.94.054305</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">54305</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cocolios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Althubiti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Farooq-Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.nima.2016.11.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Instrum. Meth. Phys. Res. A</title>
+		<imprint>
+			<biblScope unit="volume">844</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Safronova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Budker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Demille</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.90.025008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">25008</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bennett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cho</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.275.5307.1759</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page">1759</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Dzuba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">V</forename><surname>Flambaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.88.012510</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="page">12510</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Chupp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fierlinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Ramsey-Musolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Singh</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.91.015001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">15001</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Cairncross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ye</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s42254-019-0080-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Reviews Physics</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">510</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Arrowsmith-Kron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Au</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6633/ad1e39</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Reports on Progress in Physics</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">84301</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garcia Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Berger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billowes</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-020-2299-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">581</biblScope>
+			<biblScope unit="page">396</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Udrescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Brinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F G</forename><surname>Ruiz</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.127.033001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page">33001</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lassègues</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevA.110.L010802</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. A</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">10802</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">V</forename><surname>Skripnikov</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-025-55977-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">2139</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Perrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Udrescu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/fvsy-v1q6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Res</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">12012</biblScope>
+			<date type="published" when="2026">2026</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Wilkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Udrescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.adm7717</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">390</biblScope>
+			<biblScope unit="page">386</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Athanasakis-Kaklamanakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kyuberis</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-025-09814-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page" from="562" to="568"/>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">F</forename><surname>Yang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2026">2026</date>
+		</imprint>
+	</monogr>
+	<note>In preparation</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

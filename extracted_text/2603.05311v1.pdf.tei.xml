@@ -1,0 +1,2447 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Exploring T ΥΥ tetraquark candidates in a coupled-channels formalism</title>
+				<funder ref="#_3P6Ha4e #_YbQqwwE">
+					<orgName type="full">Ministerio Español de Ciencia e Innovación</orgName>
+				</funder>
+				<funder ref="#_2eGYeqq">
+					<orgName type="full">EU</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-06">March 6, 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+							<email>pgortega@usal.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Física Fundamental</orgName>
+								<orgName type="institution">Universidad de Salamanca</orgName>
+								<address>
+									<postCode>E-37008</postCode>
+									<settlement>Salamanca</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Instituto Universitario de Física Fundamental y Matemáticas (IUFFyM)</orgName>
+								<orgName type="institution" key="instit2">Universidad de Salamanca</orgName>
+								<address>
+									<postCode>E-37008</postCode>
+									<settlement>Salamanca</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+							<email>entem@usal.es</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Física Fundamental</orgName>
+								<orgName type="institution">Universidad de Salamanca</orgName>
+								<address>
+									<postCode>E-37008</postCode>
+									<settlement>Salamanca</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Instituto Universitario de Física Fundamental y Matemáticas (IUFFyM)</orgName>
+								<orgName type="institution" key="instit2">Universidad de Salamanca</orgName>
+								<address>
+									<postCode>E-37008</postCode>
+									<settlement>Salamanca</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Instituto Universitario de Física Fundamental y Matemáticas (IUFFyM)</orgName>
+								<orgName type="institution" key="instit2">Universidad de Salamanca</orgName>
+								<address>
+									<postCode>E-37008</postCode>
+									<settlement>Salamanca</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+							<email>jsegovia@upo.es</email>
+							<affiliation key="aff2">
+								<orgName type="department">Departamento de Sistemas Físicos</orgName>
+								<address>
+									<region>Químicos</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="institution">Universidad Pablo de Olavide</orgName>
+								<address>
+									<postCode>E-41013</postCode>
+									<settlement>Naturales Sevilla</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Exploring T ΥΥ tetraquark candidates in a coupled-channels formalism</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-06">March 6, 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9C1B25ED71FB8E07A1928810F577D8A0</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We investigate the spectrum of TΥΥ tetraquark candidates within a coupled-channels framework. The analysis includes all L ≤ 2 combinations of Υ(1S), Υ(2S), η b (1S), and η b (2S) in the J P = 0 ± , 1 ± , 2 ± sectors. The meson-meson interaction is derived from an underlying constituent quark model through the resonating group method, and the properties of the states are obtained from poles of the scattering matrix. We find a rich spectrum of resonant, and virtual, states distributed between the η b (1S)η b (1S) and Υ(2S)Υ(2S) thresholds. The pattern of poles exhibits approximate heavy-quark spin symmetry multiplets. Several states are dominated by a single channel and can be associated with threshold-driven structures, while higher-mass resonances show sizable mixing among channels involving radially excited bottomonia. The predicted widths range from tens to several hundred MeV. Branching ratios indicate that many states couple predominantly to final states with at least one excited bottomonium, whereas only a subset of the spectrum is expected to be visible in the η b (1S)η b (1S), η b (1S)Υ(1S) and Υ(1S)Υ(1S) channels. These results provide quantitative guidance for experimental searches of fully heavy tetraquarks and offer a test of coupledchannel dynamics and heavy-quark spin symmetry in the bb bb sector.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>I. INTRODUCTION</head><p>The study of hadronic states beyond the conventional quark-antiquark and three-quark configurations remains a central subject in hadron spectroscopy <ref type="bibr" target="#b0">[1]</ref>. In recent years, a number of exotic candidates that cannot be easily accommodated within the naive quark model <ref type="bibr" target="#b1">[2,</ref><ref type="bibr" target="#b2">3]</ref> have been reported experimentally, stimulating extensive theoretical and phenomenological efforts to understand their nature . A particularly intriguing class of such exotic states are the fully heavy tetraquarks, composed solely of heavy quarks and antiquarks, Q QQ Q with Q = c, b.</p><p>On the experimental front, the LHCb collaboration reported structures in the di-J/ψ invariant mass spectrum in proton-proton collisions, including a relatively narrow peak around 6.9 GeV and broader enhancements at lower and higher masses, consistent with fully charmed tetraquark candidates <ref type="bibr" target="#b30">[31]</ref>. Subsequent measurements by the CMS and ATLAS collaborations have confirmed these observations, indicating a rich structure in the fully-charm sector <ref type="bibr" target="#b31">[32,</ref><ref type="bibr">33]</ref>. These discoveries have revitalized interest in fully heavy multiquark systems and provided concrete experimental targets for theoretical models.</p><p>In contrast, experimental evidence for fully bottom tetraquarks (bb bb ) is still lacking. Searches for resonances in the Υ(1S)Υ(1S) spectrum have so far yielded no sig-nificant signals, although the accessible phase space and production mechanisms at the LHC make such searches challenging <ref type="bibr" target="#b32">[34]</ref>. Nonetheless, experimental efforts continue, and future high-luminosity data sets are expected to substantially improve sensitivity <ref type="bibr" target="#b33">[35]</ref>.</p><p>The theoretical landscape for fully heavy tetraquarks has been extensively explored using a variety of complementary approaches. Early quark-model studies of fully heavy systems predicted compact tetraquark configurations <ref type="bibr" target="#b34">[36]</ref><ref type="bibr" target="#b35">[37]</ref><ref type="bibr" target="#b36">[38]</ref><ref type="bibr" target="#b37">[39]</ref><ref type="bibr" target="#b38">[40]</ref><ref type="bibr" target="#b39">[41]</ref><ref type="bibr" target="#b40">[42]</ref><ref type="bibr" target="#b41">[43]</ref><ref type="bibr" target="#b42">[44]</ref><ref type="bibr" target="#b43">[45]</ref>. In the fully-bottom case, masses are typically found in the 18 -19 GeV region. QCD sum rule analyses have provided independent estimates of the masses and quantum numbers of fully bottom tetraquark candidates, with results broadly consistent with quark model expectations but also highlighting significant theoretical uncertainties <ref type="bibr" target="#b44">[46]</ref><ref type="bibr" target="#b45">[47]</ref><ref type="bibr" target="#b46">[48]</ref><ref type="bibr" target="#b47">[49]</ref><ref type="bibr" target="#b48">[50]</ref>. Within effective field theory frameworks, the role of heavy-quark spin symmetry (HQSS) and threshold effects has been studied to elucidate structure and multiplet patterns in the fully heavy sector <ref type="bibr" target="#b49">[51,</ref><ref type="bibr" target="#b50">52]</ref>. Recent lattice QCD studies have reported mixed conclusions, with some indications of near-threshold attraction <ref type="bibr" target="#b51">[53]</ref>, while others do not find deeply bound compact states <ref type="bibr" target="#b52">[54]</ref>. More recent coupled-cluster, diffusion Monte Carlo, and other manybody methods have further enriched the theoretical picture, offering complementary insights into the dynamics of four-heavy-quark systems <ref type="bibr" target="#b53">[55]</ref><ref type="bibr" target="#b54">[56]</ref><ref type="bibr" target="#b55">[57]</ref><ref type="bibr" target="#b56">[58]</ref><ref type="bibr" target="#b57">[59]</ref><ref type="bibr" target="#b58">[60]</ref><ref type="bibr" target="#b59">[61]</ref>. Beyond static mass predictions, production mechanisms of fully heavy tetraquarks in hadronic collisions have been addressed in perturbative QCD frameworks, estimating cross sections and kinematic distributions relevant for LHC experiments <ref type="bibr" target="#b60">[62]</ref><ref type="bibr" target="#b61">[63]</ref><ref type="bibr" target="#b62">[64]</ref>.</p><p>A widely-used constituent quark model based mesonmeson coupled-channels calculation have been recently arXiv:2603.05311v1 [hep-ph] 5 Mar 2026 applied to the fully charm tetraquark spectrum <ref type="bibr" target="#b63">[65]</ref>. In particular, meson-meson interactions derived through the resonating group method (RGM) in combination with a scattering-matrix pole analysis, provided a unified description of several T ψψ candidates structures reported experimentally. That study established a theoretical framework in which resonant and virtual states arise naturally from the interplay between nearby thresholds and short-range quark-exchange dynamics.</p><p>In the present work, we extend this framework to the fully bottom sector by investigating the spectrum of T ΥΥ candidates generated by the interaction of bottomonium mesons, including η b (1S), η b (2S), Υ(1S) and Υ(2S). Using the same coupled-channels formalism within the constituent quark model and identifying physical states as poles of the scattering matrix, we systematically explore the energy region spanning from the lowest threshold up to the Υ(2S)Υ(2S) one. This approach enables a direct and consistent comparison with the results obtained in the fully charmed sector, while yielding concrete predictions for the masses, widths, and dominant decay channels of fully bottom tetraquark candidates that may be accessible in future high-luminosity experiments.</p><p>Although a large number of studies have addressed the fully-bottom sector, the theoretical situation is far from settled. While many approaches predict structures in the 18 -19 GeV region, the dynamical origin of these states remains model dependent. In particular, some lattice QCD calculations do not find clear evidence for deeply bound compact tetraquarks, and several quarkmodel analyses incorporate explicit color-octet components, which enhance the role of confinement dynamics at short distances.</p><p>In this context, it is important to clarify to what extent the observed structures can be generated solely from the interaction between physical color-singlet bottomonia, once quark-exchange effects are consistently included. The coupled-channels framework employed here provides precisely such a test: it derives the meson-meson interaction from an underlying constituent quark model via the resonating group method, but restricts the basis to asymptotic color-singlet meson configurations. Therefore, any resonance that appears is generated dynamically from quark rearrangement effects rather than from explicit compact diquark-antidiquark or color-octet configurations.</p><p>The present calculation is thus complementary to compact tetraquark approaches. It addresses the question of whether the structures predicted in the literature can be interpreted as threshold-driven states emerging from coupled-channel dynamics, and it provides quantitative predictions for pole positions, widths, and branching ratios within a unified framework already tested in the fully-charmed sector.</p><p>The organization of the manuscript is as follows: After this introduction, Section II provides a brief overview of the theoretical framework. Section III primarily focuses on the analysis and discussion of our theoretical findings.</p><p>Lastly, in Sec. IV, we present a summary of our work and draw conclusions based on the obtained results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>II. THEORETICAL FORMALISM</head><p>In this work, we investigate the T ΥΥ tetraquark candidates as meson-meson molecular configurations of Υ(1S), Υ(2S), η b (1S) and η b (2S) in the bb bb system. The theoretical framework is identical to the one previously employed for the fully charmed sector <ref type="bibr" target="#b63">[65]</ref>, and here we summarize only those features that are relevant for the present bottomonium-bottomonium study.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A. Constituent quark model</head><p>The underlying quark-(anti-)quark interaction is described within a constituent quark model (CQM) <ref type="bibr" target="#b64">[66]</ref> that has been extensively applied to hadron spectra, hadron-hadron interactions, and multiquark systems across a wide range of energies <ref type="bibr" target="#b8">[9,</ref><ref type="bibr" target="#b65">[67]</ref><ref type="bibr" target="#b66">[68]</ref><ref type="bibr" target="#b67">[69]</ref><ref type="bibr" target="#b68">[70]</ref><ref type="bibr" target="#b69">[71]</ref><ref type="bibr" target="#b70">[72]</ref><ref type="bibr" target="#b71">[73]</ref><ref type="bibr" target="#b72">[74]</ref><ref type="bibr" target="#b73">[75]</ref><ref type="bibr" target="#b74">[76]</ref><ref type="bibr" target="#b75">[77]</ref><ref type="bibr" target="#b76">[78]</ref><ref type="bibr" target="#b77">[79]</ref><ref type="bibr" target="#b78">[80]</ref><ref type="bibr" target="#b79">[81]</ref><ref type="bibr" target="#b80">[82]</ref><ref type="bibr" target="#b81">[83]</ref><ref type="bibr" target="#b82">[84]</ref>. The model incorporates three main contributions: (i) an effective one-gluon exchange interaction, accounting for shortrange QCD dynamics; (ii) a color confinement, representing the non-perturbative long-range interaction; and (iii) Goldstone-boson exchanges, relevant only for lightlight quark pairs. Since the present system involves only heavy quarks, chiral symmetry is explicitly broken and Goldstone-boson exchanges are absent. Therefore, the interaction is driven exclusively by one-gluon exchange and color confining terms.</p><p>Regarding color confinement, while it has been proven that multi-gluon exchanges generate an attractive potential that rises linearly with the distance between infinitely heavy quarks <ref type="bibr" target="#b83">[85]</ref>, sea quarks contribute to screening the rising potential at low momenta and eventually lead to the breaking of the quark-antiquark binding string <ref type="bibr" target="#b84">[86]</ref>. To account for this behavior, the confinement potential is written as</p><formula xml:id="formula_0">V CON (⃗ r ) = -a c 1 -e -µcr + ∆ ( ⃗ λ c i • ⃗ λ c j ) ,<label>(1)</label></formula><p>where ⃗ λ c are the color Gell-Mann matrices along with a c , µ c , and ∆ that are model parameters. At short distances the potential behaves linearly, while it saturates at large distances.</p><p>The perturbative contribution arises from the effective one-gluon exchange (OGE) interaction derived from the Lagrangian</p><formula xml:id="formula_1">L qqg = i √ 4πα s ψγ µ G c µ λ c ψ ,<label>(2)</label></formula><p>where α s is an effective scale-dependent strong coupling constant,</p><formula xml:id="formula_2">α s (µ) = α 0 ln[(µ 2 + µ 2 0 ) /Λ 2 0 ] ,<label>(3)</label></formula><p>with µ the reduced mass of the interacting quark pair, along with α 0 , µ 0 and Λ 0 that are model parameters.</p><p>Final expression of the potential is given by</p><formula xml:id="formula_3">V OGE (⃗ r ) = 1 4 α s (λ c q • λ c q ) 1 r - 1 6m q m q (⃗ σ q • ⃗ σ q ) e -r/r0(µ) rr 2 0 (µ) ,<label>(4)</label></formula><p>where ⃗ σ are the Pauli matrices. The smearing parameter r 0 (µ) = r0 /µ depends on the reduced mass, µ, of the interacting quark pair. In addition to the exchange diagrams mediated by a gluon, one can also include the quark-anti-quark interaction via gluon annihilation diagrams in the S-channel. In coordinate space, this interaction is given by <ref type="bibr" target="#b85">[87,</ref><ref type="bibr" target="#b86">88]</ref>:</p><formula xml:id="formula_4">V Anh,OGE (⃗ r ) = 1 (2π) 3 δ (3) (⃗ r ) × α s 8π 2 m q m q 4 9 - 1 12 ⃗ λ c q • ⃗ λ c q × 3 2 + 1 2 ⃗ σ q • ⃗ σ q 1 2 - 1 2 ⃗ τ q • ⃗ τ q . (<label>5</label></formula><formula xml:id="formula_5">)</formula><p>All model parameters are fixed from previous studies, so no new adjustments are introduced here. Their particular values can be consulted in Ref. <ref type="bibr" target="#b70">[72]</ref>, which provides an updated parametrization of the original model <ref type="bibr" target="#b64">[66]</ref>. Besides, as in Ref. <ref type="bibr" target="#b87">[89]</ref>, the bottomonium (b b) states are obtained by solving the two-body Schrödinger equation using the Gaussian Expansion Method <ref type="bibr" target="#b88">[90]</ref>, which provides accurate meson wave functions to be used as input in the meson-meson calculation.</p><p>It is worth emphasizing that, in the present formulation, the Hilbert space is restricted to products of physical color-singlet mesons. Hidden-color configurations do not appear as independent basis states. This choice allows us to isolate the role of coupled-channel dynamics among physical hadronic degrees of freedom.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>B. Meson-meson interaction: Resonating Group Method</head><p>To describe the interaction between two bottomonium mesons, we employ the resonating group method (RGM) <ref type="bibr" target="#b89">[91]</ref>, which derives the meson-meson potential from the underlying quark dynamics.</p><p>The total wave function of a system composed of two bottomonia (A) and (B) is written as</p><formula xml:id="formula_6">Ψ = A ϕ A ϕ B χ L σ ST ξ c ,<label>(6)</label></formula><p>where ϕ A(B) are the internal wave functions of the mesons, χ L describes their relative motion, σ ST is the spin-isospin wave function, and ξ c the color wave function. Since the system contains two identical b quarks and two identical b antiquarks, the anti-symmetrization operator,</p><formula xml:id="formula_7">A = (1 -P b )(1 -Pb) ,<label>(7)</label></formula><p>is needed. Note that P b and Pb are the exchange operators for quarks and antiquarks between clusters. Following Ref. <ref type="bibr" target="#b63">[65]</ref>, the antisymmetric operator reduces accordingly for identical mesons, while for nonidentical mesons both AB and BA configurations contribute. The total interaction between the two color-singlet mesons can be separated into a direct kernel, with no quark exchange, and an exchange kernel, arising from quark rearrangement. The direct potential reads</p><formula xml:id="formula_8">V D ( ⃗ P ′ , ⃗ P i ) = i∈A,j∈B d⃗ p A ′ d⃗ p B ′ d⃗ p A d⃗ p B × × ϕ * A ′ (⃗ p A ′ )ϕ * B ′ (⃗ p B ′ )V ij ( ⃗ P ′ , ⃗ P i )ϕ A (⃗ p A )ϕ B (⃗ p B ) ,<label>(8)</label></formula><p>where V ij is the CQM potential between the quark i and the quark j of the mesons A and B, respectively. In the present system, direct contributions are small because confinement does not act between two color singlets, and gluon-annihilation diagrams, which are included in our calculations, are suppressed for heavy quarks. Thus, the dominant interaction arises from exchange terms. The exchange kernel can be written as</p><formula xml:id="formula_9">K E ( ⃗ P ′ , ⃗ P i ) = H E ( ⃗ P ′ , ⃗ P i ) -E T N E ( ⃗ P ′ , ⃗ P i ) ,<label>(9)</label></formula><p>which is a non-local and energy-dependent kernel, separated into a potential term H E plus a normalization term N E . Here, E T denotes the total energy of the system and ⃗ P i is a continuous parameter. The exchange Hamiltonian and normalization can be written as</p><formula xml:id="formula_10">H E ( ⃗ P ′ , ⃗ P i ) = d⃗ p A ′ d⃗ p B ′ d⃗ p A d⃗ p B d ⃗ P ϕ * A ′ (⃗ p A ′ )× × ϕ * B ′ (⃗ p B ′ )H( ⃗ P ′ , ⃗ P )Pb ϕ A (⃗ p A )ϕ B (⃗ p B )δ (3) ( ⃗ P -⃗ P i ) ,<label>(10a)</label></formula><formula xml:id="formula_11">N E ( ⃗ P ′ , ⃗ P i ) = d⃗ p A ′ d⃗ p B ′ d⃗ p A d⃗ p B d ⃗ P ϕ * A ′ (⃗ p A ′ )× × ϕ * B ′ (⃗ p B ′ )Pb ϕ A (⃗ p A )ϕ B (⃗ p B )δ (3) ( ⃗ P -⃗ P i ) ,<label>(10b)</label></formula><p>where H denotes the Hamiltonian at quark level.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>C. Scattering equation and pole extraction</head><p>The properties of the T ΥΥ candidates are obtained as poles of the meson-meson scattering matrix. In nonrelativistic kinematics, the S-matrix is</p><formula xml:id="formula_12">S α ′ α = 1-2πi µ α µ α ′ k α k α ′ T α ′ α (E +i0 + ; k ′ α , k α ) ,<label>(11)</label></formula><p>where k α and µ α are the on-shell momentum and reduced mass of channel α.</p><p>The T -matrix is obtained by solving the coupledchannel Lippmann-Schwinger equation,</p><formula xml:id="formula_13">T β ′ β (z; p ′ , p) = V β ′ β (p ′ , p) + β ′′ dq q 2 × V β ′ β ′′ (p ′ , q) 1 z -E β ′′ (q)</formula><p>T β ′′ β (z; q, p) , <ref type="bibr" target="#b11">(12)</ref> where β represents the set of quantum numbers necessary to determine a partial wave in the meson-meson channel,</p><formula xml:id="formula_14">V β ′ β (p ′ , p</formula><p>) is the full RGM potential, sum of direct and exchange kernels, and E β ′′ (q) is the energy for the momentum q referred to the lower threshold.</p><p>Resonances correspond to poles in the complex energy plane,</p><formula xml:id="formula_15">Ē = M r -iΓ r /2 ,<label>(13)</label></formula><p>from which the mass M r and total width Γ r are extracted. Two Riemann sheets can be defined for each channel. The first Riemann sheet is defined for 0 ≤ arg(k α ) &lt; π, and poles in this sheet are interpreted as bound states. The second Riemann sheet is defined for π ≤ arg(k α ) &lt; 2π) in such a way that poles in this region are identified as virtual or resonance states, depending if they lie below or above the threshold, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>D. Partial widths and branching ratios</head><p>Some caution should be taken in order to obtain the partial widths of the resonances to a specific final mesonmeson channel. Following Refs. <ref type="bibr" target="#b90">[92,</ref><ref type="bibr" target="#b91">93]</ref>, in the neighborhood of a resonance, the S-matrix can be approximated as</p><formula xml:id="formula_16">S β ′ β (E) = S bg β ′ β (E) -i2πδ (4) (P f -P i ) g β ′ g β E - Ē ,<label>(14)</label></formula><p>where g β are the residues of the pole, which can be interpreted as the amplitude of the resonance to the final state. Therefore, the partial width into a two-meson channel is</p><formula xml:id="formula_17">Γβ = 2π E 1 E 2 M r k β |g β | 2 . (<label>15</label></formula><formula xml:id="formula_18">)</formula><p>Since β Γβ ̸ = Γ r in general, branching ratios are defined as</p><formula xml:id="formula_19">B β = Γβ β ′ Γβ ′ ,<label>(16)</label></formula><p>and physical partial widths are obtained from</p><formula xml:id="formula_20">Γ β = B β Γ r ,<label>(17)</label></formula><p>with Γ r = -2 Im( Ē).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>III. RESULTS</head><p>In this section we present the results of the coupledchannels calculation of the b b -b b system in the J P = 0 ± , 1 ± , 2 ± sectors. The C-parity of a meson-meson pair is defined as the product of the intrinsic C-parities of the individual bottomonium states. Explicitly, C = (-1) L A +S A • (-1) L B +S B , which evaluates to C = +1 for P P and V V channels, and C = -1 for P V channels, where P denotes a pseudoscalar meson and V a vector meson. The channels and partial waves included are listed in Table <ref type="table">I</ref> and correspond to all combinations of the lowest S-wave bottomonia, namely Υ(1S), Υ(2S), η b (1S), and η b (2S). We restrict ourselves to relative orbital angular momenta L ≤ 2, since higher partial waves are expected to play a negligible role in the energy region considered.</p><p>As discussed in Sec. II, direct interactions between two color-singlet bottomonia are suppressed. The confinement potential does not generate a direct contribution, and gluon-annihilation diagrams are small in the heavyquark sector. Consequently, the dominant interaction arises from quark-exchange mechanisms. This feature implies that the resulting states cannot be interpreted as loosely bound systems driven by residual meson-meson forces alone; instead, they correspond to compact mesonmeson configurations generated by short-range quark rearrangement. Nevertheless, throughout this work we refer to them generically as molecular states, in the sense of resonant structures emerging from the interaction of two color-singlet mesons.</p><p>Before discussing the spectrum, it is worth recalling that the model parameters are constrained by a global fit to hadron observables within an accuracy of about 10 -20%. This induces a theoretical uncertainty in the pole positions, and related physical observables. To estimate its impact, we vary the strength of the potentials by ±10% and propagate the changes as theoretical uncertainties in the pole properties.</p><p>The results of the coupled-channels calculation are summarized in Table <ref type="table">II</ref> (pole positions and wave-function compositions) and Table <ref type="table">III</ref> (masses, widths, and branching ratios). We find a total of 20 poles distributed across the different J P sectors: 1 in 0 --, 6 in 0 ++ , 1 in 1 --, 6 in 1 +-, 1 in 2 --, and 5 in 2 ++ . Their masses span the region between the lowest threshold, η b (1S)η b (1S), and the highest included one, Υ(2S)Υ(2S), while the widths range from a few tens of MeV up to several hundred MeV.</p><p>A clear manifestation of heavy-quark spin symmetry (HQSS) is observed in the approximate degeneracy among states belonging to the {0 --, 1 --, 2 --} and {0 ++ , 1 +-, 2 ++ } multiplets. In particular, the three poles found around M ≃ 19.55 GeV in the 0 --, 1 --, and 2 --sectors exhibit nearly identical masses, widths, and channel compositions, being dominated by the η b (1S)Υ(2S) and η b (2S)Υ(1S) components, which form the 3 P J triplet with J = {0, 1, 2}. Similar HQSS patterns appear in the positive-parity sectors due to the TABLE I. The meson-meson channels, with their mass thresholds in GeV/c 2 taken from Ref. <ref type="bibr" target="#b0">[1]</ref>, considered in this work. We also show for each channel the included partial waves, denoted as 2S+1 LJ , which are compatible with the different spin-parity (J P ) sectors.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Channels</head><p>Thresholds</p><formula xml:id="formula_21">0 - 0 + 1 - 1 + 2 - 2 + η b (1S)η b (1S) 18.797 • • • 1 S0 • • • • • • • • • 1 D2 η b (1S)Υ(1S) 18.859 3 P0 • • • 3 P1 3 S1 -3 D1 3 P2 3 D2 Υ(1S)Υ(1S) 18.921 3 P0 1 S0 -5 D0 3 P1 • • • 3 P2 5 S2 -1 D2 -5 D1 η b (1S)η b (2S) 19.398 • • • 1 S0 1 P1 • • • • • • 1 D2 η b (1S)Υ(2S) 19.422 3 P0 • • • 3 P1 3 S1 -3 D1 3 P2 3 D2 η b (2S)Υ(1S) 19.459 3 P0 • • • 3 P1 3 S1 -3 D1 3 P2 3 D2 Υ(1S)Υ(2S) 19.484 3 P0 1 S0 -5 D0 1 P1 -3 P1 -5 P1 3 S1 -3 D1 3 P2 5 S2 -1 D2 -3 D1 -5 D1 η b (2S)η b (2S) 19.998 • • • 1 S0 • • • • • • • • • 1 D2 η b (2S)Υ(2S) 20.022 3 P0 • • • 3 P1 3 S1 -3 D1 3 P2 3 D2 Υ(2S)Υ(2S) 20.047 3 P0 1 S0 -5 D0 3 P1 • • • 3 P2 5 S2 -1 D2 -5 D1</formula><p>1 S 0 -3 S 1 -5 S 2 symmetry, although sizable splittings arise due to the different partial waves that contribute in each case.</p><p>The wave-function decomposition in Table <ref type="table">II</ref> reveals that many states are strongly dominated by a single meson-meson channel near threshold, such as the 0 ++ state at M ≃ 18.89 GeV, which is dominated by η b (1S)η b (1S), the 1 +-state at ∼ 18.95 GeV, which is almost entirely η b (1S)Υ(1S), or the 2 ++ state around 19.01 GeV, largely dominated by Υ(1S)Υ(1S). These structures can be interpreted as threshold-driven resonances. In contrast, higher-mass states generally display a more fragmented structure, with significant admixtures of channels involving radially excited bottomonia.</p><p>Regarding decay properties, the results shown in Table III indicate that searches limited to the η b (1S)η b (1S), η b (1S)Υ(1S), and Υ(1S)Υ(1S) channels would probe only a restricted portion of the predicted spectrum, spanning the mass range from 18.89 to 19.90 GeV. The branching ratios reported in Table <ref type="table">III</ref> further reveal that many resonances couple strongly to channels containing at least one excited bottomonium state. This behavior is particularly evident in the negative-parity sectors, where the only non-zero branching fractions correspond to the η b (1S)Υ(2S) and η b (2S)Υ(1S) final states. A similar pattern is observed for several 0 ++ , 1 +-, and 2 ++ states above 20 GeV, which predominantly decay into Υ(1S)Υ(2S), η b (2S)Υ(2S), or Υ(2S)Υ(2S). These results suggest that experimental searches focusing exclusively on pairs of ground-state bottomonia may overlook a significant fraction of the spectrum. In contrast, channels such as η b (1S)Υ(2S), η b (2S)Υ(1S), Υ(1S)Υ(2S), and Υ(2S)Υ(2S) emerge as particularly promising discovery modes. Therefore, final states involving mixed bottomonium excitations should be considered a primary target in future experimental analyses.</p><p>Overall, the spectrum of T ΥΥ candidates displays the same qualitative features found in the fully charmed sector: a rich pattern of resonant structures generated by coupled-channel dynamics, approximate HQSS multiplets, and strong correlations between pole positions and nearby thresholds. However, the larger bottom mass shifts the whole spectrum upward and modifies phase space and partial-wave effects, leading in general to broader states and stronger mixing among channels with excited bottomonia.</p><p>From the experimental point of view, the observation of the T ΥΥ spectrum is clearly more challenging than in the charmonium sector due to the higher masses and the correspondingly smaller production cross sections. Nevertheless, the clean leptonic decays of the Υ(nS) states provide very favorable experimental signatures. In this context, high-luminosity hadron facilities such as LHCb, CMS, and ATLAS offer the most promising environment for double-bottomonium spectroscopy.</p><p>Although the detection of η b mesons is experimentally more demanding, several of the predicted states couple strongly to η b (1S)Υ(2S) and η b (2S)Υ(1S). Indirect access to these channels may be possible through radiative or hadronic transitions of the excited bottomonia, which could provide complementary information on the structure of the resonances. In particular, correlations between structures observed in Υ(1S)Υ(2S) and in channels involving η b could help to disentangle HQSS partner states.</p><p>Finally, the presence of broad resonances with sizable couplings to multiple channels suggests that the experimental signal may appear as enhancements or distortions in invariant-mass distributions rather than as narrow peaks. A coupled-channel amplitude analysis, incorporating simultaneously ground and excited bottomonia, would be the most suitable strategy to reveal the underlying pole structure. Such measurements would provide a stringent test of the molecular picture driven by quarkexchange dynamics and of heavy-quark spin symmetry in fully heavy tetraquark systems.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>IV. SUMMARY</head><p>We have performed a coupled-channels study of the b b -b b system including all combinations of the lowest S-wave bottomonia: η b (1S), η b (2S), Υ(1S) and Υ(2S); in the J P = 0 ± , 1 ± , 2 ± sectors. The meson-meson interaction is derived from a constituent quark model via the resonating group method, and the properties of the T ΥΥ candidates are extracted as poles of the scattering matrix.</p><p>The calculation predicts a rich spectrum of states between the lowest and highest considered thresholds. A total of 20 poles are found in the different spin-parity sectors, including both resonant and virtual states. Their widths cover a wide range, from relatively narrow structures to broad resonances strongly coupled to multiple channels.</p><p>A clear imprint of heavy-quark spin symmetry is observed in the approximate degeneracy of several {0 --, 1 --, 2 --} and {0 ++ , 1 +-, 2 ++ } multiplets, whose members share similar masses, widths, and channel compositions. Many of the predicted states are closely correlated with nearby meson-meson thresholds and are dominated by a single channel, indicating a strong thresholddriven dynamics. At higher energies, mixing among channels with radially excited bottomonia becomes increasingly important.</p><p>The analysis of branching ratios shows that a substantial fraction of the spectrum decays predominantly into channels involving at least one excited bottomonium, particularly Υ(1S)Υ(2S), Υ(2S)Υ(2S), and channels with η b (2S). Consequently, experimental searches restricted to meson-meson final states involving η b (1S) and Υ(1S) may access only a limited part of the spectrum.</p><p>Overall, the T ΥΥ spectrum exhibits the same qualitative features previously found in the fully charmed sector, namely the emergence of multiple resonant structures from coupled-channel dynamics, approximate heavyquark spin symmetry multiplets, and strong correlations between pole positions and thresholds. The present results offer concrete predictions for masses, widths, and dominant decay modes, and provide a framework to interpret future measurements of double-bottomonium invariant-mass spectra at high-luminosity hadron facilities.</p><p>TABLE II. Coupled-channels calculation of the J P = 0 ± , 1 ± </p><formula xml:id="formula_22">P η b Υ ′ P η ′ b Υ P ΥΥ ′ P η ′ b η ′ b P η ′ b Υ ′ P Υ ′ Υ ′ 0 -- 19.546 +2</formula><p>-3 312 +16 -15 0 0 0 0 54.85 ± 0.04 45.04 +0.04 -0.03 0 0 0.058 ± 0.005 0 1 -- 19.546 +2 -3 311 +16 -15 0 0 0 0 54.84 ± 0.04 45.04 ± 0.04 0 0 0.058 +0.004 -0.005 0 2 -- 19.546 +2 -3 311 +16 -15 0 0 0 0 54.84 ± 0.04 45.04 ± 0.04 0 0 0.058 +0.004 -0.005 0 0 ++ 18.894 +2 -3 165 +17 -15 70 +1 -2 0 28 ± 2 1.2 +0.3 -0.2 0 0 0.39 +0.05 -0.03 0.5 +0.2 -0.1 0 0.29 +0.06 -0.04 18.996 ± 1 119 +7 -6 28 ± 1 0 71 ± 1 0.049 +0.005 -0.001 0 0 0.49 +0.08 -0.06 0.008 ± 0.001 0 0.13 +0.04 -0.02 19.443 +4 -3 72 ± 14 4.2 ± 0.8 0 4 ± 1 74.1 +0.3 -0.4 0 0 16.6 +0.2 -0.9 0.5 ± 0.1 0 0.254 +0.008 -0.006 19.501 ± 1 32 +10 -9 0.84 +0.05 -0.07 0 10 +2 -1 41 ± 6 0 0 49 +7 -8 0.048 +0.008 -0.007 0 0.24 ± 0.04 19.900 +21 -11 419 +13 -2 3.0 +0.0 -0.2 0 15.4 +0.1 -0.3 6.0 +0.3 -0.4 0 0 21 ± 2 12.0 +0.2 -0.6 0 42 ± 2 20.281 +10 -7 283 +14 -5 1.4 ± 0.4 0 7 ± 2 3.9 +0.1 -0.5 0 0 17 +2 -3 9 +2 -1 0 61 +4 -3 1 +- 18.948 +1 -2 148 +14 -12 0 98.2 +0.3 -0.4 0 0 0.5 ± 0.1 0.7 ± 0.1 0 0 0.5 +0.2 -0.1 0 19.452 ± 3 130 ± 12 0 9.4 ± 0.9 0 0 51 ± 1 38.4 +0.0 -0.1 0 0 1.2 +0.3 -0.2 0 19.474 ± 1 71 +10 -9 0 7.1 ± 0.7 0 0 56 ± 2 36.8 +0.7 -0.9 0 0 0.47 +0.07 -0.05 0 19.882 +7 -6 551 +27 -25 0 15.6 +0.5 -0.4 0 0 16.55 +0.05 -0.02 16.3 +0.0 -0.1 0 0 51.5 +0.6 -0.4 0 20.261 ± 1 310 +9 -7 0 5.1 +0.1 -0.0 0 0 4.4 +0.4 -0.3 5.1 +0.6 -0.4 0 0 85.5 +0.6 -1.0 0 20.332 +6 -7 480 +10 -9 0 0.22 +0.02 -0.01 0 0 15 ± 1 10 ± 1 0 0 75 ± 2 0 2 ++ 19.005 +2 -3 176 +14 -12 0 0 96.7 +0.5 -0.7 0 0 0 2.3 +0.4 -0.3 0 0 1.0 +0.3 -0.2 19.515 ± 1 84 +10 -9 0 0 9.8 ± 0.6 0 0 0 89.5 ± 0.7 0 0 0.7 ± 0.1 19.933 +4 -5 576 +21 -20 0 0 14.9 ± 0.3 0 0 0 30.6 ± 0.1 0 0 54.5 ± 0.4 20.278 ± 1 321 +9 -8 0 0 6.6 +0.1 -0.2 0 0 0 8.4 ± 0.1 0 0 85.1 +0.0 -0.2 † 20.040 ± 1 38 ± 6 0 0 1.0 ± 0.2 0 0 0 6.8 +0.6 -0.7 0 0 92.2 ± 0.9 TABLE <ref type="table">III</ref>. Coupled-channels calculation of the J P = 0 ± , 1 ± and 2 ± bb bb sectors (TΥΥ states) as meson-meson molecules, including the channels detailed in Table <ref type="table">I</ref>. Errors are estimated by varying the strength of the potential by ±10%. To simplify the notation, we denote η b , η ′ b , Υ and Υ ′ for η b (1S), η b (2S), Υ(1S) and Υ(2S), respectively. 1 st column: Pole's quantum numbers; 2 nd column: Pole's mass in GeV/c 2 ; 3 rd column: Pole's width in MeV; 4 th -13 th columns: Branching ratios in %. States with a dagger before their mass are virtual states, defined as poles in the second Riemann sheet below their closest threshold.</p><formula xml:id="formula_23">J P C M pole Γ pole Bη b η b Bη b Υ BΥΥ B η b η ′ b B η b Υ ′ B η ′ b Υ B ΥΥ ′ B η ′ b η ′ b B η ′ b Υ ′ B Υ ′ Υ ′</formula><p>0 --19.546 +2 -3 312 +16 -15 0 0 0 0 54.0 +0.2 -0.3 46.0 ± 0.3 0 0 0 0 1 --19.546 +2 -3 311 +16 -15 0 0 0 0 54.0 ± 0.3 46.0 ± 0.3 0 0 0 0 2 --19.546 +2 -3 311 +16 -15 0 0 0 0 53.9 +0.4 -0.2 46.0 +0.2 -0.3 0 0 0 0 0 ++ 18.894 +2 -3 165 +17 -15 100 ± 0 0 0 0 0 0 0 0 0 0 18.996 ± 1 119 +7 -6 39 +2 -3 0 61 +3 -2 0 0 0 0 0 0 0 19.443 +4 -3 72 ± 14 26 +1 -2 0 14 +4 -3 60 ± 2 0 0 0 0 0 0 19.501 ± 1 32 +10 -9 6.4 +0.3 -0.2 0 40 ± 2 24 ± 2 0 0 29 +3 -4 0 0 0 19.900 +21 -11 419 +13 -2 12 +0 -1 0 65 +4 -3 10 ± 1 0 0 13 +3 -2 0 0 0 20.281 +10 -7 283 +14 -5 1 +1 -0 0 10 +7 -4 6 +1 -2 0 0 17 ± 7 3 ± 3 0 62 +1 -2 1 +-18.948 +1 -2 148 +14 -12 0 100 ± 0 0 0 0 0 0 0 0 0 19.452 ± 3 130 ± 12 0 42.9 +0.5 -0.7 0 0 57.1 +0.7 -0.5 0 0 0 0 0 19.474.4 ± 1 71 +10 -9 0 40 ± 1 0 0 37.6 +0.3 -0.1 22 ± 1 0 0 0 0 19.882 +7 -6 551 +27 -25 0 62 +3 -4 0 0 19 ± 1 18 +3 -2 0 0 0 0 20.261 ± 1 310 +9 -7 0 31 +0 -1 0 0 0.2 +0.2 -0.1 1.0 +0.9 -0.5 0 0 68 +2 -1 0 20.332 +6 -7 480 +10 -9 0 0 0 0 1.7 ± 0.2 1.7 ± 0.2 0 0 96.6 ± 0.4 0 2 ++ 19.005 +2 -3 176 +14 -12 0 0 100 ± 0 0 0 0 0 0 0 0 19.515 ± 1 84 +10 -9 0 0 37 ± 1 0 0 0 63 ± 1 0 0 0 19.933 +4 -5 576 +21 -20 0 0 50 ± 4 0 0 0 50 ± 4 0 0 0 20.278 ± 1 321 +9 -8 0 0 29 +2 -3 0 0 0 0 0 0 71 ± 2 † 20.040 ± 1 38 ± 6 0 0 30 ± 5 0 0 0 70 ± 5 0 0 0</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>states) as meson-meson molecules, including the channels detailed in TableI.Errorsare estimated by varying the strength of the potential by ±10%. To simplify the notation, we denote η b , η ′ b , Υ and Υ ′ for η b (1S), η b (2S), Υ(1S) and Υ(2S), respectively. 1 st column: Pole's quantum numbers; 2 nd column: Pole's mass in GeV/c 2 ; 3 rd column: Pole's width in MeV; 4 th -13 th columns: (b b) -(b b) wavefunction composition attending to the meson-meson channel probability, in %. States with a dagger before their mass are virtual states, defined as poles in the second Riemann sheet below their closest threshold.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><head>ACKNOWLEDGMENTS</head><p>This work has been partially funded by <rs type="funder">EU</rs> <rs type="programName">Horizon 2020 research and innovation program</rs>, <rs type="projectName">STRONG-2020</rs> project, under grant agreement no. <rs type="grantNumber">824093</rs> and <rs type="funder">Ministerio Español de Ciencia e Innovación</rs>, grant nos. <rs type="grantNumber">PID2019-105439GB-C22</rs> and <rs type="grantNumber">PID2022-140440NB-C22</rs>.</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funded-project" xml:id="_2eGYeqq">
+					<idno type="grant-number">824093</idno>
+					<orgName type="project" subtype="full">STRONG-2020</orgName>
+					<orgName type="program" subtype="full">Horizon 2020 research and innovation program</orgName>
+				</org>
+				<org type="funding" xml:id="_3P6Ha4e">
+					<idno type="grant-number">PID2019-105439GB-C22</idno>
+				</org>
+				<org type="funding" xml:id="_YbQqwwE">
+					<idno type="grant-number">PID2022-140440NB-C22</idno>
+				</org>
+			</listOrg>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Navas</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Particle Data Group</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.110.030001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">30001</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gell-Mann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0031-9163(64)92001-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">214</biblScope>
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Zweig</surname></persName>
+		</author>
+		<idno>No.8419/TH.412</idno>
+		<imprint>
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">CERN Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X.-K</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.126.152001</idno>
+		<idno type="arXiv">arXiv:2011.14517</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">152001</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physrep.2016.05.004</idno>
+		<idno type="arXiv">arXiv:1601.02092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rept</title>
+		<imprint>
+			<biblScope unit="volume">639</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6633/aa6420</idno>
+		<idno type="arXiv">arXiv:1609.08928</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rept. Prog. Phys</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">76201</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U.-G</forename><surname>Meißner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.90.015004</idno>
+		<idno type="arXiv">arXiv:1705.00141</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">90</biblScope>
+			<biblScope unit="page">15004</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ppnp.2019.04.003</idno>
+		<idno type="arXiv">arXiv:1903.11976</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Part. Nucl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sym12111869</idno>
+		<idno type="arXiv">arXiv:2009.00238</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Symmetry</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">1869</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">X.-K</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1572-9494/ac27a2</idno>
+		<idno type="arXiv">arXiv:2108.02673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. Theor. Phys</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">125201</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-X</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.105.094003</idno>
+		<idno type="arXiv">arXiv:2103.08586</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">94003</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2301.11253</idno>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U.-G</forename><surname>Meißner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Urbach</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physrep.2022.11.005</idno>
+		<idno type="arXiv">arXiv:2206.01477</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rept</title>
+		<imprint>
+			<biblScope unit="volume">1001</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G.-J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2204.08716</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H.-X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6633/aca3b6</idno>
+		<idno type="arXiv">arXiv:2204.02649</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rept. Prog. Phys</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">26201</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2203.07141</idno>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sym13020279</idno>
+		<idno type="arXiv">arXiv:2012.10105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Symmetry</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sym15071298</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Symmetry</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1298</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Lebed</surname></persName>
+		</author>
+		<idno type="DOI">10.22323/1.445.0028</idno>
+		<idno type="arXiv">arXiv:2308.00781</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PoS</title>
+		<imprint>
+			<biblScope unit="volume">2023</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scib.2021.04.023</idno>
+		<idno type="arXiv">arXiv:2103.15273</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Bull</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M.-L</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Baru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U.-G</forename><surname>Meißner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Oller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP08(2021)157</idno>
+		<idno type="arXiv">arXiv:2102.07159</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="volume">08</biblScope>
+			<biblScope unit="page">157</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M.-Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-W</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-W</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-X</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-S</forename><surname>Geng</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2404.06399</idno>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Polyakov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Skwarnicki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-nucl-102422-040628</idno>
+		<idno type="arXiv">arXiv:2403.04051</idno>
+		<imprint>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2504.07897</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hanhart</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2504.06043</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gao</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2502.15117</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2502.11351</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Francis</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ppnp.2024.104143</idno>
+		<idno type="arXiv">arXiv:2502.04701</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Part. Nucl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">140</biblScope>
+			<biblScope unit="page">104143</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-lat</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-G</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-P</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-Y</forename><surname>Shou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Shou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s41365-025-01664-w</idno>
+		<idno type="arXiv">arXiv:2411.18257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Sci. Tech</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hüsken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Norella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Polyakov</surname></persName>
+		</author>
+		<idno type="DOI">10.1142/S0217732325300022</idno>
+		<idno type="arXiv">arXiv:2410.06923</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mod. Phys. Lett. A</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">2530002</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Aaij</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.scib.2020.08.032</idno>
+		<idno type="arXiv">arXiv:2006.16957</idno>
+	</analytic>
+	<monogr>
+		<title level="j">LHCb), Sci. Bull</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<date type="published" when="1983">1983. 2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hayrapetyan</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">CMS</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.132.111901</idno>
+		<idno type="arXiv">arXiv:2306.07164</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page">111901</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Design study of the Large Hadron Collider (LHC)</title>
+		<author>
+			<orgName type="collaboration">LHC</orgName>
+		</author>
+		<idno type="DOI">10.5170/CERN-1991-003</idno>
+		<idno>CERN/AC/95-05</idno>
+	</analytic>
+	<monogr>
+		<title level="m">CERN Yellow Reports: Monographs</title>
+		<meeting><address><addrLine>Geneva</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+		<respStmt>
+			<orgName>CERN</orgName>
+		</respStmt>
+	</monogr>
+	<note>the report is</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.5170/CERN-2015-005</idno>
+		<imprint>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Berezhnoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Luchinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Novoselov</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.86.034004</idno>
+		<idno type="arXiv">arXiv:1111.1867</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">34004</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karliner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rosner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">202001</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.97.094015</idno>
+		<idno type="arXiv">arXiv:1605.01134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">94015</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Anwar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Santopinto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-S</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-018-6073-9</idno>
+		<idno type="arXiv">arXiv:1710.02540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">647</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Debastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Navarra</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1674-1137/43/1/013105</idno>
+		<idno type="arXiv">arXiv:1706.07553</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Chin. Phys. C</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">13105</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Quigg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">202002</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.103.014001</idno>
+		<idno type="arXiv">arXiv:2003.05154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">14001</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.104.014006</idno>
+		<idno type="arXiv">arXiv:2104.08814</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">14006</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Asadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">R</forename><surname>Boroun</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.105.014006</idno>
+		<idno type="arXiv">arXiv:2112.11028</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">14006</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W.-L</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-L</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jspc.2025.100184</idno>
+		<idno type="arXiv">arXiv:2508.11161</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Subatomic Part. Cosmol</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">100184</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Zhu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">114017</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-017-4997-0</idno>
+		<idno type="arXiv">arXiv:1701.04285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page">432</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z.-Y</forename><surname>Di</surname></persName>
+		</author>
+		<idno type="DOI">10.5506/APhysPolB.50.1335</idno>
+		<idno type="arXiv">arXiv:1807.08520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Acta Phys. Polon. B</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">1335</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z.-G</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">393</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-R</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.103.014018</idno>
+		<idno type="arXiv">arXiv:2010.07719</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">14018</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mehen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">34019</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F.-K</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hidalgo-Duque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nieves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Valderrama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">94018</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eichten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T H</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.97.054505</idno>
+		<idno type="arXiv">arXiv:1710.03236</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">54505</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-lat</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Junnarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mathur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">34507</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Barnea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vijande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">54004</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lloyd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Vary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">14009</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Osborne</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2019.134930</idno>
+		<idno type="arXiv">arXiv:1612.00012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">798</biblScope>
+			<biblScope unit="page">134930</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Richard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vijande</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.95.054019</idno>
+		<idno type="arXiv">arXiv:1703.00783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">54019</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bedolla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ferretti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Santopinto</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-020-08579-3</idno>
+		<idno type="arXiv">arXiv:1911.00960</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">1004</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M.-S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-F</forename><surname>Lü</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.100.016006</idno>
+		<idno type="arXiv">arXiv:1901.02564</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">16006</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Gordillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">De</forename><surname>Soto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.102.114007</idno>
+		<idno type="arXiv">arXiv:2009.11889</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">114007</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esposito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Polosa</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-018-6269-z</idno>
+		<idno type="arXiv">arXiv:1807.06040</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">782</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M.-S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-X</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X.-H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.109.076017</idno>
+		<idno type="arXiv">arXiv:2006.11952</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">76017</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">I</forename><surname>Belov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Giachino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Santopinto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP01(2025)093</idno>
+		<idno type="arXiv">arXiv:2409.12070</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="volume">01</biblScope>
+			<biblScope unit="page">93</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.108.094023</idno>
+		<idno type="arXiv">arXiv:2307.00532</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">94023</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vijande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0954-3899/31/5/017</idno>
+		<idno type="arXiv">arXiv:hep-ph/0411299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. G</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Straub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faessler</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0954-3899/19/12/007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. G</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">2013</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Buchmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faessler</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.50.2246</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">2246</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vento</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0370-2693(95)01413-6</idno>
+		<idno type="arXiv">arXiv:nucl-th/9509009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">367</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vijande</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Valcarce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tsushima</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.74.054018</idno>
+		<idno type="arXiv">arXiv:hep-ph/0608316</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page">54018</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2008.02.051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">662</biblScope>
+			<biblScope unit="page">33</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Yasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.78.114033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page">114033</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Yasser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.80.054017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">54017</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.81.054023</idno>
+		<idno type="arXiv">arXiv:0907.3997</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">54023</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.83.114018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page">114018</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.91.094020</idno>
+		<idno type="arXiv">arXiv:1502.03827</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">94020</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.95.014010</idno>
+		<idno type="arXiv">arXiv:1511.09053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">14010</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.94.114018</idno>
+		<idno type="arXiv">arXiv:1608.01325</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">114018</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.94.074037</idno>
+		<idno type="arXiv">arXiv:1603.07000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">74037</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.95.034010</idno>
+		<idno type="arXiv">arXiv:1612.04826</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">34010</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title level="m" type="main">Few Body Syst</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00601-018-1433-4</idno>
+		<idno type="arXiv">arXiv:1709.09315</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">59</biblScope>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ping</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.97.034023</idno>
+		<idno type="arXiv">arXiv:1703.08845</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">34023</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-019-6552-7</idno>
+		<idno type="arXiv">arXiv:1808.00914</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page">78</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-020-7764-6</idno>
+		<idno type="arXiv">arXiv:2001.08093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Bali</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0370-1573(00)00079-X</idno>
+		<idno type="arXiv">arXiv:hep-ph/0001312</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rept</title>
+		<imprint>
+			<biblScope unit="volume">343</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Bali</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SESAM</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Neff</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SESAM</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duessel</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SESAM</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lippert</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SESAM</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schilling</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SESAM</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.71.114513</idno>
+		<idno type="arXiv">arXiv:hep-lat/0505012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">114513</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Faessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lubeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shimizu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.26.3280</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">3280</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.73.045214</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page">45214</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segovia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernández</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.93.074027</idno>
+		<idno type="arXiv">arXiv:1601.05093</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">74027</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>hepph</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamimura</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0146-6410(03)90015-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Prog. Part. Nucl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">223</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wheeler</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRev.52.1083</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">1083</biblScope>
+			<date type="published" when="1937">1937</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Ortega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Entem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0954-3899/40/6/065107</idno>
+		<idno type="arXiv">arXiv:1205.1699</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. G</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">65107</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Grassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Kniehl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sirlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.86.389</idno>
+		<idno type="arXiv">arXiv:hep-th/0005149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">389</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

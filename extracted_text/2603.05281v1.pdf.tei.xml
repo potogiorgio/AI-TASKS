@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Axial-vector neutral-current measurements in coherent elastic neutrino-nucleus scattering experiments</title>
+				<funder ref="#_h6QmWZS">
+					<orgName type="full">European Union</orgName>
+				</funder>
+				<funder ref="#_h5HGVxr #_9cuarm9 #_ZR2wz4g">
+					<orgName type="full">unknown</orgName>
+				</funder>
+				<funder ref="#_3HpcrGg">
+					<orgName type="full">Generalitat Valenciana</orgName>
+				</funder>
+				<funder ref="#_wcWuzjv">
+					<orgName type="full">Programa de Iniciación a la Investigación Científica</orgName>
+					<orgName type="abbreviated">PIIC</orgName>
+				</funder>
+				<funder ref="#_WJTFWb4 #_MWnk3T2">
+					<orgName type="full">Spanish</orgName>
+				</funder>
+				<funder ref="#_ZwzsvBt #_aSmc9hu">
+					<orgName type="full">ANID</orgName>
+				</funder>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-05">5 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">Aristizabal</forename><surname>Sierra</surname></persName>
+							<idno type="ORCID">0000-0001-5429-3708</idno>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Física Casilla</orgName>
+								<orgName type="institution">Universidad Técnica Federico Santa María</orgName>
+								<address>
+									<addrLine>110-V Avda. España 1680</addrLine>
+									<settlement>Valparaíso</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Pablo</forename><forename type="middle">M</forename><surname>Candela</surname></persName>
+							<idno type="ORCID">0009-0009-8416-9295</idno>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Instituto de Física Corpuscular (CSIC-Universitat de València)</orgName>
+								<orgName type="institution" key="instit2">Parc Científic UV C/ Catedrático José Beltrán</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<address>
+									<postCode>E-46980</postCode>
+									<settlement>Paterna (Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Valentina</forename><surname>De Romeri</surname></persName>
+							<email>deromeri@ific.uv.es</email>
+							<idno type="ORCID">0000-0003-3585-7437</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Dimitrios</forename><forename type="middle">K</forename><surname>Papoulias</surname></persName>
+							<email>dimitrios.papoulias@uni-hamburg.de</email>
+							<idno type="ORCID">0000-0003-0453-8492</idno>
+							<affiliation key="aff1">
+								<orgName type="institution" key="instit1">Instituto de Física Corpuscular (CSIC-Universitat de València)</orgName>
+								<orgName type="institution" key="instit2">Parc Científic UV C/ Catedrático José Beltrán</orgName>
+							</affiliation>
+							<affiliation key="aff2">
+								<address>
+									<postCode>E-46980</postCode>
+									<settlement>Paterna (Valencia</settlement>
+									<country key="ES">Spain</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Experimental Physics</orgName>
+								<orgName type="institution">University of Hamburg</orgName>
+								<address>
+									<postCode>22761</postCode>
+									<settlement>Hamburg</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Laura</forename><surname>Trincado</surname></persName>
+							<email>laura.trincado@usm.cl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Departamento de Física Casilla</orgName>
+								<orgName type="institution">Universidad Técnica Federico Santa María</orgName>
+								<address>
+									<addrLine>110-V Avda. España 1680</addrLine>
+									<settlement>Valparaíso</settlement>
+									<country key="CL">Chile</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Axial-vector neutral-current measurements in coherent elastic neutrino-nucleus scattering experiments</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-05">5 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">DF7AEE9592ACC568372B97FC39D849B5</idno>
+					<idno type="arXiv">arXiv:2603.05281v1[hep-ph]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Coherent elastic neutrino-nucleus scattering (CEνNS) is predominantly governed by vector neutral-current interactions, with subleading contributions arising from the axial current in nuclei with non-zero ground-state spin. Experimentally, the extraction of axial-current contributions has been so far of little interest, mainly because of the challenges its measurement entail. In this work, we investigate the relative size of the vector and axial components for target materials currently employed by the neutrino and dark matter experimental communities. We identify fluorine-based compounds as the most promising targets for probing the axial-current event rate. Among them, octafluoropropane (C3F8) emerges as a particularly suitable candidate, given its widespread use in spin-dependent dark matter searches and its relevance for upcoming dedicated CEνNS experiments. Considering both pion decay-at-rest and reactor neutrino fluxes, we show that such measurements can allow an indirect determination of the axial coupling at the ∼ 10% level, depending on flux uncertainties and detector thresholds. We further emphasize that measurements of the axial current will allow to probe spin-dependent new physics scenarios through CEνNS.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Introduction-Since its first observation in 2017 <ref type="bibr" target="#b0">[1]</ref>, coherent elastic neutrino-nucleus scattering (CEνNS) <ref type="bibr" target="#b1">[2]</ref> has enabled low-energy measurements of Standard Model (SM) parameters and provided a sensitive probe of new physics in the neutrino sector (see, e.g., Refs. <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>). A well-established experimental program employing a variety of target materials and detector technologies is now underway. Measurements of CEνNS have been performed by the COHERENT collaboration using CsI, LAr and Ge targets <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref><ref type="bibr" target="#b6">[7]</ref>, and more recently using reactor neutrinos with germanium detectors <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>. In parallel, the dark matter (DM) direct detection experiments XENONnT <ref type="bibr" target="#b9">[10]</ref>, PandaX-4T <ref type="bibr" target="#b10">[11]</ref> and LZ <ref type="bibr" target="#b11">[12]</ref> have as well reported on their first CEνNS observations on xenon targets. Although measurements using 8 B solar neutrinos are currently statistically limited, rapid experimental progress is expected to significantly improve sensitivities and establish these facilities as key contributors to the global CEνNS research program. Additional measurements using alternative targets and novel detection techniques are either underway or planned <ref type="bibr" target="#b12">[13]</ref>. All these efforts are pushing CEνNS toward a precision era characterized by reduced experimental and theoretical uncertainties and substantially larger data samples.</p><p>In this emerging precision regime, subleading effects in the scattering process become increasingly relevant <ref type="bibr" target="#b13">[14]</ref><ref type="bibr" target="#b14">[15]</ref><ref type="bibr" target="#b15">[16]</ref>. Among these, the axial neutral-current contribution to the total event rate is of particular importance. To date, this contribution has received comparatively little attention, mainly because of the properties of the detector targets employed so far. Because the axial interaction depends on nuclear spin, its contribution is strongly sup-pressed relative to the vector component, which instead encodes the typical coherent enhancement of the process. This suppression is especially pronounced in heavy nuclei <ref type="bibr" target="#b16">[17]</ref>, which are those that have been predominantly used in measurements so far. An important exception is 40 Ar, an even-even nucleus with zero ground-state spin, for which no axial contribution is expected due to angular momentum conservation. Upcoming experiments with larger fiducial masses and a broader range of target materials are expected to change this picture, opening the possibility of experimentally accessing axial-current effects in CEνNS.</p><p>Although the general qualitative trend is well understood, a quantitative assessment of the most suitable target materials and the corresponding expected event rates is still required. Access to the axial contribution is essential for a complete understanding of low-energy neutral current neutrino nucleus scattering physics. Its measurement would open new avenues for spin-dependent new physics probes, an aspect that has not yet been systematically explored in this context. Furthermore, just as the vector component has provided valuable information on SM parameters, sensitivity to the axial current would provide indirect information on the axial-vector coupling g A , traditionally measured in cold neutron experiments (see, e.g., <ref type="bibr" target="#b17">[18]</ref>), and, depending on achievable statistics and detector performance, potentially also on the strange axial-vector coupling g s A . Motivated by these considerations, in this work we study axial-current event rates by comparing their magnitude with that of the vector contribution. Guidance comes from the extensive program of direct-detection ex-periments <ref type="bibr" target="#b18">[19]</ref><ref type="bibr" target="#b19">[20]</ref><ref type="bibr" target="#b20">[21]</ref> searching for spin-dependent DM interactions, where nuclei with non-zero spin play a central role. In particular, the nuclear spin structure of the relatively light nucleus 19 F has long been recognized as especially favorable for probing axial interactions due to its large and well-understood spin expectation values <ref type="bibr" target="#b21">[22]</ref>. Building on this insight, we identify fluorine-based compounds as the most suitable target materials for accessing the axial contribution in CEνNS measurements. In particular, among carbon tetrafluoride (CF 4 ), octafluoropropane (C 3 F 8 ) and perfluorobutane (C 4 F 10 )-which have been successfully tested by PICASSO <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref> and PICO <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b24">25]</ref> in DM searches-we find C 3 F 8 to be the most favorable option due to its widespread use in the DM community and its demonstrated scalability to large detector masses. Bubble-chamber experiments such as PICO-60 have successfully operated detectors filled with 52 kg of C 3 F 8 , achieving leading sensitivity to spindependent interactions <ref type="bibr" target="#b21">[22,</ref><ref type="bibr" target="#b24">25]</ref>. Further, discussions have been held for upgrades toward fiducial masses of up to 500 kg <ref type="bibr" target="#b25">[26]</ref>.</p><p>In addition, experimental groups at the European Spallation Source (ESS) <ref type="bibr" target="#b26">[27]</ref> and the Japan Proton Accelerator Research Complex (J-PARC) <ref type="bibr" target="#b27">[28]</ref> have identified this compound as a feasible target for CEνNS measurements. Leveraging their insensitivity to electron recoil backgrounds <ref type="bibr" target="#b28">[29]</ref>, moderately superheated bubble chambers with the integration of scintillation signals would facilitate sub-keV nuclear recoil thresholds <ref type="bibr" target="#b26">[27,</ref><ref type="bibr" target="#b29">30]</ref>.</p><p>Motivated by these prospects, in this letter we demonstrate that, under realistic detector performance a statistically meaningful extraction of the axial current component as well as of the axial-vector coupling is possible. The achievable precision is primarily determined by detector threshold, fiducial mass and neutrino flux uncertainties.</p><p>Heavy versus medium-light targets axial-current contributions-Phenomenological analyses of CEνNS data have so far primarily relied on the vector-current contribution to the differential cross section, as event rates are largely dominated by this component. A relevant quantity for this contribution is the weak-charge form factor, which quantifies the strength of the Z-boson coupling to nuclei. Usually, this form factor is typically described using phenomenological parametrizations, most commonly the Helm <ref type="bibr" target="#b30">[31]</ref> or the Klein-Nystrand <ref type="bibr" target="#b31">[32]</ref> models. The theoretical uncertainty implied by these choices is then incorporated as part of the systematic uncertainty in statistical analyses of the data. An alternative, though more fundamental, approach is based on ab initio calculations of the weak-charge form factor <ref type="bibr" target="#b32">[33,</ref><ref type="bibr" target="#b33">34]</ref>. In this approach, nucleon-nucleon interactions derived from chiral effective field theory are employed to construct the nuclear many-body Schrödinger equation. The resulting many-body wave functions are subsequently used to compute the form factor from first principles. Since both approaches carry intrinsic theoretical uncertainties, phenomenological parametrizations are generally preferred in actual data analyses due to their simplicity and ease of implementation.</p><p>For the axial current this is no longer the case<ref type="foot" target="#foot_0">foot_0</ref> , and ab initio results for the axial form factor become essential. The reason is that, in contrast to the vector contribution, the axial scattering rate exhibits an intrinsic dependence on nuclear spin and therefore on detailed nuclearstructure effects. The axial form factor is determined by the response of the nucleus to an external axial-vector current <ref type="bibr" target="#b36">[37]</ref>. The different nuclear responses arise from a multipole decomposition of the hadronic current operator. The dominant contributions are associated with the transverse spin current carried by the nucleons and are, following Ref. <ref type="bibr" target="#b33">[34]</ref>, denoted by F Σ ′ L ± . These quantities are provided in terms of fit functions obtained within shell-model calculations employing a harmonic-oscillator basis.</p><p>The axial form factor is obtained as a combination of isoscalar (F <ref type="bibr" target="#b33">[34,</ref><ref type="bibr" target="#b37">38]</ref> for details),</p><formula xml:id="formula_0">Σ ′ L + ) and isovector (F Σ ′ L -) contributions (see Refs.</formula><formula xml:id="formula_1">F A = 8π 2J + 1 (g s A ) 2 S T 00 -g A g s A S T 01 + g 2 A S T 11 ,<label>(1)</label></formula><p>where g s A quantifies the contribution of strange quarks to the spin structure of the nucleon and J refers to the spin of the nuclear ground state. In writing Eq. ( <ref type="formula" target="#formula_1">1</ref>), isospin symmetry has been assumed. Restricting the calculation to leading-order spin-dependent one-body currents, the structure functions S T ij are given by [34]</p><formula xml:id="formula_2">S T 00 = L [F Σ ′ L + ] 2 , S T 01 = L [F Σ ′ L -] 2 , S T 11 = 2 L F Σ ′ L + F Σ ′ L -.<label>(2)</label></formula><p>Here the sum runs over the contributing multipoles L. Although results including sub-leading pion-exchange two-body currents are available for several target nuclei, we do not include them in the present analysis. Their impact is expected to be subdominant compared to the experimental uncertainties associated with the extraction of the axial-current contribution itself. This constitutes a reasonable assumption, particularly for a first generation of measurements aimed at probing the axial component in CEνNS.</p><p>The differential cross section, including the axialvector contribution, is then given by the standard vector term and the pure axial term, namely <ref type="bibr" target="#b33">[34]</ref> </p><formula xml:id="formula_3">dσ dE r = G 2 F m N 4π 1 - m N E r 2E 2 ν - E r E ν Q 2 W |F W (|q| 2 )| 2 + G 2 F m N 4π 1 + m N E r 2E 2 ν - E r E ν F A (|q| 2 ) .<label>(3)</label></formula><p>Here</p><formula xml:id="formula_4">Q W = 2(g p V Z + g n V N ) = Z(1 -4 s 2 W ) -N , with g p V = 1/2 -2s 2 W , g n V = -1/2</formula><p>, and s 2 W ≡ sin 2 θ W denoting the weak-mixing angle. The quantity F W (|q| 2 ) represents the weak-charge form factor, for which we adopt the Helm parametrization <ref type="bibr" target="#b30">[31]</ref>. In principle, the simultaneous presence of vector and axial currents implies interference terms. These contributions, however, either vanish or are suppressed by recoil-energy factors <ref type="bibr" target="#b33">[34]</ref>. As a result, to a very good approximation the vector and axial components contribute independently to the total scattering rate.</p><p>We will determine event rates using neutrino fluxes from π decay-at-rest at spallation neutron sources, and nuclear reactors. We assume an ESS-like spallation source, in which case, 0.3 neutrinos of each flavor are produced per proton-on-target (POT), assuming a 2 GeV proton-collision energy <ref type="bibr" target="#b26">[27]</ref>. The reactor electron anti-neutrino flux is instead implemented according to Ref. <ref type="bibr" target="#b38">[39]</ref>. The relevant features of both sources are summarized in the Supplemental Material.</p><p>Before turning to light compounds, we first evaluate the axial-current contribution for heavy target materials foreseen or already deployed at relevant CEνNS facilities. The COHERENT NaI is primarily designed for chargedcurrent measurements <ref type="bibr" target="#b39">[40]</ref>, but its technology can be scaled to tonne-size masses. In such a configuration, measurements in the nuclear recoil channel would, in principle, allow the collection of either vector-and axial-current events. Both isotopes are odd-A, proton-odd nuclei with positive parity and non-zero spin: J Π ( 23 Na) = 3/2 + and J Π ( 127 I) = 5/2 + . Likewise, in CsI (already used by the COHERENT Collaboration <ref type="bibr" target="#b0">[1,</ref><ref type="bibr" target="#b5">6]</ref>, and planned to be used at ESS <ref type="bibr" target="#b26">[27]</ref>, J-PARC <ref type="bibr" target="#b27">[28]</ref>, and the Chinese Spallation Neutron Source <ref type="bibr" target="#b40">[41,</ref><ref type="bibr" target="#b41">42]</ref>), the 133 Cs isotope is an odd-A, proton-dominated, positive-parity nucleus with J Π ( 133 Cs) = 7/2 + . Therefore, in these compounds both nuclei contribute to the axial current.</p><p>The situation is different for xenon and germanium 2 . Among their stable isotopes, only 129 Xe, 131 Xe and 73 Ge have non-zero spin ground states and can therefore generate axial-current events. Nevertheless, xenon and germanium remain among the most used detector materials, and highly enriched germanium detectors 2 Used by XENONnT <ref type="bibr" target="#b9">[10]</ref>, LUX-ZEPLIN <ref type="bibr" target="#b11">[12]</ref> and PandaX-4T <ref type="bibr" target="#b10">[11]</ref>. In use as well by reactor-based CEνNS experiments <ref type="bibr" target="#b7">[8,</ref><ref type="bibr" target="#b8">9]</ref>.</p><p>have been constructed for neutrino-less double β decay searches <ref type="bibr" target="#b42">[43,</ref><ref type="bibr" target="#b43">44]</ref>. If the axial contribution is sufficiently large, one could envision dedicated enriched xenon or germanium detectors in which the axial signal is enhanced through isotopic purification.</p><p>We have calculated the expected event rates for these compounds assuming the following ESS-inspired <ref type="bibr" target="#b26">[27]</ref> benchmark configuration: L = 20 m baseline, a proton beam power of 1.3 MW, an 80% flat detection acceptance with a 2 keV recoil threshold, and a 50 kg fiducial mass. Results are shown in Fig. <ref type="figure">1</ref> for an exposure corresponding to three years of data taking. The left (right) panel shows the vector (axial) contribution. In all cases, the axial contribution is strongly suppressed, with a clear trend such that the suppression increases with nuclear mass. As an order-of-magnitude estimate the relative size of the two contributions can be calculated from the weak-charge and axial form factors at zero transferred momentum Axial events Vector events ≲ 32π 3</p><formula xml:id="formula_5">J + 1 J(2J + 1) g 2 A (S p -S n ) 2 N 2 .<label>(4)</label></formula><p>Here, S p (S n ) is the proton (neutron) spin expectation value and we have used the fact that the axial-current cross section is dominated by the isovector contribution, normalized according to S T 11 (0) =</p><formula xml:id="formula_6">4 3 J+1 J g 2 A (S p -S n ) 2 [34]</formula><p>. The predicted event yields for both components are summarized in Tab. I. Note that in our calculation we assume a nuclear weak-charge radius R W = 1.23 × A 1/3 fm and adopt the PDG values for s 2 W and g A <ref type="bibr" target="#b44">[45]</ref>. Because of the strong suppression, increasing the fiducial mass has little impact on the relative size of the axial contribution. For example, in tonne-scale detectors the absolute number of axial events becomes sizable, yet it remains overwhelmingly dominated by the vector component. Lowering the recoil-energy threshold does not lead to a significant enhancement of the axial rate either. This overall rescaling is applicable to future multi-ton DM detectors as well, as the one envisaged by the XLZD consortium <ref type="bibr" target="#b45">[46]</ref> that aims at a 60-80 tonne xenon detector. Component CsI NaI 131 Xe 73 Ge Vector 39176 33944 39773 25967 Axial 5 9 4 17</p><p>TABLE I: Expected vector and axial event rates for heavy targets assuming a 50 kg fiducial mass detector with a 2 keV recoil threshold and a flat 80% acceptance. Neutrinos are produced via π + decay-at-rest. Given these results, target materials suitable for axialcurrent measurements at CEνNS facilities should involve relatively light nuclei. A non-exhaustive list includes 0 20 40 60 Recoil energy [keV] 0.00 0.25 0.50 0.75 1.00 1.25 Vector events [×10 4 ] Spallation source 50 kg • 3 yr CsI NaI 73 Ge 131 Xe 0 20 40 60 80 100 Recoil energy [keV] 0 1 2 3 Axial events Spallation source 50 kg • 3 yr CsI NaI 73 Ge 131 Xe FIG. 1: Expected vector event rates in heavy target materials (left panel) and the corresponding axial-current contributions (right panel), see the text for details.</p><p>three J Π = 1/2 + isotopes, namely 3 He, 19 F and 29 Si, together with deuterium (J Π = 1 + ) and 27 Al (J Π = 5/2 + ). Both 3 He and deuterium have a strongly suppressed vector contribution, thus in principle are attractive targets. However, the natural abundance of 3 He is at the parts-per-million level and its low density would require substantially larger fiducial detector masses to achieve meaningful statistics. Deuterium, on the other hand, has already been successfully employed in solar neutrino physics measurements by SNO <ref type="bibr" target="#b46">[47]</ref>. Currently, the CO-HERENT collaboration operates a ∼ 500 kg D 2 O detector aimed at reducing neutrino-flux statistical uncertainties <ref type="bibr" target="#b47">[48]</ref>. This detector exploits ν e -D 2 interactions observed through Cherenkov light. Although we do not discuss it further, deuterium constitutes a potentially interesting target material for axial-current measurements. Its practical implementation, however, may involve nontrivial technical challenges. 27 Al appears to be a promising candidate, given its non-zero spin nuclear ground state and its natural abundance. However, we are not aware of detector technologies currently employing this target material. Concerning 29 Si, the CONNIE experiment <ref type="bibr" target="#b38">[39]</ref> uses silicon detectors, but with strongly limited fiducial masses. Although lower recoil-energy thresholds could, in principle, enhance the axial event rate, the expected signal remains too small to be observable with present configurations. As a consequence, among the candidate targets discussed above, fluorine-based materials emerge as the most viable option. Two compounds are particularly relevant: CF 4 and C 3 F 8 . The former has been used in directional DM searches by the DRIFT and the NEWAGE-3.0 collaborations <ref type="bibr" target="#b48">[49,</ref><ref type="bibr" target="#b49">50]</ref>. It has been proposed as well for CEνNS measurements at neutrino beam facilities at Fermilab using the νBDX-DRIFT detector <ref type="bibr" target="#b50">[51,</ref><ref type="bibr" target="#b51">52]</ref>. It has been further considered for DM directional searches by the CYGNO collaboration <ref type="bibr" target="#b52">[53]</ref>.</p><p>The νBDX-DRIFT detector is a gaseous low-pressure TPC where operation thresholds are strongly correlated with operation pressure. In a 1 m 3 detector at 400 torr, where the CEνNS signal peaks, the fiducial mass is only ∼ 2 kg. As a result, minimal detector configurations of this type are unlikely to achieve sufficient sensitivity to axial-current event rates. Note that, in principle, C 4 F 10 could also serve as a target material, following the operating principle of traditional bubble chamber detectors. A notable example is the PICASSO DM experiment <ref type="bibr" target="#b22">[23,</ref><ref type="bibr" target="#b23">24]</ref>, although it operated with a relatively modest fiducial mass. If the same detector configuration could be achievable, in terms of exposure and threshold, we could expect comparable sensitivities to those obtained in the following with C 3 F 8 .</p><p>The case of C 3 F 8 is indeed qualitatively different, based on experience from the PICO Collaboration <ref type="bibr" target="#b24">[25]</ref>. This makes C 3 F 8 a particularly promising target for axial-current measurements. Motivated by these considerations, we have calculated event rates assuming the same experimental configurations that were employed in the heavy target analysis. In addition, we evaluate the reactor-neutrino case using a configuration resembling that of CONUS+ <ref type="bibr" target="#b8">[9]</ref>. The results are presented in Fig. <ref type="figure" target="#fig_0">2</ref>. Although the axial contribution remains subdominant, its suppression is significantly weaker than in heavy targets. For spallation-source neutrinos we find a suppression factor of ∼ 25, while for reactor neutrinos it is reduced to ∼ 10. We attribute this difference to the interplay between the "morphology" of neutrino spectra and the momentum-transfer dependence of the nuclear responses. Neutrino fluxes at spallation sources peak at energies where the axial spin structure functions decrease more rapidly with momentum transfer than the vector weak-charge form factor. Reactor neutrinos, in contrast,  <ref type="bibr" target="#b26">[27]</ref>, a recoil-energy threshold of 2 keV is adopted. Right graph: Same as the left graph, but for reactor electron antineutrinos. Experimental specifications are taken from the latest CONUS+ run <ref type="bibr" target="#b8">[9]</ref> (see text for details).</p><p>are predominantly produced at lower energies, where the suppression induced by the spin structure functions is milder, resulting in a comparatively enhanced axial contribution.</p><p>Extraction of the axial-vector coupling-Although the axial-to-vector event ratio remains relatively small, it nevertheless enables studies that would be inaccessible if only the vector component is measured. With data of this type, the most immediate analysis would be the extraction of the axial-vector coupling. In addition, searches for spin-dependent new physics could also be performed. It is worth noting that the absence of observable new physics signals may arise from intrinsically suppressed spin-dependent effects rather than from the absence of new interactions. In the following, we present projected sensitivities to g A assuming forecasted data. For our analysis, we simulate forecasted data assuming a SM signal. We then allow g A to vary in the range [0.8, 1.6], while keeping g s A fixed, and construct the following spectral χ 2 function</p><formula xml:id="formula_7">χ 2 = 2 i N th i -N exp i + N exp i ln N exp i N th i + α σ α 2 .</formula><p>(5) Here, N th i denotes the theoretically predicted number of events per recoil-energy bin, computed for the reference values g A = 1.27641 <ref type="bibr" target="#b17">[18]</ref> and g s A = -0.085 <ref type="bibr" target="#b53">[54]</ref>, while N exp i corresponds to the predicted event numbers obtained for varying values of g A . The parameter α represents a nuisance parameter accounting for the uncertainty in the neutrino flux, with fractional uncertainty σ α . We consider two representative assumptions for the flux normalization uncertainty: a realistic scenario with σ α = 5% and an optimistic scenario with σ α = 1%. Although a 1% uncertainty is ambitious, it may not be completely unrealistic <ref type="foot" target="#foot_1">3</ref> . We study two experimental configurations: a near-term detector with a 50 kg fiducial mass operating at recoil-energy thresholds E th r = 3 keV and E th r = 2 keV, and a future 350 kg phase operating at the same thresholds. Such exposures appear realistic in light of the planned construction of a ∼ 500 kg C 3 F 8 detector by the PICO collaboration <ref type="bibr" target="#b25">[26]</ref>.</p><p>We compute the expected sensitivity for both pion decay-at-rest and reactor neutrino fluxes. The resulting constraints are shown in Fig. <ref type="figure" target="#fig_2">3</ref>. From the results one can see that when assuming a 3 keV recoil-energy threshold, neutrino flux uncertainties play a pivotal role. Reducing these uncertainties leads to a substantial improvement in the precision with which g A can be extracted. In contrast, at a lower threshold (E thr = 2 keV), improvements in the flux uncertainty translate into only marginal gains in precision. Increasing the fiducial mass, however, has a more significant impact, exceeding the improvements obtained solely from reducing neutrino flux uncertainties. As expected, the optimal determination of g A is achieved for a combination of lowest threshold, smallest neutrino flux uncertainty, and largest fiducial mass. According to current PICO plans, the benchmark configurations adopted in this work appear realistic and would allow a measurement of g A at the ∼ 10% level. Achieving  a substantially better precision will require simultaneous improvements in several experimental parameters, in particular larger fiducial masses and lower recoil-energy thresholds. Note that attempts in line with this analysis have been done using charged-current NaI COHERENT data in Ref. <ref type="bibr" target="#b56">[57]</ref>.</p><formula xml:id="formula_8">σ flux = 1% , E th = 2 keV σ flux = 1% , E th = 3 keV σ flux = 5% , E th = 2 keV σ flux = 5% , E th = 3 keV</formula><p>Conclusions-The axial neutral-current provides a subdominant contribution to CEνNS event rates in targets with a non-zero nuclear ground-state spin. In counting experiments, its signal is largely overwhelmed by the dominant vector component, which explains why it has so far eluded experimental observation, and justifies its neglect in phenomenological analyses of current measurements, obtained with heavy-target materials. Nevertheless, accessing this contribution is essential for fully exploiting the physics potential of the CEνNS physics agenda.</p><p>In this letter, we have investigated the prospects for measuring this subleading yet phenomenologically important component. We have first examined heavy target materials commonly employed in neutrino and DM ex-periments and demonstrated that, even with tonne-scale detectors, the axial-current contribution remains effectively negligible. Although a small number of axial events may be collected, the statistical information that can be extracted is limited. We then have identified mediummass and light nuclei with non-zero spin ground states as the more promising candidates. For several of these isotopes, however, suitable detector technologies are either unavailable or not currently planned.</p><p>These considerations lead us to conclude that fluorinebased compounds provide the most suitable targets, with CF 4 and C 3 F 8 emerging as the most promising options. Among them, C 3 F 8 stands out due to its extensive use over nearly two decades in DM direct detection searches and the proposed deployment of detectors based on this material at the ESS <ref type="bibr" target="#b26">[27]</ref> and at J-PARC <ref type="bibr" target="#b27">[28]</ref> facilities.</p><p>As an application, we performed a forecast study of axial-current measurements and evaluated the achievable precision on the extraction of the axial-vector coupling g A . We find that in a realistic experimental setup consisting of 350 kg of C 3 F 8 , a 2 keV nuclear-recoil thresh-old and a 1% neutrino flux uncertainty, an extraction at the ∼ 10% precision level seems possible. Achieving significantly better precision, would require simultaneous improvements in detector threshold, fiducial mass and neutrino flux determination, which may prove experimentally challenging. These measurements will be complementary to those done in dedicated experiments, thus providing further insight on g A . Finally, we emphasize that measurements of the axial-current contribution would open a new avenue for the study of low-energy newphysics signals that may remain hidden in standard analysis due to the intrinsic suppression of spin-dependent effects.</p><p>Param. 235 U 239 Pu 238 U 241 Pu ai [MeV -1 ] 1.0461 1.0527 1.0719 1.0818 a0 0.870 0.896 0.976 0.793 a1 [MeV -1 ] -0.160 -0.239 -0.162 -0.080 a2 [MeV -2 ] -0.0910 -0.0981 -0.0790 -0.1085</p><p>TABLE II: Parameters for electron antineutrino spectrum parametrization above 2 MeV for each fissile isotope <ref type="bibr" target="#b38">[39]</ref>.</p><p>to the observable event rate. This conclusion becomes even stronger for heavier target nuclei, unless detectors can achieve thresholds well below 1 keV. The expected vector and axial event rates are then computed through a convolution of the neutrino flux and the CEνNS differential cross section</p><formula xml:id="formula_9">dN dE r = t run m det M mol E max ν E min ν dE ν dΦ ν dE ν dσ dE r ,<label>(9)</label></formula><p>where t run is the detector data-taking time, m det is the detector fiducial mass, and M mol is the molar mass of the target material. The lower integration limit depends on the nuclear recoil energy and is expressed as E min ν = m N E r /2, while E max ν is taken to be the endpoint of the neutrino energy distribution, i.e., E max ν = m µ /2 for the case of ESS and E max ν ≃ 10 MeV for reactor antineutrinos.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIG. 2 :</head><label>2</label><figDesc>FIG.2: Left graph: Total expected event rate as a function of nuclear recoil energy assuming a spallation-source neutrino flux, for a C 3 F 8 detector. Following ESS expectations<ref type="bibr" target="#b26">[27]</ref>, a recoil-energy threshold of 2 keV is adopted. Right graph: Same as the left graph, but for reactor electron antineutrinos. Experimental specifications are taken from the latest CONUS+ run<ref type="bibr" target="#b8">[9]</ref> (see text for details).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>σσ</head><figDesc>flux = 1% , E th = 2 keV σ flux = 1% , E th = 3 keV σ flux = 5% , E th = 2 keV σ flux = 5% , E th = flux = 1% , E th = 2 keV σ flux = 1% , E th = 3 keV σ flux = 5% , E th = 2 keV σ flux = 5% , E th = σ flux = 1% , E th = 2 keV σ flux = 1% , E th = 3 keV σ flux = 5% , E th = 2 keV σ flux = 5% , E th = 3</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIG. 3 :</head><label>3</label><figDesc>FIG. 3: Upper panel: Projected sensitivities to g A , shown as reduced χ 2 profiles, for a spallation-source experiment assuming a C 3 F 8 detector with fiducial masses of 50 kg (left) and 350 kg (right), a 20 m baseline, and different recoil-energy thresholds and neutrino flux uncertainties. Lower panel: Same as the upper panel, but assuming a neutrino flux from a nuclear reactor.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="1" xml:id="foot_0"><p>An approximate parametrization of the axial-vector form factor has been proposed in Refs.<ref type="bibr" target="#b34">[35,</ref><ref type="bibr" target="#b35">36]</ref>. At large transferred momentum, however, it provides a less accurate description than the result following from ab-initio calculations.</p></note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="3" xml:id="foot_1"><p>For example, the COHERENT collaboration expects to determine the pion decay-at-rest neutrino flux with an uncertainty of about 2-3% using a dedicated D 2 O detector<ref type="bibr" target="#b47">[48]</ref>. For the case of reactor antineutrinos, an uncertainty close to 1% for the 235 U cross section/fission is reported from the recent Daya Bay's measurement<ref type="bibr" target="#b54">[55]</ref>, as well as from a global fit<ref type="bibr" target="#b55">[56]</ref>.</p></note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div><p>Acknowledgments-P.M.C and V.D.R. acknowledge financial support by the grant <rs type="grantNumber">CIDEXG/2022/20</rs> (from <rs type="affiliation">Generalitat Valenciana</rs>) and by the <rs type="funder">Spanish</rs> grants <rs type="grantNumber">CNS2023-144124</rs> (<rs type="grantNumber">MCIN/AEI/10.13039/501100011033</rs> and "<rs type="projectName">Next Generation EU"/PRTR</rs>), <rs type="grantNumber">PID2023-147306NB-I00</rs>, and <rs type="grantNumber">CEX2023-001292-S (MCIU/AEI/10.13039/ 501100011033</rs>). P.M.C. is also supported by the grant <rs type="grantNumber">CIACIF/2021/281</rs> (<rs type="funder">Generalitat Valenciana</rs>). The work of D.A.S. and L.T.S is funded by <rs type="funder">ANID</rs> grants "<rs type="programName">Fondecyt Regular</rs>" <rs type="grantNumber">1221445</rs> and <rs type="grantNumber">1260595</rs>. L.T.S is funded as well by "<rs type="funder">Programa de Iniciación a la Investigación Científica (PIIC)</rs>" number <rs type="grantNumber">007/2025</rs>. Both thank IFIC and specially the members of the <rs type="institution">AHEP group</rs> for their kind hospitality during several stages of this project. D.K.P. acknowledges funding from the <rs type="funder">European Union</rs>'s <rs type="programName">Horizon Europe research and innovation programme</rs> under the <rs type="grantName">Marie Skłodowska-Curie Actions</rs> grant agreement No. <rs type="grantNumber">101198541</rs> (neutrinoSPHERE).</p></div>
+			</div>
+			<listOrg type="funding">
+				<org type="funding" xml:id="_WJTFWb4">
+					<idno type="grant-number">CIDEXG/2022/20</idno>
+				</org>
+				<org type="funding" xml:id="_MWnk3T2">
+					<idno type="grant-number">CNS2023-144124</idno>
+				</org>
+				<org type="funded-project" xml:id="_h5HGVxr">
+					<idno type="grant-number">MCIN/AEI/10.13039/501100011033</idno>
+					<orgName type="project" subtype="full">Next Generation EU"/PRTR</orgName>
+				</org>
+				<org type="funding" xml:id="_9cuarm9">
+					<idno type="grant-number">PID2023-147306NB-I00</idno>
+				</org>
+				<org type="funding" xml:id="_ZR2wz4g">
+					<idno type="grant-number">CEX2023-001292-S (MCIU/AEI/10.13039/ 501100011033</idno>
+				</org>
+				<org type="funding" xml:id="_3HpcrGg">
+					<idno type="grant-number">CIACIF/2021/281</idno>
+				</org>
+				<org type="funding" xml:id="_ZwzsvBt">
+					<idno type="grant-number">1221445</idno>
+					<orgName type="program" subtype="full">Fondecyt Regular</orgName>
+				</org>
+				<org type="funding" xml:id="_aSmc9hu">
+					<idno type="grant-number">1260595</idno>
+				</org>
+				<org type="funding" xml:id="_wcWuzjv">
+					<idno type="grant-number">007/2025</idno>
+				</org>
+				<org type="funding" xml:id="_h6QmWZS">
+					<idno type="grant-number">101198541</idno>
+					<orgName type="grant-name">Marie Skłodowska-Curie Actions</orgName>
+					<orgName type="program" subtype="full">Horizon Europe research and innovation programme</orgName>
+				</org>
+			</listOrg>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Supplemental Material</head><p>Neutrinos produced at spallation neutron sources originate primarily from π + meson decays. At the energies relevant for these facilities most π -mesons are efficiently absorbed by nuclei before decaying. As a result, three neutrino flavors are then produced: a prompt ν µ component and delayed ν e and ν µ . The prompt signal, arises from the two-body decay π + → µ + ν µ and hence is monochromatic, with energy located at E νµ = (m 2 π +m 2 µ )/2m π + . The delayed signal, stemming from a three-body decay mode, involves two continuous spectra dictated by the muon energy spectra. The spectral functions follow from phase space integration</p><p>Flux normalization is determined by the value of protons on target (POT), baseline and the fraction of neutrinos produced per POT. The latter depends on the target material hit by the protons as well as the proton kinetic energy. We implement results for the ESS, for which plans to deploy a C 3 F 8 detector have been discussed in Ref. <ref type="bibr" target="#b26">[27]</ref>. In that case, 0.3 neutrinos of each flavor per POT, assuming a 2 GeV proton-collision energy, are expected <ref type="bibr" target="#b26">[27]</ref>.</p><p>The reactor electron anti-neutrino flux is instead implemented according to Ref. <ref type="bibr" target="#b38">[39]</ref>. More than 80% of the flux is generated from β decay processes of the fissile isotopes: 235 U, 235 U, 239 Pu and 241 Pu. Above 2 MeV, the spectrum is well described by</p><p>with the fission fractions f i given by {f235 U , f238 U , f239 Pu , f241 Pu } = {5.5, 0.7, 3.2, 0.6} × 10 -1 and L the core-detector baseline, P is the reactor power and ε = 205.24 MeV is the average energy released per fission. The number of ν e per energy and per fission follows an exponential law</p><p>The parameters for each fissile isotope are listed in Tab. II. Depending on the detector threshold, the neutrino spectrum below 2 MeV can in principle be relevant and may provide a sizable contribution to the total rate. In particular, β decays of 239 U produced in 238 U(n, γ) 239 U contribute significantly due to their large fission fraction. For fluorine, the nucleus that dominates the event rate in C 3 F 8 , the maximum recoil energy induced by a 2 MeV neutrino is E max r ∼ 0.5 keV. Carbon recoils are only slightly larger, reaching at most E max r ∼ 0.7 keV. Therefore, for the detector thresholds considered in this work, this low-energy portion of the spectrum does not contribute appreciably</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Observation of Coherent Elastic Neutrino-Nucleus Scattering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Akimov</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1126/science.aao0990</idno>
+		<idno type="arXiv">arXiv:1708.01294</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="issue">6356</biblScope>
+			<biblScope unit="page" from="1123" to="1126"/>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Coherent Neutrino Nucleus Scattering as a Probe of the Weak Neutral Current</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Z</forename><surname>Freedman</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.9.1389</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1389" to="1392"/>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Physics implications of a combined analysis of COHERENT CsI and LAr data</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>De Romeri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Papoulias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sanchez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W F</forename><surname>Tórtola</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Valle</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP04(2023)035</idno>
+		<idno type="arXiv">arXiv:2211.11905</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Physics results from the first COHERENT observation of coherent elastic neutrino-nucleus scattering in argon and their combination with cesium-iodide data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cadeddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dordei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giunti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Picciau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.102.015030</idno>
+		<idno type="arXiv">arXiv:2005.01645</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">15030</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">First Measurement of Coherent Elastic Neutrino-Nucleus Scattering on Argon</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Akimov</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.126.012002</idno>
+		<idno type="arXiv">arXiv:2003.10630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12002</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Measurement of the Coherent Elastic Neutrino-Nucleus Scattering Cross Section on CsI by COHERENT</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Akimov</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.129.081801</idno>
+		<idno type="arXiv">arXiv:2110.07730</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">81801</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">First detection of coherent elastic neutrino-nucleus scattering on germanium</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Adamski</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="arXiv">arXiv:2406.13806</idno>
+		<imprint/>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Measurement of Coherent Elastic Neutrino-Nucleus Scattering from Reactor Antineutrinos</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Colaresi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Collar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hossbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Yocum</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.129.211802</idno>
+		<idno type="arXiv">arXiv:2202.09672</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page">211802</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Direct observation of coherent elastic antineutrino-nucleus scattering</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ackermann</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-025-09322-2</idno>
+		<idno type="arXiv">arXiv:2501.05206</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">643</biblScope>
+			<biblScope unit="issue">8074</biblScope>
+			<biblScope unit="page" from="1229" to="1233"/>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">First Indication of Solar B8 Neutrinos via Coherent Elastic Neutrino-Nucleus Scattering with XENONnT</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aprile</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">XENON Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.133.191002</idno>
+		<idno type="arXiv">arXiv:2408.02877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">191002</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">First Indication of Solar B8 Neutrinos through Coherent Elastic Neutrino-Nucleus Scattering in PandaX-4T</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Bo</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PandaX Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.133.191001</idno>
+		<idno type="arXiv">arXiv:2407.10892</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">133</biblScope>
+			<biblScope unit="issue">19</biblScope>
+			<biblScope unit="page">191001</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Searches for Light Dark Matter and Evidence of Coherent Elastic Neutrino-Nucleus Scattering of Solar Neutrinos with the LUX-ZEPLIN (LZ) Experiment</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Akerib</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">LZ Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="arXiv">arXiv:2512.08065</idno>
+		<imprint/>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Coherent elastic neutrino-nucleus scattering: Terrestrial and astrophysical applications</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abdullah</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2203.07361</idno>
+		<imprint/>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Momentum dependent flavor radiative corrections to the coherent elastic neutrino-nucleus scattering for the neutrino charge-radius determination</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Corona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cadeddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cargioli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dordei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giunti</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP05(2024)271</idno>
+		<idno type="arXiv">arXiv:2402.16709</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="issue">05</biblScope>
+			<biblScope unit="page">271</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Flavor-dependent radiative corrections in coherent elastic neutrino-nucleus scattering</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tomalak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pandey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Plestid</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP02(2021)097</idno>
+		<idno type="arXiv">arXiv:2011.05960</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="issue">02</biblScope>
+			<biblScope unit="page">97</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Solar neutrinos with CEνNS and flavor-dependent radiative corrections</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Strigari</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.108.063023</idno>
+		<idno type="arXiv">arXiv:2305.17827</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">63023</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Probing new physics with coherent neutrino scattering off nuclei</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barranco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">G</forename><surname>Miranda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Rashba</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1126-6708/2005/12/021</idno>
+		<idno type="arXiv">arXiv:hep-ph/0508299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">21</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Measurement of the Weak Axial-Vector Coupling Constant in the Decay of Free Neutrons Using a Pulsed Cold Neutron Beam</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Märkisch</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.122.242501</idno>
+		<idno type="arXiv">arXiv:1812.04666</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">242501</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Dark matter direct-detection experiments</title>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marrodán</forename><surname>Undagoitia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rauch</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0954-3899/43/1/013001</idno>
+		<idno type="arXiv">arXiv:1509.08767</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. G</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13001</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Direct Detection of WIMP Dark Matter: Concepts and Status</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schumann</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6471/ab2ea5</idno>
+		<idno type="arXiv">arXiv:1903.03026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Phys. G</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">103003</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>astro-ph.CO</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Direct detection of dark matter-APPEC committee report*</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Billard</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1361-6633/ac5754</idno>
+		<idno type="arXiv">arXiv:2104.07634</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rept. Prog. Phys</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">56201</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Dark Matter Search Results from the PICO-60 C3F8 Bubble Chamber</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amole</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.118.251301</idno>
+		<idno type="arXiv">arXiv:1702.07666</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">251301</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>astro-ph.CO</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Dark Matter Spin-Dependent Limits for WIMP Interactions on F-19 by PICASSO</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Archambault</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2009.11.019</idno>
+		<idno type="arXiv">arXiv:0907.0307</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">682</biblScope>
+			<biblScope unit="page" from="185" to="192"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Constraints on Low-Mass WIMP Interactions on 19 F from PICASSO</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Archambault</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICASSO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2012.03.078</idno>
+		<idno type="arXiv">arXiv:1202.1240</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">711</biblScope>
+			<biblScope unit="page" from="153" to="161"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Dark Matter Search Results from the Complete Exposure of the PICO-60 C3F8 Bubble Chamber</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amole</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.100.022001</idno>
+		<idno type="arXiv">arXiv:1902.04031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">22001</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>astro-ph.CO</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">PICO-500: A tonne scale bubble chamber for the search of dark matter</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>García-Viltres</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Vázquez-Jáuregui</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1393/ncc/i2022-22007-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nuovo Cim. C</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Coherent Elastic Neutrino-Nucleus Scattering at the European Spallation Source</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baxter</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/JHEP02(2020)123</idno>
+		<idno type="arXiv">arXiv:1911.00762</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="volume">02</biblScope>
+			<biblScope unit="page">123</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Coherent Elastic Neutrino-Nucleus Scattering at the Japan Proton Accelerator Research Complex</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">I</forename><surname>Collar</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2512.19788</idno>
+		<imprint/>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Data-Driven Modeling of Electron Recoil Nucleation in PICO C3F8 Bubble Chambers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Amole</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">PICO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.100.082006</idno>
+		<idno type="arXiv">arXiv:1905.12522</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">82006</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">First Demonstration of a Scintillating Xenon Bubble Chamber for Detecting Dark Matter and Coherent Elastic Neutrino-Nucleus Scattering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baxter</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.118.231301</idno>
+		<idno type="arXiv">arXiv:1702.08861</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">23</biblScope>
+			<biblScope unit="page">231301</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Inelastic and Elastic Scattering of 187-Mev Electrons from Selected Even-Even Nuclei</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Helm</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRev.104.1466</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="1466" to="1475"/>
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Exclusive vector meson production in relativistic heavy ion collisions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nystrand</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.60.014903</idno>
+		<idno type="arXiv">arXiv:hep-ph/9902259</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page">14903</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Constraining nuclear physics parameters with current and future COHERENT data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Papoulias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Kosmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sahu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K B</forename><surname>Kota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hota</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2019.135133</idno>
+		<idno type="arXiv">arXiv:1903.03722</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">800</biblScope>
+			<biblScope unit="page">135133</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Coherent elastic neutrino-nucleus scattering: EFT analysis and nuclear responses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoferichter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Menéndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwenk</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.102.074018</idno>
+		<idno type="arXiv">arXiv:2007.08529</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">74018</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Dark matter direct detection rate in a generic model with micrOMEGAs 2.2</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Boudjema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pukhov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Semenov</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cpc.2008.11.019</idno>
+		<idno type="arXiv">arXiv:0803.2360</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Phys. Commun</title>
+		<imprint>
+			<biblScope unit="volume">180</biblScope>
+			<biblScope unit="page" from="747" to="767"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Nuclear uncertainties in the spin-dependent structure functions for direct dark matter detection</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Cerdeno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fornasa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Huh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Peiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.87.023512</idno>
+		<idno type="arXiv">arXiv:1208.6426</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">23512</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">The Theory of Direct Dark Matter Detection: A Guide to Computations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Del Nobile</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2104.12785</idno>
+		<imprint/>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Large-scale nuclear structure calculations for spin-dependent WIMP scattering with chiral effective field theory currents</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Klos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Menéndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gazit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwenk</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.88.083516</idno>
+		<idno type="arXiv">arXiv:1304.7684</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page">29901</biblScope>
+			<date type="published" when="2013">2013. 2014</date>
+		</imprint>
+	</monogr>
+	<note>nucl-th Phys.Rev.D</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Search for light mediators in the low-energy data of the CONNIE reactor neutrino experiment</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aguilar-Arevalo</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">CONNIE Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1007/JHEP04(2020)054</idno>
+		<idno type="arXiv">arXiv:1910.04951</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JHEP</title>
+		<imprint>
+			<biblScope unit="issue">04</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Measurement of Electron-Neutrino Charged-Current Cross Sections on I127 with the COHERENT NaIνE Detector</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>An</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.131.221801</idno>
+		<idno type="arXiv">arXiv:2305.19594</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="issue">22</biblScope>
+			<biblScope unit="page">221801</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">China spallation neutron source -an overview of application and development</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Others</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1674-1137/33/11/021</idno>
+		<ptr target="https://doi.org/10.1088/1674-1137/33/11/021"/>
+	</analytic>
+	<monogr>
+		<title level="j">Chinese Physics C</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1" to="5"/>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">CEνNS Experiment Proposal at CSNS †</title>
+		<author>
+			<persName><forename type="first">Ceνns</forename><forename type="middle">@</forename><surname>Clovers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Csns Collaboration</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/psf2023008019</idno>
+		<idno type="arXiv">arXiv:2303.13423</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Sci. Forum</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Final Results of GERDA on the Search for Neutrinoless Double-β Decay</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Agostini</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">GERDA Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.125.252502</idno>
+		<idno type="arXiv">arXiv:2009.06079</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page">252502</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The Majorana Demonstrator Neutrinoless Double-Beta Decay Experiment</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abgrall</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Majorana Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1155/2014/365432</idno>
+		<idno type="arXiv">arXiv:1308.1633</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. High Energy Phys</title>
+		<imprint>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page">365432</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Review of particle physics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Navas</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Particle Data Group Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.110.030001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">30001</biblScope>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The XLZD Design Book: towards the next-generation liquid xenon observatory for dark matter and neutrino physics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aalbers</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">XLZD Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1140/epjc/s10052-025-14810-w</idno>
+		<idno type="arXiv">arXiv:2410.17137</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. Phys. J. C</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">1192</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Electron energy spectra, fluxes, and day-night asymmetries of B-8 solar neutrinos from measurements with NaCl dissolved in the heavy-water detector at the Sudbury Neutrino Observatory</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Aharmim</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">SNO Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevC.72.055502</idno>
+		<idno type="arXiv">arXiv:nucl-ex/0502021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. C</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">55502</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A D2O detector for flux normalization of a pion decay-at-rest neutrino source</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Akimov</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">COHERENT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1088/1748-0221/16/08/P08048</idno>
+		<idno type="arXiv">arXiv:2104.09605</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JINST</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">08</biblScope>
+			<biblScope unit="page">8048</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The DRIFT Directional Dark Matter Experiments</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Daw</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/eas/1253002</idno>
+		<idno type="arXiv">arXiv:1110.0222</idno>
+	</analytic>
+	<monogr>
+		<title level="j">EAS Publ. Ser. 53</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="18"/>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">First underground results with NEWAGE-0.3a direction-sensitive dark matter detector</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Miuchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2010.02.028</idno>
+		<idno type="arXiv">arXiv:1002.1794</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">686</biblScope>
+			<biblScope unit="page" from="11" to="17"/>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+	<note>astro-ph.CO</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Coherent elastic neutrino-nucleus scattering with the νBDX-DRIFT directional detector at next generation neutrino facilities</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sierra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dutta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Snowden-Ifft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Strigari</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.104.033004</idno>
+		<idno type="arXiv">arXiv:2103.10857</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">33004</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Rock neutron backgrounds from FNAL neutrino beamlines in the νBDX-DRIFT detector</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sierra</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Barrow</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dutta</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Snowden-Ifft</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Strigari</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Wood</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">DRIFT Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.107.013003</idno>
+		<idno type="arXiv">arXiv:2210.08612</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">13003</biblScope>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>hep-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">CYGNO: a gaseous TPC with optical readout for dark matter directional search</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Baracchini</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1748-0221/15/07/C07036</idno>
+		<idno type="arXiv">arXiv:2007.12627</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JINST</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">07</biblScope>
+			<biblScope unit="page">7036</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+	<note>physics.ins-det</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Precise determination of the spin structure function g(1) of the proton, deuteron and neutron</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Airapetian</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">HERMES Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.75.012007</idno>
+		<idno type="arXiv">arXiv:hep-ex/0609039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page">12007</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Comprehensive Measurement of the Reactor Antineutrino Spectrum and Flux at Daya Bay</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">P</forename><surname>An</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Daya Bay Collaboration</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.134.201802</idno>
+		<idno type="arXiv">arXiv:2501.00746</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">134</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page">201802</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note>nucl-ex</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Improved Determination of the 235 U and 239 Pu Reactor Antineutrino Cross Sections per Fission</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giunti</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevD.96.033005</idno>
+		<idno type="arXiv">arXiv:1704.02276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. D</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">33005</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>hep-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Quenching of the weak axial coupling derived from the scattering of stopped-pion neutrinos on 127I</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hellgren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suhonen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.physletb.2025.139508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Lett. B</title>
+		<imprint>
+			<biblScope unit="volume">866</biblScope>
+			<biblScope unit="page">139508</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

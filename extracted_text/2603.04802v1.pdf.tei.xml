@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">THE ARCHIMEDEAN HEIGHT PAIRING FOR DIFFERENTIAL FORMS ON DEGENERATION OF RIEMANN SURFACES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-05">5 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Junyu</forename><surname>Cao</surname></persName>
+						</author>
+						<title level="a" type="main">THE ARCHIMEDEAN HEIGHT PAIRING FOR DIFFERENTIAL FORMS ON DEGENERATION OF RIEMANN SURFACES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-05">5 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">6138D6FB5463DB0CAAA91BCA1816598E</idno>
+					<idno type="arXiv">arXiv:2603.04802v1[math.DG]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We define the Archimedean height pairing for fiberwise cohomologically trivial differential forms on a one-parameter degeneration of Riemann surfaces, and we study its asymptotic behavior. The proof relies on recent work by Dai-Yoshikawa on the asymptotics of small eigenvalues. As an application, we relate this pairing to the current-valued pairing of Filip-Tosatti, extending their construction to broader geometric settings.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Introduction</head><p>Let π : X → S ≃ D be a proper surjective holomorphic map from a complex surface X to a Riemann surface isomorphic to the unit disk. We assume that π has connected fibers and X 0 := π -1 (0) is the unique singular fiber. Assume that X is equipped with a Kähler metric.</p><p>For two smooth real (1, 1)-forms α, β on X that are cohomologically trivial on smooth fibers X s := π -1 (s)(s ̸ = 0), i.e., Xs α = Xs β = 0, we define the Archimedean height pairing between them. Definition 0.1 (Archimedean height pairing, Theorem 4.1). For any s ̸ = 0, let -φ s ∈ C ∞ (X s ) be a potential for α on X s , i.e., dd c φ s + α | Xs = 0. Then the Archimedean height pairing ⟨α, β⟩ between α, β is a function on smooth locus S • := S \ {0}: ⟨α, β⟩(s) := Xs φ s β, s ̸ = 0.</p><p>Since π is a submersion on S • , ⟨α, β⟩ ∈ C ∞ (S • ).</p><p>We study its asymptotics around the singular fiber of the degeneration. Theorem 0.2 (Theorem 4.5, Corollary 4.6). There is a constant c α,β ∈ R such that ⟨α, β⟩ -c α,β log |s| 2 extends continuously to S. In particular, ⟨α, β⟩ ∈ L ∞ (S • ) if and only if ⟨α, β⟩ ∈ C 0 (S).</p><p>When X 0 is a reduced divisor and C 1 , • • • , C N are its irreducible components, the constant c α,β is determined in the following way: Let M be the intersection matrix of irreducible components of X 0 , given by (M ij ) 1≤i,j≤N = (C i • C j ) 1≤i,j≤N , and let M + be the Moore-Penrose pseudoinverse of M . Then c α,β = v T α (M + ) T v β , where</p><formula xml:id="formula_0">v α = C 1 α, . . . , C N α T , v β = C 1 β, . . . , C N β T .</formula><p>Remark 0.3. The name Archimedean height pairing comes from Arakelov theory, e.g. in Bost's work <ref type="bibr" target="#b2">[Bos90]</ref>. But their pairings are defined for algebraic cycles/divisors. Precisely, let D, E be two divisors on the one-parameter degeneration π : X → S of algebraic curves. Suppose D, E are of relative degree 0 and their supports do not intersect. For a divisor D, we define its Green's current g Ds on general fibers X s following [HdJ15, Equation (2.1)]. The g Ds is a distribution on X s solving the equation ∂∂g Ds + πiδ Ds = 0, where D s is the restriction of D on X s . We remark that g Ds is smooth on X s away from the support of D s . Then the Archimedean height pairing between D and E is a well-defined function on S • :</p><formula xml:id="formula_1">s → ⟨D s , E s ⟩ ∞ := g Ds ([E s ]) = i a i g Ds (q i ),</formula><p>where E s = i a i q i . In Holmes-de Jong's paper [HdJ15, Theorem 2.1], they derive a similar asymptotic result for the Archimedean height pairing ⟨D s , E s ⟩ ∞ on degenerations of algebraic curves.</p><p>Remark 0.4. Similar asymptotic results were obtained by Yoshikawa <ref type="bibr" target="#b27">[Yos06]</ref> and Eriksson-Freixas-Mourougane <ref type="bibr" target="#b11">[EFiMM18]</ref> in their study of Quillen metrics around singular fibers. Analogous behavior for the canonical heights of elliptic curves around singular fibers was established by Silverman <ref type="bibr" target="#b19">[Sil92,</ref><ref type="bibr" target="#b20">Sil94a,</ref><ref type="bibr" target="#b21">Sil94b]</ref> and recently by DeMarco-Mavraki <ref type="bibr" target="#b8">[DM20]</ref>.</p><p>The study of the Archimedean height pairing for forms is motivated by the following dynamical scenario. Let X be a projective elliptic K3 surface with a parabolic automorphism T preserving the fibration: X X B := P 1</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>T π π</head><p>In Filip-Tosatti's paper [FT23, Theorem 3.2.14], they introduced the "current-valued pairing" η B (T, [α]), which is a current on B, for α a smooth closed real (1, 1)-form on X that is cohomologically trivial on smooth fibers.</p><p>The current-valued pairing can be used to characterize the limit properties of large iterations of the automorphism T . For example, they proved in <ref type="bibr" target="#b13">[FT23,</ref><ref type="bibr">Corollary 3.2</ref>.20] that (0.1)</p><formula xml:id="formula_2">lim n→∞ T n * ω n 2 = 1 2 π * η B (T, [T * ω -ω]),</formula><p>where ω is a Kähler form on X.</p><p>When the singular fibers of π are reduced and irreducible, Filip-Tosatti established the continuity of potentials of η B in <ref type="bibr" target="#b13">[FT23,</ref><ref type="bibr">Proposition 3.2.11]</ref>. In this paper, we remove their assumption on the singular fibers and prove the continuity in general.</p><p>Proposition 0.5 (Proposition 5.4). Let Aut π (X) be the group of automorphisms of X preserving the fibration. There exists a finite index subgroup G of Aut π (X) such that the current-valued pairing η B restricted on G has a continuous potential.</p><p>This proposition is proved by the following observation, which relates the Archimedean height pairing and the potential of current-valued pairing.</p><p>We use u to denote a potential of the current-valued pairing η B (T, <ref type="bibr">[α]</ref>), then we have (in Equation (5.4)) u(s) = Xs f ω + ⟨α, (T * -I)ω⟩, where f ∈ C ∞ (X) and ω is a normalized Kähler form on X. The first term s → Xs f ω is well-studied by Barlet (Theorem 1.3) and is Hölder continuous. Therefore, Proposition 0.5 follows from the continuity of the Archimedean height pairing, which arises as the second term of the potential u.</p><p>Using Equation (0.1) ([FT23, Corollary 3.2.20]), we have the following result on parabolic dynamics of elliptic K3 surfaces.</p><p>Corollary 0.6 (Corollary 5.5). Let G be the finite index subgroup of Aut π (X) defined in Proposition 0.5. Then, for any Kähler form ω on X and any T ∈ G, the limit current η := lim n→∞ T n * ω</p><p>n 2 has a continuous potential. Furthermore, we prove that the convergence of currents (T n ) * ω n 2 → 1 2 π * η B (T, [T * ω -ω]) cannot be in C 0 loc (X \X 0 ). Therefore, the sequence T n * ω n 2 n≥1 provides a counterexample to Tosatti's question [Tos25, Question 1.5] when we let ω be a Ricci-flat metric.</p><p>Remark 0.7. The regularity of limit currents is also discussed in Cantat-Dujardin's recent paper <ref type="bibr" target="#b5">[CD23b,</ref><ref type="bibr">Theorem D]</ref>.</p><p>If the automorphism is hyperbolic, its associated limit current will generally have a Hölder-continuous potential. However, it is unknown whether the potential of a limit current given by a parabolic automorphism is Hölder-continuous.</p><p>Remark 0.8. Other related works on the parabolic dynamics of elliptic surfaces with general singular fibers include Duistermaat's monograph <ref type="bibr" target="#b9">[Dui10]</ref> and Cantat-Dujardin's recent paper <ref type="bibr" target="#b4">[CD23a,</ref><ref type="bibr">Section 3</ref>].</p><p>Here we sketch the proof of Theorem 0.2. By a standard reduction, we can assume that X 0 is reduced and α, β have a zero integral on each irreducible component of X 0 . Then it remains to show the continuity of the pairing in Theorem 4.4: We introduce the preferred potentials (Theorem 3.3) for α, β. Then by Dai-Yoshikawa's work <ref type="bibr" target="#b10">[DY25]</ref>, we are able to derive some estimates on preferred potentials (Theorem 3.4, Theorem 3.5). Together with some continuity results of fiber integral around singular fibers (Proposition 1.13, Corollary 1.14), we derive the continuity of the pairing (which is a fiber integral) in Theorem 4.4.</p><p>This article is organized as follows. In Section 1, we collect and prove some technical results. In Section 2, we study the properties of eigenfunctions with small eigenvalues on smooth fibers of a degeneration. We use Dai-Yoshikawa's work <ref type="bibr" target="#b10">[DY25]</ref> heavily in this section. In Section 3, we introduce the notion of a preferred potential and establish its asymptotic estimates based on Section 2. In Section 4, we introduce the Archimedean height pairing and prove its asymptotics around singular fibers. In Section 5, we apply previous results to study the parabolic dynamics of K3 surfaces. In Appendix A, we prove a technical lemma on the asymptotics of a fiber integral.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Notation and conventions</head><p>On a complex manifold X, we define d c = i 4π (∂ -∂), so dd c = i 2π ∂∂. For a closed smooth differential form α on a compact differential manifold, we use [α] to denote its de Rham cohomology class.</p><p>We use D := {z ∈ C : |z| &lt; 1} to denote the unit disk in complex plane, and</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Technical Preparation</head><p>We collect and prove some technical results that will be used later.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.A. Laplacian on singular varieties</head><p>Let X be an algebraic variety with the induced Fubini-Study metric, and let X reg be the regular part of X.</p><p>Following Li-Tian's work [LT95, Section 4], we define the ordinary Laplacian ∆ on compactly supported smooth functions on X reg and let ∆ be its Friedrichs extension. Then we have Theorem 1.1 ([LT95, Section 4]). The Friedrichs extension ∆ defined on functions is self-adjoint on a compact variety X (without boundary) whose singular set Sing X is at least of real codimension 2.</p><p>When f ∈ W 1,2 (X reg ) is harmonic, i.e., ∆f = 0 almost everywhere, we have df = 0 and f is locally constant.</p><p>Remark 1.2. This theorem holds when X is a Kähler space, see [GPSS23, Lemma 11.2].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.B. Continuity of fiber integral à la Barlet</head><p>In <ref type="bibr" target="#b0">[Bar82]</ref>, Barlet derived the asymptotic expansion of the fiber integral for the degeneration of complex manifolds near singular fibers.</p><formula xml:id="formula_3">Theorem 1.3 ([Bar82, Théorème 1]). Let D = {s ∈ C | |s| &lt; 1}</formula><p>, and let X be a reduced and irreducible complex analytic space of dimension n + 1. Let π : X → D be a surjective holomorphic map, and let us denote by X s the cycle π -1 (s). Let K be a compact subset of X. There exist rational numbers</p><formula xml:id="formula_4">r 1 ≤ • • • ≤ r k in [0, 2) ∩ Q such that</formula><p>for every C ∞ differential form φ of type (n, n) on X with support in K, the function F φ := Xs φ admits, as s → 0, an asymptotic expansion of the form:</p><formula xml:id="formula_5">F φ (s) ∼ r=r 1 ,...,r k j=0,...,n (m,m ′ )∈N 2 T r,j m,m ′ (φ)s m s m ′ |s| r (log |s|) j</formula><p>where T r,j m,m ′ is a (1, 1)-current on X.</p><p>Since F φ (s) does not blow up as s → 0, we have T 0,j 0,0 (φ) = 0 for j ≥ 1. Let 0 &lt; r be the minimum of non-zero</p><formula xml:id="formula_6">r 1 ≤ • • • ≤ r k in [0, 2) ∩ Q, then for 0 &lt; a &lt; min(r, 1), we have |F φ (s) -F φ (0)| ≤ C(φ) |s| a .</formula><p>Thus F φ (s) is Hölder continuous around 0.</p><p>Remark 1.4. When the base of the fibration π is of higher dimension, Takayama extends Barlet's result in his recent paper <ref type="bibr" target="#b23">[Tak20]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.C. Convergence on the singular fiber</head><p>Let π : X → D be a proper surjective holomorphic map from a complex manifold X of complex dimension p = q+1 to the unit disk. Suppose that π has connected fiber and X 0 := π -1 (0) is the unique singular fiber. We define Sing(X 0 ) := {x ∈ X 0 | dπ x = 0} and X 0,reg := X 0 \ Sing(X 0 ). Let X s := π -1 (s).</p><p>We introduce the following frequently used notion of convergence on the singular fiber.</p><p>Definition 1.5 (Convergence on the singular fiber). Under the above settings, let (s n ) n≥1 ⊂ D • be a sequence such that s n → 0 as n → ∞. Let (f sn ) n≥1 be a family of C k functions on X sn and f be a C k function on X 0,reg . Around any p ∈ X 0,reg , the map π is a locally trivial fibration by Ehresmann's theorem, so we have an open neighborhood U of p with the following diagram:</p><formula xml:id="formula_7">i : U V × D ϵ D ϵ ≃ π</formula><p>Then we have a family of diffeomorphisms i s : U ∩ X s → V × {s}. For s ∈ D ϵ , we define f s := (i s ) * (f s ) to be a C k function on V , and define f := (i 0 ) * (f ).</p><p>We say f sn converges to f in C k loc on X 0,reg if around any p ∈ X 0,reg , we have a coordinate chart U ≃ V × D ϵ and f sn → f in the C k loc (V ) topology. This notion of convergence does not depend on the choice of coordinate charts.</p><p>Remark 1.6. Let f : X \ X 0 → R be a continuous function. Then f can be extended to be a continuous function on X \ Sing X 0 if and only if f sn converges to a continuous function f 0 ∈ C 0 (X 0,reg ) in C 0 loc on X 0,reg for any sequence s n → 0. We shall show how the convergence on the singular fiber could imply the convergence of the fiber integral in the following.</p><p>Lemma 1.7. Suppose f sn → f in C 0 loc on X 0,reg and f is a continuous function on X 0,reg . Let ω be a Hermitian form on X. Then</p><formula xml:id="formula_8">X 0,reg |f | l ω q ≤ lim sup n→∞ Xs n |f sn | l ω q for 1 ≤ l &lt; ∞. Generally, if f sn → f in C k loc on X 0,reg , then X 0,reg |∇ r f | l ω q ≤ lim sup n→∞ Xs n |∇ r f sn | l ω q for 0 ≤ r ≤ k, 1 ≤ l &lt; ∞.</formula><p>Before the proof, we need a partition of unity tailored for our situation:</p><p>Lemma 1.8. Let X be a smooth manifold and K ⊂ X be a compact subset. Suppose</p><formula xml:id="formula_9">{U i } N i=1 is a finite open covering of K.</formula><p>Then there exists a collection of smooth functions</p><formula xml:id="formula_10">{ρ i } N i=1 with ρ i : X → R such that: (1) supp(ρ i ) ⊂ U i for each i = 1, . . . , N . (2) 0 ≤ ρ i (x) ≤ 1 for all x ∈ X. (3) N i=1 ρ i (x) = 1 for all x ∈ K. (4) N i=1 ρ i (x) ≤ 1 for all x ∈ X. Proof. (of Lemma 1.8) Since K is compact and {U i } N i=1 is an open covering of K, the collection of open sets U = {U 1 , U 2 , • • • , U N , X \ K} is an open covering of X. Let {ρ 1 , ρ 2 , • • • , ρ N , ρ N +1 } be a partition of unity subordinate to U. Then we obtain the desired {ρ i } N i=1 . □ Proof. (of Lemma 1.7) Let U ≃ V ×D be a coordinate chart around some point in X 0,reg trivializing the fibration π : X → D. Let h be a continuous function on X compactly supported on U . Then if f sn → f in C k loc on X 0,reg , we have h sn |∇ r f sn | → h 0 |∇ r f | in the C 0 (V )-topology. In particular, we have X 0,reg h |∇ r f | l ω q = lim n→∞ Xs n h |∇ r f sn | l ω q . For any compact subset K of X 0,reg , let {U i } N</formula><p>i=1 be an open covering of K by open sets in X \ Sing X 0 and we assume that each U i ≃ V i × D is a coordinate chart that trivializes the fibration π.</p><p>We then take the partition of unity {h i } N i=1 subordinate to {U i } N i=1 as in Lemma 1.8, then for each i, we have</p><formula xml:id="formula_11">Xs n h i |∇ r f sn | l ω q → X 0,reg h i |∇ r f | l ω q .</formula><p>Therefore, we have</p><formula xml:id="formula_12">K |∇ r f | l ω q ≤ N i=1 X 0,reg h i |∇ r f | l ω q = lim n→∞ N i=1 Xs n h i |∇ r f sn | l ω q ≤ lim sup n→∞ Xs n |∇ r f sn | l ω q .</formula><p>As K can be taken to be any compact subset of X 0,reg , we conclude that</p><formula xml:id="formula_13">X 0,reg |∇ r f | l ω q ≤ lim sup n→∞ Xs n |∇ r f sn | l ω q .</formula><p>□ If f sn in the previous lemma (Lemma 1.7) is zero in a tubular neighborhood of Sing X 0 , then we have the equality for the limit of fiber integral.</p><p>Lemma 1.9. Suppose f sn converges to f in C 0 loc on X 0,reg and there exists ϵ &gt; 0 such that f sn , f are zero in a tubular neighborhood B(Sing X 0 , ϵ) := {p ∈ X : dist(p, Sing X 0 ) &lt; ϵ} of Sing X 0 . Then for any smooth (q, q) form α, we have</p><formula xml:id="formula_14">Xs n f sn α → X 0 f α, as n → ∞.</formula><p>Proof. Let U ϵ = B(Sing X 0 , ϵ) be an open tubular neighborhood of the singular locus. Since X 0 \ U ϵ is compact and contained in the regular locus of X 0 , we can cover it by a finite number of open sets {U i } N i=1 in X \ Sing X 0 and we assume that each U i ≃ V i × D is a coordinate chart that trivializes the fibration π. Then we have an open covering U ϵ ∪ {U i } N i=1 of X 0 . Since π is proper, we can find ϵ 0 &gt; 0 such that π -1 (D ϵ 0 ) ⊂ U ϵ ∪ ∪ N i=1 U i . We apply Lemma 1.8 to the compact set π -1 (D ϵ 0 ) and its open covering U ϵ ∪ {U i } N i=1 , then we have a collection of smooth functions {ρ i : U i → R} N i=0 (we denote U ϵ by U 0 ) such that</p><formula xml:id="formula_15">• supp(ρ i ) ⊂ U i for each i = 0, 1, . . . , N , • 0 ≤ ρ i (x) ≤ 1 for all x ∈ X, • N i=0 ρ i (x) = 1 for all x ∈ π -1 (D ϵ 0 ).</formula><p>Then for n ≫ 1 such that |s n | &lt; ϵ 0 , we have</p><formula xml:id="formula_16">Xs n f sn α = N i=0 Xs n ρ i f sn α = N i=0 Xs n ∩U i ρ i f sn α And X 0 f α = N i=0 X 0 ρ i f α = N i=0 X 0 ∩U i ρ i f α Since f sn , f are zero in U 0 = U ϵ , we have X 0 ∩U i ρ 0 f α = 0 = Xs n ∩U 0 ρ 0 f sn α For 1 ≤ i ≤ N , the fibration π on U i ≃ V i × D is trivial and (ρ i f s i α) | V i → (ρ i f α) | V i in C 0 loc . So Xs n ∩U i ρ i f sn α = V i (ρ i f s i α) | V i → V i (ρ i f α) | V i = X 0 ∩U i ρ i f α.</formula><p>In summary, we have</p><formula xml:id="formula_17">Xs n f sn α → X 0 f α, as n → ∞.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head><p>We can extend above lemma if the contribution of fiber integral around singularities is small enough, which is the following lemma.</p><p>Lemma 1.10. Suppose f sn converges to f in C 0 loc on X 0,reg and X 0 is reduced. Let ω be a Kähler metric on X.</p><p>For any ϵ &gt; 0, we define</p><formula xml:id="formula_18">I(ϵ) = lim sup n→∞ B(Sing X 0 ,ϵ)∩Xs |f sn | ω q ,</formula><p>where B(Sing X 0 , ϵ) := {p ∈ X : dist(p, Sing X 0 ) &lt; ϵ} is a tubular neighborhood of Sing X 0 . If I(ϵ) → 0 as ϵ → 0 and f is L 1 -integrable on X 0 , then for any smooth (q, q) form α, we have</p><formula xml:id="formula_19">Xs n f sn α → X 0 f α, as n → ∞.</formula><p>Proof. For any fixed ϵ &gt; 0, we have a cutoff function η ϵ ∈ C ∞ (X) such that</p><formula xml:id="formula_20">• 0 ≤ η ϵ ≤ 1, • η ϵ = 1 on B(Sing X 0 , ϵ/2), • η ϵ = 0 on X \ B(Sing X 0 , ϵ).</formula><p>Then by Lemma 1.9, we have</p><formula xml:id="formula_21">Xs n f sn (1 -η ϵ )α → X 0 f (1 -η ϵ )α, as n → ∞. Therefore, we have lim sup n→∞ Xs n f sn α - X 0 f α ≤ lim sup n→∞ Xs n f sn η ϵ α + X 0 f η ϵ α .</formula><p>For the first term, we have</p><formula xml:id="formula_22">Xs n f sn η ϵ α ≤ α ω q L ∞ B(Sing X 0 ,ϵ) |f sn | ω q . So lim sup n→∞ Xs n f sn η ϵ α ≤ α ω q L ∞ I(ε).</formula><p>We then have</p><formula xml:id="formula_23">(1.1) lim sup n→∞ Xs n f sn α - X 0 f α ≤ α ω q L ∞ I(ε) + X 0 f η ϵ α .</formula><p>Note that</p><formula xml:id="formula_24">X 0 f η ϵ α ≤ α ω q L ∞ B(Sing X 0 ,ϵ)∩X 0 |f | ω q ω q</formula><p>and vol(B(Sing X 0 , ϵ) ∩ X 0 ) → 0 as ϵ → 0 by Lemma 1.12. So X 0 f η ϵ α → 0 as ϵ → 0 by L 1 -integrability of f α.</p><p>Letting ϵ → 0 in Equation (1.1), we obtain lim sup</p><formula xml:id="formula_25">n→∞ Xs n f sn α - X 0 f α = 0.</formula><p>We then conclude the result. □</p><p>We shall see that I(ϵ) → 0 is natural under certain uniform integrability conditions.</p><p>Lemma 1.11. Suppose f sn converges to f in C 0 loc on X 0,reg and X 0 is reduced. Let ω be a Kähler metric on X. If there is 1 &lt; r ≤ ∞ and a uniform constant L &lt; ∞ such that ∥f sn ∥ L r (Xs n ,ωs n ) &lt; L, then for any smooth (q, q) form α, we have</p><formula xml:id="formula_26">Xs n f sn α → X 0 f α, as n → ∞.</formula><p>Proof. By Lemma 1.10, it suffices to check the following two conditions • The contribution of fiber integral around singularities</p><formula xml:id="formula_27">I(ϵ) = lim sup n→∞ B(Sing X 0 ,ϵ)∩Xs |f sn | ω q</formula><p>goes to zero as ϵ → 0.</p><formula xml:id="formula_28">• The f is L 1 -integrable on X 0 .</formula><p>The first condition is justified by the Hölder inequality and the volume estimate of tubular neighborhood in Lemma 1.12 lim sup n→∞ B(Sing X 0 ,ϵ)∩Xs</p><formula xml:id="formula_29">|f sn | ω q ≤ lim sup n→∞ Xs n |f sn | r ω q 1/r B(Sing X 0 ,ϵ)∩Xs n ω q 1/p ≤ L lim sup n→∞ vol(B(Sing X 0 , ϵ) ∩ X sn )</formula><p>≤ LCϵ 2 (by Lemma 1.12).</p><p>The second condition follows from Lemma 1.7, we have</p><formula xml:id="formula_30">∥f ∥ L r (X 0 ) ≤ lim sup n→∞ ∥f sn ∥ L r &lt; L for 1 &lt; r ≤ ∞. So f ∈ L 1 (X 0 ). □</formula><p>We prove the uniform bound for volume of tubular neighborhoods of singular set, which is used in previous two lemmas and is standard: Lemma 1.12 (Volume bound for singular tubular neighborhoods). Let π : X → D be a proper surjective holomorphic map from a complex manifold X of complex dimension p = q + 1 to the unit disk. Suppose that π has connected fiber and X 0 := π -1 (0) is the unique singular fiber. Suppose X 0 is reduced. Then Sing X 0 is of complex codimension ≥ 1 in X 0 .</p><p>Let ω be a Kähler metric on X, and denote by B(Sing X 0 , ϵ) the ϵ-tubular neighborhood of Sing X 0 in X with respect to the distance induced by ω. Then there exist constants C &gt; 0 and ϵ 0 &gt; 0 such that for all s ∈ D near 0 (including s = 0) and all 0 &lt; ϵ &lt; ϵ 0 , we have B(S,ϵ)∩Xs</p><formula xml:id="formula_31">ω q ≤ Cϵ 2 .</formula><p>Proof. Since Sing X 0 is a compact complex analytic subvariety of X 0 of complex dimension less than q -1, its 2(q -1)-dimensional Hausdorff measure is finite. Thus, there exists a constant C 1 &gt; 0 such that for any sufficiently small ϵ &gt; 0, the compact set Sing X 0 can be covered by a finite number of balls N (ϵ) of radius ϵ centered at points x i ∈ Sing X 0 , where N (ϵ) ≤ C 1 ϵ -2(q-1) .</p><p>The ϵ-tubular neighborhood B(Sing X 0 , ϵ) is strictly contained in the union of the concentric balls B(x i , 2ϵ). Next, we bound the volume of X s within these local balls. For any s (including s = 0), X s is a purely q-dimensional complex analytic cycle. Because ω is a Kähler metric on X, the standard Bishop-Lelong theorem (or monotonicity formulas) guarantees that the volume ratio is monotonically increasing. Thus, we take R 0 &gt; 2ϵ 0 such that for all x ∈ S and all 2ϵ &lt; 2ϵ 0 &lt; R 0 , we have 1 (2ϵ) 2q B(x,2ϵ)∩Xs</p><formula xml:id="formula_32">ω q ≤ 1 R 2q 0 B(x,R 0 )∩Xs ω q .</formula><p>Furthermore, because dω = 0 and the fibers X s are homologous in X, the total volume of the fibers V = Xs ω q is a topological constant independent of s. We have a uniform constant C 2 and the following inequality</p><formula xml:id="formula_33">B(x,2ϵ)∩Xs ω q ≤ V R 2q 0 (2ϵ) 2q := C 2 ϵ 2q .</formula><p>Finally, combining the covering estimate and the local volume bound, we obtain, by the subadditivity of the volume, B(Sing X 0 ,ϵ)∩Xs</p><formula xml:id="formula_34">ω q ≤ N (ϵ) i=1 B(x i ,2ϵ)∩Xs ω q ≤ N (ϵ) • C 2 ϵ 2q ≤ C 1 C 2 ϵ 2 .</formula><p>Setting C = C 1 C 2 , the bound holds uniformly for all s near 0, completing the proof. □ Finally, we give a sufficient condition on the existence of limit of convergence on the singular fiber: Proposition 1.13. We work under the above settings and assume that X 0 is reduced. Let φ be a real function on X \ X 0 . We assume that φ| Xs is smooth on all regular fibers X s for s ̸ = 0, and define a family of smooth (1, 1) forms β s := dd c (φ| Xs ) on each X s for s ̸ = 0.</p><p>Let ω be a Kähler form on X. If the following conditions hold:</p><p>• Around any point of X 0,reg , we have an open neighborhood U such that the L ∞ -norms ∥tr ωs β s ∥ L ∞ (Xs∩U ) are uniformly bounded for |s| ≪ 1.</p><p>• The family of functions f s := tr ωs β s converges in C 0 loc to a continuous function f 0 on X 0,reg .</p><p>• The L 2 -norms ∥φ s ∥ L 2 (Xs,ωs) and ∥dφ s ∥ L 2 (Xs,ωs) are uniformly bounded for |s| ≪ 1.</p><p>Then for any sequence (s n ) n≥1 ⊂ D • such that s n → 0 and any 0 &lt; a &lt; 1, there exists a subsequence of s n (by abusing the notation, we denote the subsequence by s n itself ) such that</p><formula xml:id="formula_35">• φ sn converges in C 1,a loc to a C 1,a function φ 0 on X 0,reg , • φ 0 ∈ W 2,p</formula><p>loc (X 0,reg ) for any 1 &lt; p &lt; ∞, and φ 0 solves -∆ ω 0 φ 0 = f 0 almost everywhere on X 0,reg ,</p><formula xml:id="formula_36">• φ 0 ∈ W 1,2 (X 0,reg ). • If α is a smooth (q, q)-form, then Xs n φ sn α → X 0 φ 0 α Furthermore, for two different limits φ 0 , φ ′ 0 , their difference φ 0 -φ ′ 0 is locally constant on X 0,reg .</formula><p>Proof. Around any point of X 0,reg , we have an open neighborhood U such that the L ∞norms ∥tr ωs β s ∥ L ∞ (Xs∩U ) are uniformly bounded. By shrinking U , we assume U ≃ V ×D ϵ that trivializes the fibration π.</p><p>Around any point of V , we take a relatively compact coordinate ball W . Then φ s solves -∆ ωs φ s = tr ωs dd c z φ s = tr ωs β s on W. Note that ∆ ωs is a family of uniformly elliptic operators for |s| ≪ 1. By standard local L ∞ bounds for elliptic PDEs (see Gilbarg-Trudinger [GT01, Theorem 8.24]), we can shrink W to a slightly smaller domain W ⋐ W to obtain</p><formula xml:id="formula_37">∥φ s ∥ L ∞ ( W ) ≤ C ∥φ s ∥ L 2 (W ) + ∥tr ωs β s ∥ L ∞ (W ) ≤ C ∥φ s ∥ L 2 (Xs) + ∥tr ωs β s ∥ L ∞ (Xs∩U ) ,</formula><p>where C is a uniform constant independent of s. By our assumptions, the right-hand side is uniformly bounded in s.</p><p>Next, by interior L p estimates for elliptic equations (see [GT01, Theorem 9.11]), for any 1 &lt; p &lt; ∞, we can further shrink W to W ′ to obtain</p><formula xml:id="formula_38">∥φ s ∥ W 2,p (W ′ ) ≤ C p ∥φ s ∥ L ∞ ( W ) + ∥tr ωs β s ∥ L p ( W ) ≤ C ′ p ∥φ s ∥ L ∞ ( W ) + ∥tr ωs β s ∥ L ∞ (Xs∩U ) .</formula><p>Thus, ∥φ s ∥ W 2,p (W ′ ) is uniformly bounded for any p &gt; 1.</p><p>By the Sobolev embedding theorem (Morrey's inequality), for p &gt; 2q (where</p><formula xml:id="formula_39">q = dim C X s ), W 2,p (W ′ ) embeds compactly into C 1,b (W ′ ) for 0 &lt; b &lt; 1 -2q/p. Since p can be chosen arbitrarily large, ∥φ s ∥ C 1,b (W ′ ) is uniformly bounded for any 0 &lt; b &lt; 1.</formula><p>To patch these local estimates together, note that X 0,reg is second-countable, so we can choose a countable exhaustion by compact subsets</p><formula xml:id="formula_40">K 1 ⋐ K 2 ⋐ • • • ⋐ X 0,reg such that ∪ m K m = X 0,reg .</formula><p>For each K m , we can cover it by finitely many such charts W ′ . By the Ascoli-Arzelà theorem and diagonal argument, we can extract a single subsequence (s n ) such that φ sn converges in C 1,a loc to a limit function φ 0 ∈ C 1,a (X 0,reg ) for any given a ∈ (0, 1). Furthermore, the uniform bounds in W 2,p loc guarantee that φ 0 ∈ W 2,p loc (X 0,reg ) and that φ sn → φ 0 weakly in W 2,p loc . Since f sn := tr ωs n β sn converges in C 0 loc to the continuous limit f 0 , passing to the limit in the PDE implies that φ 0 satisfies -∆ ω 0 φ 0 = f 0 almost everywhere on X 0,reg .</p><p>By the third condition and Lemma 1.7, we have φ 0 ∈ W 1,2 (X 0,reg ). Since ∥φ s ∥ L 2 (Xs,ωs) is uniformly bounded, by Lemma 1.11 we have</p><formula xml:id="formula_41">Xs n φ sn α → X 0 φ 0 α</formula><p>for any smooth (q, q)-form α on X. Suppose φ 0 and φ ′ 0 are two limits arising from different subsequences of φ sn . Both solve the same equation -∆ ω 0 φ = f 0 almost everywhere on X 0,reg . So their difference</p><formula xml:id="formula_42">h := φ 0 -φ ′ 0 ∈ W 2,p loc (X 0,reg</formula><p>) is a weakly harmonic function on X 0,reg with respect to ω 0 . Since h ∈ W 1,2 (X 0,reg ) globally and the singular locus of X 0 is of real codimension at least 2, by Theorem 1.1, h is locally constant. □</p><p>As a corollary, we have the following result on continuity of fiber integral Corollary 1.14. We work under the assumption and notations of Proposition 1.13. Assume that all conditions in Proposition 1.13 are satisfied.</p><p>If α is a smooth (q, q)-form such that C α = 0 for each irreducible component C of X 0 , then the fiber integral I(s) = Xs φ s α is continuous at s = 0.</p><p>Proof. We prove it by contradiction. Otherwise, we would have two sequences {s n } and {s ′ n } with s n , s ′ n → 0 such that lim n→∞</p><formula xml:id="formula_43">I(s n ) ̸ = lim n→∞ I(s ′ n ).</formula><p>By Proposition 1.13, we assume that</p><formula xml:id="formula_44">φ sn → φ 0 , φ s ′ n → φ ′ 0 in C 1,a loc on X 0,reg , then lim n→∞ I(s n ) = X 0 φ 0 α, lim n→∞ I(s ′ n ) = X 0 φ ′ 0 α. Since φ 0 -φ ′ 0 is locally constant on X 0,reg and each irreducible component C of X 0 is connected, φ 0 -φ ′ 0 is piecewise constant on irreducible components of X 0 . Therefore, X 0 (φ 0 -φ ′ 0 )α = C constant C α = 0,</formula><p>where C runs over all irreducible components of X 0 . Thus, lim n→∞ I(s n ) -lim n→∞ I(s ′ n ) = 0, which is a contradiction. □</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>1.D. Smoothness of spectral projection</head><p>Let π : X → S be a proper, smooth submersion between smooth manifolds. In Demailly's expository article <ref type="bibr" target="#b7">[Dem02]</ref>, he proved the following: Lemma 1.15 ([Dem02, Lemma 10.3]). Let g be a Riemannian metric on X, and let g s be its restriction on each</p><formula xml:id="formula_45">X s = π -1 (s). Then -∆ s : C ∞ (X s , R) → C ∞ (X s , R) is a smooth family of elliptic operators. Furthermore, the eigenvalues of -∆ s 0 &lt; λ 0 (s) ≤ λ 1 (s) ≤ • • • are continuous in s.</formula><p>Moreover, if λ is not in the spectrum {λ k (s 0 )} k≥0 of -∆ s 0 , the direct sum W s,λ ⊂ C ∞ (X t ) of eigenspaces of -∆ s with eigenvalues ≤ λ defines a C ∞ vector bundle (i.e., varies smoothly), in a neighborhood of s 0 .</p><p>As a direct corollary, we have Corollary 1.16. Let u be a smooth function on X and</p><formula xml:id="formula_46">P s ≤λ : C ∞ (X s ) → C ∞ (X s ) be the orthogonal projection onto W s,λ .</formula><p>Suppose λ is not in the spectrum {λ k (s 0 )} k≥0 of -∆ s 0 , then P s ≤λ (u) and (1-P s ≤λ )(u) =: P s &gt;λ (u) are smooth on π -1 (U ), where U ⊂ S is an open neighborhood of s 0 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Spectral geometry of degeneration of algebraic curves</head><p>In this section, we study the spectral geometry of the degeneration of algebraic curves, closely following the recent work of Dai-Yoshikawa <ref type="bibr" target="#b10">[DY25]</ref>. In the first two subsections (Section 2.A, Section 2.B), we recall the tools developed in <ref type="bibr" target="#b10">[DY25]</ref>. In the last subsection Section 2.C, we study the properties of eigenfunctions with small eigenvalues.</p><p>We introduce the setup for this section.</p><p>Setup 1. Let π : X → S ≃ D be a proper surjective holomorphic map from a complex surface X to a Riemann surface isomorphic to the unit disk. We assume that π has connected fibers and X 0 = π -1 (0) is the unique singular fiber. We define Sing(X 0 ) := {x ∈ X 0 | dπ x = 0}, X 0,reg := X 0 \ Sing(X 0 ) and</p><formula xml:id="formula_47">X • := X \ X 0 . Let X s := π -1 (s).</formula><p>Assume that X is equipped with a Kähler form ω, and let the corresponding metric be g X . Let g s = g X | Xs , then (X s , g s ) (s ̸ = 0) is a compact Riemann surface with a Kähler metric. We assume that vol(X s , g s ) = Xs ω s = 1.</p><p>Assume that X 0 is a reduced and reducible divisor of X. In particular, π has only isolated critical points on X 0 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.A. Properties of small eigenvalues</head><p>For s ̸ = 0, let 0 &lt; λ 1 (s) ≤ λ 2 (s) ≤ • • • be the eigenvalues of the Laplacian (with respect to g s ) □ s = ∂ * ∂ counted with multiplicities. For s = 0, we regard □ 0 as the Friedrichs extension of the Laplacian on X 0,reg = X 0 \ Sing X 0 with compact support.</p><p>Then by Yoshikawa's paper <ref type="bibr" target="#b28">[Yos97]</ref>, λ i (s) is a continuous function in s ∈ S for each i ≥ 1.</p><p>Let N = ♯{irreducible components of X 0 } = dim ker(□ 0 ), we have a precise control for small eigenvalues around 0:</p><formula xml:id="formula_48">Theorem 2.1 ([DY25, Theorem 0.2]). There exist constants C 0 , C 1 &gt; 0 such that for all s ∈ D • , C 0 log(|s| -1 ) ≤ λ 1 (s) ≤ • • • ≤ λ N -1 (s) ≤ C 1 log(|s| -1 )</formula><p>In contrast to the first N -1 small eigenvalues, the remaining eigenvalues have a lower bound as s approaches 0.</p><p>Theorem 2.2 ([DY25, Theorem 3.8]). For all k ≥ 1, the function λ k (s) on S • extends to a continuous function on S. Moreover, for all k ≥ N , λ k (s) ≥ λ for a positive number λ &gt; 0.</p><p>We call λ 1 (s), • • • , λ N -1 (s) small eigenvalues. Using Corollary 1.16 and the spectral gap of eigenvalue λ N (s) in Theorem 2.2, we define the spectral projection onto the direct sum of eigenspaces with small eigenvalues.</p><p>Lemma 2.3. We take a constant 0 &lt; δ 0 &lt; 1 depending only on the geometry of the degeneration and work on D</p><formula xml:id="formula_49">• δ 0 . For s ∈ D • δ 0 , let W s,low ⊂ C ∞ (X s</formula><p>) be the space spanned by eigenfunctions with small eigenvalues λ 1 (s),</p><formula xml:id="formula_50">• • • , λ N -1 (s). Let P s low : C ∞ (X s ) → W s,low be the orthogonal projection onto W s,low .</formula><p>Then for any smooth function u on X \ X 0 , its low frequency part</p><formula xml:id="formula_51">P s low (u) is smooth on π -1 (D • δ 0 ). Similarly, its high frequency part (1-P s low )(u) is also smooth on π -1 (D • δ 0 ). Proof. (of Lemma 2.</formula><p>3) Using the notation in Theorem 2.1 and Theorem 2.2, we define δ 0 by</p><formula xml:id="formula_52">D • δ 0 = {s ∈ S • : C 1 log(|s| -1 ) ≤ 1 2 λ} On the punctured disk D • δ 0 , we have λ N -1 (s) ≤ C 1 log(|s| -1 ) ≤ 1 2 λ &lt; λ N (s).</formula><p>For s ∈ D • δ 0 , we have P s low = P s ≤ 3 4 λ . By Corollary 1.16, we know P s</p><formula xml:id="formula_53">≤ 3 4 λ (u) is smooth on π -1 (D • δ 0 ). □</formula><p>Throughout this paper, we denote P s low (u) by u low and (1 -P s low )(u) by u high .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.B. Thick-thin decomposition of nearby fibers</head><p>From a geometric perspective, each nearby smooth fiber X s (s ̸ = 0) admits a thickthin decomposition. As the family degenerates, the thick part of X s converges to the regular locus of the singular fiber, X 0 \ Sing(X 0 ), while the thin part collapses to the singular points Sing(X 0 ). Since X 0 \ Sing(X 0 ) consists of N connected components, the thick part of X s correspondingly decomposes into N disjoint regions.</p><p>Following [DY25, Section 6], for each 1 ≤ i ≤ N , we construct a model function</p><formula xml:id="formula_54">Υ (i)</formula><p>s ∈ C ∞ (X s ) in Proposition 2.8 that serves as a smooth approximation of the characteristic function on the i-th thick component.</p><p>We construct these model functions in the following three steps:</p><p>Step 1: We construct a family of diffeomorphisms which sends the smooth part of the singular fiber to nearby smooth fibers. The idea is to pick a C ∞ complex vector field v on X\Crit(f ) satisfying f * v = ∂/∂s, and use this vector field to flow points on the singular fiber to nearby smooth fibers.</p><p>We collect useful results in [DY25, Section 6] and omit the construction. Then we have the following theorem Theorem 2.4. For s ∈ D and |s| ≪ 1. Let ν ∈ Z ≥1 be a positive integer depending on the degeneration. Let ϵ(s) = 2 |s| 1 8ν , we have a family of diffeomorphisms</p><formula xml:id="formula_55">F s : X 0 \ ∪ p∈Sing X 0 B(p, ϵ(s)) → F s (X 0 \ ∪ p∈Sing X 0 B(p, ϵ(s)))(⊂ X s ) z → F s (z) ∈ X s</formula><p>The family of diffeomorphisms enjoys the following properties:</p><p>(1) [DY25, Equation (6.2)] When s = 0, then F 0 : X 0 → X 0 is the identity map.</p><p>(2) [DY25, Equation (6.2)] The family F s is smooth in s.</p><p>(3) [DY25, Equation (6.3)] For z ∈ X 0 in the domain of F s , we have</p><formula xml:id="formula_56">dist(F s (z), z) ≤ K |s| 3 4</formula><p>(4) [DY25, Lemma 6.4] Let ω be the Kähler form in our settings, then</p><formula xml:id="formula_57">∥(F s ) * ω s -ω 0 ∥ L ∞ (X 0 \∪ p∈Sing X 0 B(p,ϵ(s))) ≤ K 2 |s| 1 2 .</formula><p>(5) [DY25, Lemma 6.5] For any two functions χ, χ ′ ∈ C ∞ 0 (X 0 \ ∪ p∈Sing X 0 B(p, ϵ(s))), we have</p><formula xml:id="formula_58">((F s ) * χ, (F s ) * χ ′ ) L 2 (Xs) -(χ, χ ′ ) L 2 (X 0 ) ≤ K 3 |s| 1 2 ∥χ∥ L 2 (X 0 ) ∥χ ′ ∥ L 2 (X 0 ) , d (F s ) * χ L 2 (Xs) -∥dχ∥ L 2 (X 0 ) ≤ K 3 |s| 1 2 ∥dχ∥ L 2 (X 0 ) .</formula><p>Remark 2.5. The result in Theorem 2.4.(4) can be generalized to any differential form on X with C 1 regularity. For any smooth form α on X with C 1 -coefficients, we have</p><formula xml:id="formula_59">∥(F s ) * α s -α 0 ∥ L ∞ (X 0 \∪ p∈Sing X 0 B(p,ϵ(s))) ≤ K 2 |s| 1 2 .</formula><p>The proof follows verbatim as in [DY25, Lemma 6.4].</p><p>We estimate the volume of the subset in X s that is not in the image of F s .</p><p>Corollary 2.6. Let O s be the image of</p><formula xml:id="formula_60">F s inside X s . Then O s is open in X s since F s is a diffeomorphism. And for |s| ≪ 1, there is a uniform constant K 4 &gt; 0 such that Xs\Os ω s ≤ K 4 |s| 1 4ν . Proof. Let χ s ∈ C ∞ 0 (X 0 \ ∪ p∈Sing X 0 B(p, ϵ(s))) be a test function such that • We have 0 ≤ χ s ≤ 1. • On X 0 \ ∪ p∈Sing X 0 B(p, 2ϵ(s)), χ s ≡ 1. Then we have 0 ≤ vol(X 0 ) -(χ s , χ s ) L 2 (X 0 ) ≤ p∈Sing X 0 K ′ 4 (ϵ(s)) 2 = K ′ 4 |s| 1 4ν ,</formula><p>where K ′ 4 is a constant depending on the geometry of singular fiber. Since X 0 is reduced and ω is Kähler, we have vol(X 0 ) = vol(X s ). Together with Theorem 2.4.(5), we have</p><formula xml:id="formula_61">0 ≤ vol(X s ) -((F s ) * χ s , (F s ) * χ s ) L 2 (Xs) ≤ K 3 |s| 1 2 + K ′ 4 |s| 1 4ν . Note that 0 ≤ (F s ) * χ ≤ 1 and (F s ) * χ ∈ C ∞ 0 (O s ), we have Xs\Os ω s ≤ vol(X s ) -((F s ) * χ, (F s ) * χ) L 2 (Xs) ≤ K 4 |s| 1 4ν .</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head><p>Step 2: We construct good test functions on the singular fiber, which will be flowed using diffeomorphisms in Theorem 2.4 to nearby fibers in Step 3 for constructing model functions.</p><formula xml:id="formula_62">Let X 0 = C 1 + • • • + C N be the irreducible decomposition of the singular fiber X 0 . For each singular point p ∈ Sing X 0 ∩ C i , we fix a local coordinate system (U p , ζ), ζ = (ζ 1 , ζ 2 ) ∈ C 2 and ζ(p) = 0. We define r p (z) := ∥ζ(z)∥ = |ζ 1 | 2 + |ζ 2 | 2 .</formula><p>Then we construct a family of functions on X 0 .</p><p>Lemma 2.7 ([DY25, Lemma 6.6]). For every 0 &lt; ϵ ≪ 1, there exists a family of smooth functions χ</p><formula xml:id="formula_63">(i) ϵ (1 ≤ i ≤ N ), such that (1) For 1 ≤ i ≤ N , we have χ (i) ϵ ∈ C ∞ 0 (C i \ Sing(X 0 )) (2) We have 0 ≤ χ (i) ϵ ≤ 1. On C i \ p∈Sing X 0 ∩C i U p , we have χ (i) ϵ = 1. (3) For any p ∈ Sing X 0 ∩ C i , we have χ (i) ϵ (z) = 0 if r p (z) ≤ 1 2 ϵ and χ (i) ϵ (z) = 1 if r p (z) ≥ 2 √ ϵ.</formula><p>(4) We have dχ</p><formula xml:id="formula_64">(i) ϵ 2 L 2 ≤ K 4 /(log ϵ -1 ) where K 4 &gt; 0 is a constant depending only on π : X → S around 0 ∈ S.</formula><p>(5) For each i, the χ (i) ϵ depends on ϵ continuously.</p><p>Step 3: We use the family of diffeomorphisms generated by flow in Step 1 and the collection of good test functions on X 0 in Step 2 to construct the collection of model functions on X s . Proposition 2.8 ([DY25, Section 6.2]). For 0 &lt; |s| ≪ 1, there exists a family of smooth functions</p><formula xml:id="formula_65">Υ (i) s ∈ C ∞ (X s ) (1 ≤ i ≤ N ), such that</formula><p>(1) For any 1 ≤ i ≤ N and any s, there is a constant C &gt; 0 depending only on the geometry of degeneration such that 0 ≤ Υ</p><formula xml:id="formula_66">(i) s ≤ C. (2) For 1 ≤ i ≤ N , the function Υ (i) (s, z) := Υ (i) s (z) for 0 &lt; |s| ≪ 1, z ∈ X s is continuous on X \ X 0 , i.e.</formula><p>, the family varies continuously in s away from singular fibers.</p><p>(3) For 1 ≤ i, j ≤ N , i ̸ = j, we have Supp Υ</p><formula xml:id="formula_67">(i) s ∩ Supp Υ (j) s = ∅. (4) For 1 ≤ i ≤ N , we have estimates Υ (i) s 2 L 2 (Xs) = 1 + O(|s| 1 8ν ), dΥ (i) s 2 L 2 (Xs) ≤ K log(|s| -1 )</formula><p>.</p><p>The constant K &gt; 0 depends only on (π : X → D, ω). (5) The function</p><formula xml:id="formula_68">Υ (i) s (z) is constant for z ∈ X s in F s (X 0 \ p∈Sing X 0 B(p, 4ϵ(s) 1 2 )), where ϵ(s) = 2 |s| 1 8ν . Proof. We define (2.1) Υ (i) (s) = (F s ) * (χ (i) 4ϵ(s) )/ Area(C i ) ∈ C ∞ (X s ), where ϵ(s) = 2 |s| 1 8ν . Since 0 ≤ χ (i) ϵ(s) ≤ 1, Proposition 2.8.(1) is proved. Since χ (i)</formula><p>ϵ(s) depends on s continuously by Lemma 2.7.(5) and F s is continuous in s, Υ (i) (s) varies continuously in s. Then Proposition 2.8.(2) is proved.</p><p>For the remaining parts, we refer to [DY25, Section 6.2]. □ Corollary 2.9. For any p ∈ X 0 \ Sing X 0 , there is an open neighborhood U of p such that</p><formula xml:id="formula_69">Υ (i) (s, z) := Υ (i)</formula><p>s (z) is constant for 1 ≤ i ≤ N . Moreover, we can extend Υ (i) (s, z) to be a continuous function on X \ Sing X 0 . And</p><formula xml:id="formula_70">Υ (i) (s, z) is locally constant around X 0 \ Sing X 0 .</formula><p>Proof. By the definition of F s in Theorem 2.4, for any p in X 0 \ Sing X 0 , we can take an open neighborhood</p><formula xml:id="formula_71">U of p in X such that U ∩ X s is contained in F s (X 0 \ p∈Sing X 0 B(p, 4ϵ(s) 1 2 )).</formula><p>From the definition of Υ (i) in Equation (2.1), the Υ (i) equals to 1/ Area(C i ) on U . So Υ (i) is locally constant around any point in X \ Sing X 0 .</p><p>Together with Proposition 2.8.(2), we know that Υ (i) is continuous on X \ Sing X 0 . Furthermore, it equals to 1/ Area(C i ) around any point in X \ Sing X 0 . □</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>We call Υ (i)</head><p>s model functions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>2.C. Properties of small eigenfunctions</head><p>Eigenfunctions associated with small eigenvalues are called small eigenfunctions. We approximate these using the model functions defined in Proposition 2.8. The results are summarized below.</p><p>Theorem 2.10. Let {Φ i (s, z)} N -1 i=1 be eigenfunctions of ∆ ωs with eigenvalues</p><formula xml:id="formula_72">0 &lt; λ 1 (s) ≤ λ 2 (s) ≤ • • • ≤ λ N -1 (s), i.e., -∆ ωs Φ i = λ i (s)Φ i , on X s . Then for each 1 ≤ j ≤ N -1, we have a decomposition for Φ j , (2.2) Φ j (s, z) = N l=1 C l(j+1) (s)Υ (l) (s, z) + R j (s, z) for 0 &lt; |s| ≪ 1, where C ij (s) = Xs Υ (i) s Φ j-1 ω s = (Υ (i) s , Φ j-1 ) L 2 (Xs,</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ωs) . And we have the following estimates</head><p>(1) There is a uniform constant C such that |C lj (s)| &lt; C for all 1 ≤ l ≤ N and all s.</p><p>(2) There is a uniform constant C such that</p><formula xml:id="formula_73">∥dR j ∥ 2 L 2 (Xs) ≤ C 2 log(|s| -1 ) , ∥R j ∥ 2 L 2 (Xs) ≤ C 2 1 log(|s| -1 )</formula><p>.</p><p>for all 1 ≤ j ≤ N and all s.</p><p>Remark 2.11. We mention that the choice of small eigenfunctions is not unique. Nevertheless, the non-uniqueness of choice can be controlled: Let {Φ i (s, z)} N -1 i=1 and {Φ ′ i (s, z)} N -1 i=1 be two families of normalized small eigenfunctions. They span the same vector space V and are orthonormal bases under the L 2 -inner product. Thus, they are related by an orthogonal matrix, i.e., there exists a matrix O ∈ O(N -1) such that</p><formula xml:id="formula_74">(Φ ′ 1 (s, z), Φ ′ 2 (s, z), • • • , Φ ′ N -1 (s, z)) = (Φ 1 (s, z), Φ 2 (s, z), • • • , Φ N -1 (s, z))O.</formula><p>From the equation Equation (2.2), we have</p><formula xml:id="formula_75">(Φ ′ 1 , Φ ′ 2 , • • • , Φ ′ N -1 ) = (Υ (1) , • • • , Υ (N ) )(C l(j+1) ) 1≤l≤N 1≤j≤N -1 O + (R 1 , • • • , R N -1 )O = (Υ (1) , • • • , Υ (N ) )(C ′ l(j+1) ) 1≤l≤N 1≤j≤N -1 + (R ′ 1 , • • • , R ′ N -1 ).</formula><p>So for another choice of eigenfunctions, the remainders are related by an orthogonal matrix and the estimates are the same for</p><formula xml:id="formula_76">R ′ 1 , • • • , R ′ N -1 .</formula><p>Proof. We begin with the Fourier expansion for each model function Υ</p><formula xml:id="formula_77">(i) s (1 ≤ i ≤ N ) on X s with respect to the lower frequency eigenfunctions {Φ j (s, z)} N -1 j=1 , (2.3) Υ (i) s = Xs Υ (i) s ω s + N -1 j=1 c ij (s)Φ j =:Υ (i) s,low +h (i) s ,</formula><p>where</p><formula xml:id="formula_78">c ij (s) = Xs Υ (i) s Φ j ω s and h (i)</formula><p>s is the high frequency remainders. We estimate h (i) s in the following lemma: Lemma 2.12. There is a uniform constant K &gt; 0 depending only on the degeneration such that</p><formula xml:id="formula_79">h (i) s 2 L 2 (Xs,ωs) ≤ K log(|s| -1 )</formula><p>Proof. (of Lemma 2.12) Applying -∆ ωs to Equation (2.3), we get the following equation on X s</p><formula xml:id="formula_80">-∆ ωs Υ (i) s = N -1 j=1 c ij (s)λ j (s)Φ j -∆ ωs h (i) s .</formula><p>Since h</p><formula xml:id="formula_81">(i)</formula><p>s has no low frequency modes, by spectral gap in Theorem 2.2, we have a uniform λ &gt; 0 such that</p><formula xml:id="formula_82">λ h (i) s 2 L 2 (Xs,ωs) ≤ (-∆ ωs h (i) s , h (i) s ) L 2 (Xs) = -∆ ωs Υ (i) s + N -1 j=1 c ij (s)λ j (s)Φ j , h (i) s L 2 (Xs) = -∆ ωs Υ (i) s , h (i) s L 2 (Xs) = -∆ ωs Υ (i) s , Υ (i) s L 2 (Xs) + ∆ ωs Υ (i) s , Υ (i) s,low L 2 (Xs)</formula><p>(2.4)</p><p>The equality in the third line holds since the high frequency term h</p><formula xml:id="formula_83">(i) s in the Fourier expansion (Equation (2.3)) is L 2 (X s , ω s )-orthogonal to low frequency modes Φ j (1 ≤ j ≤ N -1).</formula><p>Integrating by parts on the compact manifold X s and using the estimate for the model functions Υ (i) s (in Proposition 2.8(4)), we get</p><formula xml:id="formula_84">-∆ ωs Υ (i) s , Υ (i) s L 2 (Xs) = dΥ (i) s 2 L 2 (Xs) ≤ K log(|s| -1 )</formula><p>,</p><p>where K is a uniform constant. Since ∆ ωs preserves orthogonality in the Fourier expansion Equation (2.3), we have</p><formula xml:id="formula_85">∆ ωs Υ (i) s , Υ (i) s,low L 2 (Xs) = ∆ ωs Υ (i) s,low , Υ (i) s,low L 2 (Xs) = -dΥ (i) s,low<label>2</label></formula><formula xml:id="formula_86">L 2 (Xs) ≤ 0.</formula><p>Put things back into Equation (2.4), we get</p><formula xml:id="formula_87">λ h (i) s 2 L 2 (Xs,ωs) ≤ K log(|s| -1 )</formula><p>.</p><p>So we can find a uniform K 1 &gt; 0 such that for all 1 ≤ i ≤ N , we have</p><formula xml:id="formula_88">h (i) s 2 L 2 (Xs,ωs) ≤ K ′ log(|s| -1 )</formula><p>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head><p>We now go back to our theorem.</p><p>(1) We use the notation Φ 0 := 1 and consider the following correlation matrix</p><formula xml:id="formula_89">C(s) = (C ij (s)) 1≤i,j≤N , C ij (s) = Xs Υ (i) s Φ j-1 ω s = (Υ (i) s , Φ j-1 ) L 2 (Xs,ωs) . Then |C ij (s)| ≤ Υ (i) s L 2 ∥Φ j-1 ∥ L 2 = O(1).</formula><p>(2) We then show that the correlation matrix C(s) is close to an orthogonal matrix with controlled error terms:</p><formula xml:id="formula_90">(CC T ) ij = N l=1 C il C jl = N -1 l=1 (Υ (i) s , Φ l-1 ) L 2 (Xs) (Υ (j) s , Φ l-1 ) L 2 (Xs) = (Υ (i) s , N l=1 Φ l-1 (Υ (j) s , Φ l-1 )) = (Υ (i) s , Υ (j) s -h (j) s ) = Υ (i) s 2 L 2 (Xs) δ ij -(Υ (i) s , h (j)</formula><p>s ) The last equality follows by Proposition 2.8(3).</p><p>Since Υ</p><formula xml:id="formula_91">(i) s 2 L 2 (Xs) = 1 + O(|s| 1 8ν</formula><p>) (by Proposition 2.8(4)) and (Υ</p><formula xml:id="formula_92">(i) s , h (j) s ) ≤ h (j) s L 2 Υ (i) s L 2 = O( 1 log(s -1 ) )</formula><p>1 2 (by Lemma 2.12), we have</p><formula xml:id="formula_93">CC T = I + E,</formula><p>where E, the error term, is controlled by</p><formula xml:id="formula_94">∥E∥ ≤ K 1 ( 1 log(s -1 ) ) 1 2 . So C -1 = C T (I + E) -1 .</formula><p>Since ∥E∥ ≪ 1 for |s| ≪ 1, we have</p><formula xml:id="formula_95">(I + E) -1 = I -E + E 2 -E 3 + • • • =: I + E ′ ,</formula><p>where E ′ = i≥1 (-1) i E i . We estimate that</p><formula xml:id="formula_96">∥E ′ ∥ ≤ ∥E∥ (1 + i≥1 ∥E∥ i ) ≤ K 2 ( 1 log(s -1 )</formula><p>)</p><formula xml:id="formula_97">1 2</formula><p>for some uniform constant K 2 . Then</p><formula xml:id="formula_98">C -1 = C T (I + E ′ ). Note that       Υ (1) s -h (1) s Υ (2) s -h (2) s . . . Υ (N ) s -h (N ) s       =       Υ (1) s,low Υ (2) s,low . . . Υ (N ) s,low       = C(s)      Φ 0 Φ 1 . . . Φ N -1      = C(s)      1 Φ 1 . . . Φ N -1     </formula><p>We have</p><formula xml:id="formula_99">     1 Φ 1 . . . Φ N -1      = C -1 (s)       Υ (1) s,low Υ (2) s,low . . . Υ (N ) s,low       =C T (s)(I + E ′ )       Υ (1) s,low Υ (2) s,low . . . Υ (N ) s,low       So for each 1 ≤ j ≤ N -1, we have Φ j (s) = N l=1 C l(j+1) (s)Υ (l) s,low + R j . (2.5) And the remainder term R j = C T • E ′ • (Υ (1) s,low , • • • , Υ (N ) s,low ) T j+1 is controlled by |R j | ≤ C T L ∞ ∥E ′ ∥ L ∞ (Υ (1) s,low , • • • , Υ (N ) s,low ) T L ∞ = O( 1 log(s -1 ) ) 1 2 . So ∥R j ∥ L 2 (Xs) ≤ C 2 1 log(|s| -1 )</formula><p>for some constant C &gt; 0. To estimate the derivative of the remainder, we take the derivative of the Equation (2.5) on X s ,</p><formula xml:id="formula_100">dΦ j (s) -C l(j+1) (s) N l=1 dΥ (l) s,low = dR j . Then ∥dR j ∥ L 2 ≤ N l=1 C l(j+1) L ∞ dΥ (l) s,low L 2 + ∥dΦ j (s)∥ L 2 . Since ∥dΦ j (s)∥ L 2 = λ 1 2 j (s) and dΥ (l) s,low 2 L 2 = O 1 log(|s| -1 )</formula><p>by Proposition 2.8(4), we have</p><formula xml:id="formula_101">∥dR j ∥ 2 L 2 ≤ C 2 1 log(|s| -1 )</formula><p>for some constant C &gt; 0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Estimates of preferred potentials</head><p>The setup for this section is the same as Section 2 (see Setup 1). Given a smooth real (1, 1)-form α on X, we introduce the following two integrability conditions:</p><p>Condition 3.1. We say α satisfies the integrability condition on general fibers, if Xs α = 0 for all s ̸ = 0. Condition 3.2. We say α satisfies the integrability condition on the singular fiber, if α satisfies the integrability condition on general fibers (Condition 3.1) and</p><formula xml:id="formula_102">C i α = 0,</formula><p>where C i (1 ≤ i ≤ N ) are irreducible components of the reduced singular fiber X 0 .</p><p>Our goal in this section is to study the preferred potentials of smooth (1, 1)-forms on X satisfying Condition 3.1. The notion of preferred potentials originates from [FT23, Theorem 3.2.4].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Definition 3.3 (Preferred potentials).</head><p>Let α be a smooth real (1, 1)-form on (X, ω) satisfying the integrability condition on general fibers (Condition 3.1). Then there is</p><formula xml:id="formula_103">a unique φ ∈ C ∞ (X \ X 0 ) such that Xs φω s = 0, (α + dd c φ) | Xs = 0.</formula><p>We say that φ is the preferred potential of the differential form α. Since (X s , ω s ) is compact and φ | Xs =: φ s is smooth on it, we can expand it using Fourier series in terms of eigenfunctions of ∆ ωs :</p><formula xml:id="formula_104">φ s = N -1 i=1 c i (s)Φ i (s, z) + i≥N c i (s)Φ i (s, z).</formula><p>The coefficients are determined by</p><formula xml:id="formula_105">c i (s) = Xs φ s Φ i (s, z)ω s = Xs φ s -dd c z Φ i (s, z) λ i (s) = Xs dd c z (φ s ) -Φ i (s, z) λ i (s) = 1 λ i (s) Xs Φ i (s, z)α.</formula><p>We use b i (s) := Xs Φ i (s, z)α to denote the integral terms, and the properties of λ i (s) are known for 1 ≤ i ≤ N -1 in Theorem 2.1.</p><p>We then divide φ into two parts, a low frequency part and a high frequency part, following the Fourier expansion:</p><formula xml:id="formula_106">φ low = N -1 i=1 c i (s)Φ i (s, z), φ high = i≥N c i (s)Φ i (s, z). (3.1)</formula><p>These two parts are smooth on X \ X 0 by Lemma 2.3.</p><p>Then we introduce the main theorems of this section.</p><p>Theorem 3.4. We work under Setup 1. Suppose α is a smooth real (1, 1)-form on (X, ω) with Condition 3.1. Let φ be the preferred potential of α.</p><p>(1) We have an L ∞ bound for φ high ,</p><formula xml:id="formula_107">∥φ high ∥ L ∞ (Xs) ≤ C ∥tr ωs α∥ L ∞ (Xs)</formula><p>for all s ̸ = 0. The constant C only depends on the geometry of the degeneration.</p><p>(2) We have control over the growth order of ∥φ low ∥ L ∞ (Xs) ,</p><formula xml:id="formula_108">∥φ low ∥ L ∞ (Xs) ≤ C ∥tr ω 0 α∥ L 1 (X 0 ) log(|s| -1 ).</formula><p>for all s ̸ = 0. The constant C only depends on the geometry of the degeneration.</p><p>When α satisfies the integrability condition on the singular fiber (Condition 3.2), the growth order of ∥φ low ∥ L ∞ (Xs) has a better control.</p><p>Theorem 3.5. We use the same assumption and notations in Theorem 3.4. We assume that the smooth real (1, 1)-form α satisfies Condition 3.2. Then the low frequency part φ low of the preferred potential satisfies</p><formula xml:id="formula_109">∥φ low ∥ L ∞ (Xs) log 1/2 (|s| -1 )</formula><p>→ 0, as s → 0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.A. Estimate of the high frequency part</head><p>We prove the first part of Theorem 3.4 regarding the high frequency part of the preferred potential. The proof is based on Cheng-Li's argument <ref type="bibr" target="#b6">[CL81]</ref> (also seen in Siu's lecture note [Siu87, Appendix (A.2)]).</p><p>First, we introduce the following high frequency truncated heat kernel and Green's function on each (X s , ω s ):</p><formula xml:id="formula_110">H N s (z 1 , z 2 , t) = ∞ i=N e -λ i (s)t Φ i (s, z 1 )Φ i (s, z 2 ) (truncated heat kernel) G N s (z 1 , z 2 ) = ∞ i=N 1 λ n (s) Φ i (s, z 1 )Φ i (s, z 2 ) (truncated Green's function)</formula><p>Then the high frequency part φ high in Equation (3.1) can be represented by</p><formula xml:id="formula_111">(3.2) φ high (z, s) = z 2 ∈Xs (tr ωs α)(z 2 )G N s (z, z 2 )ω s (z 2 )</formula><p>To obtain the desired bound on φ high in Theorem 3.4, we estimate G N s (z 1 , z 2 ) using Cheng-Li's argument: Proposition 3.6. There is a uniform constant C &gt; 0 independent of s ∈ D • such that</p><formula xml:id="formula_112">G N s (z 1 , z 2 ) ≥ -C, z 1 , z 2 ∈ X s , for all s ∈ D • .</formula><p>Proof. Let H s (z 1 , z 2 , t) be the heat kernel of (X s , ω s ), then we have</p><formula xml:id="formula_113">(3.3) 1 V (s) + N -1 i=1 e -λ i (s)t Φ i (s, z 1 )Φ i (s, z 2 ) + H N s (z 1 , z 2 , t) = H s (z 1 , z 2 , t) ≥ 0, where V (s) = Xs ω s is the volume of X s . Since ω is closed, V (s) ≡ V is constant.</formula><p>From the lower bound of higher eigenvalues in Theorem 2.2, we know that there exists λ &gt; 0 such that λ k (s) ≥ λ for all k ≥ N . Then</p><formula xml:id="formula_114">d dt H N s (z, z, t) = ∞ i=N -λ i (s)e -λ i (s)t |Φ i (s, z)| 2 ≤ -λH N s (z, z, t).</formula><p>By Grönwall's inequality, we have</p><formula xml:id="formula_115">H N s (z, z, t) ≤ H N s (z, z<label>,</label></formula><p>1)e -λ(t-1) for t ≥ 1 By the Cauchy-Schwarz inequality, we get</p><formula xml:id="formula_116">H N s (z 1 , z 2 , t) ≤ H N s (z 1 , z 1 , t) • H N s (z 2 , z 2 , t) ≤ H N s (z 1 , z 1 , 1) • H N s (z 2 , z 2 , 1)e -λ(t-1) for t ≥ 1. (3.4)</formula><p>To estimate the truncated Green's function, we note that</p><formula xml:id="formula_117">∞ 0 H N s (z 1 , z 2 , t)dt = G N s (z 1 , z 2 ) = ∞ i=N 1 λ i (s) Φ i (s, z 1 )Φ i (s, z 2 ). Then G N s (z 1 , z 2 ) = 1 0 H N s (z 1 , z 2 , t)dt + ∞ 1 H N s (z 1 , z 2 , t)dt ≥ 1 0 H N s (z 1 , z 2 , t)dt -H N s (z 1 , z 1 , 1) • H N s (z 2 , z 2 , 1) ∞ 1 e -λ(t-1) dt = 1 0 H s (z 1 , z 2 , t) - 1 V - N -1 i=1 e -λ i (s)t Φ i (s, z 1 )Φ i (s, z 2 ) dt -I 2</formula><p>(Using Equation (3.3), and</p><formula xml:id="formula_118">I 2 := H N s (z 1 , z 1 , 1) • H N s (z 2 , z 2 , 1) ∞ 1 e -λ(t-1) dt) ≥ 1 0 - 1 V - N -1 i=1 e -λ i (s)t Φ i (s, z 1 )Φ i (s, z 2 ) dt -I 2</formula><p>(Using the fact that the heat kernel H s (z 1 , z 2 , t) ≥ 0)</p><formula xml:id="formula_119">≥ - 1 V - N -1 i=1 ∥Φ i (s, z)∥ 2 L ∞ (Xs) -I 2 ≥ -( 1 V + I 1 + I 2 )</formula><p>Here</p><formula xml:id="formula_120">I 1 = N -1 i=1 ∥Φ i (s, z)∥ 2 L ∞ (Xs) ≥ 0 I 2 = H N s (z 1 , z 1 , 1) • H N s (z 2 , z 2 , 0.4) ∞ 1 e -λ(t-1) dt ≥ 0.</formula><p>It remains to control I 1 , I 2 by some uniform constants that are independent of s. We begin with basic results which relate the Sobolev constants to the heat kernel and eigenfunction bounds.</p><p>Theorem 3.7 (Theorem 2.1, <ref type="bibr" target="#b28">[Yos97]</ref>). For a manifold (M, g) of real dimension 2, the following two inequalities are equivalent:</p><p>(1) For 0 &lt; t ≤ 1 and (x, y) ∈ M × M ,</p><formula xml:id="formula_121">H(x, y, t) ≤ C 1 t -2 (2) For every f ∈ C ∞ (M ), ∥f ∥ L 4 ≤ C 2 (∥df ∥ L 2 + ∥f ∥ L 2 )</formula><p>Here C 1 and C 2 depend continuously on each other.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>By classical Moser iteration, we have</head><p>Theorem 3.8 ([Pet16, Theorem 9.2.7]). Let (M, g) be a compact Riemannian manifold, with the following Sobolev inequality ∥u∥ 2ν ≤ S ∥∇u∥ 2 + ∥u∥ 2 where ν &gt; 1. Then for ∆u = -λu, we have</p><formula xml:id="formula_122">∥u∥ ∞ ≤ exp( S √ νλ √ ν -1 ) ∥u∥ 2 .</formula><p>Specifically, if ν = 2 in the above Sobolev inequality, and ∥u∥ 2 = 1, then for ∆u = -λu, we have</p><formula xml:id="formula_123">∥u∥ ∞ ≤ exp( S √ 2λ √ 2 -1 )</formula><p>Finally, we introduce the uniform Sobolev inequality for a Kähler family.</p><p>Theorem 3.9 ([Tos10, Lemma 3.2]). Let π : (X, ω) → D be a Kähler family, i.e., π is a proper, surjective holomorphic map from a Kähler manifold (X, ω) to the unit disk D. Suppose that X 0 := π -1 (0) is the unique singular fiber. Assume dim C X s = 1. Then for 0 &lt; |s| &lt; 0.5, we have a uniform Sobolev constant C for (X s , ω s ), where ω s = ω| Xs :</p><formula xml:id="formula_124">∥f ∥ L 4 (Xs) ≤ C(∥df ∥ L 2 + ∥f ∥ L 2 ) ∀f ∈ C ∞ (X s )</formula><p>So I 1 is bounded uniformly by Theorem 3.9 and Theorem 3.8. And I 2 is bounded uniformly by Theorem 3.9 and Theorem 3.7. This completes the proof. □</p><p>As a corollary, we can show the first part of Theorem 3.4.</p><p>Corollary 3.10. Under the settings and notation of Theorem 3.4, we have</p><formula xml:id="formula_125">∥φ high ∥ L ∞ (Xs) ≤ C ∥tr ωs α∥ L ∞ (Xs)</formula><p>for all s ̸ = 0. The constant C only depends on the geometry of the degeneration.</p><p>Proof. By Equation (3.2), we have</p><formula xml:id="formula_126">φ high (z, s) = z 2 ∈Xs (tr ωs α)(z 2 )G N s (z, z 2 )ω s (z 2 ) = z 2 ∈Xs (tr ωs α)(z 2 )(G N s (z, z 2 ) + C ′ )ω s (z 2 ),</formula><p>where we take the constant C ′ as in Proposition 3.6 such that G N s (z, z 2 ) + C ′ ≥ 0. So</p><formula xml:id="formula_127">φ high (z, s) ≤ z 2 ∈Xs |(tr ωs α)(z 2 )| (G N s (z, z 2 ) + C ′ )ω s (z 2 ) ≤ z 2 ∈Xs ∥tr ωs α∥ L ∞ (Xs) (G N s (z, z 2 ) + C ′ )ω s (z 2 ) = C ′ V ∥tr ωs α∥ L ∞ (Xs) .</formula><p>Similarly, we have φ high (z, s) ≥ -C ′ V ∥tr ωs α∥ L ∞ (Xs) , where V is the volume of (X s , ω s ).</p><p>To summarize, we have ∥φ high ∥ L ∞ (Xs) ≤ C ∥tr ωs α∥ L ∞ (Xs) . □</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.B. Estimate of the low frequency (I)</head><p>We prove the second part of Theorem 3.4 here. First, we note that</p><formula xml:id="formula_128">φ low = N -1 i=1 c i (s)Φ i (s, z)</formula><p>and the Φ i (s, z) are uniformly bounded by Theorem 3.9 and Theorem 3. around 0 for all 1 ≤ i ≤ N . Our tool is the decomposition of Φ i in Theorem 2.10. We recall the results here: For each 1 ≤ i ≤ N -1, we have</p><formula xml:id="formula_129">Φ i (s, z) = N l=1 C li (s)Υ (l) (s, z) + R i (s, z).</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>And</head><p>• There is a uniform constant C such that |C li (s)| &lt; C for all 1 ≤ l ≤ N and all s.</p><p>• The model functions Υ (l) (s, z) are discussed in Proposition 2.8. • The remainder terms R i are discussed in Theorem 2.10. Then each b i is decomposed into</p><formula xml:id="formula_130">(3.5) b i (s) = N l=1 C li (s) Xs Υ (l) s α + Xs R i (s, z)α.</formula><p>We have the following lemma Lemma 3.11. Under the preceding notation. For any smooth (1, 1)-form α on X,</p><formula xml:id="formula_131">Xs Υ (l) s α = 1 Area(C l ) C l α + ∥α∥ ∞ O(|s| 1 4ν ) .</formula><p>Proof. (of Lemma 3.11) From the construction of Υ (l) s in Proposition 2.8, it follows that</p><formula xml:id="formula_132">Xs Υ (l) s α = X 0 χ (l) ϵ(s) F * s α Area(C l )</formula><p>, where ϵ(s) = 2 |s| 1 8ν . Since α is a smooth form on X, by Theorem 2.4(4) and Remark 2.5, we have</p><formula xml:id="formula_133">∥F * s α -α 0 ∥ L ∞ (X 0 \∪ p∈Sing X 0 B(p,ϵ(s))) ≤ K 2 |s| 1 2 for a uniform constant K 2 &gt; 0. So (3.6) Xs Υ (l) s α - X 0 χ (l) ϵ(s) α Area(C l ) ≤ K 2 Area(C l ) |s| 1 2 . Since χ (l) ϵ(s) is compactly supported on C l , χ<label>(l)</label></formula><p>ϵ(s) -1 is bounded by 2 and it vanishes on C l except on a set of measure O(|s| 1 4ν ) (by Lemma 2.7) , we have (3.7)</p><formula xml:id="formula_134">X 0 χ (l) ϵ(s) α Area(C l ) - C l α Area(C l ) = ∥α∥ ∞ O(|s| 1 4ν ).</formula><p>Combining Equation (3.6) and Equation (3.7), we obtain</p><formula xml:id="formula_135">Xs Υ (l) s α - 1 Area(C l ) C l α = ∥α∥ ∞ O(|s| 1 4ν</formula><p>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head><p>On the other hand, from Theorem 2.10(2), we have</p><formula xml:id="formula_136">Xs R i (s, z)α = ∥tr ω α∥ L 2 (Xs) O(log -1 2 (|s| -1 )).</formula><p>Putting all these asymptotic results into Equation (3.5), we have</p><formula xml:id="formula_137">b i (s) = N l=1 C li (s) Area(C l ) C l α + N l=1 C li (s) Area(C l ) O(|s| 1 4ν ) + ∥tr ω α∥ L 2 (Xs) O(log -1 2 (|s| -1 )) = N l=1 C li (s) Area(C l ) C l α + O(log -1 2 (|s| -1 )) = O(1) ∥tr ω 0 α∥ L 1 (X 0 ) + O(log -1 2 (|s| -1 )) ∥tr ω α∥ L 2 (Xs) .</formula><p>(3.8)</p><p>We then prove the second part of Theorem 3.4.</p><p>Proof. (of Theorem 3.4.( <ref type="formula" target="#formula_85">2</ref>)) For α whose integral is zero on general fibers, following Equation (3.8), we have b</p><formula xml:id="formula_138">i (s) = O(log -1 2 (|s| -1 )) ∥tr ω α∥ L 2 (Xs) . Since φ low = N -1 i=1 c i (s)Φ i (s, z) and c i = b i /λ i , we have c i (s) = O(log(|s| -1 )) ∥tr ω 0 α∥ L 1 (X 0 ) + O(log 1 2 (|s| -1 )) ∥tr ω α∥ L 2 (Xs) .</formula><p>Since Φ i (s, z) is uniformly bounded for 1 ≤ i ≤ N -1, we have</p><formula xml:id="formula_139">∥φ low ∥ L ∞ (Xs) ≤ C ∥tr ω 0 α∥ L 1 (X 0 ) log(|s| -1 ). □</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>3.C. Estimate of the low frequency (II)</head><p>If α additionally satisfies Condition 3.2 on the singular fiber (i.e., α has zero integral on each irreducible component of the singular fiber), we obtain a better estimate on its preferred potential (Theorem 3.5). We prove the theorem here.</p><p>Following the same strategy as in Section 3.B, it suffices to estimate each term in the expansion Equation (3.5) of b i (s):</p><formula xml:id="formula_140">b i (s) = N l=1 C li (s) Xs Υ (l) s α + Xs R i (s, z)α.</formula><p>The first part is good enough when α has zero integral on each irreducible component of the singular fiber as proved in Lemma 3.11, and we have</p><formula xml:id="formula_141">N l=1 C li (s) Xs Υ (l) s α = O(|s| 1 4ν ).</formula><p>It remains to estimate Xs R i (s, z)α under conditions Condition 3.2, which is the following proposition. Proposition 3.12. For s ̸ = 0, we define R i := log 1 2 (|s| -1 )R i . If α is a smooth (1, 1)form on X with Condition 3.2, we then have</p><formula xml:id="formula_142">log 1 2 (|s| -1 ) Xs R i (s, z)α = Xs R i (s, z)α → 0 as s → 0.</formula><p>Proof. We prove it by contradiction. Suppose we have a sequence s n → 0 such that</p><formula xml:id="formula_143">Xs n R i (s n , z)α ≥ ϵ 0 for some ϵ 0 &gt; 0.</formula><p>First, we check that the family of functions R i,s (z) = R i (s, z) ∈ C ∞ (X s ) satisfies the conditions in Proposition 1.13. We denote dd c z R i,s (z) by β s . • For the first condition in Proposition 1.13, we use the decomposition formula for eigenfunctions Φ i in Equation (2.2):</p><formula xml:id="formula_144">Φ i (s, z) = N l=1 C l(i+1) (s)Υ (l) (s, z) + R i (s, z).</formula><p>Around any x ∈ X 0,reg , we can take an open neighborhood U of x such that Υ (l) (s, z) is constant on U by Corollary 2.9. Then on U ∩ X s , we have</p><formula xml:id="formula_145">dd c z R i,s (z) = β s = dd c z Φ i (s, z) = -λ i (s)Φ i (s, z)ω s . So ∥tr ωs β s ∥ L ∞ (U ∩Xs) = ∥λ i (s)Φ i (s, z)∥ L ∞ (U ∩Xs) is uniformly bounded in s.</formula><p>• For the second condition in Proposition 1.13, we note that</p><formula xml:id="formula_146">∥tr ωs β s ∥ C 0 (U ∩Xs) = λ i (s) ∥Φ i ∥ C 0 (U ∩Xs) → 0.</formula><p>So tr ωs β s → 0 = f 0 in C 0 loc on X 0,reg . • For the third condition in Proposition 1.13, it is proved in Theorem 2.10(3) that there is a uniform constant C &gt; 0 such that</p><formula xml:id="formula_147">∥dR j ∥ 2 L 2 (Xs) ≤ C 2 log(|s| -1 ) , ∥R j ∥ 2 L 2 (Xs) ≤ C 2 1 log(|s| -1 )</formula><p>.</p><p>for all 1 ≤ j ≤ N and all s. So</p><formula xml:id="formula_148">R i,s<label>(z)</label></formula><p>L 2 (Xs,ωs)</p><formula xml:id="formula_149">, d R i,s<label>(z)</label></formula><p>L 2 (Xs,ωs)</p><formula xml:id="formula_150">≤ C 2 .</formula><p>We then apply Proposition 1.13 to the family of functions R i,s (z) and sequence s n → 0, we then have a subsequence s kn such that</p><formula xml:id="formula_151">• R i,s kn (z) converges to R 0 (z) in C 1,a loc on X 0,reg for any 0 &lt; a &lt; 1, • R 0 (z) ∈ W 2,p loc for all 1 &lt; p &lt; ∞ and it solves -∆ ω 0 R 0 (z) = f 0 = 0 a.e. on X 0,reg , • R 0 (z) ∈ W 1,2 (X 0,reg ), • Xs kn R i,s kn (z)α → X 0 R 0 (z)α.</formula><p>Since R 0 (z) ∈ W 1,2 (X 0 ) and it is harmonic on X 0,reg , it is locally constant and is constant on each irreducible component of X 0 . So we have X 0 R 0 (z)α = 0. Thus the initial assumption Xs n R i (s n , z)α ≥ ϵ 0 for all n and an ϵ 0 &gt; 0 contradicts that</p><formula xml:id="formula_152">Xs kn R i,s kn (z)α → X 0 R 0 (z)α = 0.</formula><p>This completes the proof. □</p><p>As a direct consequence, we can prove Theorem 3.5</p><p>Proof. (of Theorem 3.5) Following previous discussion, we have</p><formula xml:id="formula_153">b i (s) = O(|s| 1 4ν ) + o(log -1 2 (|s| -1 )). So c i (s) = b i (s) λ i (s) = o(log 1 2 (|s| -1 )) for 1 ≤ i ≤ N -1. It implies that ∥φ low ∥ L ∞ (Xs)</formula><p>log 1/2 (|s| -1 ) → 0, as s → 0.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>□</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Asymptotics of Archimedean height pairing</head><p>As an application of previous estimates, we introduce the Archimedean height pairing for smooth real (1, 1)-forms on X. We continue to use the setup from Setup 1, except in Corollary 4.6, where we allow for general singular fibers of the degeneration. Definition 4.1 (Archimedean height pairing). Let α, β be two smooth real (1, 1)-forms on X with Xs α = Xs β = 0 for s ̸ = 0 (Condition 3.1). Let φ be the preferred potential of α. We define the Archimedean height pairing ⟨α, β⟩ to be a function on</p><formula xml:id="formula_154">D • ⟨α, β⟩(s) := Xs φβ, s ∈ D • . It is smooth on D • since π : X • (:= X \ X 0 ) → D • is a submersion and φ is smooth.</formula><p>Remark 4.2. We can use any potential for α on X s to define the Archimedean height pairing. Actually, for any potential -φ ′ of α on X s (i.e., dd c φ ′ + α = 0 on X s ), the difference φ ′ -φ is constant on X s , where φ is the preferred potential of α. So</p><formula xml:id="formula_155">Xs (φ ′ -φ)β = constant • Xs β = 0 and Xs φ ′ β = Xs φβ = ⟨α, β⟩(s).</formula><p>We now state some basic properties of the Archimedean height pairing defined above. Proposition 4.3. Let α, β be two forms as in Theorem 4.1. We have (1) The Archimedean height pairing is symmetric and bilinear.</p><p>(2) The Archimedean height pairing is positive definite, i.e., ⟨α, α⟩ is a non-negative function on D • , and ⟨α, α⟩ = 0 if and only if α | Xs = 0 for s ̸ = 0.</p><p>Proof.</p><p>(1) Since the preferred potentials depend linearly on the differential forms, we have that the Archimedean height pairing is bilinear. It is symmetric because ⟨α, β⟩(s) =</p><p>Xs φ(-dd c φ ′ ) = Xs φ ′ (-dd c φ) = ⟨β, α⟩(s), where φ, φ ′ are preferred potentials for α, β respectively.</p><p>(2) We have ⟨α, α⟩(s) = Xs φ(-dd c φ) = ∥dφ∥ 2 L 2 (Xs) ≥ 0. If ⟨α, α⟩ = 0, then the preferred potential φ of α is fiberwise constant, so α| Xs = 0 for s ̸ = 0. □ Theorem 4.4 (Continuity of pairing). Let α, β be two smooth real (1, 1)-forms on X with Condition 3.1 satisfying</p><formula xml:id="formula_156">C i α = C i β = 0,</formula><p>where the C i are the irreducible components of the reduced singular fiber X 0 (Condition 3.2).</p><p>Then the pairing function ⟨α, β⟩ ∈ C 0 (D • ) (in Theorem 4.1) can be continuously extended to D.</p><p>Proof. (of Theorem 4.4) Let φ, ρ ∈ C ∞ (X \ X 0 ) be preferred potentials of α and β respectively.</p><p>By Lemma 2.3 and shrinking the base, we decompose φ into its low frequency part</p><formula xml:id="formula_157">φ low ∈ C ∞ (X \ X 0 ) and high frequency part φ high ∈ C ∞ (X \ X 0 ). Then ⟨α, β⟩(s) = - Xs (φ low + φ high )dd c ρ = - Xs ρdd c φ low - Xs φ high β</formula><p>Using the asymptotic results from Theorem 3.5, we have ρ = o(log 1 2 (|s| -1 )) and φ low = o(log 1 2 (|s| -1 )). Since φ low is in the space spanned by eigenfunctions with low frequency, we have</p><formula xml:id="formula_158">∥tr ωs dd c φ low ∥ L ∞ (Xs) = ∥∆ ωs φ low ∥ L ∞ (Xs) = o(log -1 2 (|s| -1 )).</formula><p>So Xs ρdd c φ low = o(1) and it is continuous at 0. To show that Xs φ high β can be continuously extended to D, we use Corollary 1.14. It suffices to check that φ high,s ∈ C ∞ (X s ) satisfies the conditions in Proposition 1.13. Note that dd c z φ high,s (z) = -α -dd c z φ low,s (z) • For the first condition, we have</p><formula xml:id="formula_159">∥tr ωs dd c z φ high,s (z)∥ L ∞ (Xs) ≤ ∥tr ωs α∥ L ∞ (Xs) + ∥tr ωs dd c z φ low,s ∥ L ∞ (Xs) ≤ ∥tr ωs α∥ L ∞ (Xs) + C log -1 (|s| -1 ) ∥φ low,s ∥ L ∞ (Xs) ≤ ∥tr ωs α∥ L ∞ (Xs) + o(log -1 2 (|s| -1 )) So ∥tr ωs dd c z φ high,s (z)∥ L ∞ (Xs) is uniformly bounded in s. • Since tr ωs α is continuous on X \ Sing X 0 and ∥tr ωs dd c z φ high,s (z) -tr ωs α∥ L ∞ (Xs) = ∥∆ ωs φ low,s ∥ L ∞ (Xs) = o(log -1 2 (|s| -1 )).</formula><p>We have tr ωs dd c z φ high,s → tr ω 0 α in C 0 loc on X 0,reg , which is the second condition. • Since ∥φ high ∥ L ∞ (Xs) (by Theorem 3.4) and ∥tr ωs dd c z φ high,s (z)∥ L ∞ (Xs) are uniformly bounded, ∥φ high ∥ L 2 (Xs) and ∥dφ high ∥ L 2 (Xs) are also uniformly bounded. So the third condition is verified.</p><p>So we can apply Corollary 1.14 to φ high,s and Xs φ high β is then continuous at 0. In summary, ⟨α, β⟩(s) can be continuously extended to D. □</p><p>For general smooth classes α and β satisfying Condition 3.1, we can extend Theorem 4.4.</p><p>Theorem 4.5 (Asymptotics of pairing). Let α and β be two smooth real (1, 1)-forms whose integrals on general fibers are 0. Then there is a constant c α,β such that ⟨α, β⟩ -c α,β log |s| 2 extends continuously to D.</p><p>The constant c α,β is determined in the following way: Let M be the intersection matrix of irreducible components of the singular fiber X 0 , given by</p><formula xml:id="formula_160">M ij = C i • C j . Let M + be the Moore-Penrose pseudoinverse of M . Then c α,β = v T α (M + ) T v β ,</formula><p>where</p><formula xml:id="formula_161">v α = C 1 α, . . . , C N α T , v β = C 1 β, . . . , C N β T .</formula><p>In particular, if either α or β satisfies the integrability condition on the singular fiber (Condition 3.2), then c α,β = 0 because either v α or v β is zero.</p><p>Proof. Since the singular fiber is reduced, we have X 0 = N i=1 C i , where C i are the irreducible components.</p><p>We consider the N ×N intersection matrix M with entries</p><formula xml:id="formula_162">M ij = C i •C j . By Zariski's Lemma (see [BHPVdV04, III.8.2, p.111]), we have • The matrix M is negative semi-definite. • The kernel of M is exactly one-dimensional and is spanned by 1 = (1, 1, • • • , 1). Let V 0 = x ∈ R N : N i=1</formula><p>x i = 0 be the degree-zero subspace. Then M | V 0 is strictly negative definite and is invertible. To compute the inverse of M | V 0 , we introduce M + the Moore-Penrose pseudoinverse of M . Then M + acts as the inverse of M on V 0 and annihilates span(1).</p><p>For each C i , the irreducible component of X 0 , we consider the line bundle L i = O(C i ) equipped with a Hermitian metric h i . Then we have a closed smooth (1, 1)-form</p><formula xml:id="formula_163">γ i = -dd c log ∥e∥ 2 h i representing the class [C i ]</formula><p>, where e is a local frame of the holomorphic line bundle L i . Let σ i be the canonical section of L i which vanishes exactly on C i . Then the preferred potential for γ i on each smooth fiber X s is log ∥σ i ∥ 2 h i up to a constant. We define the following map, which maps onto differential forms representing cohomology classes spanned by {[C i ]}: Form : R N → {smooth closed (1, 1)-forms with zero integral on the singular fiber}</p><formula xml:id="formula_164">x = (x 1 , • • • , x N ) → N i=1 x i γ i =: Form(x)</formula><p>Furthermore, the preferred potential of Form(x) on X s will be N i=1 x i log ∥σ i ∥ 2 h i up to a constant depending on s ̸ = 0.</p><p>For smooth (1, 1)-forms α, β on X such that Xs α = Xs β = 0 for s ̸ = 0, the vectors of component integrals</p><formula xml:id="formula_165">v α = C 1 α, . . . , C N α T , v β = C 1 β, . . . , C N β T .</formula><p>are in V 0 . We can then decompose α, β into</p><formula xml:id="formula_166">α = Form(M + v α ) + (α -Form(M + v α )) =:α 0 β = Form(M + v β ) + (β -Form(M + v β )) =:β 0 Note that for each C i , C i α 0 = i-th coordinate of (v α -M M + v α ) = 0 (v α ∈ V 0 , so M M + v α = v α ).</formula><p>Similarly, we have C i β 0 = 0 for each C i .</p><p>Since the pairing ⟨α, β⟩ is bilinear and symmetric, we have</p><formula xml:id="formula_167">⟨α, β⟩ = ⟨α 0 , β 0 ⟩ + ⟨α 0 , Form(M + v β )⟩ + ⟨Form(M + v α ), β 0 ⟩ + ⟨Form(M + v α ), Form(M + v β )⟩</formula><p>By the previous theorem (Theorem 4.4), ⟨α 0 , β 0 ⟩ can be extended continuously to S.</p><p>Since the preferred potential for Form(M</p><formula xml:id="formula_168">+ v α ) is N i=1 (M + v α ) i log ∥σ i ∥ 2 h i up to a constant on X s , we have ⟨Form(M + v α ), β 0 ⟩ = N i=1 Xs (M + v α ) i log ∥σ i ∥ 2 h i β 0</formula><p>Using the asymptotics of log-norm integral (Lemma A.1), each Xs log ∥σ i ∥ 2 h i β 0 extends continuously on S. Thus, ⟨Form(M + v α ), β 0 ⟩ extends Hölder continuously to S.</p><p>Similarly, ⟨α 0 , Form(M + v β )⟩ extends Hölder continuously to S.</p><p>For the last term, we have</p><formula xml:id="formula_169">⟨Form(M + v α ), Form(M + v β )⟩ = N i=1 N j=1 (M + v α ) i (M + v β ) j Xs log ∥σ i ∥ 2 h i γ j .</formula><p>By Lemma A.1, Xs log ∥σ i ∥ 2 h i γ j -C i γ j log |s| 2 can be extended Hölder continuously through the origin, so</p><formula xml:id="formula_170">⟨Form(M + v α ), Form(M + v β )⟩ - 1≤i,j≤N (M + v α ) i (M + v β ) j C i γ j =:c α,β log |s| 2</formula><p>extends Hölder continuously on S. Here c α,β can be simplified as</p><formula xml:id="formula_171">c α,β = 1≤i,j≤N (M + v α ) i (M + v β ) j M ij = (M + v α ) T M M + v β = (M + v α ) T v β</formula><p>In summary, ⟨α, β⟩ -c α,β log |s| 2 extends continuously to D. □</p><p>We note that the height pairing ⟨α, β⟩ is well-behaved under semi-stable reduction. So we can extend the asymptotic result in Theorem 4.5 to the degeneration of algebraic curves with non-reduced singular fibers.</p><p>Corollary 4.6. Let π : X → D be a degeneration of algebraic curves. Assume X is smooth, and allow the singular fiber X 0 to be non-reduced and non-irreducible. Let p : Y → D be a semi-stable reduction of (X, X 0 ) with the following commutative diagram  For 0 ̸ = t 0 ∈ D t , we have an isomorphism µ t 0 : Y t 0 → X f d (t 0 ) . Let -φ be a potential for α on X f d (t 0 ) , i.e., dd c φ + α = 0 on X f d (t 0 ) . Then -µ * φ is a potential for µ * α on Y t 0 . So ⟨µ * α, µ * β⟩(t 0 ) = Question 4.7. We consider a degeneration of algebraic curves with reduced singular fibers as in Setup 1. Let α, β be two smooth real (1, 1)-forms on X satisfying C i α = C i β = 0, where C i are irreducible components of the reduced singular fiber X 0 . Is the pairing ⟨α, β⟩ a Hölder continuous function?</p><p>If this question is answered positively, we can strengthen the results in Theorem 4.5, Corollary 4.6, Proposition 5.4 and Corollary 5.5 by replacing the word " continuously" with " Hölder continuously".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Application to K3 surfaces with parabolic automorphisms</head><p>As an application of our previous results, we study the parabolic dynamics of elliptic K3 surfaces, following [FT23, Section 3]. Let π : X → P 1 =: B be a projective elliptic K3 surface. A parabolic automorphism T of X is an automorphism of X which preserves the fibration π and is of infinite order. This yields the following commutative diagram:</p><formula xml:id="formula_172">X X B := P 1 T π π</formula><p>In some literature (e.g. [Fil22, 6.2.2]), a parabolic automorphism is also called a twist automorphism.</p><p>Compared to <ref type="bibr" target="#b13">[FT23]</ref>, we allow possibly non-irreducible and non-reduced singular fibers of π : X → B in the setup of this section.</p><p>We use B • to denote the smooth locus of the fibration π, and we use s to denote the local coordinate on B. We use X s := π -1 (s).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.A. Preliminaries</head><p>Before delving deeper, we introduce basic notions and lemmas in this part. Let [E] ∈ NS(X) be the class of a general fiber of π in the Néron-Severi group of X. We consider the group Aut π (X) consisting of automorphisms of X preserving the elliptic fibration. The following filtration of NS(X) is preserved by Aut π (X):</p><formula xml:id="formula_173">0 ⊊ [E] ⊊ [E] ⊥ ⊊ NS(X),</formula><p>where [E] ⊥ is the orthogonal complement of [E] with respect to the intersection form in NS(X). By the Hodge index theorem, the intersection form on the quotient lattice L := [E] ⊥ /[E] is strictly negative definite.</p><p>Let Isom(L) be the group of automorphisms of the lattice L that preserve the induced intersection form. Since the induced intersection form is strictly negative-definite, Isom(L) is a discrete subgroup of the compact orthogonal group O(rank (L)). Thus, Isom(L) is finite.</p><p>Since Aut π (X) preserves the lattice L equipped with the intersection form, we have the induced group homomorphism:</p><formula xml:id="formula_174">ρ : Aut π (X) → Isom(L).</formula><p>We define ker(ρ) =: Aut • π (X), which is the subgroup of Aut π (X) whose induced action on</p><formula xml:id="formula_175">[E] ⊥ /[E] is trivial. Because Isom(L) is finite, Aut • π (X) is a finite index subgroup of Aut π (X).</formula><p>If we work inside H 1,1 (X, R), we have a similar construction of Aut • π (X).</p><p>Lemma 5.1.</p><formula xml:id="formula_176">Let [E] ⊥ H 1,1 denote the orthogonal complement of [E] in H 1,1 (X, R).</formula><p>Then the following filtration is preserved by Aut π (X): <ref type="figure">R</ref>). We define Aut •,(1,1) π (X) as the subgroup of Aut π (X) that acts trivially on the quotient space</p><formula xml:id="formula_177">0 ⊊ [E] R ⊊ [E] ⊥ H 1,1 ⊊ H 1,1 (X,</formula><formula xml:id="formula_178">[E] ⊥ H 1,1 /[E] R . Then Aut •,(1,1) π (X) is a finite index subgroup of Aut π (X).</formula><p>Proof. Since the intersection form is non-degenerate, we have the following orthogonal decomposition H</p><formula xml:id="formula_179">1,1 (X, R) = NS(X) R ⊕ T 1,1 (X) R ,</formula><p>where T 1,1 (X) R is the degree (1, 1)-part of the real transcendental classes T (X) R , and T (X) is the transcendental lattice of X (see [Huy16, Chapter 3, Lemma 3.1]).</p><p>Note that [E] ∈ NS(X), so it is perpendicular to transcendental classes T</p><formula xml:id="formula_180">1,1 (X) R . Thus, [E] ⊥ H 1,1 has a similar decomposition [E] ⊥ H 1,1 = [E] ⊥ R ⊕ T 1,1<label>(</label></formula><p>X) R , which descends to the quotient space as:</p><formula xml:id="formula_181">[E] ⊥ H 1,1 /[E] R = ([E] ⊥ /[E]) R ⊕ T 1,1 (X) R .</formula><p>Since Aut π (X) preserves the transcendental lattice T (X) with its Hodge structure, the image of the induced group homomorphism:</p><formula xml:id="formula_182">ρ T : Aut π (X) → Isom(T (X) R ) is a finite group by [Huy16, Chapter 3, Corollary 3.4]. Thus ker(ρ T ) is a finite index subgroup of Aut π (X). Since T 1,1 (X) R ⊂ T (X) R , we have ker(ρ T ) ∩ Aut • π (X) ⊂ Aut •,(1,1) π (X).</formula><p>Since ker(ρ T ) and Aut • π (X) are finite index subgroups, Aut •,(1,1) π (X) is also a finite index subgroup of Aut π (X). □ Remark 5.2. Lemma 5.1 also holds for general projective elliptic surfaces. To see this, it suffices to show that the image of the induced homomorphism ρ T : Aut π (X) → Isom(T (X) R ) is a finite group. This follows from the fact that Aut π (X) preserves the integral lattice T (X) along with its Hodge structure, and the intersection form on the (1, 1)-part T 1,1 (X) R is strictly negative definite. (See also the proof of [Huy16, Chapter 3, Corollary 3.4].)</p><p>Let r be the index of Aut •,(1,1) π (X) inside Aut π (X). By elementary group theory, we have T r! ∈ Aut •,(1,1) π (X) for any T ∈ Aut π (X). Lastly, we introduce a useful formula on cohomology classes, which follows directly from the definition of Aut •,(1,1) π (X).</p><p>Lemma 5.3. Let v be a real (1, 1)-class in the cohomology group H 1,1 (X). Suppose v • [E] = 0. Then for any T ∈ Aut •,(1,1) π (X), we have</p><formula xml:id="formula_183">T * v -v = c(v, T )[E],</formula><p>where c(v, T ) ∈ R depends linearly on v.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>5.B. Current-valued pairing</head><p>We recall the construction of current-valued pairing from [FT23, Theorem 3.2.14]. We relate it to the Archimedean height pairing of smooth forms in Theorem 4.1.</p><p>Let α be a closed smooth real (1, 1)-form on X such that Xs α = 0 for s ̸ = 0. Let φ ∈ C ∞ (X • ) be the preferred potential of α.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Cohomologically, we have [α]</head><p>• [E] = 0. Using Lemma 5.3, we obtain</p><formula xml:id="formula_184">T * [α] -[α] = c[E],</formula><p>for T ∈ Aut •,(1,1) π (X). Note that [E] can be represented by the smooth form π * β, where β is a suitable smooth form on the base B = P 1 . We can take an f ∈ C ∞ (X) such that (5.1)</p><formula xml:id="formula_185">T * α -α = π * β + dd c f. Then f + T * φ -φ is constant on each X s for s ∈ B • . Therefore, there is a function u on B • such that (5.2) π * u = f + T * φ -φ.</formula><p>Let ω be a Kähler metric on X normalized such that [ω] • [E] = 1. Then u(s) can be determined by</p><formula xml:id="formula_186">(5.3) Xs (π * u)ω s = u(s) = Xs (f + T * φ -φ)ω s</formula><p>We call u the limit potential. We rewrite Equation (5.3) using the Archimedean height pairing in Theorem 4.1:</p><formula xml:id="formula_187">(5.4) u(s) = Xs (f + T * φ -φ)ω s = Xs f ω s + ⟨α, (T * -I)ω⟩</formula><p>The current-valued pairing is defined as η</p><formula xml:id="formula_188">B (T, [α]) := β + dd c u, which is a current on B. It is smooth on B • since u ∈ C ∞ (B • ).</formula><p>We now generalize Filip-Tosatti's current-valued pairing by allowing arbitrary singular fibers of the elliptic fibration π : X → B.</p><p>Proposition 5.4. Let T ∈ Aut •,(1,1) π (X), where Aut •,(1,1) π (X) is a finite index subgroup of Aut π (X) defined in Lemma 5.1. Then the current-valued pairing η B (T, [α]) has a continuous potential for any closed smooth real (1, 1)-form α on X such that Xs α = 0 for s ̸ = 0.</p><p>Proof. We first show that u ∈ L ∞ (B • ) following Tate's argument in <ref type="bibr" target="#b24">[Tat83]</ref> (see also [FT23, Remark 3.2.14]).</p><p>From Equation (5.2), for any integer i ≥ 0, we have</p><formula xml:id="formula_189">T i * π * u = π * u = T i * (f + T * φ -φ) = T i * f + (T i+1 * -T * )φ. Then for k ≥ 1 the Birkhoff sum S k (T, f ) = k-1 i=0 T i * f satisfies S k (T, f ) = kπ * u + φ -T k * φ. Thus, for s ∈ B • and every k ≥ 1, we have |u(s)| ≤ 1 k sup Xs |S k (T, f )| + 1 k sup Xs φ -T k * φ ≤ ∥f ∥ L ∞ (X) + 2 k ∥φ∥ L ∞ (Xs) . Fixing s ∈ B • and letting k → ∞, we have |u(s)| ≤ ∥f ∥ L ∞ (X) . Therefore, u ∈ L ∞ (B • ).</formula><p>On the other hand, from the relation between the potential u and the Archimedean height pairing in Equation (5.4), the Archimedean height pairing ⟨α, (T * -I)ω⟩(s) = u(s) -</p><formula xml:id="formula_190">Xs f ω s ∈ L ∞ (B • ) is bounded.</formula><p>By Corollary 4.6, ⟨α, (T * -I)ω⟩ can be extended continuously on B because it is bounded and has no singularity. Using Barlet's result in Theorem 1.3, the function s → Xs f ω s is Hölder continuous on B.</p><p>In summary, u(s) = ⟨α, (T * -I)ω⟩(s) + Xs f ω s is continuous on B. So η B (T, [α]) has a continuous potential. □</p><p>As a corollary, we have Corollary 5.5. Let ω be a Kähler metric on X. For any T ∈ Aut •,(1,1) π (X), the limit current</p><formula xml:id="formula_191">lim n→∞ (T n ) * ω n 2 = 1 2 π * η B (T, [T * ω -ω]).</formula><p>has a continuous potential. We note that the convergence of currents</p><formula xml:id="formula_192">(T n ) * ω n 2 → 1 2 π * η B (T, [T * ω -ω]) cannot be in C 0 loc (X \ X 0 ).</formula><p>In particular, let ω be a Ricci flat Kähler metric on the K3 surface X, i.e.,</p><formula xml:id="formula_193">ω 2 = vol(ω)Ω ∧ Ω,</formula><p>where Ω is the normalized holomorphic (2, 0)-form on X. Then </p><formula xml:id="formula_194">(T n ) * ω n 2 = 1 2 π * η B (T, [T * ω -ω]). So lim n→∞ (T n ) * ω n 2</formula><p>has continuous potential by Proposition 5.4. We now prove that the convergence of currents</p><formula xml:id="formula_195">(T n ) * ω n 2 → 1 2 π * η B (T, [T * ω -ω]) is not a C 0 loc (X \ X 0 ) convergence. We proceed by contradiction, assuming that (T n ) * ω n 2 → 1 2 π * η B (T, [T * ω -ω]) in C 0 loc (X \ X 0 ). We let ξ = T * ω -ω.</formula><p>Then by elementary computation (see also [FT23, Proposition 3.2.15]), we have</p><formula xml:id="formula_196">T n * ω = ω + nξ + dd c (nφ -S n (T, φ)) + n(n -1) 2 π * η B (T, [ξ]),</formula><p>where φ is the preferred potential of ξ and S n (T, φ)</p><formula xml:id="formula_197">= n-1 k=0 T k * φ is a Birkhoff sum. Note that 1 n 2 (ω + nξ + n(n-1) 2 π * η B (T, [ξ])) converges to 1 2 π * η B (T, [ξ]) in C 0 loc (X \ X 0</formula><p>). Under our assumption for contradiction, we have</p><formula xml:id="formula_198">(5.5) 1 n 2 dd c (nφ -S n (T, φ)) → n→∞ 0 in C 0 loc (X \ X 0 ).</formula><p>It suffices to show that Equation (5.5) is impossible. We interpret φ, the preferred potential of ξ = T * ω -ω, as follows: Since π is an elliptic fibration, each smooth fiber Proof. We consider a semi-stable reduction for the family π : (X, X 0 ) → (D, {0}) given by the following commutative diagram:</p><formula xml:id="formula_199">Y X × D D t X D t D s µ p pr 1 pr 2 π f d</formula><p>Here, f d (t) = t d = s is a base change of degree d, and µ is a resolution of singularities such that Y is a smooth complex surface. The singular fiber Y 0 = p -1 (X 0 ) is a reduced divisor with simple normal crossings. Let µ = pr 1 • µ.</p><p>Let m be the multiplicity of C in X 0 . Since µ * X 0 = dY 0 and Y 0 is reduced, the strict transform C of C appears in Y 0 with multiplicity 1. Thus, the pullback of C as a Cartier divisor is</p><formula xml:id="formula_200">µ * C = d m C + k ν k E k</formula><p>where E k are exceptional divisors. This induces a decomposition of the log-norm on Y :</p><formula xml:id="formula_201">(A.1) log ∥ µ * σ∥ 2 µ * h = d m log σ C 2 h C + k ν k log ∥σ E k ∥ 2 h E k + u</formula><p>where σ D denotes the canonical section of a component D ⊂ Y 0 , and u is a smooth function on Y . For t ̸ = 0, the map µ t : Y t ∼ -→ X s is an isomorphism. Pulling the integral back to the semi-stable model Y t , we obtain: Since Y 0 has strictly simple normal crossings, we apply Lemma A.2 to the first two terms of Equation (A.2), which yield:</p><formula xml:id="formula_202">Yt log σ C 2 h C µ * α = C µ * α log |t| 2 + R 1 (t) = m C α log |t| 2 + R 1 (t) Yt log ∥σ E k ∥ 2 h E k µ * α = E k µ * α log |t| 2 + R 2,k (t), = µ * [E k ] α log |t| 2 + R 2,k (t) = R 2,k (t),</formula><p>where R 1 (t), R 2,k (t) are Hölder continuous around 0.</p><p>Since u is smooth, by Barlet's result (Theorem 1.3), the third term (of Equation (A.2))</p><p>Yt u µ * α =: R 3 (t), is Hölder continuous around 0. Substituting the previous computations into Equation (A.2), we have extends Hölder continuously to t = 0.</p><p>Proof. Fix a finite open cover {U j } of Y 0 in Y by coordinate polydisks U j ∼ = D 2 such that on each U j , π is given either by t = z 1 (smooth points of Y 0 ) or t = z 1 z 2 (nodes of Y 0 ). Let {ρ j } be a smooth partition of unity subordinate to {U j }.</p><p>On each U j , we decompose the metric as log ∥σ D ∥ 2 h = log |f D | 2 +u j , where f D ∈ O(U j ) defines D ∩ U j and u j is a smooth function. By Barlet's theorem on fiber integral (Theorem 1.3), t → Yt∩U j ρ j u j ω extends Hölder continuously to t = 0. We analyze the singular integral I j (t) = Yt∩U j ρ j log |f D | 2 ω case by case:</p><p>Case 1: U j ∩ D = ∅. Here, f D is a non-vanishing holomorphic function on U j . Thus log |f D | 2 is smooth, and I j (t) is smooth around t = 0. In this case, I j (t) = D∩U j ρ j ω log |t| 2 + I j (t).</p><p>Case 2: U j intersects D outside the nodes. Here, π = z 1 and f D = z 1 . Thus I j (t) = log |t| 2 Yt∩U j ρ j ω. Since π on U j is a submersion, by Ehresmann's theorem and Taylor expansion, we have Yt∩U j ρ j ω = {z 1 =t}∩U j ρ j ω = {z 1 =0}∩U j ρ j ω + O(|t|) = Case 3: U j contains a node D ∩ D ′ . Here, the map is given by π = z 1 z 2 , with D defined by z 1 = 0 and D ′ defined by z 2 = 0. Thus f D = z 1 . The fiber Y t ∩ U j is the restricted annulus {(z 1 , z 2 ) ∈ U j | z 1 z 2 = t}.</p><p>Let η = ρ j ω. Since η is a smooth form with compact support in U j ∼ = D 2 , we can write it globally on the chart as η = i 2 2 k,l=1 η kl dz k ∧ dz l . We want to evaluate the asymptotic behavior of</p><formula xml:id="formula_203">I j (t) = Yt∩U j log |z 1 | 2 η</formula><p>We partition the domain of integration on the annulus Y t ∩ U j into two regions: V 1 (t) = {|t| 1/2 ≤ |z 1 | &lt; 1} and V 2 (t) = {|t| 1/2 &lt; |z 2 | &lt; 1}.</p><p>On V 1 (t), we use z 1 as the coordinate. Substituting z 2 = t/z 1 and dz 2 = -(t/z 2 1 )dz 1 , the restriction of η is:</p><formula xml:id="formula_204">η| Yt = η 11 -η 12 t z 2 1 -η 21 t z 2 1 + η 22 |t| 2 |z 1 | 4 i 2 dz 1 ∧ dz 1</formula><p>where the smooth coefficients η kl are evaluated at (z 1 , t/z 1 ). By the smoothness of η, we can Taylor expand the leading coefficient as η 11 (z 1 , t/z 1 ) = η 11 (z 1 , 0) + O(|t| / |z 1 |).</p><p>Integrating the cross-term and higher-order errors against log |z 1 | 2 over V 1 (t) yields bounded remainders. For example, passing to polar coordinates r = |z 1 |: On V 2 (t), we switch to the coordinate z 2 . Here, the log-norm splits exactly as log</p><formula xml:id="formula_205">|z 1 | 2 = log |t| 2 -log |z 2 | 2 .</formula><p>Similarly, the restriction of η in the z 2 coordinate is:</p><formula xml:id="formula_206">η| Yt = η 22 -</formula><p>η 12 t z 2 2 -η 21 t z 2 2 + η 11 |t| 2 |z 2 | 4 i 2 dz 2 ∧ dz 2 with coefficients evaluated at (t/z 2 , z 2 ). The term involving -log |z 2 | 2 behaves exactly like the V 1 (t) integral, yielding a constant relative to t minus a remainder: -V 2 (t) log |z 2 | 2 η| Yt = -D∩U j log |z 2 | 2 η| D constant +O(|t| log 2 |t|) For the log |t| 2 term, we must integrate the volume-like form η| Yt over V 2 (t). Applying the exact same Taylor expansion and error bounds, the dominant term is η 22 (0, z 2 ). We have: V 2 (t) η| Yt = |t| 1/2 ≤|z 2 |&lt;1 η 22 (0, z 2 ) i 2 dz 2 ∧ dz 2 + 1 |t| 1/2 O |t| r 2 r dr The error integral evaluates to O(|t| |log |t||). The difference between the main integral and the full integral over D ∩ U j is the missing disk {|z 2 | &lt; |t| 1/2 }, which adds a simple O(|t|) error. Thus: V 2 (t) η| Yt = D∩U j η| D + O(|t| log |t|) Multiplying this volume result by log |t| 2 gives D∩U j ρ j ω log |t| 2 + O(|t| log 2 |t|). Combining both regions for the entire chart U j , we have I j (t) = D∩U j ρ j ω log |t| 2 + R j (t), where R j (t) = constant+O(|t| log 2 |t|) is Hölder continuous for any exponent 0 &lt; α &lt; 1 around t = 0. □</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Date:</head><figDesc>March 6, 2026.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>8. So it suffices to estimate c i (s). Recall that c i = b i λ i and that the small eigenvalues λ i (s) are wellstudied by Dai-Yoshikawa in Theorem 2.1. It remains to determine the asymptotic properties of b i (s) = Xs Φ i (s, z)α</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>Then f d (t) = t d and Y 0 is a reduced divisor with simple normal crossings. Furthermore, Y is a Kähler manifold.Let α, β be two smooth real (1, 1)-forms on X with Condition 3.1. Then µ * α and µ * β are two smooth (1, 1)-forms on Y with Condition 3.1. So we can define ⟨α, β⟩∈ C ∞ (D • s ) and ⟨µ * α, µ * β⟩ ∈ C ∞ (D • t ). These two pairings are related by(4.1) ⟨α, β⟩ • f d = ⟨µ * α, µ * β⟩.In particular, there is a constant c α,β ∈ R such that ⟨α, β⟩ -c α,β log |s| 2 extends continuously to D. So ⟨α, β⟩ ∈ L ∞ (D • ) if and only if ⟨α, β⟩ ∈ C 0 (D).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Proof.</head><figDesc>It suffices to prove Equation (4.1).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Yt 0 (</head><label>0</label><figDesc>µ * φ)µ * β = X f d (t 0 ) φβ = ⟨α, β⟩(f d (t 0 )). Thus ⟨α, β⟩ • f d = ⟨µ * α, µ * β⟩ on D • t . By Theorem 4.5, ⟨µ * α, µ * β⟩ -c µ * α,µ * β log |t| 2 is continuous on D t . So we can find c α,β ∈ R depending on c µ * α,µ * β and d such that ⟨α, β⟩ -c α,β log |s| 2 is continuous on D s . □At the end of this section, we propose a question on the Hölder continuity of the pairing.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>T n * ω is also Ricci flat. Therefore, {[ T n * ω n 2 ]} provides a counterexample to Tosatti's question [Tos25, Question 1.5(b)]. Proof. By [FT23, Corollary 3.2.20], we have lim n→∞</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Xs log ∥σ∥ 2 h α =</head><label>=</label><figDesc>Yt log ∥ µ * σ∥ 2 µ * h µ * αSubstituting our decomposition Equation (A.1), this splits into:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><figDesc>k (t) + R 3 (t)Hölder continuous , Finally, we translate back to the original base parameter s. Since s = t d , we have log |t| 2 = 1 d log |s| 2 . Therefore, Xs log ∥σ∥ 2 h α = C α log |s| 2 + R(s), and R(s) is Hölder continuous. We conclude that: Xs log ∥σ∥ 2 h α -C α log |s| 2 extends Hölder continuously through the origin. □ Lemma A.2. Let π : Y → D be a proper holomorphic map from a smooth complex surface to the unit disk. Assume the singular fiber Y 0 = π -1 (0) is a reduced divisor with strictly simple normal crossings. Let D be an irreducible component of Y 0 , σ D be its canonical section, and h be a smooth Hermitian metric on O(D). For any smooth (1, 1)-form ω on Y, the function t → Yt log ∥σ D ∥ 2 h ω -D ω log |t| 2</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><figDesc>D∩U j ρ j ω + O(|t|). Multiplying by log |t| 2 , we obtainI j (t) = D∩U j ρ j ω log |t| 2 + R j (t),where R j (t) = O(|t| log |t|) is Hölder continuous around t = 0.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><figDesc>(|t| log 2 |t|)Similar bounds hold for the O(|t| 2 /r 4 ) and O(|t| /r) terms. Thus, the integral over V 1 (t) is tightly dominated by the leading term:V 1 (t) log |z 1 | 2 η| Yt = |t| 1/2 ≤|z 1 |&lt;1 log |z 1 | 2 η 11 (z 1 , 0) i 2 dz 1 ∧ dz 1 + O(|t| log 2 |t|)Extending the domain of this integral to the full local component D ′ ∩ U j (where z 2 = 0) introduces an error bounded by the integral over the missing inner disk {|z 1 | &lt; |t| 1/2 }. This hole has a volume integral of |t| 1/2 0 |log r| r dr = O(|t| log |t|). Hence:I j,1 (t) = D ′ ∩U j log |z 1 | 2 η| D ′ constant +O(|t| log 2 |t|).</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>JUNYU CAO</head><p>X s is isomorphic to a torus C/Λ s , and T acts on X s by translations. Let ω flat,s be the normalized flat metric on X s . There exists ρ s ∈ C ∞ (X s ) such that ω flat,s -ω s = dd c ρ s .</p><p>Applying T * to this equation, we obtain ω flat,s -T * ω s = dd c T * ρ s , since ω flat,s is invariant under translation T . Then we have</p><p>Thus, the preferred potential φ of ξ is equal to T * ρ s -ρ s up to a constant on X s . By Ehresmann's theorem and solving equations on the region where the fibration is locally trivial, there exists ρ ∈ C ∞ (X \ X 0 ) such that ρ | Xs = ρ s on the smooth fibers</p><p>Substituting φ by T * ρ -ρ + c(s) in Equation (5.5), we have 1</p><p>By smoothness of ρ on X \ X 0 , the above convergence is equivalent to</p><p>We will show that Equation (5.6) is impossible.</p><p>On a small open set U ⊂ B • not containing any singular points, we can trivialize the fibration π as U × C/Λ → U . Moreover, we can lift the U × C/Λ to its universal covering U × C, and the fiber-preserving automorphism T can also be lifted, yielding the following commutative diagram:</p><p>We can then express the action of T on the covering space U s × C z as T (s, z) = (s, z + T (s)), where T : U s → C is a holomorphic function. Following the argument in [Can01, Proposition 2.2] (see also [Fil22, Proposition 6.2.7], [CD23a, Lemma 3.7]), the function T is non-constant.</p><p>Lifting the convergence in Equation (5.6) to the covering space, we find it is equivalent to</p><p>for all small open neighborhoods of points in B • and its corresponding covering, where ρ is the lift of ρ to the covering.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Note that T n</head><p>* ρ = ρ(s, z -nT (s)). By the holomorphic chain rule, we have</p><p>Then Equation (5.7) implies that</p><p>Since T is non-constant and holomorphic, we have |∂ s T | 2 &gt; 0 except for at most finitely many s ∈ U s . Therefore, there exists a finite set Σ ⊂ U s such that</p><p>By definition of ρ, we have</p><p>Thus, ω flat,s = ω s for s ∈ S • .</p><p>To get a contradiction, we compute the Gauss curvature of ω flat,s and ω on smooth fibers X s , and study them when X s is approaching a singular fiber.</p><p>By definition, the Gauss curvature K ω flat,s ≡ 0. On the other hand, by [DY25, Lemma 10.1], the minimum of K ωs goes to -∞ as s → 0. This leads to a contradiction, concluding the proof that the convergence is not in C 0 loc (X \ X 0 ). □ Appendix A. Asymptotics of a fiber integral</p><p>We prove a lemma on the asymptotics of the fiber integral of the log-norm of the canonical section of a divisor. This result also appears in other works (e.g., [Yos06, Section 4]); however, we provide a proof here in our setting for convenience and completeness.</p><p>Lemma A.1. Let π : X → D be a degeneration of algebraic curves. Assume X is smooth and we allow a general singular fiber X 0 here. Let C be one of the irreducible components of X 0 and L = O(C) the corresponding line bundle with Hermitian metric h.</p><p>Let σ be the canonical section of L which vanishes exactly on C. Then, for any smooth (1, 1)-form α on X, there exists a constant c ∈ Q &gt;0 such that  </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Développement asymptotique des fonctions obtenues par intégration sur les fibres</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Barlet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inventiones Mathematicae</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="129" to="174"/>
+			<date type="published" when="1982-02">February 1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Compact complex surfaces</title>
+		<author>
+			<persName><forename type="first">Wolf</forename><forename type="middle">P</forename><surname>Barth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Hulek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><forename type="middle">A M</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonius</forename><surname>Van De Ven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<date type="published" when="2004">2004</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+	<note>nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Green's currents and height pairing on complex tori</title>
+		<author>
+			<persName><forename type="first">Jean-Benoît</forename><surname>Bost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Duke Mathematical Journal</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1990-12">December 1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Sur la dynamique du groupe d'automorphismes des surfaces K3, Transformation Groups</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cantat</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001-09">September 2001</date>
+			<biblScope unit="page" from="201" to="214"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Invariant Measures for Large Automorphism Groups of Projective Surfaces, Transformation Groups 30</title>
+		<author>
+			<persName><forename type="first">Serge</forename><surname>Cantat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Romain</forename><surname>Dujardin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2023-01">January 2023</date>
+			<biblScope unit="page" from="75" to="145"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Random dynamics on real and complex projective surfaces</title>
+	</analytic>
+	<monogr>
+		<title level="j">Journal für die reine und angewandte Mathematik (Crelles Journal)</title>
+		<imprint>
+			<biblScope unit="volume">802</biblScope>
+			<biblScope unit="page" from="1" to="76"/>
+			<date type="published" when="2023-08">August 2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Heat kernel estimates and lower bound of eigenvalues</title>
+		<author>
+			<persName><forename type="first">Shiu-Yuen</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Commentarii Mathematici Helvetici</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="327" to="338"/>
+			<date type="published" when="1981-12">December 1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Hodge theory and vanishing theorems, Introduction to Hodge theory</title>
+		<author>
+			<persName><forename type="first">Jean-Pierre</forename><surname>Demailly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<ptr target="https://www-fourier.univ-grenoble-alpes.fr/~demailly/manuscripts/hodge-ams.pdf"/>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="page" from="1" to="95"/>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Variation of canonical height and equidistribution</title>
+		<author>
+			<persName><forename type="first">Laura</forename><surname>Demarco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Niki</forename><forename type="middle">Myrto</forename><surname>Mavraki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="443" to="473"/>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Discrete integrable systems: QRT Maps and Elliptic Surfaces</title>
+		<author>
+			<persName><forename type="first">Johannes</forename><surname>Jisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duistermaat</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Springer Monographs in Mathematics</title>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Degeneration of Riemann surfaces and small eigenvalues of the Laplacian</title>
+		<author>
+			<persName><forename type="first">Xianzhe</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ken-Ichi</forename><surname>Yoshikawa</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2509.06151v2</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint.</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Singularities of metrics on Hodge bundles and their topological invariants</title>
+		<author>
+			<persName><forename type="first">Dennis</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerard</forename><surname>Freixas I Montplet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christophe</forename><surname>Mourougane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Algebraic Geometry</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="742" to="775"/>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">An introduction to K3 surfaces and their dynamics</title>
+		<ptr target="https://math.uchicago.edu/~sfilip/public_files/lectures_k3_dynamics.pdf"/>
+	</analytic>
+	<monogr>
+		<title level="m">Teichmüller theory and dynamics</title>
+		<imprint>
+			<date type="published" when="2022">2022</date>
+			<biblScope unit="page" from="1" to="43"/>
+		</imprint>
+		<respStmt>
+			<orgName>Simion Filip</orgName>
+		</respStmt>
+	</monogr>
+	<note>Panoramas et Synthèses</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Canonical currents and heights for K3 surfaces</title>
+		<author>
+			<persName><forename type="first">Simion</forename><surname>Filip</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valentino</forename><surname>Tosatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cambridge Journal of Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="699" to="794"/>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Bin</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Duong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jian</forename><surname>Phong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sturm</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2311.00221v1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sobolev inequalities on Kähler spaces</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint.</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Elliptic Partial Differential Equations of Second Order</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Gilbarg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neil</forename><forename type="middle">S</forename><surname>Trudinger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<publisher>Springer</publisher>
+			<pubPlace>Berlin Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">David</forename><surname>Holmes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robin</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jong</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Asymptotics of the Néron height pairing, Mathematical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1337" to="1371"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">On the heat kernel of the Bergmann metric on algebraic varieties</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Huybrechts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Li</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gang</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Lectures on K3 Surfaces</title>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1995">2016. 1995</date>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="857" to="877"/>
+		</imprint>
+	</monogr>
+	<note>LT95</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Petersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Riemannian</forename><surname>Geometry</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Variation of the canonical height on elliptic surfaces. I. Three examples</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Silverman</surname></persName>
+		</author>
+		<idno>MR1153245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Reine Angew. Math</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="151" to="178"/>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Variation of the canonical height on elliptic surfaces. II. Local analyticity properties</title>
+		<idno>MR1293863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Number Theory</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="291" to="329"/>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Variation of the canonical height on elliptic surfaces. III. Global boundedness properties</title>
+		<idno>MR1293864</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Number Theory</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="330" to="352"/>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">Yum-Tong</forename><surname>Siu</surname></persName>
+		</author>
+		<title level="m">Lectures on Hermitian-Einstein metrics for stable bundles and Kähler-Einstein metrics</title>
+		<meeting><address><addrLine>Birkhäuser Basel</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Asymptotic expansions of fiber integrals over higher-dimensional bases</title>
+		<author>
+			<persName><forename type="first">Shigeharu</forename><surname>Takayama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal für die reine und angewandte Mathematik (Crelles Journal)</title>
+		<imprint>
+			<biblScope unit="issue">773</biblScope>
+			<biblScope unit="page" from="67" to="128"/>
+			<date type="published" when="2020-09">September 2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Variation of the Canonical Height of a Point Depending on a Parameter</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tate</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Journal of Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">287</biblScope>
+			<date type="published" when="1983-02">February 1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Adiabatic limits of Ricci-flat Kähler metrics</title>
+		<author>
+			<persName><forename type="first">Valentino</forename><surname>Tosatti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Differential Geometry</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2010-02">February 2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Ricci-flat metrics on Calabi-Yau manifolds</title>
+		<idno type="arXiv">arXiv:2509.25607v2</idno>
+		<imprint>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint.</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the singularity of Quillen metrics</title>
+		<author>
+			<persName><forename type="first">Ken-Ichi</forename><surname>Yoshikawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematische Annalen</title>
+		<imprint>
+			<biblScope unit="volume">337</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="61" to="89"/>
+			<date type="published" when="2006-07">July 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Degeneration of algebraic manifolds and the spectrum of Laplacian</title>
+	</analytic>
+	<monogr>
+		<title level="j">Nagoya Mathematical Journal</title>
+		<imprint>
+			<biblScope unit="volume">146</biblScope>
+			<biblScope unit="page" from="83" to="129"/>
+			<date type="published" when="1997-06">June 1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

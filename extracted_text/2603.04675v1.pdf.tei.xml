@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">ELLIPTIC GENERA AND SL(2, Z) MODULAR FORMS FOR FIBRE BUNDLES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-04">4 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yong</forename><surname>Wang</surname></persName>
+						</author>
+						<title level="a" type="main">ELLIPTIC GENERA AND SL(2, Z) MODULAR FORMS FOR FIBRE BUNDLES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-04">4 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">47DB42D1B20610472225C132473E6B24</idno>
+					<idno type="arXiv">arXiv:2603.04675v1[math.DG]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>2010 Mathematics Subject Classification: 58C20</term>
+					<term>57R20</term>
+					<term>53C80 SL(2, Z) modular forms</term>
+					<term>determinant line bundles</term>
+					<term>index gerbes</term>
+					<term>eta invariants</term>
+					<term>residue Chern forms</term>
+					<term>anomaly cancellation formulas</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>By the family index theory, we generalize some well-known SL(2, Z) modular forms to the family case and obtain some new anomaly cancellation formulas for the determinant line bundle and index gerbes, and certain results about eta invariants. Moreover, for the higher degree case, we give some anomaly cancellation formulas of residue Chern forms.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>In <ref type="bibr" target="#b0">[1]</ref>, Alvarez-Gaumé and Witten discovered a formula that represents the beautiful relationship between the top components of the Hirzebruch L-form and A-form of a 12-dimensional smooth Riemannian manifold. This formula is called the "miracle cancellation" formula for gravitational anomalies. In <ref type="bibr" target="#b15">[16]</ref>, Liu established higher dimensional "miraculous cancellation" formulas for (8k + 4)-dimensional Riemannian manifolds by developing modular invariance properties of characteristic forms. These formulas could be used to deduce some divisibility results. In <ref type="bibr" target="#b10">[11]</ref>, Han, Liu and Zhang showed that both of the Green-Schwarz anomaly factorization formula for the gauge group E 8 × E 8 and the Horava-Witten anomaly factorization formula for the gauge group E 8 could be derived through modular forms of weight 14. This answered a question of J. H. Schwarz. They also established generalizations of these factorization formulas and obtaind a new Horava-Witten type factorization formula on 12-dimensional manifolds. In <ref type="bibr" target="#b11">[12]</ref>, Han, Huang, Liu and Zhang introduced a modular form of weight 14 over SL(2, Z) and a modular form of weight 10 over SL(2, Z) and they got some interesting anomaly cancellation formulas on 12-dimensional manifolds. In <ref type="bibr" target="#b16">[17]</ref>, a modular form of weight 2k for a 4k-dimensional spin manifold was introduced. In <ref type="bibr" target="#b5">[6]</ref>, Chen, Han and Zhang defined an integral modular form of weight 2k for a 4k-dimensional spin c manifold and an integral modular form of weight 2k for a 4k + 2-dimensional spin c manifold. In <ref type="bibr" target="#b20">[21]</ref> and <ref type="bibr" target="#b21">[22]</ref>, we obtained some new anomaly cancellation formulas for spin manifolds and spinc manifolds and complex manifolds by studying above SL(2, Z) modular forms. Some divisibility results of the index of the twisted Dirac operator and spinc Dirac operators are obtained.</p><p>On the other hand, anomaly measures the nontriviality of the determinant line bundle of a family of Dirac operators. The perturbative anomaly detects the real first Chern class of the determinant line bundle while the global anomaly detects the integral first Chern class beyond the real information. For a family of Dirac operators on an evendimensional closed manifold, the determinant line bundle over the parametrizing space carries the Quillen metric as well as the Bismut-Freed connection compatible with the Quillen metric such that the curvature of the Bismut-Freed connection is the two-form component of the integration of the A-form of the vertical tangent bundle along the fiber in the Atiyah-Singer family index theorem <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>. In <ref type="bibr" target="#b17">[18]</ref>, for a family of Dirac operators on an odd-dimensional manifold, Lott constructs an abelian gerbe-with-connection whose curvature is the three-form component of the Atiyah-Singer family index theorem. This gerbe is called the index gerbe, which is a higher analogue of the determinant line bundle.</p><p>In <ref type="bibr" target="#b9">[10]</ref>, Han and Liu by combining modoular forms and characteristic forms, they obtained anomaly cancellation formulas for the determinant line bundle and derived anomaly cancellation formulas for index gerbes and obtained certain results about eta invariants. In <ref type="bibr" target="#b18">[19]</ref>, Mickelsson and Paycha provided local expressions for Chern-Weil forms built from superconnections associated with families of Dirac operators previously investigated by Paycha and Scott. They interpreted the even and odd higher degree Chern-Weil type forms built from superconnection as the Wodzicki residue. The purpose of this paper is to generalize some well-known SL(2, Z) modular forms to the family case and obtain some new anomaly cancellation formulas for the determinant line bundle and index gerbes, and certain results about eta invariants as in <ref type="bibr" target="#b9">[10]</ref>. Moreover, for the higher degree case, we will give some anomaly cancellation formulas of residue Chern forms. The structure of this paper is briefly described below: In Section 2, we generalize the results in <ref type="bibr" target="#b21">[22]</ref> to the family case and obtain some new anomaly cancellation formulas for the determinant line bundle and index gerbes, and certain results about eta invariants. In Section 3, we generalize the results in <ref type="bibr" target="#b20">[21]</ref> to the family case and define the family two variable elliptic genus and get some formulas for the determinant line bundle and index gerbes, and certain results about eta invariants. In Section 4, for the higher degree case, we will give some anomaly cancellation formulas of residue Chern forms by the Mickelsson and Paycha's theorem .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Anomaly cancellation formulas and SL(2, Z) modular forms for fibre bundles</head><p>Let M be a closed manifold and M → B be a fibre bundle with the closed spin fibre Z. Let T Z be the vertical bundle and △(T Z) be the vertical spinor bundle. Set</p><formula xml:id="formula_0">(2.1) Θ 1 (T C Z) = ∞ n=1 S q n ( T C Z) ⊗ ∞ m=1 ∧ q m ( T C Z), (2.2) Θ 2 (T C Z) = ∞ n=1 S q n ( T C Z) ⊗ ∞ m=1 ∧ -q m-1 (2.3) Θ 3 (T C Z) = ∞ n=1 S q n ( T C Z) ⊗ ∞ m=1 ∧ q m-1 2 ( T C Z).</formula><p>Let dimT Z = 4k -2 and</p><formula xml:id="formula_1">Q(T Z, τ ) = [ A(T Z)[ch(△(T Z) ⊗ Θ 1 (T C Z)) + 2 2k-1 Θ 2 (T C Z) + 2 2k-1 Θ 3 (T C Z)] (4k) . (2.4)</formula><p>We know that the coefficient 2 2k-1 is different from the coefficient 2 2k in <ref type="bibr" target="#b21">[22]</ref> which makes the coefficients of our cancellation formulas are different from formulas in <ref type="bibr" target="#b21">[22]</ref>. We first recall the four Jacobi theta functions are defined as follows( cf. <ref type="bibr" target="#b4">[5]</ref>):</p><formula xml:id="formula_2">(2.5) θ(v, τ ) = 2q 1 8 sin(πv) ∞ j=1 [(1 -q j )(1 -e 2π √ -1v q j )(1 -e -2π √ -1v q j )],</formula><p>(2.6)</p><formula xml:id="formula_3">θ 1 (v, τ ) = 2q 1 8 cos(πv) ∞ j=1 [(1 -q j )(1 + e 2π √ -1v q j )(1 + e -2π √ -1v q j )],</formula><p>(2.7)</p><formula xml:id="formula_4">θ 2 (v, τ ) = ∞ j=1 [(1 -q j )(1 -e 2π √ -1v q j-1 2 )(1 -e -2π √ -1v q j-1 2 )],</formula><p>(2.8)</p><formula xml:id="formula_5">θ 3 (v, τ ) = ∞ j=1 [(1 -q j )(1 + e 2π √ -1v q j-1 2 )(1 + e -2π √ -1v q j-1 2 )],</formula><p>where q = e 2π √ -1τ with τ ∈ H, the upper half complex plane. One has the following transformation laws of theta functions under the actions of S and T (cf. <ref type="bibr" target="#b4">[5]</ref> ):</p><p>(2.9)</p><formula xml:id="formula_6">θ(v, τ + 1) = e π √ -1 4 θ(v, τ ), θ(v, - 1 τ ) = 1 √ -1 τ √ -1 1 2 e π √ -1τ v 2 θ(τ v, τ ); (2.10) θ 1 (v, τ + 1) = e π √ -1 4 θ 1 (v, τ ), θ 1 (v, - 1 τ ) = τ √ -1 1 2 e π √ -1τ v 2 θ 2 (τ v, τ ); (2.11) θ 2 (v, τ + 1) = θ 3 (v, τ ), θ 2 (v, - 1 τ ) = τ √ -1 1 2 e π √ -1τ v 2 θ 1 (τ v, τ );</formula><p>(2.12)</p><formula xml:id="formula_7">θ 3 (v, τ + 1) = θ 2 (v, τ ), θ 3 (v, - 1 τ ) = τ √ -1 1 2 e π √ -1τ v 2 θ 3 (τ v, τ ), (2.13) θ ′ (v, τ + 1) = e π √ -1 4 θ ′ (v, τ ), θ ′ (0, - 1 τ ) = 1 √ -1 τ √ -1 1 2</formula><p>τ θ ′ (0, τ ).</p><p>Definition 2.1. A modular form over SL(2, Z) is a holomorphic function f (τ ) on H such that (2.14) f (gτ</p><formula xml:id="formula_8">) := f aτ + b cτ + d = (cτ + d) l f (τ ), ∀g = a b c d ∈ SL(2, Z), l is called the weight of f . Theorem 2.2. Q(T Z, τ</formula><p>) is a modular form over SL 2 (Z) with the weight 2k.</p><p>Proof. Let {±2π √ -1x j } (1 ≤ j ≤ 2k -1) be the formal Chern roots for T C Z, then we have</p><formula xml:id="formula_9">(2.15) Q(T Z, τ ) = 2k-1 j=1 2x j θ ′ (0, τ ) θ(x j , τ ) 2k-1 j=1 θ 1 (x j , τ ) θ 1 (0, τ ) + 2k-1 j=1 θ 2 (x j , τ ) θ 2 (0, τ ) + 2k-1 j=1 θ 3 (x j , τ ) θ 3 (0, τ ) .</formula><p>By (2.9)-(2.13), we have</p><formula xml:id="formula_10">Q(T Z, τ + 1) = Q(T Z, τ ) and Q(T Z, -1 τ ) = τ 2k Q(T Z, τ ), so Q(T Z, τ</formula><p>) is a modular form over SL 2 (Z) with the weight 2k. □</p><p>We expand Q(T Z, τ ) as follows:</p><formula xml:id="formula_11">Q(T Z, τ ) = A(T Z)ch(△(T Z)) + 2 2k A(T Z)<label>(4k)</label></formula><p>(2.16)</p><formula xml:id="formula_12">+ 2 A(T Z)ch(△(T Z))ch( T C Z) + 2 2k A(T Z)ch( T C Z + ∧ 2 T C Z) (4k) q + A(T Z)ch(△(T Z))ch(A 0 ) + 2 2k A(T Z)ch(A 1 )<label>(4k)</label></formula><formula xml:id="formula_13">q 2 + • • • ,</formula><p>where</p><formula xml:id="formula_14">A 0 = 2 T C Z + ∧ 2 T C Z + T C Z ⊗ T C Z + S 2 T C Z, (2.17) A 1 = ∧ 4 T C Z + ∧ 2 T C Z ⊗ T C Z + T C Z ⊗ T C Z + S 2 T C Z + T C Z.</formula><p>Let L D Z ⊗V = det(Ker(D Z ⊗V ) + ) * ⊗det(Ker(D Z ⊗V ) -) be the determinant line bundle of the family operator D Z ⊗V over Z (for associated definitions, see <ref type="bibr" target="#b2">[3]</ref>, <ref type="bibr" target="#b3">[4]</ref>). The determinant line bundle carries the Quillen metric g L D Z ⊗V as well as the Bismut-Freed connection ∇ L D Z ⊗V compatible to g L D Z ⊗V , the curvature R L D Z ⊗V of which is equal to the two-form component of the integration of A(T Z, ∇ T Z )ch(V, ∇ V ) along the fibre in the Atiyah-Singer family index theorem <ref type="bibr" target="#b2">[3,</ref><ref type="bibr" target="#b3">4]</ref>.</p><formula xml:id="formula_15">√ -1/(2π)R L D Z ⊗V is a representative of the local anomaly. Theorem 2.3. (Bismut and Freed [4]) (2.18) R L D Z ⊗V = 2π √ -1 Z A(T Z, ∇ Z )ch(V, ∇ V )<label>(2)</label></formula><p>.</p><p>The Bismut-Freed theorem is correct for the spinc case.</p><p>Theorem 2.4. When dimT Z = 6, we have</p><formula xml:id="formula_16">R L D Z ⊗△(T Z)⊗ T C Z + 8R L D Z ⊗( T C Z+∧ 2 T C Z) = 120(R L D Z ⊗△(T Z) + 16R L D Z ), (2.19) R L D Z ⊗△(T Z)⊗A 0 + 16R L D Z ⊗A 1 = 2160(R L D Z ⊗△(T Z) + 16R L D Z ). (2.20)</formula><p>The proof of Theorem 2.4: It is well known that modular forms over SL 2 (Z) can be expressed as polynomials of the Einsentein series E 4 (τ ) and E 6 (τ ), where</p><formula xml:id="formula_17">(2.21) E 4 (τ ) = 1 + 240q + 2160q 2 + 6720q 3 + • • • , (2.22) E 6 (τ ) = 1 -504q -16632q 2 -122976q 3 + • • • .</formula><p>Their weights are 4 and 6 respectively. When k = 2, then Q(T Z, τ ) is a modular form over SL 2 (Z) with the weight 4. Q(T Z, τ ) must be a multiple of</p><formula xml:id="formula_18">(2.23) Q(T Z, τ ) = λE 4 (τ ).</formula><p>By Theorem 2.2 and 2.3 and (2.16-2.17), we have Theorem 2.4. Similarly to Theorem 2.4, by the method in <ref type="bibr" target="#b21">[22]</ref>, we have Theorem 2.5. When dimT Z = 10, we have</p><formula xml:id="formula_19">R L D Z ⊗△(T Z)⊗ T C Z + 32R L D Z ⊗( T C Z+∧ 2 T C Z) = -252(R L D Z ⊗△(T Z) + 64R L D Z ), (2.24) R L D Z ⊗△(T Z)⊗A 0 + 64R L D Z ⊗A 1 = -16632(R L D Z ⊗△(T Z) + 64R L D Z ). (2.25) Theorem 2.6. When dimT Z = 14, we have R L D Z ⊗△(T Z)⊗ T C Z + 128R L D Z ⊗( T C Z+∧ 2 T C Z) = 240(R L D Z ⊗△(T Z) + 256R L D Z ), (2.26) R L D Z ⊗△(T Z)⊗A 0 + 256R L D Z ⊗A 1 = 61920(R L D Z ⊗△(T Z) + 256R L D Z ). (2.27) Theorem 2.7. When dimT Z = 18, we have R L D Z ⊗△(T Z)⊗ T C Z + 512R L D Z ⊗( T C Z+∧ 2 T C Z) = -132(R L D Z ⊗△(T Z) + 1024R L D Z ), (2.28) R L D Z ⊗△(T Z)⊗A 0 + 1024R L D Z ⊗A 1 = -117288(R L D Z ⊗△(T Z) + 1024R L D Z ). (2.29) Let dimT Z = 4k -3 and Q(T Z, τ ) = [ A(T Z)[ch(△(T Z) ⊗ Θ 1 (T C Z)) + 2 2k-2 Θ 2 (T C Z) + 2 2k-2 Θ 3 (T C Z)] (4k) . (2.30) Theorem 2.8. Q(T Z, τ ) is a modular form over SL 2 (Z) with the weight 2k.</formula><p>We expand Q(T Z, τ ) as follows:</p><formula xml:id="formula_20">Q(T Z, τ ) = A(T Z)ch(△(T Z)) + 2 2k-1 A(T Z) (4k) (2.31) + 2 A(T Z)ch(△(T Z))ch( T C Z) + 2 2k-1 A(T Z)ch( T C Z + ∧ 2 T C Z) (4k) q + A(T Z)ch(△(T Z))ch(A 0 ) + 2 2k-1 A(T Z)ch(A 1 ) (4k) q 2 + • • • .</formula><p>Below we consider anomaly cancellation formulas of index gerbes. Now we still assume that T Z is oriented but the dimension of the fibre is 4k -3, i.e. we consider odd-dimensional fibres. Let T Z is spin. One can still define the family of Dirac operator D Z ⊗ V similar as the even-dimensional fibre case. The only difference is that now the spinor bundle</p><formula xml:id="formula_21">△(T Z) associated to T Z is not Z 2 -graded. Let H ∞ be the set of C ∞ sections of △(T Z) ⊗ V over M . H ∞ is viewed as the set of C ∞ sections over B of infinite-dimensional bundles which are still denoted by H ∞ . For b ∈ B, H ∞ b is the set of C ∞ sections over Z b of △(T Z) ⊗ V . For each b ∈ B, (D Z ⊗ V ) b ∈ End(H ∞ b ) is the twisted Dirac operator on the fibre Z b .</formula><p>As a higher analogue of the determinant line bundle, Lott <ref type="bibr" target="#b17">[18]</ref> constructs the index gerbe G D Z ⊗V with connection on B for the family twisted odd Dirac operator D Z ⊗ V , the curvature R G D Z ⊗V (a closed 3-form on B) of which is equal to the three-form component of the integration of A(T Z, ∇ Z )ch(V, ∇ V ) along the fibre in the Atiyah-Singer families index theorem. Theorem 2.9. (Lott <ref type="bibr" target="#b17">[18]</ref>)</p><formula xml:id="formula_22">(2.32) R G D Z ⊗V = Z A(T Z, ∇ Z )ch(V, ∇ V )<label>(3)</label></formula><p>.</p><p>Similarly to Theorem 2.4-2.7, We have the following anomaly cancellation formulas for index gerbes.</p><p>Theorem 2.10. When dimT Z = 5, we have</p><formula xml:id="formula_23">R G D Z ⊗△(T Z)⊗ T C Z + 4R L D Z ⊗( T C Z+∧ 2 T C Z) = 120(R G D Z ⊗△(T Z) + 8G L D Z ), (2.33) R G D Z ⊗△(T Z)⊗A 0 + 8R L D Z ⊗A 1 = 2160(R G D Z ⊗△(T Z) + 8R G D Z ). (2.34) Theorem 2.11. When dimT Z = 9, we have R G D Z ⊗△(T Z)⊗ T C Z + 16R L D Z ⊗( T C Z+∧ 2 T C Z) = -252(R G D Z ⊗△(T Z) + 32G L D Z ), (2.35) R G D Z ⊗△(T Z)⊗A 0 + 32R L D Z ⊗A 1 = -16632(R G D Z ⊗△(T Z) + 32R G D Z ). (2.36) Theorem 2.12. When dimT Z = 13, we have R G D Z ⊗△(T Z)⊗ T C Z + 64R L D Z ⊗( T C Z+∧ 2 T C Z) = 240(R G D Z ⊗△(T Z) + 128G L D Z ), (2.37) R G D Z ⊗△(T Z)⊗A 0 + 128R L D Z ⊗A 1 = 61920(R G D Z ⊗△(T Z) + 128R G D Z ). (2.38) Theorem 2.13. When dimT Z = 17, we have R G D Z ⊗△(T Z)⊗ T C Z + 256R L D Z ⊗( T C Z+∧ 2 T C Z) = -132(R G D Z ⊗△(T Z) + 512G L D Z ), (2.39) R G D Z ⊗△(T Z)⊗A 0 + 512R L D Z ⊗A 1 = -117288(R G D Z ⊗△(T Z) + 512R G D Z ). (2.40)</formula><p>Let dimT Z = 4k -1 and define Q(T Z, τ ) which has same expression and expansion as Q(T Z, τ ). Q(T Z, τ ) is a modular form over SL 2 (Z) with the weight 2k. Below we consider η-invariants.</p><p>For b ∈ B, let η b (D Z ⊗ V )(s) be the eta function associated with (D Z ⊗ V ) b . Define as Atiyah, Patodi and Singer in <ref type="bibr" target="#b1">[2]</ref> ηb</p><formula xml:id="formula_24">(D Z ⊗ V )(s) = η b (D Z ⊗ V )(s) + ker(D Z ⊗ V ) b 2 . Denote ηb (D Z ⊗ V )(0) (a function on B) by η(D Z ⊗ V ).</formula><p>We still adopt the setting of family twisted Dirac operators on a family of odd-dimensional manifolds in index gerbes. For odd-dimensional fibres, we have the following Bismut-Freed theorem for the reduced η-invariants.</p><p>Theorem 2.14. (Bismut and Freed <ref type="bibr" target="#b3">[4]</ref>)</p><formula xml:id="formula_25">(2.41) d{η(D Z ⊗ V )} = Z A(T Z, ∇ Z )ch(V, ∇ V )<label>(1)</label></formula><p>.</p><p>We have the following theorems on the reduced η-invariants.</p><p>Theorem 2.15. When dimT Z = 7, we have</p><formula xml:id="formula_26">η(D Z ⊗ △(T Z) ⊗ T C Z) + 8η(D Z ⊗ ( T C Z + ∧ 2 T C Z)) (2.42) = 120(η(D Z ⊗ △(T Z)) + 16η(D Z )) + c 1 , η(D Z ⊗ △(T Z) ⊗ A 0 ) + 16η(D Z ⊗ A 1 ) = 2160(η(D Z ⊗ △(T Z)) + 16η(D Z )) + c 2 .</formula><p>(2.43) Theorem 2.16. When dimT Z = 11, we have</p><formula xml:id="formula_27">η(D Z ⊗ △(T Z) ⊗ T C Z) + 32η(D Z ⊗ ( T C Z + ∧ 2 T C Z)) (2.44) = -252(η(D Z ⊗ △(T Z)) + 64η(D Z )) + c 3 , η(D Z ⊗ △(T Z) ⊗ A 0 ) + 64η(D Z ⊗ A 1 ) = -16632(η(D Z ⊗ △(T Z)) + 64η(D Z )) + c 4 .</formula><p>(2.45) Theorem 2.17. When dimT Z = 15, we have</p><formula xml:id="formula_28">η(D Z ⊗ △(T Z) ⊗ T C Z) + 128η(D Z ⊗ ( T C Z + ∧ 2 T C Z)) (2.46) = 240(η(D Z ⊗ △(T Z)) + 256η(D Z )) + c 5 , η(D Z ⊗ △(T Z) ⊗ A 0 ) + 256η(D Z ⊗ A 1 ) = 61920(η(D Z ⊗ △(T Z)) + 256η(D Z )) + c 6 .</formula><p>(2.47) Theorem 2.18. When dimT Z = 19, we have</p><formula xml:id="formula_29">η(D Z ⊗ △(T Z) ⊗ T C Z) + 512η(D Z ⊗ ( T C Z + ∧ 2 T C Z)) (2.48) = -132(η(D Z ⊗ △(T Z)) + 1024η(D Z )) + c 7 , η(D Z ⊗ △(T Z) ⊗ A 0 ) + 1024η(D Z ⊗ A 1 ) = -117288(η(D Z ⊗ △(T Z)) + 1024η(D Z )) + c 8 , (2.49) where c j , 1 ≤ j ≤ 8 is a constant.</formula><p>Let T Z be spin c and L be the complex line bundle associated to the given spin c structure on T Z. Denote by c = c 1 (L) the first Chern class of L. Also, we use L R for the notation of L, when it is viewed as an oriented real plane bundle. Let Θ(T C Z, L R ⊗ C) be the virtual complex vector bundle over M defined by</p><formula xml:id="formula_30">Θ(T C M, L R ⊗ C) = ∞ n=1 S q n ( T C M ) ⊗ ∞ m=1 ∧ q m ( L R ⊗ C) ⊗ ∞ r=1 ∧ -q r-1 2 ( L R ⊗ C) ⊗ ∞ s=1 ∧ q s-1 2 ( L R ⊗ C), Θ * (T C M, L R ⊗ C) = ∞ n=1 S q n ( T C M ) ⊗ ∞ m=1 ∧ -q m ( L R ⊗ C).</formula><p>For dimT Z = 4k -3, 4k -2, 4k -1 three cases, we always let</p><formula xml:id="formula_31">(2.50) Q(T Z, L, τ ) = { A(T Z, ∇ T Z )exp( c 2 )ch(Θ(T C Z, L R ⊗ C))} (4k) , (2.51) Q * (T Z, L, τ ) = { A(T Z, ∇ T Z )exp( c 2 )ch(Θ * (T C Z, L R ⊗ C))} (4k+2) . Proposition 2.19. When p 1 (T Z) = 3p 1 (L R ),then Q(T Z, L, τ ) is a modular form over SL 2 (Z) with the weight 2k. When p 1 (T Z) = p 1 (L R ),then Q * (T Z, L, τ</formula><p>) is a modular form over SL 2 (Z) with the weight 2k.</p><p>We have</p><formula xml:id="formula_32">Q(T Z, L, τ ) = A(T Z)exp( c<label>2</label></formula><p>))</p><formula xml:id="formula_33">(4k) + q A(T Z)exp( c 2 ))ch(B 1 )<label>(4k)</label></formula><p>(2.52)</p><formula xml:id="formula_34">+ q 2 A(T Z)exp( c<label>2</label></formula><p>))ch(B 2 )</p><formula xml:id="formula_35">(4k) + O(q 3 ),</formula><p>where</p><formula xml:id="formula_36">B 1 = T C Z + 2 ∧ 2 L R,C -L R,C ⊗ L R,C + L R,C ,<label>(2.53)</label></formula><formula xml:id="formula_37">B 2 = S 2 T C Z + T C Z + (2 ∧ 2 L R,C -L R,C ⊗ L R,C + L R,C ) ⊗ T C Z + ∧ 2 L R,C ⊗ ∧ 2 L R,C + 2 ∧ 4 L R,C -2 L R,C ⊗ ∧ 3 L R,C + 2 L R,C ⊗ ∧ 2 L R,C -L R,C ⊗ L R,C ⊗ L R,C + L R,C + ∧ 2 L R,C . Q * (T Z, L, τ ) = A(T Z)exp( c<label>2</label></formula><p>))</p><formula xml:id="formula_38">(4k+2) + q A(T Z)exp( c 2 ))ch(B 3 )<label>(4k+2)</label></formula><p>(2.54)</p><formula xml:id="formula_39">+ q 2 A(T Z)exp( c<label>2</label></formula><p>))ch(B 4 )</p><p>+ O(q 3 ),</p><p>where</p><formula xml:id="formula_41">B 3 = T C Z -L R,C , (2.55) B 4 = ∧ 2 L R,C -L R,C -L R,C ⊗ T C Z + S 2 T C Z + T C Z.</formula><p>Denote the spinc Dirac operator by D c . Similarly to previous theorems, we have Theorem 2.20. When dimT Z = 6 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_42">R L D Z c ⊗B 1 = 240R L D Z c , (2.56) R L D Z c ⊗B 2 = 2160R L D Z c . When dimT Z = 6 and p 1 (T Z) = p 1 (L R ), we have R L D Z c ⊗B 3 = 240R L D Z c , (2.57) R L D Z c ⊗B 4 = 2160R L D Z c .</formula><p>Theorem 2.21. When dimT Z = 5 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_43">R G D Z c ⊗B 1 = 240R G D Z c , (2.58) R G D Z c ⊗B 2 = 2160R G D Z c . When dimT Z = 5 and p 1 (T Z) = p 1 (L R ), we have R G D Z c ⊗B 3 = 240R G D Z c , (2.59) R G D Z c ⊗B 4 = 2160R G D Z c . Theorem 2.22. When dimT Z = 7 and p 1 (T Z) = 3p 1 (L R ), we have η(D Z c ⊗ B 1 ) = 240η(D Z c ) + c 1 , (2.60) η(D Z c ⊗ B 2 ) = 2160η(D Z c ) + c 2 . When dimT Z = 7 and p 1 (T Z) = p 1 (L R ), we have η(D Z c ⊗ B 3 ) = 240η(D Z c ) + c 3 , (2.61) η(D Z c ⊗ B 4 ) = 2160η(D Z c ) + c 4 . Theorem 2.23. When dimT Z = 10 and p 1 (T Z) = 3p 1 (L R ), we have R L D Z c ⊗B 1 = -504R L D Z c , (2.62) R L D Z c ⊗B 2 = -16632R L D Z c . YONG WANG When dimT Z = and p 1 (T Z) = p 1 (L R ), we have R L D Z c ⊗B 3 = -504R L D Z c , (2.63) R L D Z c ⊗B 4 = -16632R L D Z c .</formula><p>Theorem 2.24. When dimT Z = 9 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_44">R G D Z c ⊗B 1 = -504R G D Z c , (2.64) R G D Z c ⊗B 2 = -16632R G D Z c . When dimT Z = and p 1 (T Z) = p 1 (L R ), we have R G D Z c ⊗B 3 = -504R G D Z c , (2.65) R G D Z c ⊗B 4 = -16632R G D Z c . Theorem 2.25. When dimT Z = 11 and p 1 (T Z) = 3p 1 (L R ), we have η(D Z c ⊗ B 1 ) = -504η(D Z c ) + c 5 , (2.66) η(D Z c ⊗ B 2 ) = -16632η(D Z c ) + c 6 . When dimT Z = and p 1 (T Z) = p 1 (L R ), we have η(D Z c ⊗ B 3 ) = -504η(D Z c ) + c 7 , (2.67) η(D Z c ⊗ B 4 ) = -16632η(D Z c ) + c 8 . Theorem 2.26. When dimT Z = 14 and p 1 (T Z) = 3p 1 (L R ), we have R L D Z c ⊗B 1 = 480R L D Z c , (2.68) R L D Z c ⊗B 2 = 61920R L D Z c . When dimT Z = and p 1 (T Z) = p 1 (L R ), we have R L D Z c ⊗B 3 = 480R L D Z c , (2.69) R L D Z c ⊗B 4 = 61920R L D Z c . Theorem 2.27. When dimT Z = 13 and p 1 (T Z) = 3p 1 (L R ), we have R G D Z c ⊗B 1 = 480R G D Z c , (2.70) R G D Z c ⊗B 2 = 61920R G D Z c . When dimT Z = and p 1 (T Z) = p 1 (L R ), we have R G D Z c ⊗B 3 = 480R G D Z c , (2.71) R G D Z c ⊗B 4 = 61920R G D Z c .</formula><p>Theorem 2.28. When dimT Z = 15 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_45">η(D Z c ⊗ B 1 ) = 480η(D Z c ) + c 9 , (2.72) η(D Z c ⊗ B 2 ) = 61920η(D Z c ) + c 10 .</formula><p>When dimT Z = 15 and p 1 (T Z) = p 1 (L R ), we have</p><formula xml:id="formula_46">η(D Z c ⊗ B 3 ) = 480η(D Z c ) + c 11 , (2.73) η(D Z c ⊗ B 4 ) = 61920η(D Z c ) + c 12 .</formula><p>Theorem 2.29. When dimT Z = 18 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_47">R L D Z c ⊗B 1 = -264R L D Z c , (2.74) R L D Z c ⊗B 2 = -117288R L D Z c . When dimT Z = 18 and p 1 (T Z) = p 1 (L R ), we have R L D Z c ⊗B 3 = -264R L D Z c , (2.75) R L D Z c ⊗B 4 = -117288R L D Z c .</formula><p>Theorem 2.30. When dimT Z = 17 and p 1 (T Z) = 3p 1 (L R ), we have</p><formula xml:id="formula_48">R G D Z c ⊗B 1 = -264R G D Z c , (2.76) R G D Z c ⊗B 2 = -117288R G D Z c . When dimT Z = 17 and p 1 (T Z) = p 1 (L R ), we have R G D Z c ⊗B 3 = -264R G D Z c , (2.77) R G D Z c ⊗B 4 = -117288R G D Z c . Theorem 2.31. When dimT Z = 19 and p 1 (T Z) = 3p 1 (L R ), we have η(D Z c ⊗ B 1 ) = -264η(D Z c ) + c 13 , (2.78) η(D Z c ⊗ B 2 ) = -117288η(D Z c ) + c 14 .</formula><p>When dimT Z = 19 and p 1 (T Z) = p 1 (L R ), we have</p><formula xml:id="formula_49">η(D Z c ⊗ B 3 ) = -264η(D Z c ) + c 15 , (2.79) η(D Z c ⊗ B 4 ) = -117288η(D Z c ) + c 16 ,</formula><p>where c j , 1 ≤ j ≤ 16 is a constant.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The two-variable elliptic genus for fibre bundles</head><p>Let (T Z, J) be a 2d -2-dimensional vector bundle with the almost complex structure J and T 1,0 Z be the holomorphic tangent bundle in the sense of J and T 1,0 * Z is the dual of T 1,0 Z. Let W denote a complex l-dimensional vector bundle on M . Denote the first Chern classes of T 1,0 Z and W by c 1 (T Z) and c 1 (W ). We denote by 2π and <ref type="table">2π</ref> √ -1w j (1 ≤ j ≤ l) respectively the formal Chern roots of T 1,0 Z and W . Then the Todd form of T Z is defined by</p><formula xml:id="formula_50">√ -1x i (1 ≤ i ≤ d -1)</formula><formula xml:id="formula_51">(3.1) Td(T Z) := d-1 i=1 2π √ -1x i 1 -e -2π √ -1x i . Let (τ, z) ∈ H × C</formula><p>where H is the upper half plane and C is the complex plane. Let y = e 2π √ -1z and q = e 2π √ -1τ and c := ∞ j=1 (1 -q j ).</p><p>Let</p><formula xml:id="formula_52">E(T Z, W, τ, z) :=c 2(d-1-l) y -l 2 ∞ n=1 (∧ -yq n-1 (W * ) ⊗ ∧ -y -1 q n (W )) (3.2) ∞ n=1 S q n (T 1,0 * Z) ∞ n=1 S q n (T 1,0 Z) ,</formula><p>where the coefficient c 2(d-1-l) is different from the coefficient c 2(d-l) in <ref type="bibr" target="#b14">[15]</ref> Definition 3.1. The two variable elliptic genus of M → B with respect to W , which we denote by Ell(T Z, W, τ, z) is defined by</p><formula xml:id="formula_53">(3.3) Ell(T Z, W, τ, z) := exp( c 1 (W ) -c 1 (T 1,0 Z) 2 )T d(T Z)ch(E(T M, W, τ, z))<label>(2d)</label></formula><p>, Using the same calculations as in Lemma 3.4 in <ref type="bibr" target="#b14">[15]</ref> and we have Lemma 3.2.</p><formula xml:id="formula_54">Ell(M, W, τ, z) = η(τ ) 3(d-1-l) d-1 i=1 2π √ -1x i θ(τ, x i ) l j=1 θ(τ, w j -z) (2d) , (3.4)</formula><p>where</p><formula xml:id="formula_55">(3.5) η(τ ) := q 1 24 • c = q 1 24 ∞ j=1</formula><p>(1 -q j ).</p><p>Similarly to Theorem 3. Similar to Proposition 3.6 in <ref type="bibr" target="#b14">[15]</ref> (our coefficients of a n are different from the coefficients in <ref type="bibr" target="#b14">[15]</ref>) , we have Proposition 3.4. Let c 1 (W ) = c 1 (T 1,0 Z) = 0 and the first Pontrjagin classes p 1 (M ) = p 1 (W ), then the series a n (T Z, W, τ ) determined by</p><formula xml:id="formula_56">exp(-4π 2 lE 2 (τ )z 2 )Ell(T Z, W, τ, z) = n≥0 a n (T Z, W, τ ) • z n , (3.6)</formula><p>are modular forms of weight d -l + n over SL(2, Z). Furthermore, the first five series of a n (T Z, W, τ ) are of the following form:</p><formula xml:id="formula_57">a 0 (T Z, W, τ ) = {T d(T M )ch(∧ -1 (W * ))} (2d) + q {T d(M )ch(∧ -1 (W * ))ch(A 2 )} (2d) (3.7) + q 2 {T d(M )ch(∧ -1 (W * ))ch(A 3 )} (2d) + O(q 3 ),</formula><p>where</p><formula xml:id="formula_58">A 2 = T 1,0 + T 1,0 * -2(d -1 -l) -W -W * ,<label>(3.8)</label></formula><p>and</p><formula xml:id="formula_59">A 3 = S 2 T 1,0 + T 1,0 * ⊗ T 1,0 + S 2 T 1,0 * + ∧ 2 W * + ∧ 2 W + W * ⊗ W 0 (3.9) + [2(d -1 -l) -1](W + W * -T 1,0 -T 1,0 * ) -(W + W * ) ⊗ (T 1,0 + T 1,0 * ) + (d -1 -l)(2d -2l -5), a 1 (T Z, W, τ ) = 2π √ -1T d(T Z)ch( l p=0 (-1) p (p - l 2 ) ∧ p W * )<label>(2d)</label></formula><p>(3.10)</p><formula xml:id="formula_60">+ q {T d(M )ch(A 4 )} (2d) + O(q 2 ),</formula><p>where</p><formula xml:id="formula_61">A 4 = -2π √ -1 ∧ -1 W * ⊗ (W + W * ) (3.11) + π √ -1[2 l j=1 (-1) j ∧ j W * -l ∧ -1 W * ] ⊗ [-2(d -1 -l) -(W + W * ) + T 1,0 Z + T 1,0 * Z], a 2 (T Z, W, τ ) = {T d(T Z)ch(A 5 )} (2d) + O(q),<label>(3.12)</label></formula><p>where</p><formula xml:id="formula_62">A 5 = -2π 2 l p=0 (-1) p (p -l 2 ) 2 ∧ p W * + l 6 π 2 ( l p=0 (-1) p ∧ p W * ). a 3 (T Z, W, τ ) = {T d(T Z)ch(A 6 )} (2d) + O(q),<label>(3.13)</label></formula><p>where</p><formula xml:id="formula_63">A 6 = 4 3 π 3 ( √ -1) 3 l p=0 (-1) p (p -l 2 ) 3 ∧ p W * + √ -1l 3 π 3 l p=0 (-1) p (p -l 2 ) ∧ p W * . a 4 (M, W, τ ) = {T d(T Z)ch(A 7 )} (2d) + O(q), (3.14) 3)if d -l = 8, then R L D Z ⊗∧ -1 W * ⊗A 2 = 480R L D Z ⊗∧ -1 W * , (3.23) R L D Z ⊗∧ -1 W * ⊗A 3 = 61920R L D Z ⊗∧ -1 W * . 4)if d -l = 10, then R L D Z ⊗∧ -1 W * ⊗A 2 = -264R L D Z ⊗∧ -1 W * , (3.24) R L D Z ⊗∧ -1 W * ⊗A 3 = -135432R L D Z ⊗∧ -1 W * .</formula><p>Similarly, by a 1 (T Z, W, τ ), we have</p><formula xml:id="formula_64">Theorem 3.7. Let dimT Z = 2d -2, c 1 (W ) = c 1 (T 1,0 Z) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then 1)if d -l = 3, then R L D Z ⊗∧ -1 W * ⊗A 4 = 240R L D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.25) 2)if d -l = 5, then R L D Z ⊗∧ -1 W * ⊗A 4 = -504R L D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.26) 3)if d -l = 7, then R L D Z ⊗∧ -1 W * ⊗A 4 = 480R L D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.27) 4)if d -l = 9, then R L D Z ⊗∧ -1 W * ⊗A 4 = -264R L D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.28) Let T Z be a 2d -3-dimensional spin vector bundle. Let ±2π √ -1x i (1 ≤ i ≤ d -2), 0 and 2π √ -1w j (1 ≤ j ≤ l) respectively the formal Chern roots of T C Z and W . Then Let E(T Z, W, τ, z) :=c 2(d-l)-3 y -l 2 ∞ n=1 (∧ -yq n-1 (W * ) ⊗ ∧ -y -1 q n (W )) (3.29) ∞ n=1 S q n (T C Z) ,</formula><p>where the coefficient c 2(d-1)-3 is different from the coefficient c 2(d-l)-2 in dimT Z = 2d -2.</p><p>Definition 3.8. The two variable elliptic genus of M → B with respect to W , which we denote by Ell(T Z, W, τ, z) is defined by</p><formula xml:id="formula_65">(3.30) Ell(T Z, W, τ, z) := exp( c 1 (W ) 2 ) A(T Z)ch( E(T Z, W, τ, z))<label>(2d)</label></formula><p>,</p><p>Using the same calculations as in Lemma 3.4 in <ref type="bibr" target="#b14">[15]</ref> and we have Lemma 3.9. </p><formula xml:id="formula_66">Ell(T Z, W, τ, z) = η(τ ) 3(d-l-2) d-2 i=1 2π √ -1x i θ(τ, x i ) l j=1 θ(τ, w j -z)</formula><formula xml:id="formula_67">a 0 (T Z, W, τ ) = A(T Z)ch(∧ -1 (W * )) (2d) + q A(T Z)ch(∧ -1 (W * ))ch(A 8 ) (2d) (3.33) + q 2 A(T Z)ch(∧ -1 (W * ))ch(A 9 ) (2d) + O(q 3 ),</formula><p>where</p><formula xml:id="formula_68">A 8 = T C Z -2(d -1) + 3 -W -W * , (3.34) and A 9 = S 2 T C Z + ∧ 2 W * + ∧ 2 W + W * ⊗ W (3.35) + [2(d -1) -4](W + W * -T C Z) -(W + W * ) ⊗ T C Z + (d -l -3)(2d -2l -3), a 1 (T Z, W, τ ) = 2π √ -1 A(T Z)ch( l p=0 (-1) p (p - l 2 ) ∧ p W * )<label>(2d)</label></formula><p>(3.36)</p><formula xml:id="formula_69">+ q A(T Z)ch(A 10 ) (2d) + O(q 2 ), YONG WANG 2)if d -l = 6, then R G D Z ⊗∧ -1 W * ⊗A 8 = -504R G D Z ⊗∧ -1 W * , (3.47) R G D Z ⊗∧ -1 W * ⊗A 9 = -16632R G D Z ⊗∧ -1 W * . 3)if d -l = 8, then R G D Z ⊗∧ -1 W * ⊗A 8 = 480R G D Z ⊗∧ -1 W * , (3.48) R G D Z ⊗∧ -1 W * ⊗A 9 = 61920R G D Z ⊗∧ -1 W * . 4)if d -l = 10, then R G D Z ⊗∧ -1 W * ⊗A 8 = -264R G D Z ⊗∧ -1 W * , (3.49) R G D Z ⊗∧ -1 W * ⊗A 9 = -135432R G D Z ⊗∧ -1 W * .</formula><p>Similarly, by a 1 (T Z, W, τ ), we have Theorem 3.14. Let dimT Z = 2d -3, c 1 (W ) = 0 and the first Pontrjagin classes</p><formula xml:id="formula_70">p 1 (T Z) = p 1 (W ), then 1)if d -l = 3, then R G D Z ⊗∧ -1 W * ⊗A 10 = 240R G D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.50) 2)if d -l = 5, then R G D Z ⊗∧ -1 W * ⊗A 10 = -504R G D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.51) 3)if d -l = 7, then R G D Z ⊗∧ -1 W * ⊗A 10 = 480R G D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.52) 4)if d -l = 9, then R G D Z ⊗∧ -1 W * ⊗A 10 = -264R G D Z ⊗( l p=0 (-1) p (p-l 2 )∧ p W * ) , (3.53) Let T Z be a 2d -1-dimensional spin vector bundle. Then Let E(T Z, W, τ, z) :=c 2(d-l)-1 y -l 2 ∞ n=1 (∧ -yq n-1 (W * ) ⊗ ∧ -y -1 q n (W )) (3.54) ∞ n=1 S q n (T C Z) ,</formula><p>Similarly to the definition Ell(T Z, W, τ, z), we can define the two variable elliptic genus Ell(T Z, W, τ, z). Using the same calculations as in Lemma 3.4 in <ref type="bibr" target="#b14">[15]</ref> and we have Lemma 3.15. </p><formula xml:id="formula_71">Ell(T Z, W, τ, z) = η(τ ) 3(d-l-1) d-1 i=1 2π √ -1x i θ(τ, x i ) l j=1 θ(τ, w j -z) (2d) , (<label>3</label></formula><formula xml:id="formula_72">(-4π 2 lE 2 (τ )z 2 )Ell(T Z, W, τ, z) = n≥0 a n (T Z, W, τ ) • z n , (3.56)</formula><p>are modular forms of weight d -l + n over SL(2, Z). Furthermore, the first five series of a n (M, W, g, τ ) are of the following form:</p><formula xml:id="formula_73">a 0 (T Z, W, τ ) = A(T Z)ch(∧ -1 (W * )) (2d) + q A(T Z)ch(∧ -1 (W * ))ch(A 11 ) (2d) (3.57) + q 2 A(T Z)ch(∧ -1 (W * ))ch(A 12 ) (2d) + O(q 3 ),</formula><p>where</p><formula xml:id="formula_74">A 11 = T C Z -2(d -1) + 1 -W -W * , (3.58) and A 12 = S 2 T C Z + ∧ 2 W * + ∧ 2 W + W * ⊗ W (3.59) + [2(d -1) -2](W + W * -T C Z) -(W + W * ) ⊗ T C Z + (d -l -2)(2d -2l -1), a 1 (T Z, W, τ ) = 2π √ -1 A(T Z)ch( l p=0 (-1) p (p - l 2 ) ∧ p W * )<label>(2d)</label></formula><p>(3.60)</p><formula xml:id="formula_75">+ q A(T Z)ch(A 13 )<label>(2d)</label></formula><p>+ O(q 2 ),</p><p>where</p><formula xml:id="formula_76">A 13 = -2π √ -1 ∧ -1 W * ⊗ (W + W * ) (3.61) + π √ -1[2 l j=1 (-1) j ∧ j W * -l ∧ -1 W * ] ⊗ [-2(d -1) + 1 -(W + W * ) + T C Z], a 2 (T Z, W, τ ) = A(T Z)ch(A 5 )<label>(2d)</label></formula><p>+ O(q), (3.62)   ). Let dimZ = 2r + 1 and r + j be even and define Q 2 (T Z, τ ) by the same expression of Q 1 (T Z, τ ). Q 2 (T Z, τ ) is a modular form over SL 2 (Z) with the weight (r + j) and Q 1 (T Z, τ ) has the same expansion of Q 1 (T Z, τ ). . Remark 1. We can use Theorem 4.1 to give the higher degree cases of Theorems in previous sections. We also may generalize the results in <ref type="bibr" target="#b8">[9]</ref> to family cases using the tricks in this paper. But we do not know whether one has the similar theorems due to</p><formula xml:id="formula_77">a 3 (T Z, W, τ ) = A(T Z)ch(A 6 ) (2d) + O(q), (3.63) a 4 (M, W, τ ) = A(T Z)ch(A 7 ) (2d) + O(q).</formula><formula xml:id="formula_78">(T Z) = p 1 (W ), then 1)if either d -l is odd or d -l ≤ 2 but d -l ̸ = 0, then η(D Z ⊗ ∧ -1 W * ) = c 1 , η(D Z ⊗ ∧ -1 W * ⊗ A 11 ) = c 2 , (3.65) η(D Z ⊗ ∧ -1 W * ⊗ A 12 ) = c 3 , 2)if either d -l is even or d -l ≤ 1 but d -l ̸ = -1, then η(D Z ⊗ ( l p=0 (-1) p (p - l 2 ) ∧ p W * )) = c 4 , (3.66) η(D Z ⊗ A 13 ) = c 5 , 3)if either d -l is odd or d -l ≤ 0 but d -l ̸ = -2, then η(D Z ⊗ A 5 ) = c 6 , (<label>3</label></formula></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><figDesc>2 in<ref type="bibr" target="#b14">[15]</ref>, we have Theorem 3.3. If c 1 (W ) = c 1 (T 1,0 Z) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then the elliptic genus Ell(T Z, W, τ, z) is a weak Jacobi form of weight d -l and index l 2 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>to Theorem 3.2 in<ref type="bibr" target="#b14">[15]</ref>, we have Lemma 3.10. If c 1 (W ) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then the elliptic genus Ell(T Z, W, τ, z) is a weak Jacobi form of weight d -l and index l 2 . Similar to Proposition 3.6 in [15] (our coefficients of a n are different from the coefficients in a n ) , we have Proposition 3.11. If c 1 (W ) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then the series a n (T Z, W, τ ) determined by exp(-4π 2 lE 2 (τ )z 2 ) Ell(T Z, W, τ, z) = n≥0 a n (T Z, W, τ ) • z n , (3.32) are modular forms of weight d -l + n over SL(2, Z). Furthermore, the first five series of a n (M, W, g, τ ) are of the following form:</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><figDesc>.55) Similarly to Theorem 3.2 in [15], we have Lemma 3.16. If c 1 (W ) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then the elliptic genus Ell(T Z, W, τ, z) is a weak Jacobi form of weight d -l and index l 2 . Proposition 3.17. If dimT Z = 2d -1, c 1 (W ) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then the series a n (T Z, W, τ ) determined by exp</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>(3.64) Since there are no SL(2, Z) modular forms with the odd weight or the non zero weight ≤ 2, we have Proposition 3.18. Let dimT Z = 2d -1, c 1 (W ) = 0 and the first Pontrjagin classes p 1</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><figDesc>.67)4)if either d -l is even or d -l ≤ -1 but d -l ̸ = -3, then η(D Z ⊗ A 6 ) = c 7 , (3.68) 5)if either d -l is odd or d -l ≤ -2 but d -l ̸ = -4, then η(D Z ⊗ A 7 ) = c 8 , (3.69) where c j , 1 ≤ j ≤ 8 is a constant. Theorem 3.19. Let dimT Z = 2d -1, c 1 (W ) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then 1)if d -l = 4, then η(D Z ⊗ ∧ -1 W * ⊗ A 11 ) = 240η(D Z ⊗ ∧ -1 W * ), (3.70) η(D Z ⊗ ∧ -1 W * ⊗ A 12 ) = 2160η(D Z ⊗ ∧ -1 W * ).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>2 )</head><label>2</label><figDesc>if d -l = 6, then η(D Z ⊗ ∧ -1 W * ⊗ A 11 ) = -504η(D Z ⊗ ∧ -1 W * ), (3.71) η(D Z ⊗ ∧ -1 W * ⊗ A 12 ) = -16632η(D Z ⊗ ∧ -1 W * ).When r + j = 10, we havestr(A 2j △(T Z)⊗ T C Z ) [2j] + 2 r str(A 2j T C Z+∧ 2 T C Z ) [2j] = -132(str(A 2j △(T Z) ) [2j] + 2 r+1 str(A 2j ) [2j] ),(4.8)str(A 2j △(T Z)⊗A 0 ) [2j] + 2 r+1 str(A 2j A 1 ) [2j] = -117288(str(A 2j △(T Z) ) [2j] + 2 r+1 str(A 2j ) [2j]</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Theorem 4 . 3 .</head><label>43</label><figDesc>When r + j = 4, we havesres(|A| 2j-1 △(T Z)⊗ T C Z ) [2j-1] + 2 r sres(|A| 2j-1 T C Z+∧ 2 T C Z ) [2j-1] (4.9) = 120(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(A 2j-1 ) [2j-1] ), sres(|A| 2j-1 △(T Z)⊗A 0 ) [2j-1] + 2 r+1 sres(|A| 2j-1 A 1 ) [2j-1] = 2160(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(|A| 2j-1 ) [2j-1] . When r + j = 6, we have sres(|A| 2j-1 △(T Z)⊗ T C Z ) [2j-1] + 2 r sres(|A| 2j-1 T C Z+∧ 2 T C Z ) [2j-1] (4.10) = -252(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(A 2j-1 ) [2j-1] ), sres(|A| 2j-1 △(T Z)⊗A 0 ) [2j-1] + 2 r+1 sres(|A| 2j-1 A 1 ) [2j-1] = -16632(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(|A| 2j-1 ) [2j-1] . When r + j = 8, we have sres(|A| 2j-1 △(T Z)⊗ T C Z ) [2j-1] + 2 r sres(|A| 2j-1 T C Z+∧ 2 T C Z ) [2j-1] (4.11) = 480(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(A 2j-1 ) [2j-1] ), sres(|A| 2j-1 △(T Z)⊗A 0 ) [2j-1] + 2 r+1 sres(|A| 2j-1 A 1 ) [2j-1] = 61920(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(|A| 2j-1 ) [2j-1] . When r + j = 10, we have sres(|A| 2j-1 △(T Z)⊗ T C Z ) [2j-1] + 2 r sres(|A| 2j-1 T C Z+∧ 2 T C Z ) [2j-1] (4.12) = -132(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(A 2j-1 ) [2j-1] ), sres(|A| 2j-1 △(T Z)⊗A 0 ) [2j-1]+ 2 r+1 sres(|A| 2j-1 A 1 ) [2j-1] = -117288(sres(|A| 2j-1 △(T Z) ) [2j-1] + 2 r+1 sres(|A| 2j-1 ) [2j-1]</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>where</p><p>(-1) p ∧ p W * ).</p><p>Since there are no SL(2, Z) modular forms with the odd weight or the non zero weight ≤ 2, we have Proposition 3.5. Let dimT Z = 2d -2, c 1 (W ) = c 1 (T 1,0 Z) = 0 and the first Pontrjagin classes p 1 (T Z) = p 1 (W ), then 1)if either d -l is odd or d -l ≤ 2 but d -l ̸ = 0, then</p><p>where</p><p>+ O(q), (3.38)</p><p>Since there are no SL(2, Z) modular forms with the odd weight or the non zero weight ≤ 2, we have Proposition 3.12.</p><p>Similarly, by a 1 (T Z, W, τ ), we have</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">The higher degree case</head><p>Firstly, we recall the main theorem in <ref type="bibr" target="#b18">[19]</ref>.</p><p>Theorem 4.1. ( <ref type="bibr" target="#b18">[19]</ref>) Let M → B be a closed fibre bundle with the spin closed fibre Z and A V be the Bismut superconnection twisted by the vector bundle V . When dimZ = 2r, for the j-th Chern form str(A 2j</p><p>V ) [2j] , we have</p><p>When dimZ = 2r + 1, for the j-th residue Chern form sres(|A| 2j-1</p><p>where the definitions of the j-th Chern form str(A 2j</p><p>V ) [2j] and the j-th residue Chern form sres(|A| 2j-1 V ) [2j-1] can be founded in <ref type="bibr" target="#b18">[19]</ref> and <ref type="bibr" target="#b19">[20]</ref> and n is the dimension of the fibre.</p><p>Let dimZ = 2r and r + j be even and</p><p>) is a modular form over SL 2 (Z) with the weight (r+j) and We expand Q 1 (T Z, τ ) as follows:</p><p>When r + j = 6, we have</p><p>When r + j = 8, we have</p><p>Bismut-Freed and Lott for the Dai-Zhang's Toeplitz family index theorem ( <ref type="bibr" target="#b6">[7]</ref>) or not. We can also give the higher degree cases of <ref type="bibr" target="#b9">[10]</ref> and <ref type="bibr" target="#b7">[8]</ref>. Thus by the Lott's theorem about the curvature of the Deligne cohomology class in <ref type="bibr" target="#b17">[18]</ref>, we may give another higher degree explanation.</p><p>Remark 2. Motivated by Theorem 4.1, it is interesting to extend the well-known Kaster-Kalau-Walze theorem in NCG ( <ref type="bibr" target="#b12">[13]</ref>, <ref type="bibr" target="#b13">[14]</ref>) to the family case. That is to compute the family Wodzicki residue of |A| -n+2 on the fibration M with n-dimensional fibre Z.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Acknowledgements</head><p>The author was supported by Science and Technology Development Plan Project of Jilin Province, China: No.20260102245JC.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Data availability</head><p>No data was gathered for this article.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Conflict of interest</head><p>The authors have no relevant financial or non-financial interests to disclose.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Graviational anomalies</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Alvarez-Gaumé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Witten</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nucl. Phys. B</title>
+		<imprint>
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page" from="269" to="330"/>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Spectral asymmetry and Riemannian geometry I</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Atiyah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Patodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Singer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math. Proc. Cambridge Philos. Soc</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="43" to="69"/>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The analysis of elliptic families, I: Metrics and connections on determinant bundles</title>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Bismut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Freed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="159" to="176"/>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The analysis of elliptic families, II: Dirac operators, eta invariants, and the holonomy theorem</title>
+		<author>
+			<persName><forename type="first">J-M</forename><surname>Bismut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Freed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="103" to="163"/>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Elliptic Functions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chandrasekharan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1985">1985</date>
+			<publisher>Spinger-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Generalized Witten genus and vanishing theorems</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Differential Geom</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="40"/>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Higher spectral flow</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Funct. Anal</title>
+		<imprint>
+			<biblScope unit="volume">157</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="432" to="469"/>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Modular invariance and anomaly cancellation formulas for fiber bundles</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Axioms</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">740</biblScope>
+			<date type="published" when="2025">2025</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">SL(2, Z) modular forms and Witten genus in odd dimensions</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Noncommut. Geom</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="269" to="323"/>
+			<date type="published" when="2026">2026</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Gravitational anomaly cancellation and modular invariance</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Algebraic Geom. Topol</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="91" to="113"/>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Anomaly cancellation and modularity</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. China Math</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="985" to="994"/>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+	<note>II: the E 8 ×E 8 case</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cubic forms, anomaly cancellation and modularity</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Math</title>
+		<imprint>
+			<biblScope unit="volume">394</biblScope>
+			<biblScope unit="page">46</biblScope>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+	<note>Paper No. 108023</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The Dirac Operator and Gravitation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kastler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">166</biblScope>
+			<biblScope unit="page" from="633" to="643"/>
+			<date type="published" when="1995">1995. 1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Gravity, Noncommutative geometry and the Wodzicki residue</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kalau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Walze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geom. Physics</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="327" to="344"/>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">1-Phenomena for the pluri χ y -genus and elliptic genus</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific J. Math</title>
+		<imprint>
+			<biblScope unit="volume">273</biblScope>
+			<biblScope unit="page" from="331" to="351"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Modular invariance and characteristic numbers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Commu. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="29" to="42"/>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On elliptic genera and theta-functions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Topology</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="617" to="640"/>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Higher-degree analogs of the determinant line bundle</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Math. Phys</title>
+		<imprint>
+			<biblScope unit="volume">230</biblScope>
+			<biblScope unit="page" from="41" to="69"/>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Renormalised Chern-Weil forms associated with families of Dirac operators</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mickelsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paycha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geom. Phys</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1789" to="1814"/>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Chern-Weil forms associated with superconnections</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paycha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pte. Ltd</title>
+		<imprint>
+			<biblScope unit="page" from="79" to="104"/>
+			<date type="published" when="2006">2006</date>
+			<publisher>World Scientific Publishing Co</publisher>
+			<pubPlace>Hackensack, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">SL(2, Z) modular forms and anomaly cancellation formulas for almost complex manifolds</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pacific J. Math</title>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="181" to="196"/>
+			<date type="published" when="2024">2024</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2304.01458</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SL(2, Z) modular forms and anomaly cancellation formulas</title>
+		<imprint>
+			<date type="published" when="2023">2023</date>
+		</imprint>
+	</monogr>
+	<note>to appear in Appl</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhang</surname></persName>
+		</author>
+		<title level="m">Lectures on Chern-weil Theory and Witten Deformations. Nankai Tracks in Mathematics</title>
+		<meeting><address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Scientific</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<title level="m">School of Mathematics and Statistics</title>
+		<meeting><address><addrLine>Changchun Jilin, 130024, China E-mail</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>Northeast Normal University</orgName>
+		</respStmt>
+	</monogr>
+	<note>wangy581@nenu.edu.cn</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

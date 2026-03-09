@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">BERGMAN KERNELS AND POINCAR É SERIES</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown">
+					<licence/>
+				</availability>
+				<date type="published" when="2026-03-05">5 Mar 2026</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Louis</forename><surname>Ioos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Wen</forename><surname>Lu</surname></persName>
+						</author>
+						<author>
+							<persName><roleName>AND</roleName><forename type="first">Xiaonan</forename><surname>Ma</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">George</forename><surname>Marinescu</surname></persName>
+						</author>
+						<title level="a" type="main">BERGMAN KERNELS AND POINCAR É SERIES</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2026-03-05">5 Mar 2026</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">85A6DFF1CF622EF57C2BA7AF90FAAF7D</idno>
+					<idno type="arXiv">arXiv:2603.04842v1[math.DG]</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.8.2" ident="GROBID" when="2026-03-09T11:30+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<label type="revision">a91ee48</label>
+					<label type="parameters">startPage=-1, endPage=-1, consolidateCitations=0, consolidateHeader=1, consolidateFunders=0, includeRawAffiliations=false, includeRawCitations=false, includeRawCopyrights=false, generateTeiIds=false, generateTeiCoordinates=[], sentenceSegmentation=false, flavor=null</label>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We show that the Bergman kernel of a finite-volume quotient of a Hermitian manifold X with bounded geometry by a discrete group Γ of its isometries is the same as the averaging over Γ of the Bergman kernel on X. We then use these results when X is a Hermitian symmetric space to show that a large class of relative Poincaré series does not vanish. This extends the results of Borthwick-Paul-Uribe and Barron (formerly Foth) to the case of general locally symmetric spaces of finite volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>CONTENTS</head><p>Introduction 1 1. Setting 4 2. Covering manifolds 6 3. Bohr-Sommerfeld submanifolds 10 4. Poincaré series on covering manifolds 12 5. Poincaré series on Hermitian symmetric spaces 14 6. Main examples of Poincaré series 17 References 21</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>INTRODUCTION</head><p>Let ( X, J, g T X ) be a complete Kähler manifold of complex dimension n, equipped with a holomorphic Hermitian line bundle ( L, h L ) whose Chern curvature satisfies (0.1)</p><formula xml:id="formula_0">√ -1 2π R L (•, J•) = g T X ,</formula><p>and let also Γ be a discrete group acting properly discontinuously and effectively on ( X, J, g T X ) by biholomorphic isometries lifting to a holomorphic Hermitian action on ( L, h L ), so that the quotient space X := X/Γ has a natural structure of a Kähler orbifold (X, J, g T X ), equipped with a positive orbifold line bundle (L, h L ) whose Chern curvature satisfies (0.1) for g T X in the same way. For any p ∈ N * , we write L p := L ⊗p for the p-th tensor power of L over X, and for each x, y ∈ X, we consider the associated Bergman kernel P p (x, y) ∈ L p x ⊗ ( L p y ) * defined as the Schwartz kernel with respect to the Riemannian volume form of ( X, g T X ) of the orthogonal projection operator P p : L 2 ( X, L p ) → H 0</p><p>(2) ( X, L p ) from the space of square integrable sections to the subspace H 0</p><p>(2) ( X, L p ) of square-integrable holomorphic sections of L p . Similarly, we consider for each x, y ∈ X the associated Bergman kernel P p (x, y) ∈ L p x ⊗(L p y ) * defined analogously as the Schwartz kernel of the orthogonal projection operator P p : L 2 (X, L p ) → H 0</p><p>(2) (X, L p ) on square-integrable holomorphic sections of L p . The first main result of this paper in then the following. Theorem 0.1. Suppose that ( X, g T X ) and ( L, h L ) have bounded geometry in the sense of Definition 1.1. Then if the volume of X := X/Γ is finite, there exists p 0 ∈ N * such that for any p ≥ p 0 , we have (0.2) g∈Γ (g -1 , 1). P p (g. x, y) = P p (π( x), π( y)) , where for any compact set of K ⊂ X, the convergence is uniform and absolute in x, y ∈ K × X ∪ X × K, and where (g -1 , 1) ∈ Γ × Γ acts on L p ⊠ ( L p ) * over X × X for all g ∈ Γ.</p><p>Theorem 0.1 is a special case of Theorem 2.2, which holds more generally when g T X does not necessarily satisfies (0.1) and when L p is tensored by a general holomorphic Hermitian vector bundle ( E, h E ) for each p ∈ N. In the particular case when X = X/Γ is smooth and compact, Theorem 0.1 has been established in <ref type="bibr" target="#b17">[18,</ref><ref type="bibr">Theorem 2]</ref> under the more general hypotheses of Theorem 2.2 and in the general symplectic case, and also by Lu and Zelditch in <ref type="bibr" target="#b12">[13,</ref><ref type="bibr">Theorem 2]</ref>. The proof of Theorem 0.1 given in Section 2 is based on the exponential decay of the Bergman kernel of X away from the diagonal established in <ref type="bibr">[18,</ref>  <ref type="bibr">Theorem 1]</ref>, which we recall in Theorem 1.4, as well as a comparison of the Bergman kernel with the heat kernel of the associated Kodaira Laplacian as p → +∞.</p><p>The main interest of Theorem 0.1 lies in the fact that for any fixed y ∈ X, formula (0.2) provides an explicit construction of a Γ-invariant holomorphic section of L p by averaging over Γ. As emphasized for instance in <ref type="bibr" target="#b11">[12,</ref><ref type="bibr">II. Chap. 7]</ref>, in the particular case when X is a Hermitian symmetric space, its Bergman kernel admits a completely explicit formula, and formula (2.11) coincides with the classical Poincaré series of the theory of automorphic forms. In Section 6, we show how fundamental properties of the Bergman kernels of compact orbifolds established by Dai, Liu and Ma in <ref type="bibr" target="#b3">[4]</ref> and extended to the non-compact case by Ma and Marinescu in <ref type="bibr" target="#b14">[15]</ref> translate via Theorem 0.1 into the non-vanishing of the classical Poincaré series respectively associated with SL 2 (R) n in Proposition 6.1, with Sp 2n (R) in Proposition 6.3 and with SU (n, 1) in Proposition 6.4, as soon as their weight p ∈ N is large enough.</p><p>More generally, Section 4 explains how to apply Theorem 5.1 to the method of relative Poincaré series in the context of the theory of automorphic forms. The goal is to produce holomorphic sections of L p that are invariant under the action of the group Γ from holomorphic sections that are invariant under the action of a subgroup Γ 0 of Γ. This is achieved by averaging over the set Γ 0 \Γ of cosets [g] := {g 0 g ∈ Γ : g 0 ∈ Γ 0 } for all g ∈ Γ.</p><p>Specifically, using the asymptotic expansion of isotropic states established in <ref type="bibr">[8,</ref> Theorem 5.3], we show in Theorem 4.1 that the analogue of formula (0.2) holds for such averages when one replaces the role of a point y ∈ X by a Γ 0 -invariant compact submanifold of X := X/Γ, and that the Γ 0 -invariant holomorphic section thus constructed does not vanish as soon as p ∈ N is large enough. This result is valid under the fundamental geometric assumption that the underlying Γ 0 -invariant submanifold satisfies the Bohr-Sommerfeld condition, a notion originating from the theory of geometric quantization, which is further elaborated upon in Section 3.</p><p>In the special case of the relative Poincaré series associated with SL 2 (R), where the discrete subgroup Γ ⊂ SL 2 (R) acts on the hyperbolic plane X = H and Γ 0 ⊂ Γ is the subgroup generated by an hyperbolic element g 0 ∈ Γ, the underlying Γ 0 -invariant submanifold coincides with the closed geodesic of X := H/Γ generated by g 0 , which automatically satisfies the Bohr-Sommerfeld condition. In the case when X := H/Γ is smooth and compact, the non-vanishing of the associated relative Poincaré series is then a result of Borthwich, Paul and Uribe in <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">Theorem 4.11]</ref>, and the general case when X := H/Γ is only assumed to have finite volume is the result of <ref type="bibr" target="#b7">[8,</ref><ref type="bibr">Theorem 6.7,</ref><ref type="bibr">(6.18)</ref>], which we state and reprove in Theorem 6.2 as a consequence of our set-up.</p><p>On the other hand, in the case the relative Poincaré series associated with SU (n, 1), where the discrete subgroup Γ ⊂ SU (n, 1) acts on the unit ball X = B n in C n and Γ 0 ⊂ Γ is the subgroup generated by an loxodromic element g 0 ∈ Γ, the underlying Γ 0 -invariant submanifold again coincides with the closed geodesic of X := B n /Γ generated by g 0 , and Barron showed in <ref type="bibr">[2, § 2.2</ref>] that this geodesic satisfies the Bohr-Sommerfeld condition if all eigenvalues of g 0 ∈ Γ are real and if the endpoints x, y ∈ ∂B n of the geodesic γ ⊂ B n generated by g 0 belong to R n ⊂ C n . We then obtain the following result as a consequence of Theorem 0.1, which shows once again that these relative Poincaré series do not vanish as soon as their weight p ∈ N * is large enough. Theorem 0.2. Let Γ ⊂ SU(n, 1) be a discrete subgroup acting effectively and satisfying Vol(B n /Γ) &lt; +∞, let</p><formula xml:id="formula_1">g 0 = A b c T d ∈ Γ, with A ∈ M n (C), b, c ∈ C n et d ∈ C</formula><p>, be a loxodromic element with real eigenvalues, and let Γ 0 ⊂ Γ be the subgroup generated by g 0 . Let γ : R → B n be the geodesic generated by g 0 , and let x, y ∈ ∂B n be the two points of the boundary of B n joined by γ, and assume that x, y ∈ R n . Then there exists p 0 ∈ N * such that for all p ≥ p 0 , the convergent series</p><formula xml:id="formula_2">(0.3) [g]∈Γ 0 \Γ (c.z + d) -2(n+1)p 1 (⟨g.z, x⟩⟨g.z, y⟩) (n+1)p</formula><p>does not vanish identically in z ∈ B n , where ⟨•, •⟩ is the canonical Hermitian product of C n and c.z := n j=1 c j z j . Theorem 0.2 is a consequence of Theorem 6.5, and the explicit formula (0.3) for the relative Poincaré series has been computed by Foth and Katok in <ref type="bibr">[6, § 6.3]</ref>, who also study their applications to the arithmetic theory of automorphic forms. In the particular case when X := B n /Γ is smooth and compact, Theorem 0.2 is the result of Barron in [2, <ref type="bibr">Theorem 3.3]</ref>.</p><p>Finlly, if n = 2 and for a loxodromic element g 0 ∈ Γ with real eigenvalues in SU(2, 1), Barron considers in <ref type="bibr">[5, § 3, § 4]</ref> relative Poincaré series associated with some remarkable Lagrangian tori inside X := B 2 /Γ satisfying the Bohr-Sommerfeld condition, and we show in Theorem 6.6 that these relative Poincaré series do not vanish as soon as their weight p ∈ N is large enough. In the particular case when X := B 2 /Γ is smooth and compact, this is the result of Barron in <ref type="bibr">[5, § 4]</ref>. Let us also note that for general n ∈ N * and in the case X := B n /Γ smooth and compact, Alluhaibi and Barron studied in <ref type="bibr" target="#b0">[1]</ref> the case of relative Poincaré series associated with submanifolds of B n that are not necessarily isotropic.</p><p>This paper is organized as follows. In Section 1, we recall the basic set-up of Bergman kernels on manifolds with bounded geometry following for instance <ref type="bibr">[16, § 6.1]</ref>, then recall the exponential decay of the Bergman kernel away from the diagonal established in <ref type="bibr">[18,</ref>  <ref type="bibr">Theorem 1]</ref>, which forms the basis of Theorem 0.1. In Section 2, we give the proof of Theorem 0.1, while in Section 3, we introduce the notion of a Bohr-Sommerfeld submanifold and recall in Theorem 3.4 the asymptotic expansion of the associated isotropic states established in <ref type="bibr" target="#b7">[8,</ref><ref type="bibr">Theorem 5.3]</ref>, which forms the basis of our applications to relative Poincaré series in the next sections. In Section 4, we define relative Poincaré series on general covering manifolds and establish their existence in Theorem 4.1 based on our main Theorem 0.1. Finally, in Section 5 we specialize to the case of Hermitian symmetric spaces, showing that one recovers in this way the classical Poincaré series and their relative version, while in Section 6, we apply the results of the previous sections to establish the non-vanishing of a large class of relative Poincaré series as soon as their weight is large enough, giving among many others the proof of Theorem 0.2.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">SETTING</head><p>We consider a complex manifold (X, J) with complex structure J, and complex dimension n. Let g T X be a J-invariant Riemannian metric on X, also called Hermitian metric, and write d X (•, •) for the associated Riemannian distance. Let Θ be the real (1, 1)-form defined by</p><formula xml:id="formula_3">Θ(X, Y ) = g T X (JX, Y ). (1.1)</formula><p>The Riemannian volume form of g T X is given by</p><formula xml:id="formula_4">dv X = Θ n /n! .</formula><p>Let (E, h E ) be a holomorphic Hermitian vector bundle on X, and write R E ∈ Ω 2 (X, End(E)) for its Chern curvature. On the space of smooth sections with compact support C ∞ 0 (X, E), we introduce the following L 2 -inner product associated with h E and dv X , defined for any</p><formula xml:id="formula_5">s 1 , s 2 ∈ C ∞ 0 (X, E) by (1.2) s 1 , s 2 := X s 1 (x), s 2 (x) E dv X (x) ,</formula><p>where ⟨•, •⟩ E is the Hermitian product on E induced by h E , and we write ∥ • ∥ L 2 for the associated L 2 -norm. The completion of C ∞ 0 (X, E) with respect to (1.2) is denoted by L 2 (X, E), and we write <ref type="figure">E</ref>) : s is holomorphic . for the space of holomorphic L 2 sections of E.</p><formula xml:id="formula_6">(1.3) H 0 (2) (X, E) := s ∈ L 2 (X,</formula><p>We deduce from the Cauchy estimates for holomorphic functions that for every compact set K ⊂ X there exists C K &gt; 0 such that for all s ∈ H 0</p><p>(2) (X, E), <ref type="bibr">(1.4)</ref> sup</p><formula xml:id="formula_7">x∈K |s(x)| ⩽ C K ∥s∥ L 2 .</formula><p>This implies that H 0 (2) (X, E) is a closed subspace of L 2 (X, E). Moreover, H 0 (2) (X, E) is separable (cf. <ref type="bibr">[22, p. 60]</ref>).</p><p>Let now T (1,0) X be the holomorphic tangent bundle on X, T (0,1) X the conjugate of T (1,0) X and T * (0,1) X the dual bundle of T (0,1) X. We denote by Λ q (T * (0,1) X) the bundle of (0, q)-forms on X and by Ω 0,q (X, E) the space of sections of the bundle Λ q (T * (0,1) X) ⊗ E over X. We denote by Ω 0,• 0 (X, E) the subspace of Ω 0,• (X, E) consisting of elements with compact support. The Dolbeault operator acting on sections of the holomorphic vector bundle E gives rise to the Dolbeault complex Ω 0,• (X, E), ∂ E . We denote by ∂ E, * the formal adjoint of ∂ E with respect to the L 2 -inner product (1.2). Set</p><formula xml:id="formula_8">D = √ 2 ∂ E + ∂ E, * . (1.5) Then its square D 2 = 2 ∂ E ∂ E, * + ∂ E, * ∂ E</formula><p>is twice the Kodaira Laplacian of (E, h E ), which preserves the Z-grading on Ω 0,• (X, E), and whose kernel restricted to Ω 0,0 (X, E) coincides with the holomorphic sections of E.</p><p>Let us also consider a holomorphic Hermitian line bundle (L, h L ) over X. We will make the following assumptions. Definition 1.1. We say that (X, J, g T X ), (E, h E ) and (L, h L ) have bounded geometry if (X, g T X ) is complete with positive injectivity radius, if the derivatives of any order of R E , R L , J and g T X are uniformly bounded on X in the norm induced by g T X , h E and h L .</p><p>We will also make the assumption, extending (0.1), that there exists ε &gt; 0 such that</p><formula xml:id="formula_9">(1.6) √ -1R L (•, J•) &gt; εg T X .</formula><p>One fundamental example of a Hermitian manifold (X, J, g T X ) with bounded geometry is a Galois covering of a compact Kähler manifold M , so that (X, J, g T X ) satisfies the assumptions of Definition 1.1 by taking the line bundle (L, h L ) to be the pull-back of a positive holomorphic line bundle on M , so that it satisfies the assumption (1.6).</p><p>For any p ∈ N, write L p := L ⊗p for the p-th tensor power of L, and equip the tensor product L p ⊗ E with the Hermitian metric h L p ⊗E induced by h L and h E . Definition 1.2. For any p ∈ N, the Bergman projection is the orthogonal projection</p><formula xml:id="formula_10">P p : L 2 (X, L p ⊗ E) → H 0 (2) (X, L p ⊗ E) .</formula><p>By (1.4), for a fixed x ∈ X the evaluation functional s → s(x) on H 0 (2) (X, L p ⊗ E) is continuous. By the Riesz representation theorem there exists</p><formula xml:id="formula_11">P p (x, •) ∈ L 2 (X, (L p ⊗E) x ⊗ (L p ⊗ E) * ) such that (1.7) s(x) = X P p (x, x ′ )s(x ′ )dv X (x ′ ) , for all s ∈ H 0 (2) (X, L p ⊗ E) . Definition 1.3. For any p ∈ N, the section P p (•, •) of L p ⊗ E ⊠ (L p ⊗ E) * over X × X is called the Bergman kernel of H 0 (2) (X, L p ⊗ E).</formula><p>For any p ∈ N, let d p := dim H 0 (2) (X, L p ⊗ E) ∈ N ∪ {∞}, and let {s i } dp i=1 be any orthonormal basis of H 0</p><p>(2) (X, L p ⊗ E) with respect to the inner product (1.2). Using the estimate (1.4) we can show that (1.8)</p><formula xml:id="formula_12">P p (x, x ′ ) = dp i=1 s i (x) ⊗ s i (x ′ ) * ∈ (L p ⊗ E) x ⊗ (L p ⊗ E) * x ′ ,</formula><p>where the right-hand side converges on every compact subset of X together with all its derivatives (see e. g. <ref type="bibr">[22, p. 62]</ref>). Thus</p><formula xml:id="formula_13">P p (•, •) ∈ C ∞ (X × X, L p ⊗ E ⊠ (L p ⊗ E) * ). It follows from (1.8) that (1.9) (P p s)(x) = X P p (x, x ′ )s(x ′ )dv X (x ′ ) , for all s ∈ L 2 (X, L p ⊗ E) .</formula><p>that is, P p (•, •) is the integral kernel (hence Schwartz kernel) of the Bergman projection P p . We end this section by recalling the following fundamental result about the exponential decay of the Bergman kernel.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theorem 1.4 ([18, Theorem 1]</head><p>). Suppose that ( X, g T X ), ( L, h L ) and ( E, h E ) have bounded geometry in the sense of Definition 1.1 and that assumption (1.6) is satisfied. Then there exist c &gt; 0, p 0 &gt; 0, which can be determined explicitly from the geometric data such that for any k ∈ N, there exists C k &gt; 0 such that for any p ⩾ p 0 , x, x ′ ∈ X, we have</p><formula xml:id="formula_14">(1.10) |P p (x, x ′ )| C k ⩽ C k p n+ k 2 exp(-c √ p d(x, x ′ )) .</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">COVERING MANIFOLDS</head><p>Let ( X, g T X ) be a complete Riemannian manifold of dimension m, and let Γ be a discrete group acting properly discontinuously and effectively on ( X, g T X ) by isometries. For any r &gt; 0 and any subset F ⊂ X, set</p><formula xml:id="formula_15">(2.1) N F (r) = sup x∈F, y∈ X # g ∈ Γ : g.x ∈ B X (y, r) ,</formula><p>where B X (y, r) is the geodesic ball of center y ∈ X and radius r.</p><p>Lemma 2.1. Suppose that there exists K &gt; 0 such that the Ricci curvature Ric of ( X, g T X ) satisfies Ric ≥ -(m -1)K 2 g T X . Then for any compact subset F ⊂ X, there exists C F &gt; 0 such that for all r &gt; 0, the following estimate holds,</p><formula xml:id="formula_16">(2.2) N F (r) ≤ C F e (m-1)Kr .</formula><p>Proof. As the action of Γ on X is properly discontinuous, for any x ∈ X, its stabilizer Γ x ⊂ Γ is a finite group, and there exists ϵ x &gt; 0 such that for any g ∈ Γ, we have</p><formula xml:id="formula_17">(2.3) B X (x, 4ϵ x ) ∩ g.B X (x, 4ϵ x ) = ∅ if and only if g / ∈ Γ x .</formula><p>In particular, for any y ∈ B(x, 2ϵ x ) and g / ∈ Γ x , we have</p><formula xml:id="formula_18">B X (y, 2ϵ x ) ∩ g.B X (y, 2ϵ x ) = ∅, which shows that Γ y ⊂ Γ x . As F is compact, there exists a finite set {x 1 , . . . , x k } ⊂ F with k ∈ N such that F ⊂ ∪ k j=1 B X (x j , ϵ x j )</formula><p>, and for any y ∈ X and 1</p><formula xml:id="formula_19">≤ j ≤ k, set (2.4) N j,y (r) = sup x∈B X (x j ,ϵx j ) # g ∈ Γ : g.x ∈ B X (y, r) .</formula><p>Then by (2.1), we have</p><formula xml:id="formula_20">(2.5) N F (r) ≤ sup y∈ X sup 1≤j≤k N j,y (r).</formula><p>Thus by <ref type="bibr">(2.4)</ref>, it suffices to show (2.2) for N j,y (r), with a constant that does not depend on y ∈ X.</p><p>Let us first consider the case of j ∈ N such that Γ x j = {1}. Then as Γ acts by isometries and using (2.3), for any r &gt; 0 we have</p><formula xml:id="formula_21">(2.6) N j,y (r) Vol B X (x j , ϵ x j ) ≤ Vol B X (y, r + 2ϵ x j ) .</formula><p>Now under our assumption on bounded geometry, there exists K &gt; 0 such that the Ricci curvature of ( X, g T X ) is bounded below by -(2m -1)K 2 g T X . By Bishop's inequality, this implies that the volume of B X (x, r) ⊂ X is smaller or equal to the volume of a geodesic ball of radius r &gt; 0 in the space of constant curvature -K (see for example <ref type="bibr" target="#b20">[21,</ref><ref type="bibr">Lemma 7.1.3]</ref>). Then by a classical estimate for the volume of large balls in the space of constant curvature -K, which can be found for example in <ref type="bibr">[19, p. 3]</ref>, there exists a universal constant C m,K &gt; 0, depending only on K and on the dimension m of X, such that for any x ∈ X and r &gt; 0,</p><formula xml:id="formula_22">(2.7) Vol B X (x, r) ≤ C m,K e (m-1)Kr .</formula><p>Then for any r &gt; 0 we get,</p><formula xml:id="formula_23">(2.8) N j,y (r) ≤ C m,K e (m-1)K2ϵx j Vol B X (x j , ϵ x j ) e (m-1)Kr ,</formula><p>and the right hand side does not depend on y ∈ X.</p><p>For the general case, first recall that we chose the cover of F by geodesic balls as above such that for any 1 ≤ j ≤ k, the stabilizer Γ x j ⊂ Γ of x j ∈ F satisfies (2.3). Then as Γ acts by isometries, we know that Γ x j preserves the geodesic ball B X (x j , ϵ x j ), and using (2.3), we deduce as above that (2.9)</p><formula xml:id="formula_24">N j,y (r) #Γ x j Vol B X (x j , ϵ x j ) ≤ Vol B X (y, r + 2ϵ x j ) , so that (2.10) N j,y (r) ≤ C m,K e (m-1)K2ϵx j #Γ x j Vol B X (x j , ϵ x j ) e (m-1)Kr ,</formula><p>and the right hand side does not depend on y ∈ X. This finishes the proof of (2.2). □ Let ( X, J, g T X ) be a complete Hermitian manifold of complex dimension n, and let Γ be a discrete group acting properly discontinuously and effectively on ( X, J, g T X ) by biholomorphic isometries. Then the quotient space X := X/Γ has a natural structure of a Hermitian orbifold (X, J, g T X ). Furthermore, any Cauchy sequence for the orbifold Riemannian distance d X of (X, g T X ) can be lifted to a Cauchy sequence for the Riemannian distance d X of ( X, g T X ), so that the completeness of ( X, d X ) implies the completeness of (X, d X ). We write π : X → X for the canonical projection.</p><p>Assume that the action of Γ lifts to an action on holomorphic Hermitian vector bundles ( L, h L ) and ( E, h E ), with ( L, h L ) a uniformly positive line bundle, so that its Chern curvature R L satisfies (1.6). Then as Γ acts effectively on X, the quotient bundles (L, h L ) and (E, h E ) are proper orbifold bundles on X. For any p ∈ N * , write D p , D p for the Dirac operators of L p ⊗ E, L p ⊗ E as in (1.5), and P p (•, •), P p (•, •) for the associated Bergman kernels with respect to the Riemannian volume forms dv X , dv X of ( X, g T X ), (X, g T X ) as in (1.7). Theorem 2.2. Suppose that ( X, g T X ), ( L, h L ) and ( E, h E ) have bounded geometry in the sense of Definition 1.1 and that (1.6) holds. Then if the volume of X := X/Γ is finite, there exists p 1 ∈ N * such that for any p ≥ p 1 , we have <ref type="bibr">(2.11)</ref> g∈Γ (g -1 , 1). P p (g. x, y) = P p (π( x), π( y)) , where for any compact set of K ⊂ X, the convergence is uniform and absolute in x, y ∈ K × X ∪ X × K.</p><p>Proof. First note that if Γ acts freely on X, then the quotient E = E/Γ identifies v ∈ E x with g.v ∈ E g. x for any x ∈ X and g ∈ Γ, so that we can omit the action of (g -1 , 1) on <ref type="bibr">(2.11)</ref>. Recall that the Dirac operators D p , D p defined in (1.5) acts on the smooth sections of (2.12)</p><formula xml:id="formula_25">( L p ⊗ E) g. x ⊗ ( L p ⊗ E) y in</formula><formula xml:id="formula_26">E p := Λ • (T * (0,1) X) ⊗ L p ⊗ E and E p := Λ • (T * (0,1) X) ⊗ L p ⊗ E .</formula><p>In general, using [18, Lemma 1, Remark 1] as in the proof of [17, Theorem 6.1.1], the assumption on the boundedness of R L , R E , J, g T X implies that</p><formula xml:id="formula_27">Spec(D 2 p ) ⊂ {0} ∪ [2pµ 0 -C 1 , +∞[ , Spec( D 2 p ) ⊂ {0} ∪ [2pµ 0 -C 1 , +∞[ ,<label>(2.13)</label></formula><p>with</p><formula xml:id="formula_28">µ 0 = inf w∈T (1,0) x X, x∈X R L (w, w) |w| 2 g T X &gt; ε (2.14)</formula><p>for some C 1 &gt; 0 and ε &gt; 0 as in <ref type="bibr">(1.6)</ref>, and that for p ∈ N * large enough, we have</p><formula xml:id="formula_29">Ker(D 2 p ) = H 0 (2) (X, L p ⊗ E) , Ker( D 2 p ) = H 0 (2) ( X, L p ⊗ E) .</formula><p>(2.15)</p><p>Let us first show that for any p ∈ N and u &gt; 0, the following formula as in <ref type="bibr">[18, (3.18)</ref>] holds,</p><formula xml:id="formula_30">(2.16) exp(-uD 2 p )(π( x), π( y)) = g∈Γ (g -1 , 1). exp(-u D 2 p )(g. x, y) ,</formula><p>with uniform convergence for x ∈ X and y in any compact set F ⊂ X.</p><p>For any p ∈ N fixed, by applying <ref type="bibr" target="#b17">[18,</ref><ref type="bibr">Theorem 4]</ref> for L = C the trivial line bundle, we get a &gt; 0 such that for any k ∈ N, u 0 &gt; 0, there exists C &gt; 0 such that for any 0 &lt; u &lt; u 0 and x, y ∈ X, we have</p><formula xml:id="formula_31">(2.17) exp -u D 2 p ( x, y) C k ⩽ Cu -n-k 2 exp - a u d X ( x, y) 2 .</formula><p>Thus by Lemma 2.1, for any k ∈ N, u 0 &gt; 0 and any compact set F ⊂ X , there exists C &gt; 0 such that for all 0 &lt; u &lt; u 0 , x ∈ X and all y ∈ F , we have</p><formula xml:id="formula_32">g∈Γ exp -u D 2 p (g. x, y) C k ≤ C g∈Γ u -n-k 2 exp - a u d X ( x, g -1 .F ) 2 ≤ C ∞ r=0 u -n-k 2 N F (r + 1) e -a u r 2 &lt; +∞ .<label>(2.18)</label></formula><p>This shows that for any compact set F ⊂ X and any compact interval I ⊂ ]0, +∞[, the right hand side of (2.16) and all its derivatives converge uniformly in x ∈ X, y ∈ F and u ∈ I. Identifying an open dense set U ⊂ X with an open fundamental domain U on Γ in X, this implies in particular that for any s ∈ C ∞ 0 (X, E p ), by considering the compact subset</p><formula xml:id="formula_33">F := π -1 (supp s) ∩ U , the sum (2.19) g∈Γ e -u D 2 p s (g.x)</formula><p>converges uniformly in x ∈ X and u ∈ I as well as all its derivatives, where we wrote</p><formula xml:id="formula_34">(2.20) e -u D 2 p s (g.x) := U (g -1 , 1). exp(-u D 2 p )(g. x, y)s( y)dv X ( y) , with x ∈ U such that π( x) = x.</formula><p>As the sum (2.19) does not depend on the choice of fundamental domain U ⊂ X, it defines a smooth section in C ∞ (X, E p ). By the defining property of heat operators, for all x ∈ X and u &gt; 0, we get (2.21) ∂ 2 ∂u 2 + D 2 p g∈Γ e -u D 2 p s (g.x) = 0 . Thus by uniqueness of the heat operator, to show (2.16), it suffices to show that (2.19) belongs to L 2 (X, E p ) and that (2.22)</p><p>X g∈Γ</p><formula xml:id="formula_35">e -u D 2 p s (g.x) -s(x) 2 dv X (x) u→0 ---→ 0 ,</formula><p>for any s ∈ C ∞ 0 (X, E p ). To show that (2.19) belongs to L 2 (X, E p ), note that for any x ∈ U and considering the compact subset F := π -1 (supp s) ∩ U , we have (2.23)</p><p>Together with (2.18) and the assumption that Vol(X) &lt; +∞, this implies that (2.19) belongs to L 2 (X, E p ).</p><p>To establish (2.22), note that using a partition of unity, we can always assume either that the support of s ∈ C ∞ 0 (X, E p ) is contained in the interior of U ⊂ X, or either that it is contained in an orbifold chart. Assuming first that it is contained in the interior of U , we get as above that</p><formula xml:id="formula_36">X g∈Γ e -u D 2 p s (g.x) -s(x) 2 dv X (x) ≤ Vol(X) sup x∈X g∈Γ, g̸ =1 e -u D 2 p s (g.x) + sup x∈X e -u D 2 p s (x) -s(x) 2 .</formula><p>(2.24)</p><p>As F := π -1 (supp s) ∩ U is contained in the interior of U , there exists b &gt; 0 such that for any x ∈ U and g ∈ Γ\{1}, we have b &lt; d X ( x, g -1 .F ). Then <ref type="bibr">(2.18)</ref> shows that the first term of the right hand side of (2.24) is bounded by</p><formula xml:id="formula_37">C ∞ r=1 u -n N F ((r + 1)b) e -a u r 2 b 2 ,</formula><p>which tends to 0 as u → 0 by Lemma 2.1, while by uniform convergence on compact sets of the heat equation on X to its initial solution as u → 0, the second term also tends to 0 as u → 0 by <ref type="bibr">(2.20)</ref>. This establishes <ref type="bibr">(2.22)</ref> in case supp(s) ⊂ X is contained in the interior of U . Assume now that the support of s ∈ C ∞ 0 (X, E p ) is contained in an orbifold chart B X ( x 0 , ϵ) → B X (x 0 , ϵ) = B X ( x 0 , ϵ)/Γ x 0 , where Γ x 0 ⊂ Γ is the finite stabilizer of x 0 ∈ X and where B X ( x 0 , ϵ) ∩ g.B X ( x 0 , ϵ) = ∅ for all g / ∈ Γ x 0 by <ref type="bibr">(2.3)</ref>. By definition [14, (1.5)] of the orbifold integral and by Γ-equivariance of the heat kernel on X, writing Γ x 0 \Γ for the set of cosets (2.25)</p><p>[g] := {g 0 g ∈ Γ :</p><formula xml:id="formula_38">g 0 ∈ Γ x 0 } , for all g ∈ Γ and writing s ∈ C ∞ 0 ( X, E p ) for the Γ x 0 -invariant lift of s ∈ C ∞ 0 (X, E p ) to B X ( x 0 , ϵ), for any x ∈ B X (x 0 , ϵ) and x ∈ B X ( x 0 , ϵ) satisfying π( x) = x, we get g∈Γ e -u D 2 p s (g.x) = 1 #Γ x 0 B X ( x 0 ,ϵ) g∈Γ exp(-u D 2 p )(g. x, y)s( y)dv X ( y) = 1 #Γ x 0 B X ( x 0 ,ϵ) [g]∈Γx 0 \Γ g 1 ∈[g] exp(-u D 2 p )(g 1 .</formula><p>x, y) s( y)dv X ( y)</p><p>=:</p><formula xml:id="formula_39">[g]∈Γx 0 \Γ e -u D 2 p s (g. x) ,<label>(2.26)</label></formula><p>Then the last line of (2.26) can be seen as the Γ x 0 -invariant lift of the left hand side of (2.26) to B X ( x 0 , ϵ). By definition of the orbifold integral and using supp(s) ⊂ B X (x 0 , ϵ),</p><p>we then get (2.27)</p><formula xml:id="formula_40">X g∈Γ e -u D 2 p s (g.x) -s(x) 2 dv X (x) = X\B X (x 0 ,ϵ) g∈Γ e -u D 2 p s (g.x) 2 dv X (x) + 1 #Γ x 0 B X ( x 0 ,ϵ) [g]∈Γx 0 \Γ e -u D 2 p s (g. x) -s( x) 2 dv X ( x) .</formula><p>We can then repeat the estimate (2.24) with each term of the right hand side of (2.27) instead, and get (2.22) from (2.17) as above. This concludes the proof of (2.16). Now using <ref type="bibr" target="#b17">[18,</ref><ref type="bibr">Theorem 4</ref>] again, we know that there exists a &gt; 0 such that for any u 0 &gt; 0, k ∈ N, there exists C &gt; 0 such that for any u ≥ u 0 , p ∈ N * and x, y ∈ X, we have</p><formula xml:id="formula_41">(2.28) exp - u p D 2 p ( x, y) C k ⩽ Cp n+ k 2 exp µ 0 u - ap u d X ( x, y) 2 .</formula><p>Then following <ref type="bibr">[17, (4.2.22)</ref>], for any p ∈ N * , u &gt; 0, we have</p><formula xml:id="formula_42">exp - u p D 2 p -P p = ∞ u 1 p D 2 p exp - u 1 p D 2 p du 1 , exp - u p D 2 p -P p = ∞ u 1 p D 2 p exp - u 1 p D 2 p du 1 .</formula><p>(2.29)</p><p>Now by Theorem 1.4 and Lemma 2.1, we know that g∈Γ (g -1 , 1). P p (g. x, y) is absolutely convergent with respect in C k -norm of X × K for any compact subset K ⊂ X, uniformly in p &gt; max{p 0 , (m -1)</p><p>2 K 2 /c 2 }, so that we get (2.11) from (2.16), (2.28) and (2.29) as in [18, (3.20), (3.21)]. □ Remark 2.3. Since the general version of Theorem 1.4 established in [18, Theorem 1] holds in the general symplectic case, the proof of Theorem 2.2 extends verbatim to the general symplectic case, thus extending [18, Theorem 2] to the case of manifolds with finite volume.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">BOHR-SOMMERFELD SUBMANIFOLDS</head><p>Let (X, J, g T X ) be a complete Hermitian orbifold of complex dimension n, together with a positive holomorphic Hermitian proper orbifold line bundle (L, h L ) satisfying (1.6) and a holomorphic Hermitian proper orbifold vector bundle (E, h E ). We set</p><formula xml:id="formula_43">(3.1) ω := √ -1 2π R L .</formula><p>In this section, we recall the setting and results of <ref type="bibr" target="#b7">[8]</ref>, which are going to be the basic tools for the sequel.</p><p>Recall that an immersed submanifold ι : Λ → X is said to be isotropic if ι * ω = 0. Let |•| L and ∇ L be the norm and connection induced on the pullback ι * L over Λ by the Hermitian metric and Chern connection of (L, h L ). Note that by (3.1), the condition ι * ω = 0 implies that ∇ L is flat over Λ. This observation motivates the following definition. Definition 3.1. A properly immersed oriented isotropic submanifold ι : Λ → X is said to satisfy the Bohr-Sommerfeld condition for (L, h L ) if there exists a non-vanishing smooth</p><formula xml:id="formula_44">section ζ ∈ C ∞ (Λ, ι * L) satisfying (3.2) ∇ L ζ = 0 .</formula><p>Taking ζ such that |ζ(x)| L = 1 for any x ∈ Λ, the data of (Λ, ι, ζ) is called a Bohr-Sommerfeld submanifold of (X, L).</p><p>As discussed in [8, § 5.2], in the case when X is an orbifold, we consider singular immersions ι : Λ → X in the sense of <ref type="bibr" target="#b7">[8,</ref><ref type="bibr">Def. 5.6]</ref>, meaning that ι is a continuous map from a smooth manifold Λ into X, immersive on the smooth locus of X and such that the preimage of ι(Λ) on orbifold charts is a union of cleanly intersecting submanifolds, so that each pairwise intersection is also a submanifold whose tangent space coincides with the intersection of the tangent spaces of the intersecting submanifolds. Then the notion of a Bohr-Sommerfeld manifold extends tautologically in this context.</p><p>Let K X := det(T * (1,0) X) be the canonical line bundle of X, and let h K X be equal to the Hermitian metric induced by g T X . Denote by R K X the curvature of the Chern connection on (K X , h K X ). The following basic result can found for instance in [8, Lemma 6.1].</p><formula xml:id="formula_45">Lemma 3.2. Assume (K X , h K X ) is positive, dim C X = 1 and that √ -1 2π R K X = c g T X (J•, •) for some c &gt; 0. Let γ : S 1 → X be a closed geodesic loop of X. Then γ satisfies the Bohr-Sormmerfeld condition for (K X , h K X ). Furthermore, if (L, h L ) is a holomorphic Hermitian line bundle satisfying (L m , h L m ) ≃ (K X , h K X ) for some m ∈ N * , then γ m := γ • m : S 1 → X satisfies the Bohr-Sormmerfeld condition for (L, h L ), where m : S 1 → S 1 is the standard m-cover of S 1 .</formula><p>Proof. First recall that on a Riemannian orbifold, the finite isotropy group of an orbifold chart acts by isometries, so that a geodesic loop γ : S 1 → X indeed defines a singular immersion in the sense of [8, Def. 5.6], i. e., the preimage of γ in orbifold charts is a union of cleanly intersecting subamnifolds.</p><p>Set</p><formula xml:id="formula_46">now ω = √ -1 2π R K X .</formula><p>Recall that for ω = c g T X (J•, •) and for h K X induced by g T X up to a multiplicative constant, the Chern connection ∇ K X of (K X , h K X ) is induced by the Levi-Civita connection ∇ T X on T X. For any θ ∈ S 1 , let γθ ∈ T γ(θ) X be the vector tangent to the curve γ : S 1 → X, and write ζ ∈ C ∞ (S 1 , γ * K X ) for the induced section of K X over S 1 . As γ is geodesic, we know that ∇ T X γ γ = 0, so that ∇ K X γ ζ = 0. Thus ζ satisfies (3.2) and γ : S 1 → X satisfies the Bohr-Sommerfeld condition for (K X , h K X ).</p><p>Let now (L, h L ) be such that (L m , h L m ) ≃ (K X , h K X ) for some m ∈ N * . The fact that γ : S 1 → X satisfies the Bohr-Sommerfeld condition for (K X , h K X ) is equivalent to the fact that the connection induced by ∇ K X on γ * K X is trivial along S 1 . This implies in particular that the holonomy of the Chern connection ∇ L of (L, h L ) is trivial when pulled back on the standard m-cover of S 1 . This proves the second assertion. □ If ζ is any section of ι * L, then we write ζ p for the p-th power of ζ defined as a section of ι * L p . If additionally f is a section of ι * E, then we write ζ p f for the induced tensor product in ι * (L p ⊗ E). Let (Λ, ι, ζ) be a compact Bohr-Sommerfeld submanifold of (X, L), and consider a section f ∈ C ∞ (Λ, ι * E). Definition 3.3. The isotropic state associated with (Λ, ι, ζ) and f is the family of sections {s Λ,p ∈ H 0 (2) (X, L p ⊗ E)} p∈N * defined for any x ∈ X by the formula</p><formula xml:id="formula_47">(3.3) s Λ,p (x) = Λ P p (x, ι(y)).ζ p f (y)dv Λ (y) ,</formula><p>where dv Λ is the Riemannian volume form of (Λ, ι * g T X ).</p><p>The following proposition gives a characterization of isotropic states in term of their reproducing properties. Proposition 3.4. For any p ∈ N * , the section s Λ,p ∈ H 0 (2) (X, L p ⊗ E) of Definition 3.3 is the unique element of H 0</p><p>(2) (X, L p ⊗ E) such that for any s ∈ H 0 (2) (X, L p ⊗ E), we have</p><formula xml:id="formula_48">(3.4) s, s Λ,p = Λ s(ι(x)), ζ p f (x) L p ⊗E dv Λ (x) .</formula><p>Proof. Recall that the orthogonal projection P p on H 0 (2) (X, L p ⊗ E) is self-adjoint with respect to the L 2 -Hermitian product, and restricts to the identity of H 0</p><p>(2) (X, L p ⊗ E) for any p ∈ N * . Then for any s ∈ H 0</p><p>(2) (X, L p ⊗ E) and as Λ is compact, we get from (1.2), (3.3) and Fubini's theorem,</p><formula xml:id="formula_49">s, s Λ,p = X s(y), Λ P p (y, ι(x)).ζ p f (x)dv Λ (x) L p ⊗E dv X (y) = Λ X P p (ι(x), y)s(y)dv X (y), ζ p f (x) L p ⊗E dv Λ (x) = Λ s(ι(x)), ζ p f (x) L p ⊗E dv Λ (x) .</formula><p>(3.5)</p><p>The uniqueness comes from the fact that an element of a Hilbert space is uniquely characterized by the values of its Hermitian product with all other elements. □</p><formula xml:id="formula_50">Set g T X ω = ω(•, J•) and g T Λ ω = ι * g T X ω .</formula><p>Let dv X,ω and dv Λ,ω be the Riemannian volume forms of (X, g T X ω ) and (Λ, g T Λ ω ), respectively. Denote by ∥ • ∥ the norm on L 2 (X, L p ⊗ E) induced by (1.2) and by | • | ι * E the norm on ι * E over Λ induced by h E . The following estimate on the norm of isotropic states is the result of <ref type="bibr" target="#b7">[8,</ref><ref type="bibr">Theorem 5.3</ref>].</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Theorem 3.5.</head><p>There exists b r ∈ R for all r ∈ N, such that for any k ∈ N and as p → +∞,</p><formula xml:id="formula_51">(3.6) ∥s Λ,p ∥ 2 = p n-dim Λ 2 k r=0 p -r b r + O(p n-dim Λ 2 -(k+1) ) ,</formula><p>with the first coefficient given by the formula</p><formula xml:id="formula_52">(3.7) b 0 = 2 dim Λ 2 Λ |f | 2 ι * E dv X,ω dv X dv Λ dv Λ,ω dv Λ .</formula><p>In particular, if f does not vanish identically, there exists p 0 ∈ N * such that for all p ≥ p 0 , the section s Λ,p ∈ H 0 (2) (X, L p ⊗ E) does not vanish identically. In the case when X is an orbifold, the formula (3.7) holds only if the image of Λ is not contained in the singular set of X. Otherwise, we need to multiply the right hand side of (3.7) by the multiplicity of Λ in X as defined in <ref type="bibr" target="#b7">[8,</ref><ref type="bibr">Def. 5.6</ref>].</p><p>In the case X smooth and compact with c 1 (T X) even, for g T X ω</p><p>= ω and for Λ Lagrangian, Theorem 3.5 is the result of <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">Theorem 3.2]</ref>. Furthermore, the expansion analogous to (3.6) is only with half-integer powers of p in <ref type="bibr">[3, (85)</ref>] instead of integer powers as in the expansion (3.6).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">POINCARÉ SERIES ON COVERING MANIFOLDS</head><p>Let ( X, J, g T X ) be a complete Hermitian manifold of complex dimension n, together with a positive holomorphic Hermitian line bundle ( L, h L ) satisfying (1.6) and a holomorphic Hermitian vector bundle ( E, h E ), and assume that these data have bounded geometry in the sense of Definition 1.1. Let Γ be a discrete subgroup of the group of holomorphic isometries of ( X, J, g T X ) which lifts to holomorphic Hermitian actions on ( L, h L ) and ( E, h E ), and assume that the volume of X := X/Γ is finite.</p><p>Consider now a subgroup Γ 0 ⊂ Γ. The goal of the method of relative Poincaré series is to produce Γ-invariant holomorphic sections of L p ⊗ E from Γ 0 -invariant holomorphic sections, by averaging over the set Γ 0 \Γ of cosets [g] := {g 0 g ∈ Γ : g 0 ∈ Γ 0 }, for all g ∈ Γ. When Γ 0 = {1}, we obtain the classical Poincaré series, which are a basic tool in the theory of automorphic forms. As emphasized for example in <ref type="bibr" target="#b11">[12,</ref><ref type="bibr">II. Chap. 7]</ref>, the Bergman kernel can be used in this context to construct a family of Poincaré series parametrized by the points of X = X/Γ, and we present here a generalization which replaces the role of a point by an isotropic submanifold of X.</p><p>Consider the quotient X 0 := X/Γ 0 as a complex Riemannian orbifold (X 0 , J 0 , g T X 0 ), together with the holomorphic Hermitian proper bundles (L 0 , h L 0 ) and (E 0 , h E 0 ) induced by ( L, h L ) and ( E, h E ) in the quotient, and let (Λ, ι 0 , ζ) be a compact Bohr-Sommerfeld submanifold of (X 0 , L 0 ). We write ι : Λ → X for the pullback of ι 0 : Λ → X 0 by the canonical projection π 0 : X → X 0 . Then the action of Γ 0 on X induces one on Λ such that Λ = Λ/Γ 0 , and ι : Λ → X satisfies the Bohr-Sommerfeld condition for ( L, h L ), with unitary flat section ζ ∈ C ∞ ( Λ, ι * L) inducing ζ in the quotient. Note that Λ is not compact in general.</p><p>On the other hand, let π : X → X := X/Γ be the canonical projection, and let (L, h L ) and (E, h E ) be the holomorphic Hermitian proper vector bundles induced by ( L, h L ) and ( E, h E ) in the quotient. There is then an induced covering π : X 0 → X such that π • π 0 = π, and the proper immersion ι := π • ι 0 : Λ → X satisfies the Bohr-Sommerfeld condition for (L, h L ), with the same flat unitary section</p><formula xml:id="formula_53">ζ ∈ C ∞ (Λ, ι * L) via the induced natural isomorphism ι * 0 L 0 ≃ ι * L. Theorem 4.1. For any f ∈ C ∞ (Λ, ι * 0 E 0 )</formula><p>, there exists p 0 ∈ N * such that for any p ≥ p 0 , the formula</p><formula xml:id="formula_54">(4.1) s Λ,p (x) = Λ P p (x, ι(y)). ζ p f (y)dv Λ (y)</formula><p>defines a Γ 0 -invariant holomorphic section of L p ⊗ E for any x ∈ X, and the formula</p><formula xml:id="formula_55">(4.2) s Λ,p (x) = [g]∈Γ 0 \Γ g -1 . s Λ,p (g.x),</formula><p>defines a Γ-invariant holomorphic section of L p ⊗ E, where the convergence is absolute and uniform for x in any compact subset of X. The section on X induced in the quotient by (4.2) belongs to H 0 (2) (X, L p ⊗ E), and is characterized in H 0 (2) (X, L p ⊗ E) by the reproducing property <ref type="bibr">(3.4)</ref>.</p><p>Moreover, there exists p 1 ⩾ p 0 such that the sections (4.1) and (4.2) do not vanish identically for all p ⩾ p 1 .</p><p>Proof. Recall that P p (•, •) denotes the Bergman kernel of L p ⊗ E over X with respect to dv X . Let P 0,p (•, •) be the Bergman kernels of L p 0 ⊗ E p 0 over X 0 with respect to the Riemannian volume form of (X 0 , g T X 0 ). Let {s 0,p } p∈N * , {s Λ,p } p∈N * be the isotropic states over X 0 , X associated with</p><formula xml:id="formula_56">(Λ, ι 0 , ζ), (Λ, ι, ζ) and f ∈ C ∞ (Λ, ι * 0 E 0 ) via the natural isomor- phism ι * 0 E 0 ≃ ι * E, i. e., for x ∈ X 0 , (4.3) s 0,p (x) = Λ P 0,p (x, ι 0 (y)).ζ p f (y)dv Λ (y),</formula><p>and for x ∈ X, s Λ,p (x) is given by <ref type="bibr">(3.3)</ref>. Recall that Γ acts on X by holomorphic isometry, so that for any g ∈ Γ, x, y ∈ X and ζ ∈ L y , we have</p><formula xml:id="formula_57">(4.4) (g -1 , 1). P p (g.x, g.y)g.ζ = P p (x, y)ζ .</formula><p>By Theorem 2.2 and (4.4), there exists p 0 ∈ N * such that the following formulas hold for any x, y ∈ X and p ⩾ p 0 , π * 0 P 0,p (π 0 (x), π 0 (y)) = g 0 ∈Γ 0 (g -1 0 , 1). P p (g 0 .x, y) ,</p><formula xml:id="formula_58">(π * P p )(x, y) = π * P p (π(x), π(y)) = g∈Γ (g -1 , 1). P p (g.x, y) ,<label>(4.5)</label></formula><p>with uniform convergence in x, y ∈ K × X ∪ X ×K for any compact K ⊂ X. In particular, for any x ∈ X 0 and p ∈ N * , we have</p><formula xml:id="formula_59">π * 0 s 0,p (x) = Λ g 0 ∈Γ 0 (g -1 0 , 1). P p (g 0 .x, ι 0 (y))).ζ p f (y) dv Λ (y) = g 0 ∈Γ 0 Λ P p (x, g -1 0 .ι 0 (y))g -1 0 .ζ p f (y) dv Λ (y) = Λ P p (x, ι( y)). ζ p f ( y) dv Λ ( y) ,<label>(4.6)</label></formula><p>where we identified x ∈ X 0 with a lift to X. Thus we have π * 0 s 0,p = s Λ,p , and the integral (4.1) converges uniformly in any compact subset of X. This shows the first assertion.</p><p>On the other hand, using again (4.4) and (4.5), for any x ∈ X and p ∈ N * , we have</p><formula xml:id="formula_60">π * s Λ,p (x) = Λ [g]∈Γ 0 \Γ g 0 ∈Γ 0 (g -1 g -1 0 , 1). P p (g 0 g.x, y).ζ p f (y)dv Λ (y) = [g]∈Γ 0 \Γ Λ g 0 ∈Γ 0 (g -1 , 1). P p (g.x, g -1 0 .y)g -1 0 .ζ p f ( y)dv Λ ( y) = [g]∈Γ 0 \Γ Λ (g -1 , 1). P p (g.x, y). ζ p f ( y)dv Λ ( y) ,<label>(4.7)</label></formula><p>where we identified x ∈ X 0 with a lift to X. Thus we have π * s Λ,p = s Λ,p , and the series in (4.2) converges absolutely and uniformly on compact subsets. In particular, we know from Proposition 3.4 that s Λ,p is characterized by the reproducing property (3.4), and Theorem 3.5 shows that (4.2) does not vanish for p ∈ N * large enough. □ Let now K X , K X be the canonical line bundles of X, X = X/Γ endowed with the Hermitian metrics h K X , h K X induced by g T X , g T X up to a common multiplicative constant. Then K X = π * K X , and as g T X = π * g T X , we get h K X = π * h K X . Then if γ : S 1 → X is a geodesic loop for g T X , there exists g 0 ∈ Γ and a geodesic γ : S 1 → X covering γ such that γ(t + 1) = g 0 . γ(t) for all t ∈ R, where S 1 = R if g 0 generates a free subgroup Γ 0 ⊂ Γ, and S 1 = S 1 otherwise. In the first case, we say that g 0 ∈ Γ is loxodromic and that γ is generated by g 0 . Then if the geodesic γ : S 1 → X satisfies the Bohr-Sommerfeld condition, we are exactly in the situation of Theorem 4.1, where Γ 0 is the subgroup of Γ generated by g 0 ∈ Γ and (L, h L ) is as in Lemma 3.2. In the case dim C X = 1 considered in Lemma 3.2, the reproducing formula (3.4) for the associated isotropic state is called in [6, § 3.2, (2)] the period formula along the geodesic γ.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">POINCARÉ SERIES ON HERMITIAN SYMMETRIC SPACES</head><p>Theorem 4.1 is especially interesting in the case X admits a large automorphism group and its Bergman kernel has an explicit form, so that this method produces a wide variety of relative Poincaré series which are explicitly computable. This is typically the case for Hermitian symmetric spaces, which are the spaces considered in the theory of holomorphic automorphic forms.</p><p>Let X be a complex manifold of dimension n, and let G be a Lie group acting transitively on X by biholomorphisms. Assume that there exists a nowhere vanishing holomorphic n-form ν ∈ H 0 ( X, K X ), and set g.ν z = (dg -1 ) * . ν z =: λ(g, z)ν g.z <ref type="bibr">(5.1)</ref> for the induced action of g ∈ G on K X , where λ(g, z) ∈ C for any z ∈ X. Define a volume form dµ on X by the formula (5.2)</p><formula xml:id="formula_61">dµ := √ -1 2 n (-1) n(n-1) 2 ν ∧ ν .</formula><p>Let L 2 ( X, C, dµ) be the L 2 -space associated with dµ and let H 0 (2) ( X, C, dµ) be the subspace of holomorphic L 2 -functions. Let P dµ (•, •) ∈ C ∞ ( X × X, C) be the Schwartz kernel of the orthogonal projection P dµ : L 2 ( X, C, dµ) → H 0</p><p>(2) ( X, C, dµ) with respect to dµ. It is uniquely characterized by the following conditions:</p><p>• P dµ (z, w) is holomorphic in z ∈ X and antiholomorphic in w ∈ X, • P dµ (z, w) = P dµ (w, z) for all z, w ∈ X, • For any f ∈ H 0</p><p>(2) ( X, C, dµ) and z ∈ X, the following formula holds,</p><formula xml:id="formula_62">(5.3) f (z) = X P dµ (z, w)f (w)dµ(w) .</formula><p>We make the following assumptions on ( X, dµ):</p><p>For any x ∈ X, there exists f ∈ H 0 (2) ( X, C, dµ) with f (x) ̸ = 0, and for any v ∈ T x X, there exists f ∈ H 0</p><p>(2) ( X, C, dµ) with f (x) = 0 and df.v ̸ = 0 .</p><p>(5.4)</p><p>Note that if X is a bounded symmetric domain of C n and taking ν = dz, then dµ is the Lebesgue measure and these assumptions hold for ( X, dµ). In general, domains of C n together with ν = dz always satisfy the assumptions (5.4), and such domains with a transitive biholomorphic action of a Lie group G are called Hermitian symmetric domains.</p><p>As explained in <ref type="bibr" target="#b10">[11,</ref><ref type="bibr">Theorem 5.1]</ref>, under the assumptions (5.4), we have P dµ (z, z) &gt; 0 for all z ∈ X, and the formula <ref type="bibr">(5.5)</ref> ω z := √ -1∂∂ log P dµ (z, z) for all z ∈ X , defines a G-invariant Kähler form on X. The induced metric g T X is called the Bergman metric, and we write dv X for the Riemannian volume form of ( X, g T X ). Let | • | K X be the Hermitian norm on the canonical line bundle K X defined by the formula</p><formula xml:id="formula_63">(5.6) dµ =: |ν| 2 K X dv X .</formula><p>Then by (5.2), the associated Hermitian metric h K X on K X is G-invariant and equal to the metric induced by g T X divided by 2 n . Furthermore, as explained in the proof of [20, IV. § 1, Proposition 3], we have</p><formula xml:id="formula_64">(5.7) √ -1R K X = ω ,</formula><p>where R K X is the curvature of the Chern connection of (K X , h K X ).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">MAIN EXAMPLES OF POINCARÉ SERIES</head><p>In this section, we present the main examples of Hermitian symmetric domains considered in Section 5, expliciting formula <ref type="bibr">(5.11)</ref> in concrete situations. In particular, we exhibit some new examples of relative Poincaré series over domains of C n for which Theorem 4.1 shows that they do not vanish identically. Fix n ∈ N * and set X = H n . Then the group SL 2 (R) n acts on H n by (6.2) on each summand. If Γ ⊂ SL 2 (R) n is a discrete subgroup, the quotient X := H n /Γ is called a Hilbert modular variety. We are then in the situation discussed above, with ν = dz := dz 1 . . . dz n , the canonical section of K H n over H n . The action of g ∈ SL 2 (R) n on K H n by pushforward as in (5.1) is given at z ∈ H n by (6.3) g.dz = n j=1</p><p>(c j z j + d j ) 2 dz =: j(g, z) 2 dz , where a j , b j , c j , d j ∈ R are the entries of the j-th summand of g = (g 1 , . . . , g n ) ∈ SL 2 (R) n as a matrix of SL 2 (R). The SL 2 (R) n -invariant metric h K H n on K H n defined as in (5.6) is given by the formula (6.4)</p><formula xml:id="formula_65">|dz| 2 K H n = n j=1 y 2 j ,</formula><p>where z = (x 1 + √ -1y 1 , . . . , x n + √ -1y n ) ∈ H n . Let L be the trivial holomorphic bundle over H n , with a nowhere vanishing holomorphic section σ ∈ H 0 (H n , L). We define a lift of the action of SL 2 (R) n to L and a SL 2 (R) n -invariant metric h L by the formulas <ref type="bibr">(6.5)</ref> g.σ z = j(g, z)σ g.z and</p><formula xml:id="formula_66">|σ z | 2 L = n j=1 y j . This gives a SL 2 (R) n -equivariant identification ( L 2 , h L 2 ) ≃ (K H n , h K H n ) through which σ 2 = dz.</formula><p>The Bergman kernel of H 0 (2) (H n , L p ) for p ∈ N * , p &gt; 2, can be computed from the proof of [7, II. § 1, Proposition 1.2] and is given by (6.6)</p><formula xml:id="formula_67">P L p (z, w) = p -1 4π n n j=1 2 √ -1 z j -w j p σ p z σ p w ,</formula><p>for any z, w ∈ H n , via the identification of σ with the metric dual of σ for h L . Then we have the following result.</p><p>Proposition 6.1. Let Γ ⊂ SL 2 (R) n be a discrete subgroup acting effectively and satisfying Vol(H n /Γ) &lt; +∞. Then for any compact set K ⊂ H n , there exists p 0 ∈ N * such that for all p ≥ p 0 and all w ∈ K, the convergent series</p><formula xml:id="formula_68">(6.7) g∈Γ j(g, z) -p n j=1 2 √ -1 g j .z j -w j p , does not vanish identically in z ∈ H n .</formula><p>Proof. The domain X = H n together with the nowhere vanishing holomorphic n-form ν = dz and the action of G = SL 2 (R) n described by formula (6.3) is easily seen to satisfy the assumptions <ref type="bibr">(5.4)</ref>. As explained at the end of Section 5, this implies that the domain H n and the holomorphic Hermitian line bundle ( L, h L ) described above satisfy the hypotheses of Theorem 2.2. Then taking X = H n /Γ, L = L/Γ and Λ = {w}, by (5.11), (6.3) and (6.6), the series (6.7) identifies with the section s Λ,p ∈ H 0</p><p>(2) ( X, L) of (4.2) up to a multiplicative constant. Thus Theorem 6.1 is a consequence of Theorem 4.1.</p><p>□</p><p>Under the hypotheses of Theorem 6.1, the space H 0 (2) (X, L p ) identifies with the space of Hilbert cusp forms of weight p via the identity (6.8)</p><formula xml:id="formula_69">f (g.z) dz = f (z) g.dz = f (z)j(g, z) 2 dz .</formula><p>for Γ-equivariant sections of K H n over H n . Then Theorem 6.1 improves the classical result, which can be found in [7, I. Proposition 5.6], that these series are non-vanishing for an infinite number of p ∈ N * . In the case n = 1 and p even, so that we may replace L by K X , the relative Poincaré series associated with geodesics as in Theorem 4.1 have been considered by Katok in <ref type="bibr" target="#b8">[9]</ref>. In particular, she proves that the series associated with hyperbolic geodesics, i. e., geodesics generated by a loxodromic element as defined at the end of Section 4, generate the space of cusp forms of weight 2p for all p ∈ N * . The following result shows in turn that these series do not vanish for p ∈ N * large enough. Theorem 6.2. [8, Theorem 6.7, (6.18)] Let Γ ⊂ SL 2 (R) be a discrete subgroup acting effectively and satisfying Vol(H/Γ) &lt; +∞, let g 0 ∈ Γ be a loxodromic element and let Γ 0 ⊂ Γ be the subgroup generated by g 0 . Then there exists p 0 ∈ N * such that for any p ≥ p 0 , the convergent series (6.9) s γ,p (z) =</p><p>[g]∈Γ 0 \Γ j(g, z) -2p 1 (c(g.z) 2 + (d -a)(g.z) -b) p dz p , does not vanish identically in z ∈ H.</p><p>Proof. Consider the setting of Section 4, with X = H and L = K X , so that X = H/Γ and L = K X . Let γ : R → X be the geodesic generated by g 0 ∈ Γ, and write γ : S 1 → X for the geodesic loop induced in the quotient, considered as a compact Bohr-Sommerfeld submanifold (S 1 , γ, ζ) of (X, K X ) as in Lemma 3.2. Then by Theorem 4.1, we get p 0 ∈ N such that the associated section s γ,p ∈ H 0 (H, K p H ) defined by (4.2) does not vanish for p ≥ p 0 .</p><p>On the other hand, by [9, Proposition 4] and by the explicit formula given in [9, (1.3)], the section of H 0 (2) (X, K p X ) induced by the formula (6.9) for all p ∈ N * satisfies the characterizing property (3.4) for (S 1 , γ, ζ), up to a multiplicative constant C p &gt; 0. By Proposition 3.4, we deduce that this section is equal to C p s γ,p , and thus does not vanish identically. □</p><p>In the case of a smooth and compact hyperbolic Riemann surface (X, g T X ) , this is the result of <ref type="bibr" target="#b2">[3,</ref><ref type="bibr">Theorem 4.11]</ref>.</p><p>Example 2. Let n ∈ N * , and consider the symplectic group (6.10) We are then in the situation discussed above, with ν = dZ the canonical section of K Hn over H n , seen as a domain in C n(n+1)/2 . The action of g ∈ Sp 2n (R) on K Hn as in (5.1) is given at Z ∈ H n by (6.13) g.dZ = det(CZ + D) n+1 dZ =: J(g, Z) n+1 dZ , and the Sp 2n (R)-invariant metric h K Hn on K Hn defined as in (5.6) is given by the formula (6.14) |dZ| 2 K Hn = det Y n+1 . Let L be the trivial holomorphic bundle over H n , with a nowhere vanishing holomorphic section σ ∈ H 0 (H n , L). We define a lift of the action of Sp 2n (R) to L and a Sp 2n (R)invariant metric h L for all Z ∈ H n and g ∈ Sp 2n (R) by the formulas <ref type="bibr">(6.15)</ref> g.σ Z = J(g, Z) σ g.Z and |σ Z | 2 L = det Y , This gives a Sp 2n (R)-equivariant identification ( L n+1 , h L n+1 ) ≃ (K Hn , h K Hn ) through which σ n+1 = dZ. The Bergman kernel of H 0</p><formula xml:id="formula_70">Sp 2n (R) = g = A B C D ∈ GL 2n (R) : A T C, B T D symmetric , A T D -C T B = Id R n</formula><p>(2) (H, L p ) for p ∈ N * , p &gt; 2n, is computed for example in [10, III. Proposition 1] and is given by (6.16)</p><formula xml:id="formula_71">P L p (Z, W ) = a n,p det(Z -W ) p σ p Z σ p W ,</formula><p>for any Z, W ∈ H n , via the identification of σ with the metric dual of σ for h L . The constant a n,p &gt; 0 can be found in <ref type="bibr">[10, p. 78</ref>], up to a multiplicative factor of 2 n(n-1)/2 due to a different normalization for the volume form in <ref type="bibr">[10, p. 10</ref>]. Then we have the following result. Let L be the pullback of the tautological bundle of CP n to B n . Recall that the homogeneous polynomial P (z) = z 0 can be seen as a section of its dual L * , so that the dual σ of z 0 is a nowhere vanishing holomorphic section of L over B n . The action of SU (n, 1) ⊂ SL n+1 (C) on C n+1 induces one on L, which is easily seen to be given for any g ∈ SU(n, 1) and z ∈ B n by <ref type="bibr">(6.19)</ref> g.σ = (c.z + d)σ =: J(g, z)σ , where we wrote Let ⟨•, •⟩ be the standard Hermitian product on C n and let | • | be the associated norm. We define a SU(n, 1)-invariant metric h L on L at z ∈ B n using the formula <ref type="bibr">(6.20)</ref> |σ z | 2 L = (1 -|z| 2 ). Then there is a canonical SU(n, 1)-equivariant identification of holomorphic Hermitian vector bundles ( L n+1 , h L n+1 ) ≃ (K Bn , h K Bn ) under which dz corresponds to σ n+1 , where h K Bn is the metric on K Bn defined as in (5.6) with ν = dz. As B n is a bounded symmetric domain, we are in fact in the situation described in Section 5.</p><p>The Bergman kernel of H 0 (2) (B n , L p ) is computed, for example, in <ref type="bibr">[12, (8.</ref> Proof. By (5.11), <ref type="bibr">(6.19</ref>) and (6.21), this is a consequence of Theorem 4.1 with X = B n , Λ = {w} and L as above, in the same way as in the proof of Theorem 6.1. □</p><p>As above, the space H 0 (2) (X, L p ) identifies with the space of cusp forms of weight p. When 2(n + 1) divides p, so that we replace L by K 2 X , the relative Poincaré series associated with geodesics as in Lemma 3.2 have been considered by Foth and Katok in <ref type="bibr" target="#b5">[6]</ref>. In particular, they prove that the series associated with loxodromic geodesics generate the space of cusp forms of weight 2(n + 1)k for all k ∈ N * . If furthermore, all the eigenvalues of the loxodromic element g 0 ∈ Γ are real and if the endpoints x, y ∈ ∂B n of the geodesic γ ⊂ B n generated by g 0 belong to R n ⊂ C n , then Barron showed in [2, § 2.2] that the geodesic γ ⊂ B n satisfies the Bohr-Sommerfeld condition in the sense of Definition 3.1. The following result then shows once again that these series do not vanish for p ∈ N * large enough. In the case of a smooth, compact manifold (X, g T X ), the result is due to <ref type="bibr">Barron [2,</ref><ref type="bibr">Theorem 3.3</ref>]. Theorem 6.5. Let Γ ⊂ SU(n, 1) be a discrete subgroup acting effectively and satisfying Vol(B n /Γ) &lt; +∞, let g 0 ∈ Γ be a loxodromic element with real eigenvalues and let Γ 0 ⊂ Γ be the subgroup generated by g 0 . Let γ : R → B n be the geodesic generated by g 0 , and let x, y ∈ ∂B n be the two points of the boundary of B n joined by γ, and assume that x, y ∈ R n .</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Date:</head><figDesc>March 6, 2026. 2000 Mathematics Subject Classification. 53D50, 53C21, 32Q15. L. I. was partially supported by DIM-Région Ile-de-France, by the European Research Council Starting grant 757585 and by the ANR-23-CE40-0021-01 JCJC project QCM. W. L. supported by National Natural Science Foundation of China (Grant Nos. 11401232, 11871233). X. M. was partially supported by Nankai Zhide Foundation, ANR-14-CE25-0012-01, and funded through the Institutional Strategy of the University of Cologne within the German Excellence Initiative. G. M. partially supported by DFG funded project SFB TRR 191.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><figDesc>g∈Γ e -u D 2 p s (g.x) ≤ sup y∈F g∈Γ exp -u D 2 p (g. x, y) F |s( y)| dv X ( y) .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Example 1 .</head><label>1</label><figDesc>Consider the special linear group (6.1) SL 2 (R) = g = a b c d : a, b, c, d ∈ R, ad -bc = 1 acting on the Poincaré upper-half plane H = z = x + √ -1y ∈ C : y &gt; 0 by the formula (6.2) g.z := az + b cz + d .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><figDesc>acting on the Siegel upper half space(6.11)   Hn = {Z = X + √ -1Y ∈ M n (C) : Z symmetric, Y positive definite}by the formula (6.12) g.Z = (AZ + B)(CZ + D) -1 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Proposition 6 . 3 .Example 3 .</head><label>633</label><figDesc>Let Γ ⊂ Sp 2n (R) be discrete subgroup acting effectively and satisfying Vol(H n /Γ) &lt; +∞. Then for any compact set K ⊂ H n , there exists p 0 ∈ N * such that for any p ≥ p 0 and any W ∈ K, the convergent series (6.17)g∈Γ J(g, Z) -p 1 det(g.Z -W ) p , does not vanish identically in Z ∈ H n .Proof. By (5.11), (6.13) and (6.16), this is a consequence of Theorem 4.1 with X = H n , Λ = {W } and L as above, in the same way as in the proof of Theorem 6.1. □ Let n ∈ N * , and consider the Hermitian form Q(•, •) on C n+1 given by (6.18) Q(z, w) = n k=1 z k w k -z 0 w 0 , for any (z 0 , . . . , z n ), (w 0 , . . . , w n ) ∈ C n+1 . Let SU(n, 1) ⊂ SL n+1 (C) be the subgroup of SL n+1 (C) preserving Q. Consider the standard affine chart on the open set {z 0 ̸ = 0} ⊂ CP n , which identifies z = (z 1 , . . . , z n ) ∈ C n to [1 : z 1 : • • • : z n ] ∈ CP n in homogeneous coordinates. Then the induced action of SU (n, 1) on CP n preserves the open unit ball B n ⊂ C n via these coordinates, and is transitive on B n .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><figDesc>with A ∈ M n (C), b, c ∈ C n and d ∈ C, and where c.z := n j=1 c j z j , with z = (z 1 , . . . , z n ) ∈ B n .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>π n n + p n 1 ( 1 Proposition 6 . 4 .</head><label>1164</label><figDesc>10.2), (8.10.5)] and is given for any p ∈ N * and z, w ∈ B n by (6.21)P L p (z, w) = n! -⟨z, w⟩) p σ p z σ p w ,via the identification of σ with the metric dual of σ for h L . Then we have the following result.Let Γ ⊂ SU(n, 1) be a discrete subgroup acting effectively and satisfying Vol(B n /Γ) &lt; +∞. Then for any compact set K ⊂ B n there exists p 0 ∈ N * such that for any p ≥ p 0 and w ∈ K, the convergent series(6.22)    g∈Γ J(g, z) -p 1 (1 -⟨z, w⟩) p , does not vanish identically in z ∈ B n .</figDesc></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Consider now the L 2 -Hermitian product on C ∞ ( X, K X ) induced by h K X and g T X as in (1.2), and let L 2 ( X, K X ) be the associated Hilbert space. By <ref type="bibr">(5.6)</ref>, there is an isometry</p><p>f -→ f ν , <ref type="bibr">(5.8)</ref> identifying H 0</p><p>(2) ( X, C, dµ) with H 0 (2) ( X, K X ). Denote by P K X (•, •) is the Bergman kernel of H 0</p><p>(2) ( X, K X ) with respect to dv X , then (5.9) P K X (z, w) = P dµ (z, w)ν z ν w , via the identification K * X ≃ K X induced by h K X . Finally, let ( L, h L ) be a holomorphic Hermitian line bundle over X together with a lift of the action of G on X, and assume that there is an identification ( L q , h L q ) ≃ (K p X , h K p X ) compatible with the action of G, for some p, q ∈ N * . Let P L (•, •) be the Bergman kernel of H 0</p><p>(2) ( X, L) with respect to dv X . Then as explained in <ref type="bibr" target="#b11">[12,</ref><ref type="bibr">Ex. 7.7]</ref>, there is a constant c p,q &gt; 0 such that (5.10) P L q (z, w) = c p,q P dµ (z, w) p ν p z ν p w , for all z, w ∈ X.</p><p>As G acts transitively on X and by (5.7), we see that ( X, J, g T X ) and ( L, h L ) as above satisfy the hypotheses of Theorem 2.2. Thus we can apply Theorem 4.1 to this situation, for any discrete subgroup Γ ⊂ G acting effectively and satisfying Vol( X/Γ) &lt; +∞. In particular, from Theorem 2.2, (5.1) and (5.10), we get the existence of p 0 ∈ N * such that for all p ≥ p 0 , the Poincaré series <ref type="bibr">(5.11)</ref> π * P K p X (π(z), π(w)) = c p g∈Γ λ(g, z) -p P dµ (g.z, w) p ν p z ν p w , converges uniformly in z, w ∈ K × X ∪ X × K for any compact K ⊂ X, where c p &gt; 0 for all p ≥ p 0 . In the case dim C X = 1, if a geodesic γ : R → X is generated by a loxodromic element g 0 ∈ Γ, we can use Theorem 4.1 to construct the relative Poincaré series associated to the induced geodesic loop γ : S 1 → X, which satisfies the period formula <ref type="bibr">(3.4)</ref>, and these can be explicitly computed in a number of cases which are presented below. In all these cases, Theorem 4.1 shows that there exists p 0 ∈ N * such that these series do not vanish identically for p ⩾ p 0 large enough.</p><p>Remark 5.1. In the following section, the action of G on ( X, L) will not be effective, but instead will satisfy the property that the natural projection π : G → Aut( X) has finite kernel. In that case, if Γ ⊂ G is a discrete subgroup, the quotient line bundle L = L/Γ is not a proper orbifold line bundle in general, so that Theorem 2.2 does not even make sense. Instead, the properness of L is equivalent to the following condition on Γ ⊂ G,</p><p>(5.12) g ∈ Γ acts trivially on L if and only if g acts trivially on X .</p><p>Under this assumption, the action of Γ on ( X, L) factors through the action of its image Γ via the projection π : G → Aut( X). Then we can work with Γ instead, and the associated Poincaré series as in formula (5.11) only differs by a multiplicative factor equal to the cardinal of Ker[π : Γ → Γ]. Note that condition (5.12) is always satisfied for L = K X or if Γ acts effectively on L. In the following section, we will assume for simplicity that Γ acts effectively, but all the results of Section 6 actually hold under the more general assumption (5.12).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Bergman kernels and Poincaré series</head><p>Then there exists p 0 ∈ N * such that for all p ≥ p 0 , the convergent series</p><p>does not vanish identically in z ∈ B n .</p><p>Proof. Consider the setting of Section 4, with X = B n and L = K 2 Bn , so that X = B n /Γ and L = K 2 X . Write γ : S 1 → X for the geodesic loop induced by γ : R → X in the quotient, so that (S 1 , γ, ζ) is a compact Bohr-Sommerfeld submanifold of (X, K 2 X ) by the result of Barron in [2, § 2.2]. Then as explained in the last paragraph of Section 4, we can apply Theorem 4.1 to get p 0 ∈ N such that the associated section s γ,p ∈ H 0 (B n , K 2p Bn ) defined by (4.2) does not vanish for p ≥ p 0 .</p><p>On the other hand, by <ref type="bibr" target="#b5">[6,</ref><ref type="bibr">Theorem 14]</ref> and the explicit formula given in [6, § 6.3], the section of H 0</p><p>(2) (X, K 2p X ) induced by the formula (6.23) for all p ∈ N * satisfies the characterizing property (3.4) for (S 1 , γ, ζ), up to an explicit multiplicative constant C p &gt; 0. By Proposition 3.4, we deduce that this sections is equal to C p s Λ,p , and thus does not vanish identically. □</p><p>If furthermore n = 2 and for a loxodromic element g 0 ∈ Γ with real eigenvalues in SU(2, 1), Barron considers in <ref type="bibr">[5, § 3, § 4]</ref> relative Poincaré series associated with some remarkable Lagrangian tori, and computes them explictly. The following result show that these series do not vanish for p ∈ N * large enough. Theorem 6.6. Let Γ ⊂ SU(2, 1) be a discrete subgroup acting effectively and satisfying Vol(B 2 /Γ) &lt; +∞, let g 0 ∈ Γ be a loxodromic element with real eigenvalues and let Γ 0 ⊂ Γ be the subgroup generated by g 0 . Let γ : R → B 2 be the geodesic generated by g 0 , let x, y ∈ ∂B 2 be the two points of the boundary of B 2 joined by γ and let v ∈ C n be the eigenvector of g 0 corresponding to the eigenvalue 1.</p><p>Then for any l ∈ N * , there exists p 0 ∈ N * such that for all p ≥ p 0 , the convergent series (6.24)</p><p>[g]∈Γ 0 \Γ J(g, z) -2p ⟨z, v⟩ 2l (⟨z, x⟩⟨z, y⟩) 3p+l , does not vanish identically in z ∈ B 2 .</p><p>Proof. For any l ∈ N * and Γ 0 ⊂ SU(2, 1) generated by a loxodromic element with real eigenvalues as above, Barron constructs in <ref type="bibr">[5, § 4]</ref> a Lagrangian submanifold Λ l of B 2 satisfying the Bohr-Sommerfeld condition for (K 2 B 2 , h K 2 B 2 ), and shows in [5, Proposition 4.7] that (6.24) corresponds up to a multiplicative constant to the isotropic state associated with the Lagrangian torus Λ l := Λ l /Γ 0 using the reproducing property of Proposition 3.4. From Theorem 4.1, we conclude that for any l ∈ N * , there exists p 0 ∈ N * such that (6.24) does not vanish identically in z ∈ B n for any p ⩾ p 0 . □</p><p>In the case of a smooth, compact manifold (X, g T X ), this result was derived in [5, § 4], using [3, Theorem 3.2] and the fact that Λ l is Lagrangian. </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">On vector-valued automorphic forms on bounded symmetric domains</title>
+		<author>
+			<persName><forename type="first">N</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Barron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Global Anal. Geom</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="417" to="441"/>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Closed geodesics and pluricanonical sections on ball quotients</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Barron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Complex Anal. Synerg</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Legendrian distributions with applications to relative Poincaré series</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Borthwick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">A</forename><surname>Uribe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Invent. Math</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="359" to="402"/>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">On the asymptotic expansion of Bergman kernel</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">And</forename><forename type="middle">X</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Differential Geom</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="1" to="41"/>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Bohr-Sommerfeld tori and relative Poincaré series on a complex hyperbolic space</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Foth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comm. Anal. Geom</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="151" to="175"/>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Spanning sets for automorphic forms and dynamics of the frame flow on complex hyperbolic spaces</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Foth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ergodic Theory Dynam. Systems</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1071" to="1099"/>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Freitag</surname></persName>
+		</author>
+		<title level="m">Hilbert modular forms</title>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Quantization and isotropic submanifolds</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ioos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Michigan Math. J</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="177" to="220"/>
+			<date type="published" when="2022">2022</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Closed geodesics, periods and arithmetic of modular forms</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Katok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Invent. Math</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="469" to="480"/>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Klingen</surname></persName>
+		</author>
+		<title level="m">Introductory lectures on Siegel modular forms</title>
+		<meeting><address><addrLine>Cambridge</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1990">1990</date>
+			<biblScope unit="volume">20</biblScope>
+		</imprint>
+	</monogr>
+	<note>Cambridge Studies in Advanced Mathematics</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Geometry of bounded domains</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kobayashi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Amer. Math. Soc</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="267" to="290"/>
+			<date type="published" when="1959">1959</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kollár</surname></persName>
+		</author>
+		<title level="m">Shafarevich maps and automorphic forms, M. B. Porter Lectures</title>
+		<meeting><address><addrLine>Princeton, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Szegö kernels and poincaré series</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zelditch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Anal. Math</title>
+		<imprint>
+			<biblScope unit="volume">130</biblScope>
+			<biblScope unit="page" from="167" to="184"/>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Orbifolds and analytic torsions</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trans. Amer. Math. Soc</title>
+		<imprint>
+			<biblScope unit="volume">357</biblScope>
+			<biblScope unit="page" from="2205" to="2233"/>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Generalized Bergman kernels on symplectic manifolds</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">C. R. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="page" from="493" to="498"/>
+			<date type="published" when="2004">2004</date>
+			<pubPlace>Paris</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The first coefficients of the asymptotic expansion of the Bergman kernel of the spin c Dirac operator</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Internat. J. Math</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="737" to="759"/>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Holomorphic Morse inequalities and Bergman kernels</title>
+		<title level="s">Progress in Mathematics</title>
+		<meeting><address><addrLine>Basel</addrLine></address></meeting>
+		<imprint>
+			<publisher>Birkhäuser Verlag</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">254</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Exponential estimate for the asymptotics of Bergman kernels</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Marinescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Math. Ann</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="1327" to="1347"/>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A note on curvature and fundamental group</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Milnor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Differential Geometry</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="7"/>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Metric rigidity theorems on Hermitian locally symmetric manifolds</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mok</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Series in Pure Mathematics</title>
+		<meeting><address><addrLine>Teaneck, NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Scientific Publishing Co., Inc</publisher>
+			<date type="published" when="1989">1989</date>
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Petersen</surname></persName>
+		</author>
+		<title level="m">Graduate Texts in Mathematics</title>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">171</biblScope>
+		</imprint>
+	</monogr>
+	<note>Riemannian geometry third ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">1267 of Actualités scientifiques et industrielles</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weil</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1958">1958</date>
+			<pubPlace>Hermann, Paris</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Introduction a l'étude des variétés kählériennes</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
