@@ -1,8 +1,11 @@
 version: 2
 
+# Indica dónde está tu conf.py
 sphinx:
   configuration: docs/source/conf.py
 
+# Python environment
 python:
+  version: 3.11
   install:
     - requirements: requirements.txt
