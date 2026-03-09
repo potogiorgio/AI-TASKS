@@ -1,11 +1,16 @@
 version: 2
 
+# Esta sección es la que te falta y está causando el error
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
+
 # Indica dónde está tu conf.py
 sphinx:
   configuration: docs/source/conf.py
 
-# Python environment
+# Instalación de dependencias
 python:
-  version: 3.12.3
   install:
     - requirements: requirements.txt
