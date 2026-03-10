@@ -4,7 +4,7 @@
     "license": "https://spdx.org/licenses/MIT",
     "codeRepository": "https://github.com/potogiorgio/AI-TASKS",
     "datePublished": "2026-03-10",
-    "name": "Paper Analysis with Grobid",
+    "name": "Analisis con Grobid",
     "version": "1.0.0",
     "description": "Herramienta de análisis de papers utilizando Grobid y tareas de IA.",
     "author": [

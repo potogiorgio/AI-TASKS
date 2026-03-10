@@ -6,24 +6,23 @@
 Individual1-AI documentation
 ============================
 
-Add your content using ``reStructuredText`` syntax. See the
-`reStructuredText <https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html>`_
-documentation for details.
-
 Text Extraction and Analysis
-
 
 Dataset
 
-10 datasets de Arxiv
+El dataset está compuesto por 10 artículos científicos de acceso abierto obtenidos de arXiv.
 
-Herramientas a seguir
+El flujo de trabajo del proyecto es el siguiente:
 
-1. PDFs de Arxiv
-2. Analizarlos con Grobid con TEI y Process Fulltext Document
-3. Sacar los xml
-4. Analizarlos con Python y obtener los distintos resultados
+1. Descargar artículos en formato PDF desde arXiv.
 
+2. Procesar los PDFs utilizando Grobid con la opción Process Fulltext Document.
+
+3. Obtener los archivos XML en formato TEI.
+
+4. Analizar los XML mediante scripts en Python.
+
+5. Generar los resultados del análisis.
 
 .. toctree::
    :maxdepth: 2
