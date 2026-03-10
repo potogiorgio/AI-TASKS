@@ -44,6 +44,15 @@ source venv/bin/activate
 
  pip install -r requirements.txt
 
+ # Probar los scripts
+ Desde la raiz poner los siguientes comandos:
+
+ python scripts/keyword_cloud.py
+
+python scripts/figures.py
+
+python scripts/links.py
+
  # Test
  Los test del proyecto estan implementados usando pytest
 

@@ -31,4 +31,3 @@ plt.tight_layout()
 
 os.makedirs("results", exist_ok=True)
 plt.savefig("results/figures_per_article.png")
-plt.show()

@@ -27,4 +27,3 @@ plt.axis("off")
 os.makedirs("results", exist_ok=True)
 
 plt.savefig("results/keyword_cloud.png")
-plt.show()
