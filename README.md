@@ -1,5 +1,8 @@
 # Text Extraction and Analysis
 
+# Zenodo conexion
+https://doi.org/10.5281/zenodo.18937914
+
 ## Dataset
 10 datasets de Arxiv
 
