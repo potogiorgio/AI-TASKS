@@ -5,3 +5,4 @@ wordcloud
 requests
 sphinx
 sphinx-rtd-theme
+pytest
