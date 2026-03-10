@@ -22,16 +22,22 @@ El flujo de trabajo del proyecto es el siguiente:
 # Estructura
 
 docs/ -> carpeta con los docs necesarios para conectar Github con ReadtheDocs.
+
 dataset/ -> papers.
+
 extracted_text/ -> xml de los PDFs.
+
 scripts/ -> scripts de python (el archivo runner.py es un script de python para runnear todos desde docker).
+
 results/ -> ficheros de resultados de los scripts de python.
+
 test/ -> test de los scripts que pasan en github al hacer un commit.
 
 # Enviroment set up
 En vuestro CMD:
 
 python -m venv venv 
+
 source venv/bin/activate 
 
 # Instalacion de dependencias
