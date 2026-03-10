@@ -3,7 +3,8 @@ from bs4 import BeautifulSoup
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-xml_folder = "../extracted_text"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+xml_folder = os.path.join(base_dir, "extracted_text")
 abstract_text = ""
 
 for file in os.listdir(xml_folder):
@@ -23,5 +24,7 @@ plt.figure()
 plt.imshow(wordcloud)
 plt.axis("off")
 
-plt.savefig("../results/keyword_cloud.png")
+os.makedirs("results", exist_ok=True)
+
+plt.savefig("results/keyword_cloud.png")
 plt.show()

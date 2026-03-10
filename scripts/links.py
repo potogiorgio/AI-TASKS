@@ -1,8 +1,11 @@
 import os
 from bs4 import BeautifulSoup
 
-xml_folder = "../extracted_text"
-output_file = "../results/links.txt"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+xml_folder = os.path.join(base_dir, "extracted_text")
+
+os.makedirs("results", exist_ok=True)
+output_file = "results/links.txt"
 
 with open(output_file, "w", encoding="utf-8") as out:
 

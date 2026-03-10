@@ -2,7 +2,8 @@ import os
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 
-xml_folder = "../extracted_text"
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+xml_folder = os.path.join(base_dir, "extracted_text")
 
 papers = []
 figures_count = []
@@ -28,5 +29,6 @@ plt.xlabel("Articles")
 
 plt.tight_layout()
 
-plt.savefig("../results/figures_per_article.png")
+os.makedirs("results", exist_ok=True)
+plt.savefig("results/figures_per_article.png")
 plt.show()
