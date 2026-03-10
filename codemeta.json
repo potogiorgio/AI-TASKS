@@ -1,0 +1,18 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "@type": "SoftwareSourceCode",
+    "license": "https://spdx.org/licenses/MIT",
+    "codeRepository": "https://github.com/potogiorgio/AI-TASKS",
+    "dateReleased": "2026-03-10",
+    "name": "Paper Analysis with Grobid",
+    "version": "1.0.0",
+    "description": "Herramienta de análisis de papers utilizando Grobid y tareas de IA.",
+    "author": [
+        {
+            "@type": "Person",
+            "givenName": "Jorge",
+            "familyName": "Blanco Carrasco"
+        }
+    ],
+    "identifier": "10.5281/zenodo.18937914"
+}
