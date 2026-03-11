@@ -33,6 +33,14 @@ results/ -> ficheros de resultados de los scripts de python.
 
 test/ -> test de los scripts que pasan en github al hacer un commit.
 
+# Validación de resultados
+
+KEYWORD CLOUD: se reaalizó una revisión visual de la imagen generada para comprobar que los términos mas grandes eran los que tenían mayor número de apariciones.
+
+FIGURAS: se revisó que el número de figuras indicado en la gráfica era similar al que había en cada articulo.
+
+ENLACES: Se compararon los enlaces extraídos con los enlaces presentes en el XML.
+
 # Enviroment set up
 En vuestro CMD:
 
